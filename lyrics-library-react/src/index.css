@@ -9,7 +9,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --text-ui-color: rgb(7, 7, 7);
+  --text-ui-color: #191212;
+  --text-ui-hover-color: rgb(185, 29, 86);
+  --text-ui-active-color: rgb(214, 30, 98);
+
+  --button-ui-color: rgb(58, 58, 58);
+  --button-ui-hover-color: rgb(185, 29, 86);
+  --button-ui-active-color: rgb(214, 30, 98);
+
   --bg-ui-color: white;
   --color-primary: #747bff;
   --color-secondary: #ff7477;
