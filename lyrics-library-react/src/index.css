@@ -16,6 +16,7 @@
   --button-ui-color: rgb(58, 58, 58);
   --button-ui-hover-color: rgb(185, 29, 86);
   --button-ui-active-color: rgb(214, 30, 98);
+  --button-ui-text-color: rgb(255,255,255);
 
   --bg-ui-color: white;
   --color-primary: #747bff;
@@ -28,6 +29,9 @@ body {
   background-color: var(--bg-ui-color);
 }
 
+a{
+  -webkit-tap-highlight-color: transparent;
+}
 
 /*
 @media (prefers-color-scheme: light) {

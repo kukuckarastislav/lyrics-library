@@ -1,5 +1,7 @@
-{
-    "numberOfSongBooks": 1,
+import { Library } from "./models/Library";
+
+const jsonData = {
+    "numberOfSongBooks": 5,
     "songBooks": [
         {
             "name": "Spevnik",
@@ -106,6 +108,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Mladeznicke",
+            "url": "mladeznicke",
+            "numberOfSongs": 153,
+            "languges": [
+                "sk", "srb", "eng"
+            ],
+            "songs": []
+        },
+        {
+            "name": "Duhovne Pesme",
+            "url": "duhovne-pesme",
+            "numberOfSongs": 85,
+            "languges": [
+                "srb"
+            ],
+            "songs": []
+        },
+        {
+            "name": "Prozor Na Nebu",
+            "url": "prozor-na-nebu",
+            "numberOfSongs": 214,
+            "languges": [
+                "srb"
+            ],
+            "songs": []
+        },
+        {
+            "name": "Nove Pesme",
+            "url": "nove-pesme",
+            "numberOfSongs": 19,
+            "languges": [
+                "srb", "eng", "sk"
+            ],
+            "songs": []
         }
     ]
-}
+};
+
+const library: Library = Library.fromJson(jsonData);
+console.log(library);
+
+export default library;
+

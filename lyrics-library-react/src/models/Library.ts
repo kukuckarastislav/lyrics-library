@@ -19,4 +19,13 @@ export class Library {
         }
         return undefined;
     }
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    static fromJson(json: any): Library {
+        return new Library(
+            json.numberOfSongBooks,
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            json.songBooks.map((songBook: any) => SongBook.fromJson(songBook)),
+        );
+    }
 }

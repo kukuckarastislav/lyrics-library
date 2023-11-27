@@ -1,0 +1,21 @@
+.SongBookCardCss{
+    @apply flex justify-between
+        bg-white rounded-lg shadow-md
+        p-4 mb-2
+        hover:shadow-lg hover:bg-gray-50
+        
+    ;
+
+    &:active{
+        transform: scale(0.98);
+        transition: transform 80ms ease;
+    }
+
+
+    :global{
+        .songBookName{
+            
+        }
+
+    }
+}

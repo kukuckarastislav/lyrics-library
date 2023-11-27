@@ -1,3 +1,31 @@
 .LibraryPageCss{
+    :global {
+        
+        
 
+        .soundBooksContainer {
+            @apply grid grid-cols-1 gap-2 mx-4 
+                sm:grid-cols-2 sm:gap-3
+                lg:grid-cols-3 lg:gap-4
+                2xl:grid-cols-4 2xl:gap-6;
+
+                margin-top: 108px;
+        }
+
+        .topHeader{
+            @apply pt-4 pb-6 px-4;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            background: var(--bg-ui-color);
+            background: linear-gradient(180deg, var(--bg-ui-color) 80%, rgba(0,0,0,0) 100%);
+
+            .libraryLabel {
+                
+                color: var(--text-ui-active-color);
+            }
+        }
+
+
+    }
 }

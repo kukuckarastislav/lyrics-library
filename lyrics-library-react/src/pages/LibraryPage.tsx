@@ -1,18 +1,28 @@
 import { Link } from 'react-router-dom';
 import style from './LibraryPage.module.scss';
 
+import library from '../libraryData.ts';
+import { Typography } from '@mui/material';
+import SongBookCard from '../components/SongBookCard.tsx';
+
 export default function LibraryPage() {
+
   return (
-    <div className={style.LibraryPageCss}>
-      <div>LibraryPage</div>
+    <section className={style.LibraryPageCss}>
+      <div className='topHeader'>
+        <Typography variant="h4" className='libraryLabel'>Library</Typography>
+        <Typography variant="body1" className='mb-4'>
+          {library.numberOfSongBooks} Songbooks
+        </Typography>
+      </div>
+      
 
-      <Link to="/songbook/spevnik/song/ci-chces-vazby-hriechu-byt-zbaveny">
-        Či chceš väzby hriechu byť zbavený?
-      </Link>
-      <Link to="/songbook/spevnik/song/ja-neviem-preco-milosti-zdroj-boh-mi-otvoril">
-        Ja neviem, prečo milosti zdroj Boh mi otvoril
-      </Link>
+      <div className='soundBooksContainer'>
+        {library.songBooks.map((songBook) => (
+          <SongBookCard songBook={songBook} />
+        ))}
+      </div>
 
-    </div>
+    </section>
   )
 }

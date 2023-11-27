@@ -18,4 +18,16 @@ export class SongBook {
     public getSongByUrl(songUrl: string): Song | undefined {
         return this.songs.find(song => song.url === songUrl);
     }
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    static fromJson(json: any): SongBook {
+        return new SongBook(
+            json.name,
+            json.url,
+            json.numberOfSongs,
+            json.languges,
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            json.songs.map((song: any) => Song.fromJson(song)),
+        );
+    }
 }
