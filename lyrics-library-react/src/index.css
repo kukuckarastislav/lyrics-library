@@ -48,6 +48,7 @@ a{
 .iconButtonll:active{
   transform: scale(0.90);
   transition: transform 80ms ease;
+  color: var(--button-ui-active-color);
 }
 
 /*

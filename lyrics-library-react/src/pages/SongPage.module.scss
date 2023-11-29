@@ -1,3 +1,22 @@
 .SongPageCss{
+    :global{
 
+        .topHeader{
+            @apply pt-4 pb-6 px-4;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            background: var(--bg-ui-color);
+            background: linear-gradient(180deg, var(--bg-ui-color) 80%, rgba(0,0,0,0) 100%);
+
+            .songName {
+                
+                color: var(--text-ui-active-color);
+            }
+        }
+
+        .versesContainer{
+            @apply mx-4;
+        }
+    }
 }
