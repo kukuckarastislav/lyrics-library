@@ -1,10 +1,12 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import style from './SongBookPage.module.scss';
 import { SongBook } from '../models/SongBook';
 import library from '../libraryData';
 import { Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import SongCard from '../components/SongCard';
+
+import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 
 export default function SongBookPage() {
   const { songBookUrl } = useParams();
@@ -44,7 +46,12 @@ export default function SongBookPage() {
       {songBook != undefined && (
         <div>
           <div className='topHeader' id="songBookPage_header">
-            <Typography variant="h4" className='libraryLabel'>{songBook.name}</Typography>
+            <div className='flex items-center gap-2'>
+              <Link to="/library" className="iconButtonll">
+                <ArrowBackRoundedIcon sx={{ fontSize: 36 }} />
+              </Link>
+              <Typography variant="h4" className='libraryLabel'>{songBook.name}</Typography>
+            </div>
             <Typography variant="body1" className='mb-4'>
               {songBook.numberOfSongs} Songs
             </Typography>

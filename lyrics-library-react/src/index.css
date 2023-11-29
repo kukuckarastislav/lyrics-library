@@ -33,6 +33,23 @@ a{
   -webkit-tap-highlight-color: transparent;
 }
 
+.cardStyle{
+  @apply bg-white rounded-lg shadow-md p-4 mb-2 hover:shadow-lg hover:bg-gray-50;
+}
+
+.iconButtonll{
+  color: var(--button-ui-color);
+}
+
+.iconButtonll:hover{
+  color: var(--button-ui-hover-color);
+}
+
+.iconButtonll:active{
+  transform: scale(0.90);
+  transition: transform 80ms ease;
+}
+
 /*
 @media (prefers-color-scheme: light) {
   :root {
