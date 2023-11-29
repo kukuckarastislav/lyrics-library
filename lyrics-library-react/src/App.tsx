@@ -8,6 +8,7 @@ import MePage from './pages/MePage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BottomNavigation from './components/BottomNavigation';
 import SongPage from './pages/SongPage';
+import SongBookPage from './pages/SongBookPage';
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
           <Route id='3' path="/search" element={<SearchPage />} />
           <Route id='4' path="/me" element={<MePage />} />
 
-          <Route id='5' path="/songbook/:songBookUrl/song/:songUrl" element={<SongPage />} />
+          <Route id='5' path="/songbook/:songBookUrl" element={<SongBookPage />} />
+          <Route id='6' path="/songbook/:songBookUrl/song/:songUrl" element={<SongPage />} />
         </Routes>
-        <div className='mt-[76px] md:mt-[52px]'>
+        <div className='mt-[98px]'>
           <BottomNavigation />
         </div>
       </BrowserRouter>

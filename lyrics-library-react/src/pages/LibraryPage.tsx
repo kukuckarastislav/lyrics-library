@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import style from './LibraryPage.module.scss';
 
 import library from '../libraryData.ts';
@@ -19,7 +18,7 @@ export default function LibraryPage() {
 
       <div className='soundBooksContainer'>
         {library.songBooks.map((songBook) => (
-          <SongBookCard songBook={songBook} />
+          <SongBookCard key={songBook.url} songBook={songBook} />
         ))}
       </div>
 

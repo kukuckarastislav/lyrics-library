@@ -19,7 +19,7 @@ export default function SongBookCard(props: SongBookCardProps) {
           </Typography>
           <div className='flex gap-1 mt-2'>
             {songBook.languges.map((language) => (
-              <Chip label={language} variant="outlined"
+              <Chip key={songBook.url+language} label={language} variant="outlined"
                 size='small'
                 sx={{ fontSize: '1rem' }} />
             ))}
