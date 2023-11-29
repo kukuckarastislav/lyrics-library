@@ -29,7 +29,7 @@ body {
   background-color: var(--bg-ui-color);
 }
 
-a{
+a, button{
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -39,6 +39,7 @@ a{
 
 .iconButtonll{
   color: var(--button-ui-color);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .iconButtonll:hover{

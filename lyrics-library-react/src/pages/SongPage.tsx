@@ -8,7 +8,10 @@ import { useEffect, useState } from 'react';
 
 import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
-import { Typography } from '@mui/material';
+import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
+import { Popover, Typography } from '@mui/material';
+import React from 'react';
+import SongPageMoreOption from '../components/SongPageMoreOption';
 
 export default function SongPage() {
 
@@ -19,6 +22,26 @@ export default function SongPage() {
   const [headerHeight, setHeaderHeight] = useState(0);
   const [verseFontSize, setVerseFontSize] = useState(14);
   const [verseTextAlign, setVerseTextAlign] = useState('center');
+
+
+  /* popper */
+  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
+  const handleClickMoreOptions = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleCloseMoreOption = () => {
+    setAnchorEl(null);
+  };
+  const open = Boolean(anchorEl);
+  const idMoreOption = open ? 'simple-popover-more-option' : undefined;
+
+  const handleCallbackFontSizeChange = (fontSize: number) => {
+    setVerseFontSize(fontSize);
+  }
+
+  const handleCallbackTextAlignChange = (textAlign: string) => {
+    setVerseTextAlign(textAlign);
+  }
 
 
   useEffect(() => {
@@ -61,8 +84,33 @@ export default function SongPage() {
               </Link>
               <Typography variant="h5">{songBook?.name}</Typography>
             </div>
-            <div>
-              <MoreVertRoundedIcon className="iconButtonll" />
+            <div className='flex gap-4'>
+              <button>
+                <BookmarkBorderRoundedIcon className="iconButtonll" />
+              </button>
+              <button onClick={handleClickMoreOptions}>
+                <MoreVertRoundedIcon className="iconButtonll" />
+              </button>
+              <Popover 
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'left',
+                }}
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                id={idMoreOption}
+                open={open}
+                anchorEl={anchorEl}
+                onClose={handleCloseMoreOption}
+              >
+                <SongPageMoreOption
+                  currentFontSize={verseFontSize}
+                  currentTextAlign={verseTextAlign}
+                  callbackFontSizeChange={handleCallbackFontSizeChange}
+                  callbackTextAlignChange={handleCallbackTextAlignChange} />
+              </Popover>
             </div>
           </div>
 
