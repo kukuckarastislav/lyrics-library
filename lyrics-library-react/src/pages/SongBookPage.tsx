@@ -11,7 +11,7 @@ import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 export default function SongBookPage() {
   const { songBookUrl } = useParams();
   const songBook: SongBook | undefined = library.getSongBookByUrl(songBookUrl!);
-  const [headerHeight, setHeaderHeight] = useState(0);
+  const [, setHeaderHeight] = useState(0);
 
   useEffect(() => {
     // Calculate the height of the header

@@ -21,7 +21,7 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
   const [verseTextAlign, setVerseTextAlign] = useState(props.currentTextAlign);
 
   const handleAlignment = (
-    event: React.MouseEvent<HTMLElement>,
+    _: React.MouseEvent<HTMLElement>,
     newAlignment: string | null,
   ) => {
     if(newAlignment === null) return;

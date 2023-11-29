@@ -19,7 +19,7 @@ export default function SongPage() {
   const songBook: SongBook | undefined = library.getSongBookByUrl(songBookUrl!);
   const song: Song | undefined = songBook?.getSongByUrl(songUrl!);
 
-  const [headerHeight, setHeaderHeight] = useState(0);
+  const [, setHeaderHeight] = useState(0);
   const [verseFontSize, setVerseFontSize] = useState(14);
   const [verseTextAlign, setVerseTextAlign] = useState('center');
 
