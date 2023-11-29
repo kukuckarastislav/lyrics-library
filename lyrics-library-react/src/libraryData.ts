@@ -19,9 +19,6 @@ const jsonData = {
                     "author": "E. A. Hoffman",
                     "verses": [
                         [
-                            "Chválime Ťa Bože náš"
-                        ],
-                        [
                             "Chválime Ťa, Bože náš,",
                             "vďačne, vrúcne, z celej sily,",
                             "že Ty, veľký k nám sa znáš,",
@@ -404,7 +401,7 @@ const jsonData = {
                     "number": 227,
                     "lang": "sk",
                     "url": "ja-neviem-preco-milosti-zdroj-boh-mi-otvoril",
-                    "author": "J. H. Sammis",
+                    "author": "",
                     "verses": [
                         [
                             "1. Ja neviem, prečo milosti zdroj Boh mi otvoril,",

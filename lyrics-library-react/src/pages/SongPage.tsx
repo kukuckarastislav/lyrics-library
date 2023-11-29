@@ -17,17 +17,20 @@ export default function SongPage() {
   const song: Song | undefined = songBook?.getSongByUrl(songUrl!);
 
   const [headerHeight, setHeaderHeight] = useState(0);
+  const [verseFontSize, setVerseFontSize] = useState(14);
+  const [verseTextAlign, setVerseTextAlign] = useState('center');
+
 
   useEffect(() => {
     // Calculate the height of the header
-    const headerElement = document.getElementById('songBookPage_header');
+    const headerElement = document.getElementById('songPage_header');
     const newHeaderHeight = headerElement ? headerElement.offsetHeight : 0;
 
     // Set the height in the state
     setHeaderHeight(newHeaderHeight);
 
     // Update the margin-top of the section
-    const sectionElement = document.getElementById('songBookPage_songs_container');
+    const sectionElement = document.getElementById('songPage_verses_container');
     if (sectionElement) {
       sectionElement.style.marginTop = newHeaderHeight + 'px';
     }
@@ -63,7 +66,9 @@ export default function SongPage() {
             </div>
           </div>
 
-          <Typography variant="h5" className='songName'>{song.name}</Typography>
+          <Typography variant="h5" className='songName'>
+            {song.number != 0 && (<span>{song.number}. </span>)}{song.name}
+          </Typography>
           {song.author &&
             <Typography variant="body2">{song.author}</Typography>
           }
@@ -72,7 +77,15 @@ export default function SongPage() {
             
           
         <div id="songPage_verses_container" className='versesContainer'>
-          ovde ce da pisu stihovi
+          {song.verses.map((slide, indexSlide) => (
+            <div key={indexSlide} className='slideContainer'>
+              {slide.map((line, indexLine) => (
+                <Typography sx={{fontSize: verseFontSize, textAlign: verseTextAlign}} variant="body2" key={indexSlide+"_"+indexLine} className='textLine'>
+                  {line}
+                </Typography>
+              ))}
+            </div>
+          ))}
         </div>
 
 

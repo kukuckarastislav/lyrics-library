@@ -19,7 +19,7 @@ export default function SongCard(props: SongCardProps) {
       <div className={style.SongCardCss}>
         <div className='flex flex-col'>
           <Typography variant="h6" className='songBookName'>
-            {song.number!=0 && <span className='songNumber'>{song.number}</span>} {song.name}
+            {song.number!=0 && <span className='songNumber'>{song.number}. </span>}{song.name}
           </Typography>
           {song.author && (
             <Typography variant="body1" >
