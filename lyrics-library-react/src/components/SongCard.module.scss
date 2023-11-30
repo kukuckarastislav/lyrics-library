@@ -1,9 +1,7 @@
 .SongCardCss{
-    @apply flex justify-between
+    @apply flex justify-between p-4 mb-2
         bg-white rounded-lg shadow-md
-        p-4 mb-2
         hover:shadow-lg hover:bg-gray-50
-        
     ;
 
     &:active{
