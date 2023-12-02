@@ -13,6 +13,19 @@ export default function SongBookPage() {
   const songBook: SongBook | undefined = library.getSongBookByUrl(songBookUrl!);
   const [, setHeaderHeight] = useState(0);
 
+  const [visibleIndex, setVisibleIndex] = useState(1);
+  const numberOfSongs = 30;
+
+  const isInViewport = (element: HTMLElement) => {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
   useEffect(() => {
     // Calculate the height of the header
     const headerElement = document.getElementById('songBookPage_header');
@@ -23,8 +36,25 @@ export default function SongBookPage() {
 
     // Update the margin-top of the section
     const sectionElement = document.getElementById('songBookPage_songs_container');
+
+    const handleScroll = () => {
+      if(visibleIndex*numberOfSongs > songBook!.numberOfSongs) return;
+      //console.log('scrolling');
+      //get last child from div sectionElement
+      const lastChild = sectionElement!.lastElementChild as HTMLElement;
+      //console.log(lastChild);
+      // if last element is visible, add 30 more songs
+      const isVisible = isInViewport(lastChild);
+      //console.log(isVisible);
+      if (isVisible) {
+        setVisibleIndex((prevVisibleIndex) => prevVisibleIndex + 1);
+      }
+    };
+
     if (sectionElement) {
+      console.log('adding event listener');
       sectionElement.style.marginTop = newHeaderHeight + 'px';
+      window.addEventListener('scroll', handleScroll);
     }
 
     // Recalculate and update on window resize
@@ -33,11 +63,15 @@ export default function SongBookPage() {
       sectionElement!.style.marginTop = headerElement!.offsetHeight + 'px';
     };
 
+
     window.addEventListener('resize', handleResize);
 
     // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
+      if (sectionElement) { 
+        window.removeEventListener('scroll', handleScroll);
+      }  
     };
   }, []);
 
@@ -59,7 +93,7 @@ export default function SongBookPage() {
             
           
           <div id="songBookPage_songs_container" className='songContainer'>
-            {songBook.songs.map((song) => (
+            {songBook.songs.slice(0, visibleIndex*numberOfSongs).map((song) => (
               <SongCard key={songBook.url + song.url} song={song} songBookUrl={songBook.url} />
             ))}
           </div>

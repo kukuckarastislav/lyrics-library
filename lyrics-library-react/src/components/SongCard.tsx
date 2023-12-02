@@ -33,7 +33,7 @@ export default function SongCard(props: SongCardProps) {
           </div>
         </div>
         <div>
-          {Math.random() > 0.7 &&
+          {//Math.random() > 0.7 &&
             <BookmarkRoundedIcon
               sx={{ fontSize: 24, color: 'var(--button-ui-active-color)' }} />
           }
