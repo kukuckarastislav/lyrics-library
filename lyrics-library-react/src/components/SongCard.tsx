@@ -4,10 +4,12 @@ import style from './SongCard.module.scss';
 import { Chip, Typography } from '@mui/material';
 
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
+import library from '../libraryData';
 
 interface SongCardProps {
   song: Song;
   songBookUrl: string;
+  showSoongBookName?: boolean;
 }
 
 export default function SongCard(props: SongCardProps) {
@@ -18,14 +20,15 @@ export default function SongCard(props: SongCardProps) {
     <Link to={`/songbook/${songBookUrl}/song/${song.url}`}>
       <div className={style.SongCardCss}>
         <div className='flex flex-col'>
+          {props.showSoongBookName && <div>{library.getSongBookNameByUrl(songBookUrl)}</div>}
           <Typography variant="h6" className='songBookName'>
             {song.number!=0 && <span className='songNumber'>{song.number}. </span>}{song.name}
           </Typography>
-          {song.author && (
+          {/* song.author && (
             <Typography variant="body1" >
               {song.author}
             </Typography>
-          )}
+          ) */}
           <div className='flex gap-1 mt-2'>
             <Chip label={song.lang} variant="outlined"
                 size='small'

@@ -38,7 +38,9 @@ const jsonData = {
                             "ku Tebe kým prídeme, daj by sme Ťa nezradili!",
                             "Baránkov kým začne hod, v milosti nás svojej voď!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja, chváľte Boha",
@@ -84,7 +86,9 @@ const jsonData = {
                         [
                             " REF.: Chváľte, chváľte...  "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh je dobrý",
@@ -109,7 +113,9 @@ const jsonData = {
                             "4. On z mŕtvych vstal, On z mŕtvych vstal, ",
                             "On z mŕtvych vstal, On je tak dobrý mne."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh náš je láska",
@@ -138,7 +144,9 @@ const jsonData = {
                             "V ten čarokrásny nadhviezdny svet, bez rúcha slávy prístupu niet.",
                             "Boh náš je láska, Boh náš je láska. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Dobroreč Hospodinovi",
@@ -162,7 +170,9 @@ const jsonData = {
                             "Kráľovstvo nik Ti z rúk neodníme, vďačne Ti spieva verných zbor. ",
                             "Osláviť má Ťa každý tvor, vďačne Ti spieva verných zbor. Haleluja, Haleluja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Buď milosť Pána Jezu Krista",
@@ -176,7 +186,9 @@ const jsonData = {
                             "Ducha svätého so všetkými, so všetkými, nech je so všetkými. ",
                             "Amen, amen, amen, amen. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V Pánovi nemal by som plesať?",
@@ -201,7 +213,9 @@ const jsonData = {
                             "4. Pánovi spievaj, ľude Boží, ovocím Jeho lásky si.",
                             "Hoci svet svoju zlobu množí, víťazné vedieš zápasy."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hospodin Zástupov",
@@ -243,7 +257,9 @@ const jsonData = {
                             "Až niekdy padneme, až niekdy padneme, až niekdy padneme, ",
                             "u trónu Baránkovho!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čože Ti dáme, Pane",
@@ -272,7 +288,9 @@ const jsonData = {
                             "5. Na veky buď Ti chvála, večnému Pánovi.",
                             "Za lásku Teba sláviť duch náš je hotový."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nože, verní, prespevujte",
@@ -306,7 +324,9 @@ const jsonData = {
                             "my však nič sa nestrachujme, milosťou sa upevňujme Krista,",
                             "Kráľa nebeského, za nás  na smrť vydaného."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hosanna! Ide požehnaný Kráľ",
@@ -326,7 +346,9 @@ const jsonData = {
                             "pozemské! Haleluja! Haleluja! Buď Mu večná sláva česť. ",
                             "Buď Mu večná sláva česť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja! Nech slávu česť",
@@ -359,7 +381,9 @@ const jsonData = {
                             "vrúcne vznes až k trónu nebeskému. Amen, Amen, svätý, svätý, ",
                             "večne svätý je Boh, náš Pán. Nech znie chvála zo všetkých strán!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Bohu buď česť",
@@ -390,7 +414,9 @@ const jsonData = {
                         [
                             "REF.: Haleluja, chváľte..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Poskoč, srdce, od radosti",
@@ -411,7 +437,9 @@ const jsonData = {
                             "/: Jeho milujme, Jemu spievajme, chváľme,",
                             "chváľme, chváľme Pána! Sláva buď Bohu! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tak znie sladko meno Ježiš",
@@ -442,7 +470,9 @@ const jsonData = {
                         [
                             "REF.: Radostne v srdci znie..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Svätý, svätý",
@@ -469,7 +499,9 @@ const jsonData = {
                             "Víťazov vence pred Jeho trónom bárs by sme mohli položiť raz.",
                             "Svätý, svätý, svätý je náš Boh, korte sa Mu a klaňajte sa!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chváľme Boha",
@@ -492,7 +524,9 @@ const jsonData = {
                             "tá zvesť  radostná, že je v Kristu milosť pre každého,",
                             "/: Božia láska, k nám je bezodná. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Je jasno v mojom srdci",
@@ -530,7 +564,9 @@ const jsonData = {
                         [
                             "REF.: Tak je jasno krásne..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, duša, spievaj",
@@ -557,7 +593,9 @@ const jsonData = {
                             "- Ó, čuj to nebe i celá zem! Pri Jeho tróne ja bývať smiem, ",
                             "kde kynú palmy a znejú žalmy večne ku Jeho cti!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Poď, zaplesajme radosťou",
@@ -584,7 +622,9 @@ const jsonData = {
                             "On stíši všetku žalosť boj. „Boh nás má rád!“ Boh nás má rád, Boh nás má rád.",
                             "Poďte, plesajme radosťou: „Boh nás má rád!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zvelebuj Pána, ó, srdce moje!",
@@ -618,7 +658,9 @@ const jsonData = {
                             "Všetko, čo život má, zvolaj: „Amen!“ a sláv to meno milostné. ",
                             "Vy, dietky Božie, ctite Ho, ach, Boha trojjediného. Haleluja! Haleluja!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Bože môj",
@@ -660,7 +702,9 @@ const jsonData = {
                         [
                             "REF.: Duša moja..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Poď zaspievajme zvučne",
@@ -698,7 +742,9 @@ const jsonData = {
                             "Chceš, by ťa Ježiš vyznal? Ty ho smelo vyznaj ",
                             "a dá ti v nebi uzrieť svoj svätý obličaj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kde Kristus kraľuje",
@@ -735,7 +781,9 @@ const jsonData = {
                             "7. Boh všetko vo všetkom, duch každý zjasá v Ňom",
                             "i každá radosť vrcholí a chválou hlaholí."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Slávte, slávte",
@@ -769,7 +817,9 @@ const jsonData = {
                         [
                             "REF.: Slávte, pejte... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto berieš podiel v milosti",
@@ -813,7 +863,9 @@ const jsonData = {
                         [
                             "REF.: Ježiš je Spasiteľ, spievajme..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Sláva buď Bohu na nebi!",
@@ -838,7 +890,9 @@ const jsonData = {
                             "4. Svätý Duch je náš Tešiteľ, je sľúbený nám Učiteľ,",
                             "/: nás posväcuje a uisťuje, že máme s Kristom večný diel. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Radujme sa, veseľme sa",
@@ -876,7 +930,9 @@ const jsonData = {
                         [
                             "REF.: Radovanie, chvály vzdanie..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Teba, Bože, Otca vekov",
@@ -903,7 +959,9 @@ const jsonData = {
                             "ráč nám prispieť ku pomoci, dary svojho Ducha daj,",
                             "veď nás ta, kde nieto noci, spas ľud svoj a požehnaj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nech znejú chválospevy",
@@ -936,7 +994,9 @@ const jsonData = {
                             "6. Až bránou ulíc zlatých vstúpi Cirkev Tvoja,",
                             "zazvučí hudba svätých a k nej sa pripoja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spievajme Bohu novú pieseň",
@@ -963,7 +1023,9 @@ const jsonData = {
                             "Pán Boh je spravodlivý sudca, potrestá pyšné národy, ",
                             "poriadok spraví podľa práva, chorú zem pravdou obrodí."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spev dolín a šum hory",
@@ -997,7 +1059,9 @@ const jsonData = {
                         [
                             "REF.: Slávu Bohu všemocnému..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pánovi všetci spievajte",
@@ -1021,7 +1085,9 @@ const jsonData = {
                             "4. Veď dobroty je plný on a od vekov má slávy trón",
                             "i pravda Jeho odveká, čo zachraňuje človeka."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vzdaj chválu",
@@ -1050,7 +1116,9 @@ const jsonData = {
                             "Všetko v čom život je, zvelebuj Boha večného! V Ňom svetlo je; ",
                             "v Ňom duša blaho tvoje. Ó, ži v svete len pre Neho!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nad Betlemom",
@@ -1095,7 +1163,9 @@ const jsonData = {
                         [
                             "REF.: Sláva Bohu! Sláva Bohu! že... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čujte, aká vzácna pieseň",
@@ -1122,7 +1192,9 @@ const jsonData = {
                             "Tam už bied a hriechov prostí zaspievame nadšene:",
                             "Sláva Bohu na výsosti, sila moc i spasenie!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tichá noc, svätá noc",
@@ -1146,7 +1218,9 @@ const jsonData = {
                             "preveľkou láskou len nútený, zostúpil na svet náš stratený,",
                             "spasenie priniesol nám. Prišiel Kristus Pán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": ["christmas"]
                 },
                 {
                     "name": "V nadhviezdnej výšine",
@@ -1180,7 +1254,9 @@ const jsonData = {
                             "zhlaholil hlas, že z dávna žiadanej, prorokmi hlásanej, ",
                             "milosti Hospodin naplnil čas."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja zemou hlása",
@@ -1218,7 +1294,9 @@ const jsonData = {
                         [
                             "REF.: Sláva Bohu na výsosti... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Predivný prišiel k nám",
@@ -1256,7 +1334,9 @@ const jsonData = {
                             "REF.: Zaspievam pieseň chvál, že mi vždy pomáhal, sprevádzal pútnika svetlom ",
                             "i tmou. Pre kríž a Golgotu k večnému životu láskou ma doviedol prepodivnou."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče, žes´ nám Syna dal",
@@ -1281,7 +1361,9 @@ const jsonData = {
                             "4. Veľká radosť na nebi, pokoj ľuďom na zemi,",
                             "v Tebe slávny Ježišu, sľúbený Mesiášu!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zvestujem vám radosť",
@@ -1315,7 +1397,9 @@ const jsonData = {
                             "v našom vykúpení. Veď nás von z temností, z dolín, žiaľu,",
                             "plaču večnej do radosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Skala vekov",
@@ -1344,7 +1428,9 @@ const jsonData = {
                             "otvorili tam, kde Ty súdiť budeš sám, Skala vekov,",
                             "v svoju skrýš priviň ma, v nej stíš ma stíš!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa Baránka ako vedú",
@@ -1373,7 +1459,9 @@ const jsonData = {
                             "5. Večnej smrti sme sa báli, dnes nemá moc svoju,",
                             "s Kristom sme z hrobu povstali, spievať pieseň novú."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nevinnosť premilá",
@@ -1402,7 +1490,9 @@ const jsonData = {
                             "Priateľa drahého Pána milostného, v smrti ranách tvojho Pána ",
                             "Boh sám ťa objíma, prijíma za syna."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto túžiš po milosti",
@@ -1440,7 +1530,9 @@ const jsonData = {
                         [
                             "REF.: V Ňom spása dáva sa..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kde Ježiš môj kríž podstúpil",
@@ -1471,7 +1563,9 @@ const jsonData = {
                         [
                             "REF.: Ach, Golgota ty presmutná..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, hlava v mukách",
@@ -1500,7 +1594,9 @@ const jsonData = {
                             "svetla svitom, buď silou v smrti deň. I vtedy duša moja sa k Tebe ",
                             "privinie. Tak vprostred smrti boja istotne nezhynie!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na kríži ukrvavený",
@@ -1529,7 +1625,9 @@ const jsonData = {
                             "srdca hanbím. Spasiteľu, nauč mňa. Od dneska žiť pre Teba. Od dneska ",
                             "žiť pre Teba. Ó, Spasiteľu nauč mňa, od dneska žiť pre Teba!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na Golgote",
@@ -1562,7 +1660,9 @@ const jsonData = {
                             "6. Ó, Ježišu, vezmi moje srdce za výplatu, za ",
                             "ukrutné muky Tvoje, za strašnú Golgotu!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na Golgote slávnej",
@@ -1596,7 +1696,9 @@ const jsonData = {
                             "Kto tú smrť strašlivú zavinil? „Ja a ty hriešniku! Ach, tak poď ",
                             "na Golgotu; poď ó poď k Ježišovi! On ťa spasí!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na hore Golgoty",
@@ -1621,7 +1723,9 @@ const jsonData = {
                             "V kríži tom sa teším, zaň vzdávam Kristu česť, lebo lásku mi v srdce vzňal;",
                             "hanu jak Pán niesol pre mňa, ja preň chcem niesť, by s Ním večnú slasť požíval."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš pred Pilátom",
@@ -1660,7 +1764,9 @@ const jsonData = {
                             "ty čo spravíš? Odpovedz sebe sám. Príde čas, musíš sa pýtať: ",
                             "„Čo spraví so mnou Pán?“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V márnosti som život utrácal",
@@ -1697,7 +1803,9 @@ const jsonData = {
                         [
                             "REF.: Milosť Božia bola veliká..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V skalný hrob",
@@ -1729,7 +1837,9 @@ const jsonData = {
                         [
                             "REF.: Preč je kameň, žije Pán... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nastal nám čas preradostný",
@@ -1758,7 +1868,9 @@ const jsonData = {
                             "Spasiteľa za naše spasenie. Bohu vďaku vyspievajme za víťazstvo",
                             "Jeho slávne v Kristovi dobyté."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Žije, žije",
@@ -1792,7 +1904,9 @@ const jsonData = {
                             "Pán Ježiš stojí živý sám a prekvapená radostne volá: Rabúni!",
                             "Diel máme v Jeho vzkriesení. Žije, žije... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Golgotský víťaz",
@@ -1816,7 +1930,9 @@ const jsonData = {
                             "mocnosti zlé, každý deň Ježiša chváľ. Nikto nám pieseň nemôže vziať, v Kristovej ",
                             "slobode budeme stáť. Premohol diabla, odstránil hriech, každý deň Ježiša chváľ! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kristus, Pán vstal z mŕtvych",
@@ -1873,7 +1989,9 @@ const jsonData = {
                         [
                             "REF.: S radosťou už spievam..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vstal dnes Kristus",
@@ -1904,7 +2022,9 @@ const jsonData = {
                         [
                             "REF.: Kristus žije..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja! Slávny svitol deň",
@@ -1943,7 +2063,9 @@ const jsonData = {
                         [
                             "REF.: Už sa netreba báť... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, Baránok",
@@ -1968,7 +2090,9 @@ const jsonData = {
                             "4. Tebe, ktorýs´ sa za nás dal, vzdávame česť,",
                             "chválu: Hoden si, bys´ korunu vzal, a oslavu celú."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Náš Pán kraľuje",
@@ -2002,7 +2126,9 @@ const jsonData = {
                             "Pred Jeho trónom kľakajte zborom, On je naším Kráľom ",
                             "na prestole stálom. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pri nohách",
@@ -2031,7 +2157,9 @@ const jsonData = {
                             "5. Príď, ó, Pane, večný Kráľu! – volá svätých zbor ",
                             "čakáme Ťa, neodkladaj, „príď čím skôr!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Odišiel Pán Ježiš, Spasiteľ",
@@ -2069,7 +2197,9 @@ const jsonData = {
                         [
                             "REF.: Áno, áno odišiel náš Pán...   "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boží Duch kde pôsobí",
@@ -2098,7 +2228,9 @@ const jsonData = {
                             "obrodené vidia krásy novej zeme. Duch kde trón Svoj postaví, ",
                             "neistoty pozbaví."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Mohutné milosti prúdy",
@@ -2129,7 +2261,9 @@ const jsonData = {
                         [
                             "REF.: Mohutné prúdy..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ach, svetlo večné",
@@ -2150,7 +2284,9 @@ const jsonData = {
                             "3. Ráč ochotného ducha dať, by vedel som Ťa poslúchať ",
                             "nech nemám v ničom záľuby, čo Tebe tiež sa neľúbi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, Ježiš, lekár najvyšší",
@@ -2188,7 +2324,9 @@ const jsonData = {
                         [
                             "REF.: Z hriechov, bied a nemocí..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Či chceš väzby hriechu byť zbavený?",
@@ -2226,7 +2364,9 @@ const jsonData = {
                         [
                             "REF.: Leží moc, moc..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čože to množstvo je za zjav?",
@@ -2270,7 +2410,9 @@ const jsonData = {
                             "posledná; beda ak bola zmrhaná! Ach, po milosti je veta, keď prešiel ",
                             "Ježiš z Nazareta! Ach po milosti je veta, keď prešiel Ježiš z Nazareta!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježišu krásny",
@@ -2295,7 +2437,9 @@ const jsonData = {
                             "4. Do krásy sveta, tam do jasu leta často sa tiene vpíšu. Svit ",
                             "Tvojej tváre žiari však stále jediný môj Ježišu.         "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čujte všetci vzácne povolanie",
@@ -2326,7 +2470,9 @@ const jsonData = {
                         [
                             "REF.: Toho, kto príde ku mne..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kým hlas prosieb vôkol znie",
@@ -2364,7 +2510,9 @@ const jsonData = {
                         [
                             "REF.: Ešte dnes, ešte dnes..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Volali desiati malomocní",
@@ -2400,7 +2548,9 @@ const jsonData = {
                             "4. Tisíce majú len posmešný tón: „K Bohu nás priniesť chce, ktože ",
                             "je ON?“ Bude aj o tebe výrok ten znieť: „Jeden len uveril, ostatných niet!“? "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Mnoho je duší, ktoré blúdia",
@@ -2440,7 +2590,9 @@ const jsonData = {
                         [
                             "REF.: Poď, ó, ty duša..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, Ježiš volá",
@@ -2475,7 +2627,9 @@ const jsonData = {
                         [
                             "REF.: Aký to šťastný lós..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ešte Boží zaznieva hlas",
@@ -2504,7 +2658,9 @@ const jsonData = {
                             "5. Preto, počuj, ó, hriešniku! Spásu voľnú a veliku prijmi ",
                             "radostne ešte dnes; srdce, myseľ už Jemu nes!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša, ak sa chceš obrátiť",
@@ -2528,7 +2684,9 @@ const jsonData = {
                             "sa nevyhýbaj; sladké jarmo Jeho ber. Čo ti bráni, odstráň sám: za ",
                             "Pánom leť k výšinám! Za Pánom leť k výšinám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pri dverách stojím",
@@ -2549,7 +2707,9 @@ const jsonData = {
                             "3. Otvor že, otvor dokorán, aby vojsť mohol Kristus, Pán.",
                             "/: Otvorí On ti nebesá, kde duša večne zaplesá. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nestaraj sa, hriešniku, čo sám k spáse dáš.",
@@ -2587,7 +2747,9 @@ const jsonData = {
                         [
                             "REF.: Dokonal, On dokonal..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "„Oddeľte sa“, vraví Pán",
@@ -2606,7 +2768,9 @@ const jsonData = {
                             "kamene láskou vedno spojené, ste chrám Boha živého, oddeľte",
                             "sa od zlého!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš hriešnych prijíma",
@@ -2643,7 +2807,9 @@ const jsonData = {
                         [
                             "REF.: /: Čuj každý radostnú zvesť..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto si biedny",
@@ -2668,7 +2834,9 @@ const jsonData = {
                             "4. Svojou nežnou Božou láskou pozdvihne ťa, ver,",
                             "radosť, pokoj zaplaví ťa z rajských dvier."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na hody milosti",
@@ -2697,7 +2865,9 @@ const jsonData = {
                             "A preto, kto si v nej, staň sa hneď svedkom jej, ",
                             "horlivo svedč o nej všade ľudu! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto len chce, ten smie prísť",
@@ -2732,7 +2902,9 @@ const jsonData = {
                         [
                             "REF.: Trápi ťa hlad..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "K nebesiam",
@@ -2766,7 +2938,9 @@ const jsonData = {
                             "sa pred ňou ešte chvieť. Ó, neboj sa! Svitne deň a v svetle tom ",
                             "otcovský si uzrieš dom, v ňom večný diel."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj Ježiš volá ma",
@@ -2811,7 +2985,9 @@ const jsonData = {
                         [
                             "REF.: Len krv Pánova..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ideme k neba výšinám",
@@ -2840,7 +3016,9 @@ const jsonData = {
                             "/: chcem ísť tiež! :/ Žiadosti sveta odmietam, v Ježišovi už všetko mám,",
                             "Jemu chcem slúžiť v každý čas, /: chcem ísť tiež! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aké miesto dávaš Kristu?",
@@ -2878,7 +3056,9 @@ const jsonData = {
                         [
                             "REF.: Pre Ježiša, Kráľa slávy..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Od Boha v diaľke blúdil som",
@@ -2929,7 +3109,9 @@ const jsonData = {
                             "REF.: Dom som, doma som z mojich bludných ciest.",
                             "V náruč si ma privinul, Otče ráč ma viesť."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Po dvoch cestách",
@@ -2962,7 +3144,9 @@ const jsonData = {
                             "6. Ach, je ľahko padnúť v hriechu kal, ale nemôcť z neho",
                             "aký žiaľ! Aká bolesť navždy zostať v tmách, zhynúť v hlbinách. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Poď k Ježišovi",
@@ -2993,7 +3177,9 @@ const jsonData = {
                         [
                             "REF.: Sláva, sláva dušu ožiari..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, nechoď svetom sám",
@@ -3026,7 +3212,9 @@ const jsonData = {
                             "Ó, rozhodni sa! Dnes je čas, dnes Spasiteľov volá hlas, tak ďalej zlo nemnož! Poď, len, ",
                             "poď len,  poď za Ježišom k nebesiam! Poď  len, poď len, On blaha dom ti schystal sám. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán Boh je láska",
@@ -3078,7 +3266,9 @@ const jsonData = {
                         [
                             "REF.: Spievajme spoločne..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, poďte a Pána kríža prijmite!",
@@ -3110,7 +3300,9 @@ const jsonData = {
                         [
                             "REF.: Ó, poď, bo ten Pán len zachráni..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čuj, kto v tichej nočnej chvíli klope",
@@ -3134,7 +3326,9 @@ const jsonData = {
                             "kvíliť; On ťa nechá stáť. Zabudol si, kto ťa prosil, bys´ Ho prijať chcel? ",
                             "Dlho klopal. Keď si nedbal, navždy odišiel."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, poďte už k Pánovi v mladosti hneď",
@@ -3172,7 +3366,9 @@ const jsonData = {
                         [
                             "REF.: Hľa, Spasiteľ volá a zve..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, duša nešťastná",
@@ -3201,7 +3397,9 @@ const jsonData = {
                             "5. Zasväť život celý službe Ježišovej, ",
                             "aby ťa uviedol tam do zeme novej!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "K prameňu života poďte",
@@ -3232,7 +3430,9 @@ const jsonData = {
                         [
                             "REF.: Priateľu, poď k prameňu vôd..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jediný odkaz",
@@ -3269,7 +3469,9 @@ const jsonData = {
                             "Ešte pár krokov a zasvitne deň: Ježiš dnes spasiť chce nás!",
                             "Zbor:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, zo sna hriechu prebuď sa",
@@ -3296,7 +3498,9 @@ const jsonData = {
                             "keď Spasiteľ ťa domov zve, Duch volá: poď a ver!",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čuj, Pán Ježiš volá teba",
@@ -3329,7 +3533,9 @@ const jsonData = {
                             "Smrťou svojou vykúpil ťa, vráť, sa kým je čas!",
                             "Dnes ťa volá! Dnes ťa prijme! Počuj Pánov hlas!\n"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spasiteľ ťa k Sebe volá",
@@ -3366,7 +3572,9 @@ const jsonData = {
                             "nové piesne spievať volá, poď ešte dnes! ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša unavená, slabá,",
@@ -3408,7 +3616,9 @@ const jsonData = {
                             "nasýti ich všetkých dokola. ",
                             "Zbor:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Viď tú lásku Kristovu",
@@ -3442,7 +3652,9 @@ const jsonData = {
                             "Otázka ťá bude víriť tvojej duše hlbiny, ",
                             "keď sa Sudca bude pýtať, ako si žil s blížnymi. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vráť sa, domov!",
@@ -3474,7 +3686,9 @@ const jsonData = {
                             "s láskou zve ťa k sebe, odpustiť chce tebe. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Všetci, čo ste smädní",
@@ -3503,7 +3717,9 @@ const jsonData = {
                             "Čujte a otvorte svoje uši, poďte si pre spásu svojich duší;",
                             "„Ja s vami chcem spraviť zmluvu večnú; Ja chcem vám dať milosť nekonečnú.“ "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zle na tom sú ver´ tie duše",
@@ -3544,7 +3760,9 @@ const jsonData = {
                             "Ó, Jezu tiahni si ma blíž! Ty vzrastaj, mňa vznes na Svoj kríž.",
                             "Opanuj ma cele, na duši i tele, Ty Si dnes diel môj, a ja navždy Tvoj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Všetci, ktorí chcú",
@@ -3569,7 +3787,9 @@ const jsonData = {
                             "Za ovečku Svoju prijmi aj mňa. Pane, ",
                             "v Sebe samom uzdrav srdce doráňané. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš volá teba",
@@ -3590,7 +3810,9 @@ const jsonData = {
                             "Ver, ó, ver už, Ježišovi srdce dnes Mu daj, ",
                             "budeš počuť Jeho slovo: „Pokoj maj!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Istotu vzácnu",
@@ -3621,7 +3843,9 @@ const jsonData = {
                             "sa v ňom, vo všetkom všetkým je mi tu On!",
                             "Zbor."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja!",
@@ -3653,7 +3877,9 @@ const jsonData = {
                             "On nás s Otcom zmieril spasil; zmazané sú viny, všetkých volá k sebe Kráľov, Kráľ. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ty môj večný Dobrodinče",
@@ -3680,7 +3906,9 @@ const jsonData = {
                             "Veď ma Ty, veď ma Ty; veď ma Ty, veď ma Ty. ",
                             "Veď ma milý Spasiteľu, šťastne dove\tď k domovu. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V mori hriecha",
@@ -3714,7 +3942,9 @@ const jsonData = {
                             "z vĺn krutých vyslobodiť a život dať. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čo ma z hriechu očistí?",
@@ -3751,7 +3981,9 @@ const jsonData = {
                             "Čo mi dáva v nebi diel? Iba krv Ježiša Krista. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ako sa dieťa privinie",
@@ -3778,7 +4010,9 @@ const jsonData = {
                             "Tebe tak, Pane, pri nohách v dôvere spočiniem, ",
                             "prijimať lásku, láskou žiť dľa vôľe Tvojej chcem. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ako neľúbiť Ťa, Kriste",
@@ -3805,7 +4039,9 @@ const jsonData = {
                             "Daj mi v Tvojej prítomnosti stále žiť a zotrvať! ",
                             "Volám, túžim po svätosti, Tebe chcem sa podobať! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hospodin ráči Pastierom byť mojím.",
@@ -3829,7 +4065,9 @@ const jsonData = {
                             "Áno, len dobré, milosť, zľutovanie sprevádzajú ma deňne, dobrý Pane. ",
                             "Príbytok večný nik mi nepripraví iba Ty, Bože, v dome svojej slávy. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blúdieval som",
@@ -3858,7 +4096,9 @@ const jsonData = {
                             "5. Môj Priateľ teba volá tiež, Poď, duša, inak zahynieš. ",
                             "Zdroj spasenia ti otvorí, raz príjme v neba priestory. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ja som už len Tvojím",
@@ -3895,7 +4135,9 @@ const jsonData = {
                             "Veď kde by som našiel krajšieho nad Teba?!",
                             "Zbor:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Milovať chcem Ťa,",
@@ -3924,7 +4166,9 @@ const jsonData = {
                             "Ďakujem Tebe, slnko jasné, že radosť spoznať dal si mi. ",
                             "Veď Slovo Tvoje jedine (: mi rany hojí predivne. :)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jezu, jako Pastier voď nás",
@@ -3957,7 +4201,9 @@ const jsonData = {
                             "Ó, až raz tam budeme stáť, Bohu kde nás odovzdáš. ",
                             "Ach, už i dnes daj nám poznať, Tvojí že sme a Ty náš! Amen. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kriste, veď ma životom",
@@ -3984,7 +4230,9 @@ const jsonData = {
                             "kde niet bôle ani plač, bezpečne ma doviesť ráč! ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj Jezu",
@@ -4016,7 +4264,9 @@ const jsonData = {
                             "je sladko s Tebou, o čo viac tam v ríši večných krás. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tak vezmi ruky moje",
@@ -4042,7 +4292,9 @@ const jsonData = {
                             "Tak vezmi ruky moje, a veď ma sám ",
                             "v nádherné ríše Svoje, ku cieľu tam. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na Ježiša upri zrenie",
@@ -4079,7 +4331,9 @@ const jsonData = {
                             "vzdor únavy vodne v noci slúžil, trpel, nereptal!",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto poznal myseľ Pána",
@@ -4106,7 +4360,9 @@ const jsonData = {
                             "Nech, čo chce, činí s nami, On náš i Svoj zná cieľ, ",
                             "Tí, kto už tu sú Jeho, s Ním v nebi majú diel. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Našiel si ma,",
@@ -4141,7 +4397,9 @@ const jsonData = {
                             "pre Teba sa zemského šťastia všetkého vzdám. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ty nás preveď",
@@ -4165,7 +4423,9 @@ const jsonData = {
                             "by sa k dielu hlásil každý, kto zrie lásky pramene. ",
                             "Víťazne a s chválospevom ku dňu Tvojmu spejeme. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Pane Ježiši",
@@ -4192,7 +4452,9 @@ const jsonData = {
                             "Život večný! S Tebou som bezpečný!",
                             "Cestou Tvojou ma z milosti veď v ríšu radosti. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Buď vôľa Tvoja",
@@ -4217,7 +4479,9 @@ const jsonData = {
                             "4. Buď vôľa Tvoja, ó, Pane môj, zverujem navždy život Ti svoj. ",
                             "Plnosť mi Ducha Svätého daj, po žitia bojoch uveď ma v raj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Priateľa som našiel ctného",
@@ -4250,7 +4514,9 @@ const jsonData = {
                             "V Tvojej moci kráčam smele ku predu v tú slávnu ríš, ",
                             "tam kde žiari sláva skvelá, Spastieľu Ty sa skvieš. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Pane,",
@@ -4282,7 +4548,9 @@ const jsonData = {
                             "a utvŕď svojim Duchom, že Tvoj som a Ty môj! ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tebe sa, Pane môj",
@@ -4309,7 +4577,9 @@ const jsonData = {
                             "Ruku mi podaj a posilni v čas, doveď ma v nebeský domova jas. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Len Tebe chcem",
@@ -4336,7 +4606,9 @@ const jsonData = {
                             "Len víťazi raz zdedia slávu, im vence budú zdobiť hlavu, ",
                             "chcem verný byť! Chcem verný byť! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V milosti, Bože náš",
@@ -4377,7 +4649,9 @@ const jsonData = {
                             "8. Vesmír Ťa obsiahnúť nemôže, dobrota bez hraníc, ",
                             "náš Bože, vesmíru nesmierne končiny ovládaš len Ty sám jediný!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čuj cudzinca pri dverách!",
@@ -4410,7 +4684,9 @@ const jsonData = {
                             "Pomohol by ti tak rád; ak necháš Ho ale stáť, ",
                             "raz čo sudcu máš Ho znať! Vpusť Ho dnu! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ach, už sa raz rozhodnite",
@@ -4444,7 +4720,9 @@ const jsonData = {
                             "Rozhodni sa, neodkladaj, rozhodni sa, ",
                             "neodkladaj, lebo budeš ľutovať. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pri studnici Jakobovej",
@@ -4476,7 +4754,9 @@ const jsonData = {
                             "Smútok v radosť premení sa, bázeň v šťastnú istotu, že ťa prijal, hriechy obmyl, vrátil k životu. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jak bez Teba žiť",
@@ -4501,7 +4781,9 @@ const jsonData = {
                             "4. Jak bez Teba žiť Ježišu? Kto k bojom ťažkým vyzbrojí? ",
                             "Kto stíši srdce spokojí? Ó, jako žiť mrieť bez Teba! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pre Ježiša žiť",
@@ -4530,7 +4812,9 @@ const jsonData = {
                             "pomôžu sa nám radovať, keď hriešnik sa kajá. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kvitnúca mládež",
@@ -4564,7 +4848,9 @@ const jsonData = {
                             "k plnému životu pre druhých za sebou zve ťa, Jeho si zvoľ,",
                             "aby si šťastný s Ním bol, veď On Je budúcnosť sveta. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša v hriechu ponorená",
@@ -4597,7 +4883,9 @@ const jsonData = {
                             "Nežiada Pán tvojich vecí, ",
                             "len chce bývať v tvojom srdci. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "K Ježišovým nohám",
@@ -4621,7 +4909,9 @@ const jsonData = {
                             "Hrob je prázdny, môže niesť bratom zmŕtvychvstania zvesť. ",
                             "K nohám Spasiteľa padám s plesaním, Jeho lásku, milosť večne oslávim. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Teraz v tichej zbožnosti",
@@ -4658,7 +4948,9 @@ const jsonData = {
                             "Za čo veriac prosíme, iste obdržíme. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tak, jak som",
@@ -4691,7 +4983,9 @@ const jsonData = {
                             "6. Tak, jak som, a duša moja Tvojej milosti sa dávam ",
                             "a nech je Tvoja, vždy len Tvoja. Ó, idem, Boží Baránku!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "S Ježišom chcem verne",
@@ -4728,7 +5022,9 @@ const jsonData = {
                             "7. K Tebe nádej upiera sa smelá, Jezu môj, veď Tvojí nezhynú!",
                             "A keď zbavíš dušu stánku tela, prijmi si ma v nebies otčinu!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chcem pre Ježiša",
@@ -4757,7 +5053,9 @@ const jsonData = {
                             "Svetská radosť, sláva pominie, Ježiš nezmení sa jedine. ",
                             "(: K Jeho hrudi viň sa, On ti sám pokoj dá. :)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ži krásne",
@@ -4782,7 +5080,9 @@ const jsonData = {
                             "4. Keď rozkazuje Pán, tak choď! Keď velí: stoj! Tak poslúchaj!",
                             "(: Bez Neho zblúdiš k priepasti s Ním do nebeských vojdeš brán. :)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otvorené sú brány milosti",
@@ -4812,7 +5112,9 @@ const jsonData = {
                         [
                             "C / Viera v Spasiteľa"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane môj",
@@ -4849,7 +5151,9 @@ const jsonData = {
                             "ukáže mu, k žitiu čo dopomáha. ",
                             "Nech ľud náš zas čuje Tvoj hlas, v Tvojej, sa pravde vzmáha!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš, verný Priateľ môj",
@@ -4878,7 +5182,9 @@ const jsonData = {
                             "otvára mi duše zrak, aby vzlietla ako vták hor´, ",
                             "kde On ju vedie sám k večným neba výšinám. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bol som mŕtvy",
@@ -4910,7 +5216,9 @@ const jsonData = {
                             "Je pravda, že hlas čujem Tvoj: milujem ťa si môj!? ",
                             "Verím; slasťou sa zachvievam, veď v Bohu spočívam. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Viera Božia",
@@ -4955,7 +5263,9 @@ const jsonData = {
                             "Heslo naše: Viera vlieva v dušu toľko krás, ",
                             "že Pán nebies rád chodieva, aby býval v nás. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Dobre stavia každá duša",
@@ -4982,7 +5292,9 @@ const jsonData = {
                             "Základ večný, dokonalý je Pán Ježiš Kristus sám, ",
                             "na Ňom postav vieru, nádej v nebeský raz vojdeš chrám!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V Krista verím",
@@ -5007,7 +5319,9 @@ const jsonData = {
                             "4. Hľadím k cieľu v radosti, Ježiš zve ma k plnosti, ",
                             "vždy len chce, by som viac bral, blahom neba oplýval. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hlas Ježišov",
@@ -5034,7 +5348,9 @@ const jsonData = {
                             "Išiel som, hneď nado mňou On sám zažal jasný žiar, ",
                             "v ňom idem k cieľu, kde mám zrieť Ho večne tvárou v tvár. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čakaj, duša moja",
@@ -5053,7 +5369,9 @@ const jsonData = {
                             "Neľakaj sa, bratu sestra len, po bojoch raz ťažkých svitne spásy deň. ",
                             "Všemocný Pane, Ochranca môj, pomôž, uzdrav, zachráň vždy pri mne stoj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Že Pán Boh vo mne živý je",
@@ -5080,7 +5398,9 @@ const jsonData = {
                             "žes´ mi všetkým Ty už teraz na zemi ",
                             "i keď raz domov zaletím žiť s Tebou blažený. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď Boží vánok veje",
@@ -5112,7 +5432,9 @@ const jsonData = {
                             "že v Ňom len otvorená je cesta k pokoju ",
                             "a duša privedená je spásy ku zdroju."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nevlastním nič",
@@ -5153,7 +5475,9 @@ const jsonData = {
                             "Som z milosti spasený, to viem. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ja s vierou pozerám",
@@ -5178,7 +5502,9 @@ const jsonData = {
                             "4. Až tmavý smrti mrak môj navždy zastrie zrak, Ty pri mne stoj. ",
                             "Z chvíľ ťažkých vyprosti a prijmi z milosti tam v ríšu radosti ma, Pane môj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ako šťastne duša dlie",
@@ -5210,7 +5536,9 @@ const jsonData = {
                             "koľká krása ma však čaká, ke\tď raz noha vkročí tam. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Musím Ťa ja vždy mať",
@@ -5247,7 +5575,9 @@ const jsonData = {
                             "S Tebou dosiahnem raz nebeskú korunu. ",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nad horami vysoko",
@@ -5276,7 +5606,9 @@ const jsonData = {
                             "5. A mne vraví láskave: „Ty sa nič neboj; ty sa duša nič neboj!",
                             "Milujem ťa; naveky si ty moja a Ja celý tvoj!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Moc lásky",
@@ -5305,7 +5637,9 @@ const jsonData = {
                             "v ňom prameň živý, radosť pravá, vzácny liek na bôľ naších rán! ",
                             "Tys´ za mňa čistý život vydal, presvätá láska, môj Boh i Kráľ! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tam nad hviezdami v nebi",
@@ -5341,7 +5675,9 @@ const jsonData = {
                             "Ó, kto tú radosť vysloví, až padnem k nohám Kristovi!",
                             "Zbor. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blesk zlatý",
@@ -5374,7 +5710,9 @@ const jsonData = {
                             "i večne, keď Ho uzriem tam, kde už nič nebolí. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Jezu",
@@ -5401,7 +5739,9 @@ const jsonData = {
                             "Ty nechceš striebra, zlata, len srdcia túžiš mať. ",
                             "Aj moje prijmi, Pane, chcem Ti ho vďačne dať. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, šťastný",
@@ -5438,7 +5778,9 @@ const jsonData = {
                             "som spasený, som spasený smiem s Pánom žiť už na zemi. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, ako nežiť radosťou",
@@ -5475,7 +5817,9 @@ const jsonData = {
                             "Môj Jezu, čo si začal Ty, sa z Tvojej ruky nestratí, ",
                             "Ty dovedieš ma do neba, kde vždy už budem u Teba. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Už zbavený som",
@@ -5502,7 +5846,9 @@ const jsonData = {
                             "Bol som mŕtvy a teraz život mám. A preto všade hlásam, Ježiš je môj Pán!",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Mne všetkým je sám Hospodin",
@@ -5534,7 +5880,9 @@ const jsonData = {
                             "sám po boku mi stále stoj, buď skalou mi v prívale zlom. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Smieť žiť pre Krista",
@@ -5555,7 +5903,9 @@ const jsonData = {
                             "Smieť žiť pre Krista, kým trvá deň, no i keď žiaľny zapadol tieň. ",
                             "(: Vždy smieť Mu slúžiť a neochladnúť: tú milosť verným Boh dáva len. :)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Teba, drahý Spasiteľu",
@@ -5586,7 +5936,9 @@ const jsonData = {
                             "kde už slnko nie je treba – svieti Jeho slávy žiar. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Za mňa si, Pane môj",
@@ -5611,7 +5963,9 @@ const jsonData = {
                             "Chcem sa Ti podobať, pokorný byť, lásku vždy zvestovať, v nej verne žiť! ",
                             "Kráľovstvo budovať, v Tebe sa radovať, život svoj dokonať pri diele tom! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Šťastne je,",
@@ -5643,7 +5997,9 @@ const jsonData = {
                             "S Tebou zmôžem smrti noc v slávne ráno. Ó, slovo preblažené: „Dokonáno!“",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Som spasený",
@@ -5668,7 +6024,9 @@ const jsonData = {
                             "Som spasený a tebe tiež volám; „Poď k Ježišovi, On je spása Sám. ",
                             "Že miluje ťa, tak jak mňa, poznáš, zvieš, v novej zemi, že i ty diel máš!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Verným zostaň",
@@ -5693,7 +6051,9 @@ const jsonData = {
                             "Vyznaj smelo svojho Pána slovom, skutkom v každý čas. ",
                             "Pred Otcom a pred anjelmi, ver, že On ťa vyzná zas. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V náručí Ježišovom",
@@ -5717,7 +6077,9 @@ const jsonData = {
                             "Tu ticho budem čakať, ach, čakať cez noc len, kým nový uzriem svitať na zlatom brehu deň!",
                             "Skrýš srdca drahá, Ježiš, On zomrel za mňa sám, Na skalu vekov pevne sa navždy spolieham. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Patrím Kristu",
@@ -5742,7 +6104,9 @@ const jsonData = {
                             "Verím, že ma počuješ, tak už vopred volám tiež: ",
                             "Amen, chválu, vďak Ti vzdám, istú pomoc v Tebe mám. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiša viac chcem poznávať",
@@ -5774,7 +6138,9 @@ const jsonData = {
                             "kráľovstvo svoje zaujať, spasených k sebe v nebo vziať. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V úzkosti duše som ku krížu šiel",
@@ -5811,7 +6177,9 @@ const jsonData = {
                             "obmyje, očistí každý hriech tvoj. Ježiš ma uzdravil hneď. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tu, zo zemského údolia",
@@ -5832,7 +6200,9 @@ const jsonData = {
                             "Len v Tvojom nežnom objatí Tvoj pokoj duša spoznáva, ",
                             "tam znovu sa Ti zasvätí a láske vydáva. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V hlbokej norím sa pokore",
@@ -5864,7 +6234,9 @@ const jsonData = {
                             "Ó, čuj hlas svätý, jak sladko znie: „Ja pokoj dám ti, blaha žiar.“ ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Z neistoty vyvedený",
@@ -5891,7 +6263,9 @@ const jsonData = {
                             "svet zahynie, hviezdy zhasnú, nebe sa rozplynie",
                             "koho Ježiš raz vyvolil, ten už nezahynie. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otvorená je mne brána",
@@ -5923,7 +6297,9 @@ const jsonData = {
                             "z rúk Pána veniec dostaneš, čo víťazov má blažiť. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Neboj sa, ó neboj",
@@ -5950,7 +6326,9 @@ const jsonData = {
                             "Sťa keď spieva slávik, hájov potecha, zvučí v srdci radosť, že ma On nezanechá. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pozri duša,",
@@ -5983,7 +6361,9 @@ const jsonData = {
                             "Váž korunu tŕňovú, ťažkú cestu krížovú, ",
                             "poznáš lásku Kristovu. Hallelujah, Amen!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Sione nádherný",
@@ -6010,7 +6390,9 @@ const jsonData = {
                             "Čo viac, až združil sa k nemu novej tam piesne tón!",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jak milostne",
@@ -6037,7 +6419,9 @@ const jsonData = {
                             "Kto milosť tú vierou pochopí, Ježiš ho k sebe privinie. ",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vzácny dar svoj",
@@ -6064,7 +6448,9 @@ const jsonData = {
                             "Vzácny dar svoj, živú vieru, Pane môj, mi zachovaj, ",
                             "prosím, doplň, čo mi chýba, plnosť viery, lásky daj! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Znám prameň",
@@ -6097,7 +6483,9 @@ const jsonData = {
                             "Poznám ťa, ó, nosič mieru! Ku mne zaznel tiež hlas Tvoj! ",
                             "Všemocného Boha Slovo! v tebe len mám sily zdroj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pútnikom som",
@@ -6134,7 +6522,9 @@ const jsonData = {
                             "Kde na harfách zlatých s milionmi svätých ",
                             "sláviť budem žitia prameň, až na veky. Amen."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zákona prostý",
@@ -6161,7 +6551,9 @@ const jsonData = {
                             "spieva v Ňom duša preblažená: krv Jeho platnosť večnú má!",
                             "Zbor: "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pod ochranou Najvyššieho",
@@ -6186,7 +6578,9 @@ const jsonData = {
                             "Upokoj sa a buď smelá, vrúcna obeť vďaky stroj! ",
                             "Nikto z ruky Spasiteľa nevyrve ti podiel tvoj, nevyrve ti podiel tvoj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Akí sú blahoslovení",
@@ -6211,7 +6605,9 @@ const jsonData = {
                             "Kriste Ty náš vinič pravý, očistiť ráč nás, uzdraviť. ",
                             "Zakvitne, a dozrie v Tebe ovocie naše spanilé. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježišu, môj drahokam",
@@ -6244,7 +6640,9 @@ const jsonData = {
                             "V skrýši Tvojej pravice stíchnu búrky, víchrice. ",
                             "Ako vtáča v lone brál zapejem Ti piesne chvál. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čo činí Boh, vždy dobre je",
@@ -6277,7 +6675,9 @@ const jsonData = {
                             "Aj smrti mráz On zmení včas, keď zaznie povel Jeho.",
                             "Ja verím iba v Neho."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "1. Aké šťastie Ježiša mať a s istotou smieť povedať.",
@@ -6314,7 +6714,9 @@ const jsonData = {
                         [
                             "REF.: Vlasť ty večná..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Smieť k Ježišovi vzlietať",
@@ -6353,7 +6755,9 @@ const jsonData = {
                             "ten prekrásnu má cestu vzdor všetkým útrapám,",
                             "bo vedie k sláve mestu ho Spasiteľ a Pán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čo mal by som",
@@ -6382,7 +6786,9 @@ const jsonData = {
                             "veď nebo, celý svet je Tvoj, ja s Tebou tiež mám v nich diel svoj,",
                             "ó, Jezu svetlo večné, ó, Jezu, svetlo večné, ach večné!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spasiteľu, Pane môj",
@@ -6415,7 +6821,9 @@ const jsonData = {
                             "Duše smäd Ty uhasíš, Ty si živej vody zdroj.",
                             "Tvoje meno istá skrýš, naveky chcem zostať Tvoj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane Kriste, spása moja",
@@ -6444,7 +6852,9 @@ const jsonData = {
                             "5. Dobre je Ti dôverovať! Ó, ja chcem vždy Tvojím byť,",
                             "v nebi chcem Ťa vidieť večne, tu i tam len s Tebou žiť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Som spasený, je napísané",
@@ -6489,7 +6899,9 @@ const jsonData = {
                         [
                             "REF.: Kúpil, kúpil, kúpil ma..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto dá mi silu k púti",
@@ -6522,7 +6934,9 @@ const jsonData = {
                             "Kto položí ma s láskou ta v náruč Otcovu?",
                             "Pán Ježiš cesta jasná k večnému domovu."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Musím mať vždy Spasiteľa",
@@ -6560,7 +6974,9 @@ const jsonData = {
                         [
                             "REF.: S Ním keď kráčam životom..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj poklad je v nebi",
@@ -6593,7 +7009,9 @@ const jsonData = {
                             "Mňa radostne víta už večnosti svit,",
                             "/: v tele a či ináč, mne je blahom žiť.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nič večité v zemskej ríši",
@@ -6639,7 +7057,9 @@ const jsonData = {
                         [
                             "REF: Kristov sľub je skalopevný..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "My chválime ten nebeský kraj",
@@ -6669,7 +7089,9 @@ const jsonData = {
                         [
                             "REF.: /:Prekrásne, prekrásne..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, ty nádej, svetlo v tmavej noci",
@@ -6702,7 +7124,9 @@ const jsonData = {
                             "spočinie. Kde už večné ráno svitne mi, vzdám česť Bohu za ",
                             "nádeje zásvit blažený.  "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Netúžim po pokladoch",
@@ -6743,7 +7167,9 @@ const jsonData = {
                         [
                             "REF.: Ó, blahá istota..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán Boh sila moja",
@@ -6772,7 +7198,9 @@ const jsonData = {
                             "5. Pane, ach, počuj ma, ohliadni sa na mňa: utiekam ",
                             "sa k Tebe, rád Ťa mám pri sebe, chráň Ty mňa!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Znám v nebi mesto veľké",
@@ -6806,7 +7234,9 @@ const jsonData = {
                             "domov sa blíži. Z ďaleka vidno jordánske stráne a ",
                             "zlatožiarne, sionské bane."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nech plynie",
@@ -6832,7 +7262,9 @@ const jsonData = {
                         [
                             "REF.: Vlasť, vlasť..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zvuk Tvojho Mena",
@@ -6861,7 +7293,9 @@ const jsonData = {
                             "5. Ty kohos´ našiel, život má a stály prameň síl. ",
                             "Z tej duše, Pane, chválim Ťa, žes´ aj mňa vykúpil."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, jak ma blaží tá prevzácna zvesť",
@@ -6919,7 +7353,9 @@ const jsonData = {
                         [
                             "REF.: Čuj to svet..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš, to meno znie",
@@ -6948,7 +7384,9 @@ const jsonData = {
                             "ľuďom ho dám. Kým sa raz nočnou tmou zableskne domov môj,",
                             "večný kde podiel svoj u Teba mám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prídi, Jezu, Pane milý",
@@ -6982,7 +7420,9 @@ const jsonData = {
                             "vidieť Tvojej lásky zdroj, prosím Ťa, ó, Jezu môj, ó, ",
                             "Jezu môj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aké  nádherné sú zvesti plné spásy",
@@ -7003,7 +7443,9 @@ const jsonData = {
                             "pre drahú obeť kríža, stojím v Božej blízkosti, obživený",
                             "duch i duša spieva pieseň radosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Viem, že Ježiš miluje mňa",
@@ -7036,7 +7478,9 @@ const jsonData = {
                             "i v smrti chladnej, jazyk môj už zapeje: Nemáš pre mňa",
                             "hrôzy žiadnej, Ježiš mňa vždy miluje."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Príbytok prekrásny",
@@ -7065,7 +7509,9 @@ const jsonData = {
                             "ako chceš sám, túžby a žiadosti, z nástrah zlých ma vyprosti, ",
                             "prenes ma z milosti v nebeský stan."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vstaň srdce a poď",
@@ -7094,7 +7540,9 @@ const jsonData = {
                             "On pre mňa silu, pokoj má; je láska Pána prehojná.",
                             "Láska Pána, láska Pána, je láska Pána prehojná."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj základ viery",
@@ -7132,7 +7580,9 @@ const jsonData = {
                         [
                             "REF.: Smiem na tej Skale..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Za Tebou, Pane môj",
@@ -7171,7 +7621,9 @@ const jsonData = {
                             "Veď tu mám iba lúč, tam je svetla žiar;",
                             "tu verím a tam Ťa uzriem tvárou v tvár."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ja neviem, prečo milosti zdroj",
@@ -7217,7 +7669,9 @@ const jsonData = {
                         [
                             "REF.: Ale komu uveril som, viem..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Som Boží syn",
@@ -7245,7 +7699,9 @@ const jsonData = {
                             "spev slávika, svit diaľnych hviezd keď zabliká.",
                             "/: Ó, Ježišu, už bronie deň, keď láska Tvoja zmení zem. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Raj zasľúbil Boh",
@@ -7279,7 +7735,9 @@ const jsonData = {
                             "ó, spásu prijať nemeškaj. Kto spozdí sa, ten zahynie naozaj,",
                             "naozaj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Naša pomoc je len z Teba",
@@ -7303,7 +7761,9 @@ const jsonData = {
                             "4. V neprístupnom svetle bývaš, ale Tvoja dobrotivá ",
                             "ruka všetko tvorstvo, má, Otče náš milostivý."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Lásko večná",
@@ -7330,7 +7790,9 @@ const jsonData = {
                             "života, k Sebe ma priveď; ta k trónu slávy, v ríšu nebies, ta, ",
                             "kde pokoj pravý a večný ples!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša, ó, nič sa neľakaj",
@@ -7368,7 +7830,9 @@ const jsonData = {
                         [
                             "REF.: Nad tebou bdie tvoj Pán..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vpred, volá Kristus",
@@ -7403,7 +7867,9 @@ const jsonData = {
                             "pre Neho niesť hotoví vždy za výsadu majme. Len dbalí ",
                             "Božích príkazov vziať majú palmy víťazov."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď sa minie tento svet",
@@ -7427,7 +7893,9 @@ const jsonData = {
                             "anjelský zbor uvidím, vtedy plne pochopím: spoznám",
                             "svoju podlžnosť za ten lásky Božej skvost."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane, v kríža blízkosti záchrana je moja",
@@ -7465,7 +7933,9 @@ const jsonData = {
                         [
                             "REF.: V kríži len..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Teš sa v Bohu",
@@ -7494,7 +7964,9 @@ const jsonData = {
                             "pre svoju česť, v všetkom mi pomôže. Nech sa ten svet plný múk ",
                             "vztekle na mňa vrhne, z Božích všemocných ma rúk nikto nevytrhne."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Veď ma, mocný Hospodine",
@@ -7523,7 +7995,9 @@ const jsonData = {
                         [
                             "Úzkosti a súženia"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keby som nemal Teba",
@@ -7556,7 +8030,9 @@ const jsonData = {
                             "by som žiadal. Svetom som blúdil, Ty´s ma našiel v biede, ",
                             "Duch Tvoj ma vedie."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď búrky, vetry zúria",
@@ -7598,7 +8074,9 @@ const jsonData = {
                         [
                             "REF.: Sčítaj dobro Bohom činené..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Či nájde srdce mi pokoj?",
@@ -7627,7 +8105,9 @@ const jsonData = {
                             "ma v krvi Svojej; Tvoja spása je mnohá,  zdarma ju dať chceš!",
                             "Jezu v tento čas."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó,  vzývaj ma!",
@@ -7661,7 +8141,9 @@ const jsonData = {
                             "patrí tu nám. /: Zasľúbil Boh len vďačným deťom nebe,",
                             "ony len smú vojsť v slávy stan. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V zármutku, ťažkom súžení",
@@ -7681,7 +8163,9 @@ const jsonData = {
                             "prilieta, pretŕhajú sa mraky. Vraví ti Pán, ó, hlás ten čuj: Vraví ti Pán, ",
                             "ó, hlas ten čuj: Milujem ťa, tak dôveruj! Milujem ťa, tak dôveruj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nechcem reptať ani žialiť",
@@ -7719,7 +8203,9 @@ const jsonData = {
                         [
                             "REF.: On tiež kráčal utrpením..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, žije Vykupiteľ môj",
@@ -7757,7 +8243,9 @@ const jsonData = {
                         [
                             "REF.: Keď svet ma trápi..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Do hlbín padám",
@@ -7787,7 +8275,9 @@ const jsonData = {
                             "pravda sám. Dokonals´ za mňa, ešte dokonáš, ach, veď Ty ",
                             "dobre biedu moju znáš, nesmiernu lásku k svojmu ľudu máš."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nedaj zviesť sa hriechu",
@@ -7821,7 +8311,9 @@ const jsonData = {
                         [
                             "REF.: Spasiteľ ťa čuje..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ľude Boží, Božích právd praví milovníci",
@@ -7860,7 +8352,9 @@ const jsonData = {
                             "Jeho meno požehnané, Jemu kto sa podobá v borbe, utrpení,",
                             "bude v nebi vedno s Ním večne oslávený."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na búrnom mori",
@@ -7902,7 +8396,9 @@ const jsonData = {
                         [
                             "REF.: Ó, Ty, Majstre nebeský..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh je s nami",
@@ -7931,7 +8427,9 @@ const jsonData = {
                             "odpustený, odsúdenia pre nás niet. Prídi, prídi, slávna doba, by sme mohli ",
                             "zavolať: „Boh je s nami,, Boh je s nami, Kristus prišiel kraľovať!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blažený kto premohol lesť",
@@ -7964,7 +8462,9 @@ const jsonData = {
                             "Ó, až ten raz zastane pred svojim Ježišom, ",
                             "tam pozná, komu slúžil, a všetko stíchne v ňom!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, čo by sme sa báli",
@@ -7997,7 +8497,9 @@ const jsonData = {
                             "Nuž zvime k Nemu všetkých dom má sa naplniť,",
                             "kto vierou k Nemu príde, ten večne bude žiť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Daj Pán, by sme verní zostali",
@@ -8038,7 +8540,9 @@ const jsonData = {
                         [
                             "REF.: Verne zotrvaj! Verný zostaň..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Len lístie máš",
@@ -8067,7 +8571,9 @@ const jsonData = {
                             "Hľa, hrozná páľa, plameňa je plevám navždy určená!",
                             "Ó, učiň pokánie! Len lístie máš! Len lístie máš!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Radosť blažená, v nebi domov mám",
@@ -8117,7 +8623,9 @@ const jsonData = {
                         [
                             "REF.: Radosť mám, v duši nadšenie..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Je život ľudský",
@@ -8142,7 +8650,9 @@ const jsonData = {
                             "4. Ak život je sťa letný čas, nech pestrou krásou blaží nás;",
                             "a život dobre strávený naveky bude blažený! Naveky bude blažený!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán je mocný",
@@ -8177,7 +8687,9 @@ const jsonData = {
                         [
                             "REF.: Požehnaný Spasiteľu, veď ma..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zľutovníku milý",
@@ -8201,7 +8713,9 @@ const jsonData = {
                             "Nemoce lieč, na cestu mi svieť, jasné brány neba kým nebudem zrieť!",
                             "Ó, pomôž, Pane, hriech poraziť, v skúšobnej hodine daj zvíťaziť."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ku Tebe lne duša slabá",
@@ -8222,7 +8736,9 @@ const jsonData = {
                             "Ty to dielo ďalej konáš, čo si vo mne započal. Povedieš ma ",
                             "iste k cieľu, by som v boji vytrval. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hotoví sme všetci",
@@ -8262,7 +8778,9 @@ const jsonData = {
                         [
                             "REF.: Slávu, česť, slávu..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Oblak svedkov chváli Pána",
@@ -8296,7 +8814,9 @@ const jsonData = {
                             "lásku znajú. Ó, bys´ k ním obrátil beh! Rozhodni sa, pristúp k ",
                             "ním, k svedkom Krista blaženým! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tešte sa, tešte sa, spasení",
@@ -8327,7 +8847,9 @@ const jsonData = {
                         [
                             "REF.: Do zeme slávnej..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bojuj dobrý boj!",
@@ -8358,7 +8880,9 @@ const jsonData = {
                             "ozdobený vencom slávy, tam vyzná duch tvoj, že bol ľahký boj! „Bojuj ",
                             "dobrý boj!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pod zástavou Krista",
@@ -8396,7 +8920,9 @@ const jsonData = {
                         [
                             "REF.: Napred len, napred len..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Synu milý, dcéro drahá",
@@ -8418,7 +8944,9 @@ const jsonData = {
                             "3. Hospodin vie, čo ti treba, On ti slzy spočíta, všade doprevádza teba,",
                             "v Ňom je tvoja záštita. Jeho láska veliká nebo krížom odmyká!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čuj, kto meno Krista nosíš",
@@ -8442,7 +8970,9 @@ const jsonData = {
                             "zobrazovať, v obeť dať sa pre Pána. Nedúfajme v žiadnom mene, ",
                             "nový život, žiada Pán, tým bude v nás spečatené: meno kresťan patrí nám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša draho vykúpená",
@@ -8494,7 +9024,9 @@ const jsonData = {
                         [
                             "REF.: Máš pozvanie ku plnosti..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zmužilo si počínajte",
@@ -8531,7 +9063,9 @@ const jsonData = {
                         [
                             "REF.: V zmužilej viere len..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zmocnite sa, bratia",
@@ -8566,7 +9100,9 @@ const jsonData = {
                         [
                             "REF.: V rade stoj! Pravdy boj..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prúdy živé plynú",
@@ -8600,7 +9136,9 @@ const jsonData = {
                         [
                             "REF.: Za pravdou chcem ísť..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vodcom našej čaty",
@@ -8635,7 +9173,9 @@ const jsonData = {
                         [
                             "REF.: Ty poď za mnou..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Kráľu milosti",
@@ -8669,7 +9209,9 @@ const jsonData = {
                             "už tu požívam! Súc v Tvojej blízkosti, koho by sa bál? Ja ",
                             "som Tvoj slabý tvor, Ty´s môj mocný Kráľ!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "So spevom ideme",
@@ -8711,7 +9253,9 @@ const jsonData = {
                         [
                             "REF.: Zástupy anjelov zostupujú..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán vodca môj",
@@ -8740,7 +9284,9 @@ const jsonData = {
                             "Vždycky On búrku utíšil, prichystal prístav nových síl.",
                             "/: Ó, Ježišu, Ty loďku riaď a daj jej k cieľu doplávať. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "So zbraňou oceľovou",
@@ -8775,7 +9321,9 @@ const jsonData = {
                         [
                             "REF.: Vykročme do boja za Ježišom..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kým žije Ježiš môj",
@@ -8804,7 +9352,9 @@ const jsonData = {
                             "5. Ach, k Nemu len hľadím so srdcom blaženým.",
                             "Môj Ježiš mňa ľúbi iste; raj celý je mojim."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chcem byť v srdci dobrý kresťan",
@@ -8838,7 +9388,9 @@ const jsonData = {
                             "Chcem Ťa v srdci oslavovať, Pane môj. Pane môj, ",
                             "Pane môj. Chcem Ťa v srdci oslavovať, Pane môj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hospodine Zástupov",
@@ -8875,7 +9427,9 @@ const jsonData = {
                             "prístrachom smrti raz vyzbrojíš? Kto podá ti istotu zhladenia ",
                             "všetkých vín? Ach, zajasaj! On to dá! Spasiteľ, Boží Syn."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pevne stoj",
@@ -8904,7 +9458,9 @@ const jsonData = {
                             "premáhanie, v moci a v sláve príde, Ježiš, Ježiš znova sa objaví! Pracuj,",
                             "bdej, pracuj, bdej, pracuj, bdej, pracuj, bdej, ľude Boží, ľude Boží!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto nechodí dľa rady bezbožných",
@@ -8936,7 +9492,9 @@ const jsonData = {
                             "dôkaz pravej múdrosti, vernosti, tak získame plnú blaženosť pre ",
                             "večnosť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Raz príde Pán!",
@@ -8969,7 +9527,9 @@ const jsonData = {
                             "zastať máš? Ó, aká žalosť, veriť tu v klam",
                             "/: a nikdy nesmieť ku svetlu vzniesť sa tam! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ide noc, strašná noc",
@@ -8998,7 +9558,9 @@ const jsonData = {
                             "Satanovi z rúk ho vymaň! Duchom Svätým mocne ",
                             "povaň; znova svetla rozžni zdroj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Po čom túžiš",
@@ -9036,7 +9598,9 @@ const jsonData = {
                             "úprimného neodmietneš, môj Pane! Ty si pravda, život, cesta, ",
                             "Svetlo sveta jedine prostred nebeského mesta, kde raz i ja spočiniem."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pokračuj, pokračuj, Sion",
@@ -9072,7 +9636,9 @@ const jsonData = {
                             "ni zradným! Korunu a večný raj dá Pán bojovníkom chrabrým! ",
                             "Nato, Sion, stále pamätaj! Vytrvaj, vytrvaj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hriech je zhladený",
@@ -9112,7 +9678,9 @@ const jsonData = {
                         [
                             "REF.: Čistý si skrze krv. Čistý..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ach, či musím s prázdnou rukou v ústrety ísť Pánovi?",
@@ -9150,7 +9718,9 @@ const jsonData = {
                         [
                             "REF.: Ach, či musím s prázdnou rukou..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto bude v Tvojom stánku prebývať",
@@ -9183,7 +9753,9 @@ const jsonData = {
                             "úplatný dar nevezme si, toho nikdy nepredesí zvrat ",
                             "ni pád."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Poď, Záhradník, vziať tento fík",
@@ -9222,7 +9794,9 @@ const jsonData = {
                             "Tvojej stáť pravici nám s večne chutným ovocím. ",
                             "Nám s večne chutným ovocím"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tak často myslievam",
@@ -9257,7 +9831,9 @@ const jsonData = {
                         [
                             "REF.: Či sa mi po boji..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Až sa všetci pred trón Kristov postavíme",
@@ -9289,7 +9865,9 @@ const jsonData = {
                             "6. /: Až sa všetci pred trón Kristov postavíme, :/",
                             "/: bratia, sestry, skúmajme sa obstojíme? :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče, daj nám požehnanie",
@@ -9320,7 +9898,9 @@ const jsonData = {
                         [
                             "REF.: Žehnaj slovo zvestované..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ráč požehnať nás",
@@ -9347,7 +9927,9 @@ const jsonData = {
                             "Tvoje meno je nám ľuďom k spáse dané, nech vždy Ti chvála ",
                             "znie, nech vždy Ti chvála znie."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Milosť nášho Pána",
@@ -9361,7 +9943,9 @@ const jsonData = {
                             "dar tiež Ducha svätého blaž a žehnaj každého, dar tiež ",
                             "Ducha Svätého blaž a žehnaj každého. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Amen, Otče",
@@ -9375,7 +9959,9 @@ const jsonData = {
                             "Kriste, odpusť hriechy spáchané. Duchu svätý, spravuj nás svetlom ",
                             "pravdy v každý čas, by sme dušou, telom celým Bohu večne patriť smeli! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Na Pána vždy očakáva duša  moja",
@@ -9396,7 +9982,9 @@ const jsonData = {
                             "uchýliť, na úskalie naraziť. veď ma stále k Svojmu cieľu, k ",
                             "môjmu nebeskému dielu."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ako Jeleň vodu hľadá",
@@ -9417,7 +10005,9 @@ const jsonData = {
                             "nebesám, posväcuje, riadi nás dnes i celý žitia čas, otvára",
                             "nám darov prameň na spasenie večné. Ameň."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "S Duchom svojím príď",
@@ -9447,7 +10037,9 @@ const jsonData = {
                             "Chcem obetovať s nimi službe lásky život svoj. Ty nás k ",
                             "dielu Svojmu spoj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Ty Vládca nad vesmírom",
@@ -9471,7 +10063,9 @@ const jsonData = {
                             "nás ducha spájaj, k pravej láske roznecuj! Loďky našich zborov",
                             "Pane, riaď Ty sám a ochraňuj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ach, príď, ach, príď",
@@ -9492,7 +10086,9 @@ const jsonData = {
                             "vždy istou, milou dušiam našim k radosti! Chceme večne ",
                             "Ti svojemu nebeskému Pánu chválu vzdávať v nebi neskonalú! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zavítaj, Kráľu náš",
@@ -9521,7 +10117,9 @@ const jsonData = {
                             "Preveď nás z milosti ta, kde niet úzkosti, do večnej ",
                             "radosti hor na Sion."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bože, vylej požehnanie",
@@ -9536,7 +10134,9 @@ const jsonData = {
                             "Apoštolské učenie hlása Tvoje spasenie, by sme ",
                             "Krista vodcom zvali, na hlas Jeho poslúchali. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kráľu Večný",
@@ -9557,7 +10157,9 @@ const jsonData = {
                             "Tam ťa večne chválili, svojho blaha prameň, ",
                             "Spasiteľu, Pane náš. Chvála Ti, česť! Amen."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Požehnaj nás",
@@ -9574,7 +10176,9 @@ const jsonData = {
                             "2. Požehnaj a prospech dávaj, v milosti sám k nám sa skláňaj",
                             "[: k malým, veľkým zas a zas, požehnaj nás v každý čas! :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, príďže, doba nášho Pána",
@@ -9608,7 +10212,9 @@ const jsonData = {
                             "nech Tvojou pravdou naplnený brat bratovi je verný druh, ",
                             "kým večné leto, prosté tône nás privíta raz v Tvojom lone."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vo tvojom mene",
@@ -9623,7 +10229,9 @@ const jsonData = {
                             "z bojov zemských do siení nebeských, tam kde Tvoj ľud ",
                             "v slávy žiare do Tvojej zrie tváre."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Sláva Ti buď",
@@ -9638,7 +10246,9 @@ const jsonData = {
                             "Chlebom slova večného nás ráč  sýtiť každého až kým ",
                             "v nebeskej radosti dáš nám jesť chlieb v blaženosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane prúdmi požehnania",
@@ -9672,7 +10282,9 @@ const jsonData = {
                             "vyslyš moju prosbu vrelú, k službe si ma povolaj! ",
                             "Povolaj, povolaj i mňa k službe povolaj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Láska k Ježišovi",
@@ -9696,7 +10308,9 @@ const jsonData = {
                             "bratov ľúbi verne, naozaj, bo ich všetkých spája ",
                             "pevne dovedna Ježišov Duch, láska jeho bezodná!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aké je to utešené s bratmi",
@@ -9729,7 +10343,9 @@ const jsonData = {
                             "S Tebou chceme, Spasiteľu, v duchu vždy byť spojení, ",
                             "vrele ľúbiť tvoje deti, naveky byť spasený."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aké máš milé príbytky",
@@ -9773,7 +10389,9 @@ const jsonData = {
                             "svätých, v zboroch svojej cirkvi láskou ",
                             "spätých, Kriste, svetlo pravdy čisté."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Slúžme len láske pravej",
@@ -9802,7 +10420,9 @@ const jsonData = {
                             "5. Tak aj ty miluj obetave, Kristu slúž verne; On, tvoj Pán ",
                             "v Otcovej keď sa zjaví sláve otvorí ti vstup dokorán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ak ti blížny",
@@ -9835,7 +10455,9 @@ const jsonData = {
                             "Arzenál hoc hnevu celí protivník chce vystrieľať, ",
                             "odpusť ako Pán ti velí, sedemdesiat sedemkrát."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, tá láska Tvoja",
@@ -9862,7 +10484,9 @@ const jsonData = {
                             "Ó, tá láska, Tvoja Pane, nebom zemskom žití je; ",
                             "tam v tie nesie ona kraje, kde česť, chvála večne znie."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Je dobre v spoločnosti",
@@ -9891,7 +10515,9 @@ const jsonData = {
                             "5. Dnes celá cirkev má v tom len pripravená žiť, ",
                             "[: že nad jedným tam stádom má jeden Pastier byť. :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Po tom kresťania sa vždy poznajú",
@@ -9930,7 +10556,9 @@ const jsonData = {
                         [
                             "REF.: [:  Krásna vlasť..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Milujte sa každej dobe",
@@ -9954,7 +10582,9 @@ const jsonData = {
                             "Cestou  k nebu k bratskej láske Slovo Božie volá nás. ",
                             "Láskou objať druha druh, zmocňuje nás Boží Duch."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto sú bratia moji?",
@@ -9979,7 +10609,9 @@ const jsonData = {
                             "4. To sú bratia moji, sestry, rodina, ",
                             "čo nás v Kristu pojí láska úprimná."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, hľaďte akú lásku dal Otec",
@@ -10012,7 +10644,9 @@ const jsonData = {
                             "nech naše Hallelujah Ti večne znie, ",
                             "že v Tvojej smrti našli sme spasenie."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tu v našom bratskom stretnutí",
@@ -10037,7 +10671,9 @@ const jsonData = {
                             "4. Bôľ, žalosť koho navštívi, tu bratskú účasť obživí, ",
                             "hoc´ rôzny diel náš na zemi, preds´ v jednote sme spojení."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, poďme bratia milí",
@@ -10066,7 +10702,9 @@ const jsonData = {
                             "tam nádej, viera vrúcna sa druží k žehnaniam. ",
                             "Tam nádej, viera vrúcna sa druží k žehnaniam."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Ty hĺbka večnej lásky",
@@ -10104,7 +10742,9 @@ const jsonData = {
                         [
                             "REF.: Otče v Kristu..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jeden život máme",
@@ -10138,7 +10778,9 @@ const jsonData = {
                             "Odmení ich vernosť, odmení ich vernosť blahom večnej spásy, ",
                             "blahom večnej spásy, večnej spási."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, brat môj predrahý",
@@ -10179,7 +10821,9 @@ const jsonData = {
                         [
                             "REF.: Hynúcich volaj..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Márnotratných synov",
@@ -10212,7 +10856,9 @@ const jsonData = {
                             "Kristovým máš svedkom byť, na Jeho česť, slávu žiť, ",
                             "žatva blízko, zreje klas, pracuj a svedč, kým je čas! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče náš",
@@ -10242,7 +10888,9 @@ const jsonData = {
                             "rany bôle zhoj. Tvoju moc, slávu, nech tu uzrieme, prv nech ",
                             "stáť tvárou v tvár Ti budeme.       "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane Bože, vezmi nás",
@@ -10284,7 +10932,9 @@ const jsonData = {
                             "5. Viem že ľudské želania nepomôžu, nezmenia, ",
                             "k Pánovi však vierou zriem, prosím Ho a ďakujem. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Učiň ma Bože svetielkom",
@@ -10311,7 +10961,9 @@ const jsonData = {
                             "4. Učiň ma, Bože, čím chceš sám, len keď viem, že som Tvoj, ",
                             "že Duch Tvoj napriek sveta tmám je mi vždy svetla zdroj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pomôžte nám stavať Sion",
@@ -10344,7 +10996,9 @@ const jsonData = {
                         [
                             "REF.: Hosanna Pánovi... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rozsievajme, bratia dobré semä",
@@ -10377,7 +11031,9 @@ const jsonData = {
                         [
                             "REF.: [: Ježiš má nás rád!... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, povedz mi, bratu, kam spiechaš",
@@ -10414,7 +11070,9 @@ const jsonData = {
                         [
                             "REF.: Nám cieľom je nebeský stan..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pri cieli blízko",
@@ -10443,7 +11101,9 @@ const jsonData = {
                             "duša má hnúť?! Sklamali nádeje, vrátiť sa pozde je. ",
                             "Kdeže sa podeje? Zahynie v tmách."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Teskný hlas počuť Pastiera",
@@ -10480,7 +11140,9 @@ const jsonData = {
                         [
                             "REF.: Hľadajte, hľadajte..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Posolstvo čujte nádherné",
@@ -10518,7 +11180,9 @@ const jsonData = {
                         [
                             "REF.: [: Posolstvu tomu..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vďačne Ťa velebíme",
@@ -10547,7 +11211,9 @@ const jsonData = {
                             "a obrábaniu vinice dávaj chuť. Prosby a naše dary nech Tvoj chrám ",
                             "stavajú, nech Tvoj ľud čulý, jarý kráča vpred ku raju.       "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tu je miesto",
@@ -10578,7 +11244,9 @@ const jsonData = {
                         [
                             "REF.: Na cesty choďte..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "To Tvoje dielo, Pane náš",
@@ -10601,7 +11269,9 @@ const jsonData = {
                             "Veď bránou svojej smrti nás i s Tvojím dielom v svetla jas, ",
                             "tam v svetla jas veď bránou smrti nás."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vezmi, Pane, život môj",
@@ -10640,7 +11310,9 @@ const jsonData = {
                             "6. Vezmi mojej lásky kvet, vezmi, čo je Tvoje späť! ",
                             "Pane, nech je život môj, navždy, večne, cele Tvoj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, ľud Boží, vykúpený",
@@ -10673,7 +11345,9 @@ const jsonData = {
                             "Čo svedčíme aj slovami, to potvrďme životom! Tak Pán ",
                             "Ježiš bude s nami, posadí nás na svoj trón."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tam z diaľných sveta krajov",
@@ -10713,7 +11387,9 @@ const jsonData = {
                             "sťa morské hlbiny. Len tam sa pokoj začne, moc hriechu poľaví, ",
                             "kde ľudstvo Krista vďačne jak Pána oslávi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "To meno Ježiš sladké je",
@@ -10751,7 +11427,9 @@ const jsonData = {
                         [
                             "REF.: Ó, Jezu všetkým poznať daj..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Koho pošlem?",
@@ -10778,7 +11456,9 @@ const jsonData = {
                             "k žatvy dielo, čuj to, duša úprimná! Kiež by vždy a všade ",
                             "znelo: » Tu som, Pane, pošli mňa!«"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vstaň, lebo noc sa blíži",
@@ -10805,7 +11485,9 @@ const jsonData = {
                             "nezastrie ťa posledný smrti sen. Povstaň už, ",
                             "noc sa blíži a minie spási deň!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nočný už zmizol tieň",
@@ -10840,7 +11522,9 @@ const jsonData = {
                         [
                             "REF.: Odplatou bohatou..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Náš život ako letný deň",
@@ -10877,7 +11561,9 @@ const jsonData = {
                         [
                             "REF.: Ako sen sa míňa čas..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "S radosťou chcem svedčiť",
@@ -10918,7 +11604,9 @@ const jsonData = {
                         [
                             "REF.: Pracuj pre Krista... "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, dielo Svoje sám, náš Pane, rozhojni",
@@ -10955,7 +11643,9 @@ const jsonData = {
                         [
                             "REF.: Vystroj, vystroj..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Sione, povstaň",
@@ -10997,7 +11687,9 @@ const jsonData = {
                         [
                             "REF.: [ : Kristovou krvou..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Napred, bratia",
@@ -11030,7 +11722,9 @@ const jsonData = {
                             "Víťazstvo je isté! V Tvojom kríži spásy zdroj, v krvi Tvojej, ",
                             "Jezu Kriste, Spasiteľu, Kráľu môj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Príď, ó spása Siona",
@@ -11054,7 +11748,9 @@ const jsonData = {
                             "zmluvy ľud v novú dal sa zahrnúť a tak v kruhu národov ",
                             "ožil novou slobodou."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zvesť spásy preradostná znie",
@@ -11099,7 +11795,9 @@ const jsonData = {
                         [
                             "REF.: Spasenie Ježiš dá..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ešte raz v mladosti čas",
@@ -11130,7 +11828,9 @@ const jsonData = {
                         [
                             "REF.: Pre Ježiša..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nadchni, Pane, aj nás",
@@ -11160,7 +11860,9 @@ const jsonData = {
                             "v jednom duchu vykročíme Tebe, Ženíchovi nášmu, v ústrety. ",
                             "Ženíchovi nášmu, v ústrety."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľadá Ježiš",
@@ -11194,7 +11896,9 @@ const jsonData = {
                             "Božia láska zjavená, náruč z kríža vystrená teba volá. Ach, ",
                             "poď, ach, poď prv, než zahynieš!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blažené sú tie duše",
@@ -11232,7 +11936,9 @@ const jsonData = {
                         [
                             "REF.: Jasajú, spievajú..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto sú tí v rúchu bielom?",
@@ -11252,7 +11958,9 @@ const jsonData = {
                             "budú skrytí. Pri vodách života budú stále bývať, Baránok ",
                             "ich bude vodiť, sýtiť. [: Baránok ich bude vodiť, sýtiť : ]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleuja! Haleluja!",
@@ -11264,7 +11972,9 @@ const jsonData = {
                         [
                             "1. Haleluja! Haleluja! Haleluja!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Či už vieš, kde spásy je zdroj",
@@ -11301,7 +12011,9 @@ const jsonData = {
                         [
                             "REF.: [: Zbieli ma jak sneh..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Krv Kristova",
@@ -11330,7 +12042,9 @@ const jsonData = {
                             "5. Ó, Spasiteľu presvätý, Ty v nebi s Otcom prebývaš, ",
                             "ľud Tvoj Ťa oslavuje dnes, buď Tebe sláva, Pane náš!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V Tvojom mene, Otče",
@@ -11369,7 +12083,9 @@ const jsonData = {
                         [
                             "REF.: S Kristom sme..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bratia, sestry, ponáhľajme",
@@ -11402,7 +12118,9 @@ const jsonData = {
                             "lásky z Teba každú chvíľu vierou brať, nech svet, ",
                             "vidiac v nás časť neba, učí sa Ťa milovať."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prúd krvi jeden presvätý",
@@ -11441,7 +12159,9 @@ const jsonData = {
                             "[: Ty dovedieš ma sám :] Tam po bojoch a zápasoch ",
                             "Ty dovedieš ma sám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ozdobže sa, duša",
@@ -11474,7 +12194,9 @@ const jsonData = {
                             "Keď znám Tvoju lásku svätú, nech ju v pravde hlásam svetu, ",
                             "by som hody lásky pravé slávil aj tam v neba sláve."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Baránku môj",
@@ -11509,7 +12231,9 @@ const jsonData = {
                             "a darcas' veliký, i na to posledné, vážne slovo : » Dokonal som, ",
                             "Dokonáno!«"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, duša pamätaj si",
@@ -11536,7 +12260,9 @@ const jsonData = {
                             "chlieb a kalich, smrť Pána vyznávaj a za diel večný ",
                             "v Kristu vďak svojmu Bohu vzdaj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V tú noc",
@@ -11577,7 +12303,9 @@ const jsonData = {
                             "8. Viem, že krv Jeho predrahá je večne vzácna u Boha, ",
                             "že pre jej moc a prednosti On čuje naše žiadosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, spomínaj s vďakou",
@@ -11614,7 +12342,9 @@ const jsonData = {
                             "Až raz pred trónom Jeho staneme, tam velebiť Ho neprestaneme. ",
                             "Oslavuj Ho, Pána dobrého, Baránka za náš hriech v obeť daného!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nezabudni, nezabudni",
@@ -11643,7 +12373,9 @@ const jsonData = {
                             "dieťa porušenia, určil za dediča neba. Vo tmách hynie, ",
                             "mrie svet bludný, Ježiš vymanil ťa z neho, nezabudni!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vzácna hora, Golgota",
@@ -11678,7 +12410,9 @@ const jsonData = {
                             "ani dosť sa odvďačiť; kladiem seba na oltár v obeť živú, vonný dar; ",
                             "sláviť chcem div milosti tu i v celej večnosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj Ježiš je mi žitím",
@@ -11711,7 +12445,9 @@ const jsonData = {
                             "6. V Ňom nebo mi je dané, kde večne budem s Ním, v Ňom, ",
                             "duše mojej schrane, sa večne nasýtim, sa večne nasýtim."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Svätá chvíľa",
@@ -11740,7 +12476,9 @@ const jsonData = {
                             "láskou posväcuj, telo, dušu ochraňuj. Túžim s Tebou pospolu ",
                             "sláviť večnú nedeľu!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Deň Pánov dnes",
@@ -11768,7 +12506,9 @@ const jsonData = {
                             "temnota, by som po zápase časnom v stánku neba svätom, ",
                             "jasnom, s Tebou večnosť po celú slávil pravú nedeľu."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Skloňže sa k nám",
@@ -11797,7 +12537,9 @@ const jsonData = {
                             "5. Požehnaj nás z výsosti, Bože, hojný v milosti. ",
                             "Pred tebou sa pokorí zem i neba priestory. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh je nám prítomný!",
@@ -11824,7 +12566,9 @@ const jsonData = {
                             "Vôľu, srdce, dušu, všetko, čo je naše, prijmi ó, Pane z milosti.",
                             "Ty len sám buď náš Pán, Boh, Kráľ, svetlo, spása; k Tebe srdce jasá. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče Krista Ježiša",
@@ -11858,7 +12602,9 @@ const jsonData = {
                             "chcem poslúchať, v Ňom sa upokojím. Keď by žiaľ dušu rval, ",
                             "v každom žitia boji pokoj Tvoj je mojim."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spasiteľu, Jezu drahý",
@@ -11896,7 +12642,9 @@ const jsonData = {
                         [
                             "REF.: Jezu Kriste..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chcem Ťa viac milovať",
@@ -11923,7 +12671,9 @@ const jsonData = {
                             "4. A keď mi pokynieš odložiť kríž, duša keď poletí v nebeskú výš,",
                             "pokorne zašepkám jedinú vďaku tam, že lásku dals´ mi sám vždy viac a viac."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bližšie vždy k Tebe len",
@@ -11957,7 +12707,9 @@ const jsonData = {
                             "Ku mne sa skloň. Pomôž mi v smrti dni, k sebe ma pozdvihni, ",
                             "bližšie vždy k Tebe len, ó, Bože môj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh je blízko",
@@ -11987,7 +12739,9 @@ const jsonData = {
                             "5. Boh je všade, nezabudni; On ťa vidí vždy i dnes!",
                             "On je svätý; boj sa hriechu, k nebies výši srdce vznes."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prosba kľúče má",
@@ -12008,7 +12762,9 @@ const jsonData = {
                             "3. Nieto takého príliš hriešneho, čo by nesmel zavzdychať.",
                             "Boh je blízky tým, čo Ho úprimným srdcom túžia poslúchať."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán Boh prosby vyslýcha",
@@ -12033,7 +12789,9 @@ const jsonData = {
                             "4. Verím skoro príde Pán, verím tomu, že príde Pán ",
                             "isté je, že príde Pán, nech je Bohu česť."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "„Ó, vzývaj ma!“",
@@ -12064,7 +12822,9 @@ const jsonData = {
                             "5. Chváľ Boha, chváľ! Ó, neži život sebe; už tu Mu česť vzdať patrí nám.",
                             "/: Len vďačným dietkam otvorí sa nebe, len ony v slávu vnídu tam. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V srdca svojho pokore k Tebe",
@@ -12089,7 +12849,9 @@ const jsonData = {
                             "4. Pomôž, Pane, v ťažký deň, prosím Teba s pokorou,",
                             "do duše mier vtedy len príde z neba priestorov."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Stvor srdce čisté, Bože mi",
@@ -12114,7 +12876,9 @@ const jsonData = {
                             "4. Ó, z Ducha rosu milosti mi do srdca sám daj,",
                             "nech pokoj v ňom sa uhostí a zriem Tvoj obličaj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bože, Otče, v nebi",
@@ -12135,7 +12899,9 @@ const jsonData = {
                             "3. Amen, milý Otče náš, vieme, že nám všetko dáš",
                             "pre Ježiša milého, Spasiteľa verného"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Miesto Tvojho prebývania",
@@ -12156,7 +12922,9 @@ const jsonData = {
                             "Teraz naše zhromaždenie ku Tebe má svoje zrenie, ",
                             "milostivo vyslyš nás!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Náš Otče na nebi",
@@ -12189,7 +12957,9 @@ const jsonData = {
                             "6. Chráň v pokušeniach nás, zbav zlého v každý čas,",
                             "veď Ty máš prestol odveký i dnes i na veky."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bože náš, my roztúžení",
@@ -12218,7 +12988,9 @@ const jsonData = {
                             "neisté je putovanie, pomôž, Pane predrahý! ",
                             "Pomáhaj, pomáhaj! V mene Syna prosíme."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aké je to vzácne šťastie",
@@ -12245,7 +13017,9 @@ const jsonData = {
                             "On vás chráni ako Priateľ priateľa. Vravte s Nim a mnohé rany ",
                             "modlitbou sa zacelia."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prichystaj sa, duchu môj",
@@ -12275,7 +13049,9 @@ const jsonData = {
                             "súženiu, nech sa čo chce, stane. Neklesnem, dobre viem, ",
                             "svet hoc vôkol hynie, keď mi Pán môj kynie."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, vitaj, sladká hodino",
@@ -12302,7 +13078,9 @@ const jsonData = {
                             "rúcho tela nechajúc a k nebesám sa vznášajúc Ti žehnať chcem v čas lúčenia",
                             "ty, sladká chvíľa modlenia!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kráľu nebies",
@@ -12335,7 +13113,9 @@ const jsonData = {
                             "Tebe slúžiť, za Teba mrieť na zemi náš diel,",
                             "s Tebou večne v sláve tróni žitia nášho cieľ."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Úchvatná nádhera vysokých hôr",
@@ -12377,7 +13157,9 @@ const jsonData = {
                         [
                             "REF.: Boh láska je..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pri svite slnka",
@@ -12406,7 +13188,9 @@ const jsonData = {
                             "5. Múdro chcem dnešný deň prežívať, kdekoľvek budem dnes pracovať, ",
                             "doma, či s ľuďmi, či na poli, všade chcem Tebe byť po vôli."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hneď zrána ďakuj",
@@ -12427,7 +13211,9 @@ const jsonData = {
                             "3. Hneď zrána Tvojmu ku dielu daj mannu duši, posilu,",
                             "by celý deň som v službe stál a Tvojou láskou oplýval."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Daj, nech sa nám dobre darí",
@@ -12448,7 +13234,9 @@ const jsonData = {
                             "V radostiach i v žalostiach samotu vzdiaľ, rozptýľ strach, ",
                             "aby sme aj v smrti tieni boli k Tebe prenesení."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hospodine, počuj môj hlas",
@@ -12478,7 +13266,9 @@ const jsonData = {
                             "5. Buď Ty naším pevným hradom, veď znáš zlobu pyšných ",
                             "radom. Ráč nás vodiť cestou svojou v radosti i v prostred bojov."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jezu, ráč Ty sám cestu raziť nám",
@@ -12507,7 +13297,9 @@ const jsonData = {
                             "viedla priepasťami, ak Ty vždycky pôjdeš snami, ",
                             "skonči iste tam, kde si Kráľom sám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prespevujte, hviezdy rána",
@@ -12532,7 +13324,9 @@ const jsonData = {
                             "4. Oslavujte, slávte Pána, všetky sveta jazyky. ",
                             "Chválospevy zvučné znejú /: Tebe, Bože veliký. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, poďme s chválou pred Pána",
@@ -12569,7 +13363,9 @@ const jsonData = {
                             "velebiť, Haleluja. Ja spievať mám Mu vďaky žalm, tam s anjelmi ",
                             "ho zaspievam."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď za hory slniečko",
@@ -12593,7 +13389,9 @@ const jsonData = {
                             "keď duša, čo večne je živá, tú Božiu reč porozumie a vďačnosťou ",
                             "naplnená je v modlitbách ponorená."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď k hviezdam za večera",
@@ -12648,7 +13446,9 @@ const jsonData = {
                             "tmou, buď Svetlo nehasnúce, mne Hviezdou",
                             "jedinou! Mne Hviezdou jedinou!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zapadá slnko a deň sa níži",
@@ -12672,7 +13472,9 @@ const jsonData = {
                             "Tvojej milosti? Srdcom skrúšeným predchádzam ",
                             "Teba: Prijmi tú obeť, hoc’ je i slabá!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Jak slnka jasnosť",
@@ -12721,7 +13523,9 @@ const jsonData = {
                             "ZBOR: Pracuj, ó dieťa Božie, kým nezájde ",
                             "práce čas. Jednaj v živote vážne, žiješ ho len raz. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Noc tmavá tichá",
@@ -12755,7 +13559,9 @@ const jsonData = {
                             "beh, daj z milosti tam znova vstať, [: kde",
                             "uzriem večný breh. :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Slnka keď žiara",
@@ -12785,7 +13591,9 @@ const jsonData = {
                             "dosiahnutý je spásy trón, kde stiera slzy z očí On, ",
                             "Ježiš sám, Ježiš sám!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Doteraz nám, pomáhal Pán Boh",
@@ -12824,7 +13632,9 @@ const jsonData = {
                             "cestou života verne podopiera, privedie raz ",
                             "ku cieľu, ktorý zrela viera."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rok starý v more vekov",
@@ -12845,7 +13655,9 @@ const jsonData = {
                             "si zachoval, deň za dňom stále znovu nás ",
                             "láskou hrial. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Niesli sme ťažkosti veľa",
@@ -12888,7 +13700,9 @@ const jsonData = {
                             "nás chráni cestou večnej ku odmene, kým ju ",
                             "v nebi dostaneme. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "S Bohom! S Bohom",
@@ -12912,7 +13726,9 @@ const jsonData = {
                             "privoláva nám. :] Čas, ktorý ste nepoužili a v ",
                             "službe Pána nestrávili, už je, už je tam!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čas mizne, letia hodiny",
@@ -12951,7 +13767,9 @@ const jsonData = {
                             "Sťa svetlo večné žiary len Spasiteľ na kríži, ",
                             "Spasiteľ na kríži. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nový nastal rok",
@@ -12980,7 +13798,9 @@ const jsonData = {
                             "svätý, Hospodine, s dôverou keď vykročíme",
                             "v započatý rok, riaď náš každý krok. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Šťastní sú tí",
@@ -13010,7 +13830,9 @@ const jsonData = {
                             "plápolá, k večnej svadbe nebies Kráľa i vás ",
                             "Boh raz zavolá. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Váš sňatok Bohom zriadený",
@@ -13059,7 +13881,9 @@ const jsonData = {
                             "spravuj vás v každý čas, vy na svätých ",
                             "modlitbách trvajte v každých dobách."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blažený dom",
@@ -13109,7 +13933,9 @@ const jsonData = {
                             "domov z cudziny. Vovedieš ich tam, Spasiteľu milý, ",
                             "do veľkej, voľnej, krásnej otčiny. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, Bože, zošli požehnanie",
@@ -13136,7 +13962,9 @@ const jsonData = {
                             "nech kliesni pohľad k nebesám, nech Ježišov ",
                             "Duch pojí vás vždy v zväzku lásky plnom krás. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh žehnaj zväzok ten",
@@ -13171,7 +13999,9 @@ const jsonData = {
                             "6. Tam vedie naša púť, kde pokoj, blaženosť, ",
                             "náš kruh i všetok Boží ľud sa spojí na večnosť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh buď s vami",
@@ -13220,7 +14050,9 @@ const jsonData = {
                             "tam Ježiša. Stretneme sa, stretneme sa, ",
                             "Boh buď s vami, kým sa stretneme!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hodina už odbila",
@@ -13259,7 +14091,9 @@ const jsonData = {
                             "Veď srdce od srdca diaľka nerozdvojí! ",
                             "Verné dietky Božie večná láska pojí. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rozchodu čas už prišiel zas",
@@ -13300,7 +14134,9 @@ const jsonData = {
                             "krát, čo sa vidíme spolu tak. S Bohom, ",
                             "s Bohom v novom nebi. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Duša drahá, s Bohom buď",
@@ -13339,7 +14175,9 @@ const jsonData = {
                             "nám tu sviece zhasnú, uvidíme si vlasť krásnu, ",
                             "teba tiež, nuž, s Bohom бuď!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Až zdvihne smrti vlna hlas",
@@ -13378,7 +14216,9 @@ const jsonData = {
                             "Pôjdeš, so sebou nevezmeš nádeje vo zmierenie ",
                             "trestu, bo niet viac milosti, keď prišlo odsúdenie. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Krásnu vlasť pripravil",
@@ -13411,7 +14251,9 @@ const jsonData = {
                         [
                             "ZBOR: . [: Krásnu vlasť na nebi pripravil pre verných Spasiteľ. :] "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kde duša si hľadať má trvalú vlasť",
@@ -13462,7 +14304,9 @@ const jsonData = {
                             "koruny blesk. [: Radosť :] vo večnosti ti bude ",
                             "raz odmenou za úzkosti. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Lepšiu mám domovinu",
@@ -13489,7 +14333,9 @@ const jsonData = {
                             "Kráľom si v tamtej vlasti, milý Ty Pane môj, ",
                             "pozbavíš aj mňa strastí, pomôžeš vyhrať boj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Domov môj tam je na výsostiach",
@@ -13538,7 +14384,9 @@ const jsonData = {
                             "tam je na výsostiach, v nebesiach, v nebesiach, ",
                             "v nebesiach domov môj tam je na výsostiach. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ja viem, že na zemi",
@@ -13569,7 +14417,9 @@ const jsonData = {
                             "v ríši života je môj jasný cieľ. Pomôž mi, ó, Pane, ",
                             "Tebe verným byť, životom i smrťou Teba osláviť!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, už sa poberám",
@@ -13598,7 +14448,9 @@ const jsonData = {
                             "On plač v nádej zmení, že vás po vzkriesení ",
                             "uzriem tam. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nieto stálosti",
@@ -13655,7 +14507,9 @@ const jsonData = {
                             "12. Nieto v márnosti stálej radosti, a bez krvi ",
                             "Baránkovej nieto milosti!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kristus mi je životom",
@@ -13688,7 +14542,9 @@ const jsonData = {
                             "6. Ach, už rád zem opustím, zvody nebezpečné, ",
                             "s Kristom byť a vkročiť s Ním do radosti večnej. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Dosť už, dosť už som tu žil",
@@ -13722,7 +14578,9 @@ const jsonData = {
                             "môj Pán, Ježišu môj, nemeškaj, domov si ma ",
                             "povolaj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Cudzia zem",
@@ -13766,7 +14624,9 @@ const jsonData = {
                             "čo hynul v cudzej zemi, Otcovi je navrátený,",
                             "sláva Božej milosti! Sláva Božej milosti. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ľud verný, nádeje plný",
@@ -13819,7 +14679,9 @@ const jsonData = {
                             "6. Moja duša odpočinie, prostá bojov kríža, tam, ",
                             "kde radosť nepominie v náručí Ježiša. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Neumrela, neumrela",
@@ -13846,7 +14708,9 @@ const jsonData = {
                             "4. Spasiteľu, veď nás k cieľu, spravuj Ty sám časný beh, ",
                             "by sme smeli s Tebou v cieli uzrieť večnej spásy breh. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Smieť usnúť v Pánu",
@@ -13880,7 +14744,9 @@ const jsonData = {
                             "v cudzine sa zmením v prach, Pán o ňom vie",
                             "a vo Svoj čas ho k žitiu v sláve zbudí zas!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Smieť domov ísť",
@@ -13928,7 +14794,9 @@ const jsonData = {
                             "domov ísť a vkročiť v Otcov dom! Smieť domov ",
                             "ísť, tam hore s Otcom bývať. [: Smieť domov ísť! :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rád by šiel",
@@ -13957,7 +14825,9 @@ const jsonData = {
                             "kvety Jeho keď uzrieme, tam nám bude ako vo ",
                             "sne: [: tam, tam, blaží večný máj! :] "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Človeče! Človeče",
@@ -14001,7 +14871,9 @@ const jsonData = {
                             "oslávený: „Poď a vydaj počet svoj!“ „Poď a vydaj",
                             "počet svoj!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aká to slasť, keď príde koniec boju",
@@ -14048,7 +14920,9 @@ const jsonData = {
                             "nám raz odpočinku deň, stíšenie pravé, večné, ",
                             "dokonalé, po ťažkej púti zasľúbená zem. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nie, to mrieť neznamená",
@@ -14082,7 +14956,9 @@ const jsonData = {
                             "k ľudu Božiemu v nebe vzniesť sa, vzdať chválu",
                             "Tebe, Jezu milovaný!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V údolí plačlivom",
@@ -14121,7 +14997,9 @@ const jsonData = {
                             "Ňom. Živá viera smrťou neumiera; Smrť je jej zisk ",
                             "a hrob tmavý dvermi v ríšu slávy. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Žije Ježiš, život môj",
@@ -14160,7 +15038,9 @@ const jsonData = {
                             "a ja svoju zemskú púť v čakaní chcem prežiť stálom, ",
                             "večného kým žitia diel aj mne dá môj Spasiteľ. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nuž pochovajme telo tu",
@@ -14201,7 +15081,9 @@ const jsonData = {
                             "8. Sám Kristus dá nám sily v boj, v Ňom máme pomoc aj diel",
                             "svoj, kým smrti tmavým údolím nás prevedie žiť večne s Ním. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čuj, ó čuj",
@@ -14233,7 +15115,9 @@ const jsonData = {
                             "Príjmi ma a veď ma hore, kde Ti v oslávencov zbore ",
                             "spievať budem s jasotom. Spievať budem s jasotom. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj Pane Tvoja dobrota",
@@ -14266,7 +15150,9 @@ const jsonData = {
                             "6. Keď na veky už slobodný zbor verných v nekonečnom dni ",
                             "pieť bude v hymnách oslavných, smieť budem patriť medzi nich. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tvoja cesta",
@@ -14290,7 +15176,9 @@ const jsonData = {
                         [
                             " "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Odísť do tých lepších krajov",
@@ -14317,7 +15205,9 @@ const jsonData = {
                             "Otváram Ti život celý k Tvojej službe dokorán. ",
                             "Daj by život, ústa peli: Iba Ježiš – On je Pán. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V nebeskej sláve, tam Ježiš môj",
@@ -14344,7 +15234,9 @@ const jsonData = {
                             "slobodou večnou zas darený, zaplesám, zjasám, ",
                             "že Ježiš môj je večnej spásy jediný zdroj. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nás v nebesiach radosti veľa čaká",
@@ -14401,7 +15293,9 @@ const jsonData = {
                             "zo zeme, z mnohých úzkostí do blaženosti. Hallelujah!",
                             "Baránkovi česť pocty chceme niesť. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Buď vítaná milá večnosť",
@@ -14449,7 +15343,9 @@ const jsonData = {
                             "ZBOR: Ó, ty večnosť preblažená, tys’ mi v Kristu zaistená, ",
                             "bo večnosti On je Otcom, On je mojím do nej vodcom. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "V tejto cudzine pokoj nekynie",
@@ -14491,7 +15387,9 @@ const jsonData = {
                             "nemeškaj. Napriek víchrom, tmám napred k nebesám, už je ",
                             "blízko, už je blízko domov nám. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nové nebo i zem novú",
@@ -14520,7 +15418,9 @@ const jsonData = {
                             "zmätky, kvílenie už nebude, Boh sám zotrie slzy všetky z ",
                             "očí spasených. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Do blahej zeme došiel som",
@@ -14551,7 +15451,9 @@ const jsonData = {
                             "3. Vzduch plný sladkej vône je. Od zelených lúčin veje. Tam ",
                             "rajsky kvet vždy prekvitá, tam tečie rieka života. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nič neisté nevstúpi",
@@ -14587,7 +15489,9 @@ const jsonData = {
                             "ZBOR: Nič nečisté nevstúpi, pred Boha svätého. ",
                             "Preto si srdce čisté žiadam, od Boha samého. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boží Syn svetom zneuctený",
@@ -14617,7 +15521,9 @@ const jsonData = {
                             "Pane, my čakáme Ťa roztúžene! Loď cirkvi uveď ",
                             "do prístavu, Siona daruj večnú slávu!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tam z druhej strany tieňov hrobu",
@@ -14648,7 +15554,9 @@ const jsonData = {
                             "ZBOR: Ten ako sneh musí mať vždy svoj šat a ",
                             "v krvi Krista obmytý, kto tam chce prebývať. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Odpočinok pravý čaká",
@@ -14697,7 +15605,9 @@ const jsonData = {
                             "rajská tráva na tom brehu života, žitia strom kde ",
                             "plody zrejú aj ty spočinieš. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Prekrásne miesto znám",
@@ -14721,7 +15631,9 @@ const jsonData = {
                             "znie spev ich. Víťazom po boji tam Pán túžby ukojí ",
                             "radostí vo zdroji nekonečných. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "K horám Božím",
@@ -14754,7 +15666,9 @@ const jsonData = {
                             "Neste zvesť tú šírim svetom k horám, k moriam zeme strán. ",
                             "Kristus Kráľ náš v sláve tróni, budúcnosť že patrí nám. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tu som ja iba hosť",
@@ -14791,7 +15705,9 @@ const jsonData = {
                             "niesol sám: „Ó, buďte zmierený,“ tak volá nebies Pán ",
                             "„Ó, buďte s Bohom zmierený!“"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, či stretneme sa zasa",
@@ -14832,7 +15748,9 @@ const jsonData = {
                             "ZBOR: Áno, stretneme sa zasa, anjelských kde spevov tón, ",
                             "žitia strom kde zelená sa, Pán kde má svoj zlatý trón. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Znám miesto vzácne",
@@ -14873,7 +15791,9 @@ const jsonData = {
                             "ZBOR: Ó, Boží trón, ó, Boží trón, milosti svätý trón, ó, ",
                             "Boží trón, ó, Boží trón, tu dal mi spásu On!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nezajde už slnce tvoje",
@@ -14912,7 +15832,9 @@ const jsonData = {
                             "zakončia dni smútku tvojho, zakončia dni smútku tvojho ",
                             "ver, zakončia navždy tam. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Až bude Boh súdiť svet",
@@ -14948,7 +15870,9 @@ const jsonData = {
                             "ZBOR: Tam budeme aj my v ten veľký deň a slávny, ",
                             "keď mŕtvi povstanú a všetci Kristu chválu česť vzdajú. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Čas rýchlo sa už kráti",
@@ -14977,7 +15901,9 @@ const jsonData = {
                             "sa vždy dívať na Kráľa slávy žiar. Nie na žitia korunu, lež ",
                             "preklatú ruku, keď prejdem v ríšu slávnu, v ríšu nebeskú. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blíži sa deň s leskom zlatým",
@@ -15018,7 +15944,9 @@ const jsonData = {
                             "ZBOR: A ja v tej preslávnej chvíli, s tými, ktorí zvíťazili, ",
                             "sláviť budem večne, hojne meno predôstojné.  "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, tvoj Kráľ sa k tebe berie",
@@ -15051,7 +15979,9 @@ const jsonData = {
                             "Sláva Ti buď, Synu Boží, mojím žitím vzdávaná, príchod ",
                             "Tvoj nám radosť množí. Na výsostiach Hossana!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hore zraky, ľude Boží",
@@ -15084,7 +16014,9 @@ const jsonData = {
                             "Krivdy sveta, bolesť, žiale prejdú jako ťažký sen. ",
                             "Nad horami novej zeme večný pre nás svitá deň. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Z mesta skazy",
@@ -15111,7 +16043,9 @@ const jsonData = {
                             "neskryješ sa nikde v sveta končinách. Ruka Pána dostihne",
                             "ťa čo aj v mora hlbinách. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ej, nejednu ešte slzu",
@@ -15136,7 +16070,9 @@ const jsonData = {
                             "4. Ale potom, aká radosť, aká sláva veliká! Príde Ježiš – vziať v Svoj ",
                             "domov, príde Ježiš vziať v Svoj domov. Zomdleného pútnika. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Aký slávny bude príchod",
@@ -15166,7 +16102,9 @@ const jsonData = {
                             "Buďme preto vernými v tomto časnom živote, keď Pán príde s vojmi ",
                             "svätými, bude slávny v odplate. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Daj Pane, bych bol uveden",
@@ -15191,7 +16129,9 @@ const jsonData = {
                             "4. Na Tvojom srdci, Ježiši, sa časná bolesť utíši, [: bo v svätom",
                             "Tvojom objatí hriech už moc navždy utratí. :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hľa, z neba sa už poberá",
@@ -15223,7 +16163,9 @@ const jsonData = {
                             "6. Ó, Pane, čo máš v rukách súd, v ten deň mne milostivý buď ",
                             "a zaradenie vtedy mi daj po pravici s vernými. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kráľ nebeský svojmu Synu",
@@ -15286,7 +16228,9 @@ const jsonData = {
                             "ZBOR: „Ženích ide!?“ Čuť volania „Výjdite mu v ústrety!“ ",
                             "Blíži sa deň povýšenia Baránkovej nevesty. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Blíži sa vek, ten blažený",
@@ -15331,7 +16275,9 @@ const jsonData = {
                             "ZBOR: Temno noci mizne už! Ustupuje dennici! Ó, ľud ",
                             "Boží, ako strážny muž vítaj deň sa blížiaci!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nevesta sa pripravuje",
@@ -15355,7 +16301,9 @@ const jsonData = {
                             "prestol preňho pripravia. Potom cirkev premenená so Ženíchom ",
                             "nebeským v jasnom svite Jeho slávy vzlietne k svetom nadzemským. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, poďte cez Jordán",
@@ -15388,7 +16336,9 @@ const jsonData = {
                             "sveta zhrdnúť smel, ten zrie už blaha zem, Ó, poďte cez Jordán ",
                             "uzrieť zem . . . "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kedy bude Ježiš vládnuť zemi",
@@ -15409,7 +16359,9 @@ const jsonData = {
                             "Pokoja zvesť nech sa šíri tvoja, spraví koniec nenávisti, boja, ",
                             "aby zeme stvorenie našlo s nebom zmierenie. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, vykročte v ten nový svet",
@@ -15458,7 +16410,9 @@ const jsonData = {
                             "ZBOR: Vykročme tam do Kanaán, to naša vlasť, má krásu, slasť! ",
                             "Zmužilo vpred vykročme hneď, Pán Ježiš sám je Vodcom nám!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Naveky u Pána",
@@ -15491,7 +16445,9 @@ const jsonData = {
                             "pozemských už nív a večne Pána velebiť za Jeho lásky div, ",
                             "lásky div, lásky div, za Jeho lásky div. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, čujte strážcov mocný hlas",
@@ -15521,7 +16477,9 @@ const jsonData = {
                             "nevídal, ni sluchom neslýchal o radosti, kde prestal žiaľ! Tam Bohu ",
                             "len vzdá česť, moc, slávu nebo, zem!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Darmo sa ty vymlúvaš",
@@ -15545,7 +16503,9 @@ const jsonData = {
                             "Mne; poď, ach, poď!“ Túžobne ťa zvoláva. Srdce Jeho plné k tebe ",
                             "Je ľútosti; no, keď stíchne volať, zhynieš bez milosti. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Raduj sa, ty malé stádo detí Pána",
@@ -15586,7 +16546,9 @@ const jsonData = {
                             "ZBOR: , [: Pozrite! :] Pozdvihnite hlavy hor už príde Pán. ",
                             "[: Pozrite! :] Vykúpenie blízko je nám! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, pripravuj sa, Boží ľud",
@@ -15619,7 +16581,9 @@ const jsonData = {
                             "ZBOR: Slávny deň to bude raz, keď sa Ježiš zjaví zas. ",
                             "Tvoj ľud Ťa čaká, Pane náš, príď, slávny Mesiáš!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rýchlosťou vtáka",
@@ -15648,7 +16612,9 @@ const jsonData = {
                             "5. Rýchlosťou vtáka letí čas, zo zeme preč on nesie nás. ",
                             "[: Nič to, veď až raz zaletíš, čaká ťa večná blaha ríš! :]"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 },
                 {
                     "name": "Amen",
@@ -15660,7 +16626,9 @@ const jsonData = {
                         [
                             "Amen! Amen! Amen! Amen!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duchovne-piesne",
+                    "tags": []
                 }
             ]
         },
@@ -15691,7 +16659,9 @@ const jsonData = {
                             "Mi smo čuli, videli, u Božjoj reči čitali.",
                             "Stvarno je Isus moj predivan."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nema problema",
@@ -15717,7 +16687,9 @@ const jsonData = {
                             "K meni dodjite koji ste umorni - ",
                             "i odmor daću vam."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Neka se svi verni raduju",
@@ -15736,7 +16708,9 @@ const jsonData = {
                             "Hajde kliči sad: Ti si zaklon naš!",
                             "Radujte se sad, svi hrišćani."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ne postoji taj poeta",
@@ -15768,7 +16742,9 @@ const jsonData = {
                             "Zaboravit' nikad neću taj trenutak i tu sreću,",
                             "kada sam Te upoznao, kad sam Tebi život dao."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dao sam svoj život Isusu",
@@ -15793,7 +16769,9 @@ const jsonData = {
                             "Sad čekam Njegov dolazak. (3x)",
                             "Podignut' će me u svoj dom."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Divan si, o veličanstven si",
@@ -15812,7 +16790,9 @@ const jsonData = {
                             "Divan si, o veličanstven si, ",
                             "Isuse naš, isti si Ti danas i vek."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja ću ostavit' brige",
@@ -15846,7 +16826,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja ne znam",
@@ -15871,7 +16853,9 @@ const jsonData = {
                         [
                             "Halelu, halelu, haleluja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ući ću u Njegov dvor",
@@ -15893,7 +16877,9 @@ const jsonData = {
                             "/:Radostan sam ja,:/ ",
                             "jer Isus spasi mene grešnika."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "U imenu Isus",
@@ -15913,7 +16899,9 @@ const jsonData = {
                             "ko će tada protiv nas?!",
                             "U imenu Isus, Isus, imamo pobedu! (2x)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Najlepši dan",
@@ -15941,7 +16929,9 @@ const jsonData = {
                             "kad Hrista upoznaš, dok si još mlad!",
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ne živim više ja",
@@ -15955,7 +16945,9 @@ const jsonData = {
                             "On živi, On živi, Isus živi u meni.",
                             "Ne živim više ja, nego Hrist živi u meni."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hevejnu šalom Alejhem",
@@ -15980,7 +16972,9 @@ const jsonData = {
                             "Samo u Hristu traži mir. (3x)",
                             "Samo u Hristu traži večni Božji mir."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hriste, Ti si predivan",
@@ -15999,7 +16993,9 @@ const jsonData = {
                             "Svakim danom sve je jača Tvoja živa Reč u meni ",
                             "i ja znam da, Hriste, Ti si predivan!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kralj kraljeva",
@@ -16015,7 +17011,9 @@ const jsonData = {
                         [
                             "/:Isus, Princ mira, slava, haleluja!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad spašeni",
@@ -16045,7 +17043,9 @@ const jsonData = {
                             "o, Bože, želim biti medju njima, ",
                             "kad proziva imena sva."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Još samo malo",
@@ -16074,7 +17074,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja putnik sam",
@@ -16095,7 +17097,9 @@ const jsonData = {
                             "Preći ću samo reku , ",
                             "pa sam kod kuće za svagda."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Mi smo jedno u Duhu",
@@ -16130,7 +17134,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Moj Bog, On mi je najdraži",
@@ -16148,7 +17154,9 @@ const jsonData = {
                         [
                             "On živi 3x sad u meni."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja te volim",
@@ -16183,7 +17191,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja volim Te",
@@ -16198,7 +17208,9 @@ const jsonData = {
                             "Nek bude sve što Ti pevam ja ",
                             "ugodan zvuk uhu Tvom, Bože moj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus život je",
@@ -16218,7 +17230,9 @@ const jsonData = {
                             "/:O Bože, hvala, stvarno hvala, ",
                             "svakog dana hvalu dajem Ti.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ime je predivno",
@@ -16241,7 +17255,9 @@ const jsonData = {
                             "Pokloni Mu se, voli i poštuj, ",
                             "ime je predivno, Isus moj Bog."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Gle kako dobro",
@@ -16257,7 +17273,9 @@ const jsonData = {
                         [
                             "/:Zajedno, da žive zajedno, la, la, la la, :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Gle, dan se već bliži",
@@ -16284,7 +17302,9 @@ const jsonData = {
                             "a to i moje srce dira, ",
                             "/::o, čoveče, mol' se i ti.::/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ustani i slavi našeg Boga",
@@ -16324,7 +17344,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "U Bogu mom",
@@ -16338,7 +17360,9 @@ const jsonData = {
                             "On je taj što zgazi neprijatelja.",
                             "Pevam i kličem: pobeda! Hrist je Kralj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Cela nek zemlja",
@@ -16362,7 +17386,9 @@ const jsonData = {
                             "Jer velik je Bog u snazi i časti, ",
                             "o, raduj se, Gospod vlada tvoj! (2x)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Tvoja reč je lampa",
@@ -16394,7 +17420,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ti si temelj",
@@ -16415,7 +17443,9 @@ const jsonData = {
                             "Ti si bio moja pomoć u nevolji. ",
                             "Gospode ,Tebi ću se predat'."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Božja ljubav",
@@ -16447,7 +17477,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Boga slaviću",
@@ -16464,7 +17496,9 @@ const jsonData = {
                             "/:Slavim Te, Bože moj, ",
                             "za Tvoju slavnu pobedu.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Bože, hvala Ti za sve",
@@ -16498,7 +17532,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Blagosiljajte",
@@ -16513,7 +17549,9 @@ const jsonData = {
                             "Dižite ruke prema svetištu, ",
                             "i Jahvu blagosiljajte."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Predivan",
@@ -16528,7 +17566,9 @@ const jsonData = {
                             "Brižljivo nosi me. Vidik mi otvara.",
                             "Isus je predivan u životu mom."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pevajmo slava Gospodu",
@@ -16553,7 +17593,9 @@ const jsonData = {
                             "/:Haleluja, haleluja!:/",
                             "/:O, haleluja!:/ Haleluja, haleluja!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Abba, Oče",
@@ -16568,7 +17610,9 @@ const jsonData = {
                             "Srce moje ispuni, nemoj me ostaviti. ",
                             "Abba, Oče, vodi me,Ti i samo Ti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "On je iz večne slave",
@@ -16594,7 +17638,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Želim o Hristu pričati",
@@ -16621,7 +17667,9 @@ const jsonData = {
                             "sav greh moj oduze i od njeg' oslobodi",
                             "i za uvek tad mi darova život večni."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Želim slaviti",
@@ -16640,7 +17688,9 @@ const jsonData = {
                         [
                             "Haleluja, haleluja..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "A la la la la la",
@@ -16672,7 +17722,9 @@ const jsonData = {
                         [
                             "Digni svoju ruku..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Odlučio sam",
@@ -16701,7 +17753,9 @@ const jsonData = {
                             "Uzmite sav svet, dajte mi Hrista, (3x) ",
                             "neću se vratiti nikad."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "On je Kralj",
@@ -16722,7 +17776,9 @@ const jsonData = {
                             "Svi će gledati, svi će priznati ",
                             "da Isus Gospod je!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Sretnimo se",
@@ -16756,7 +17812,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Sve brige Ti predajem",
@@ -16772,7 +17830,9 @@ const jsonData = {
                             "šta da činim ja,",
                             "svoje brige ću bacit' na Te."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Niko ne zna",
@@ -16803,7 +17863,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nek cela zemlja",
@@ -16819,7 +17881,9 @@ const jsonData = {
                         [
                             "/:O haleluja, haleluja, haleluja, pevajmo!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dajemo Ti hvalu",
@@ -16838,7 +17902,9 @@ const jsonData = {
                             "/:Jer Ti si Bog, silna Čuda Činiš Ti.",
                             "Niko nije kao Ti, niko nije kao Ti!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dobih mir",
@@ -16857,7 +17923,9 @@ const jsonData = {
                         [
                             "Dobih ljubav kao more..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dodjite da se poklonimo",
@@ -16872,7 +17940,9 @@ const jsonData = {
                             "/:Jer On je naš Bog a mi smo Njegovi ljudi ",
                             "i ovce paše Njegove.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Lutao sam",
@@ -16904,7 +17974,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "To je predivno",
@@ -16928,7 +18000,9 @@ const jsonData = {
                             "ako želiš Njemu uvek služiti,",
                             "ako želiš večni život imati - dodji Hristu sad!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ti si moj Bog",
@@ -16943,7 +18017,9 @@ const jsonData = {
                             "Ti si moj Gospod, ",
                             "zato ti pevam sad: Haleluja, haleluja! (4x)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ti moraš čekati",
@@ -16958,7 +18034,9 @@ const jsonData = {
                             "I u pravi čas ti čućeš Njegov glas ",
                             "i onda podji i ispuni svaku Reč."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ti, moja zaštito",
@@ -16976,7 +18054,9 @@ const jsonData = {
                             "\"Ja sam jak u snazi Boga mog!\" ",
                             "Ja Ti verujem."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Tvoja je milost (II)",
@@ -17002,7 +18082,9 @@ const jsonData = {
                             "Ja ću te hvalit', ja ću Te slavit’,",
                             "podići ruke pred Tvojim imenom."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Tvoja je milost (I)",
@@ -17029,7 +18111,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Težite najpre",
@@ -17049,7 +18133,9 @@ const jsonData = {
                             "Haleluja, haleluja, haleluja, ",
                             "halelu, haleluja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "To je Bog",
@@ -17076,7 +18162,9 @@ const jsonData = {
                             "Niko na zemlji toj slave nije dostojan. ",
                             "Da, to je Bog kome služimo mi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ku krížu prichádzam",
@@ -17115,7 +18203,9 @@ const jsonData = {
                             "Volal si:Poď! idem, celé srdce nesiem:",
                             "ó, Ty mi ho, Pane, očistíš."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "To je Bog",
@@ -17142,7 +18232,9 @@ const jsonData = {
                             "Niko na zemlji toj slave nije dostojan. ",
                             "Da, to je Bog kome služimo mi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Tebi, Gospode",
@@ -17157,7 +18249,9 @@ const jsonData = {
                             "Tebi, Gospode, ruke podižem,",
                             "Tebi, Bože, nad vojskama!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "U Bogu jedno smo",
@@ -17181,7 +18275,9 @@ const jsonData = {
                             "Ceo svet nek zna da mi svi Njega slavimo. ",
                             "Njega slavimo!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "U ovim prilikama",
@@ -17200,7 +18296,9 @@ const jsonData = {
                             "/::Pevajući ja Te ljubim.::/",
                             "Ja Te ljubim!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad nevolje dodju",
@@ -17227,7 +18325,9 @@ const jsonData = {
                             "i sreću koju dobih ja,",
                             "od Hrista, moga Spasa, haleluja!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kako je divno i dobro",
@@ -17247,7 +18347,9 @@ const jsonData = {
                             "ševet ahim gam - jahad!:/",
                             "/:Hine ma - tov ševet ahim gam - jahad.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kroz moj život",
@@ -17276,7 +18378,9 @@ const jsonData = {
                             "Kroz moj život proslavi se, proslavi se.",
                             "Kroz moj život danas se proslavi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Svladaćemo kušnje sve",
@@ -17307,7 +18411,9 @@ const jsonData = {
                             "Verujem ja u srcu svom: ",
                             "Bog je s nama svaki dan."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Svet Bog",
@@ -17326,7 +18432,9 @@ const jsonData = {
                             "Tvoja je milost kao izvor. ",
                             "Srce je moje slobodno."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hriste, ovom pesmom",
@@ -17350,7 +18458,9 @@ const jsonData = {
                             "Primer kako voleti si dao Ti. ",
                             "Hriste, život ljubavi podari nam."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja, Isus dolazi",
@@ -17375,7 +18485,9 @@ const jsonData = {
                             "On će skoro doći ponovo, (3x)",
                             "amen, amen!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja znam da Bog za mene ima put",
@@ -17399,7 +18511,9 @@ const jsonData = {
                             "Sa životom, rečima svakog dana slavim  ",
                             "Ja znam da Bog na dobro vodi sve."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Još ove noći",
@@ -17418,7 +18532,9 @@ const jsonData = {
                             "/:To Božja reč upozorava baš sve nas:",
                             "da će Hrist doći, da ćemo čuti svi Njegov glas!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Jagnje sveto",
@@ -17441,7 +18557,9 @@ const jsonData = {
                             "Ja slavim Te, dostojno jagnje, ",
                             "i u Čast Tebi ja sada klanjam se."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Jedina nada si Ti",
@@ -17480,7 +18598,9 @@ const jsonData = {
                             "Od ranoga jutra do kasno u noć ",
                             "sve što ja želim si Ti!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isuse, u Tvojim rukama",
@@ -17510,7 +18630,9 @@ const jsonData = {
                             "Gospoda mog videću tamo, ",
                             "“Dobro došao” - kazaće On."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ima dana",
@@ -17527,7 +18649,9 @@ const jsonData = {
                             "ali ipak ću pevati imenu Tvom.",
                             "Haleluja...."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad bih znao zemlju",
@@ -17559,7 +18683,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "On je naš mir",
@@ -17576,7 +18702,9 @@ const jsonData = {
                             "/:Predaj brige Njemu jer On brine za nas.",
                             "On je naš mir, On je naš mir.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Od Tebe uvek tražim sve",
@@ -17605,7 +18733,9 @@ const jsonData = {
                             "u, u, u,  moja ljubav, moja sreća,",
                             "Ti si mi sve."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Moj mir ja dajem Tebi",
@@ -17632,7 +18762,9 @@ const jsonData = {
                             "To je ljubav što je svet ne može razumeti.",
                             "Moju ljubav ja dajem tebi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Moj Bog i ja",
@@ -17659,7 +18791,9 @@ const jsonData = {
                             "Makar će život, pa i svet taj proći,",
                             "ja znam: moj Bog me vodi cilju svom."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Plakala sam mnogo puta",
@@ -17689,7 +18823,9 @@ const jsonData = {
                             "jer da nisam imao problema, ne bih znao ",
                             "da On može tako divno da ih reši sve."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pronikni me",
@@ -17710,7 +18846,9 @@ const jsonData = {
                             "Silu svoju izlij sad na mene, ",
                             "da bih mog'o proslaviti Tebe."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Neka svi budu jedno",
@@ -17735,7 +18873,9 @@ const jsonData = {
                             "jer želimo biti skladni ",
                             "udovi tela Tvog."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nešto predivno",
@@ -17750,7 +18890,9 @@ const jsonData = {
                             "Dao sam Mu život svoj u ruševinama, ",
                             "a On ga promeni, smisao tad mu da."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nek´ se sila",
@@ -17764,7 +18906,9 @@ const jsonData = {
                             "Slomi me, skrši me, očisti me, iskupi me.",
                             "Nek' se sila Duha Tvog spusti na mene. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Veži nas zajedno",
@@ -17783,7 +18927,9 @@ const jsonData = {
                             "Postoji jedan Bog, postoji jedan Sin,",
                             "postoji jedan Duh, zato pevajmo svi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Vlast je u Hristovoj ruci",
@@ -17812,7 +18958,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad dodje čas",
@@ -17834,7 +18982,9 @@ const jsonData = {
                             "Život svoj Ti predajem, svaku pesmu, ",
                             "svaku reč. Nek je sve u pravi čas, u Tvoj čas."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad osamljen boriš se",
@@ -17864,7 +19014,9 @@ const jsonData = {
                             "Kušnje kada muče te, strah te obuzima.",
                             "Jedan je koj' ljubi te. On te ne ostavlja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "O, ja ću pevati",
@@ -17883,7 +19035,9 @@ const jsonData = {
                             "O, ja ću pevati Tebi radosno, ",
                             "jer Ti si stena mog spasenja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Osvanu jutro",
@@ -17915,7 +19069,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dok se divim",
@@ -17941,7 +19097,9 @@ const jsonData = {
                             "/:Ja slavim Te, da slavim Te, ",
                             "Ja živim zbog tog da slavim Te!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Drage su stope",
@@ -17961,7 +19119,9 @@ const jsonData = {
                             "/:Vladar je Bog!",
                             "Vladar je Bog!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dan na dan",
@@ -17980,7 +19140,9 @@ const jsonData = {
                             "slediću Ga (slediću Ga),",
                             "kud me želi, ja ću poć. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Deca smo nebeskog Oca",
@@ -18001,7 +19163,9 @@ const jsonData = {
                             "Slavim Isusa, slavim,",
                             "jer On je moj Pobednik! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Divan si",
@@ -18016,7 +19180,9 @@ const jsonData = {
                             "Kad pogledom me pratiš Ti, ",
                             "milost me prekriva."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dve najlepše reči",
@@ -18041,7 +19207,9 @@ const jsonData = {
                             "O, neka život bude lep za nas,",
                             "jer ljubav veže nas."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Dok smo zajedno",
@@ -18056,7 +19224,9 @@ const jsonData = {
                             "Znajuć’ da kad srca počnu štovati Te,",
                             "Tvoj blagoslov sprema se."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Najveći Ti si, o Bože",
@@ -18074,7 +19244,9 @@ const jsonData = {
                             "Mi Te  Te slavimo, ",
                             "mi Te slavimo, Isuse."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nebeski Oče",
@@ -18096,7 +19268,9 @@ const jsonData = {
                             "Moj Bog je ljubav bez kraja.:/",
                             "(Drugi put: Moj Bog je tu, uvek kraj mene.)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ni jedna ljubav",
@@ -18111,7 +19285,9 @@ const jsonData = {
                             "Veličamo i divimo se Tebi ",
                             "ispunjeni ljubavlju Tvojom."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus, najuzvišenije ime",
@@ -18126,7 +19302,9 @@ const jsonData = {
                             "Emanuel, Bog je sa nama, ",
                             "Otkupitelj divni, živa Reč."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isuse, volim Te (I)",
@@ -18141,7 +19319,9 @@ const jsonData = {
                             "i sve što je u meni želi pevati. ",
                             "Isuse, volim Te. "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isuse, volim Te (II)",
@@ -18159,7 +19339,9 @@ const jsonData = {
                             "da druga ljubav me ne zadovoljava.",
                             "Isuse, volim Te, osvojio si me."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus",
@@ -18177,7 +19359,9 @@ const jsonData = {
                             "Večno je živ...",
                             "Živim sa Njim..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Emanuel",
@@ -18198,7 +19382,9 @@ const jsonData = {
                             "/: ljubimo.  ljubimo. ",
                             "On se zove Emanuel.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Bože, želimo reći Ti hvala",
@@ -18220,7 +19406,9 @@ const jsonData = {
                             "/::Ljubimo Tebe, o Bože,::/",
                             "jer Ti si nas ljubio pre."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Bog posla svog",
@@ -18248,7 +19436,9 @@ const jsonData = {
                             "U času tom rećiću svom Spasu:",
                             "\"Hvala Ti za sve što učini za mene!\""
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isuse, o Isuse",
@@ -18262,7 +19452,9 @@ const jsonData = {
                             "/::Oslobodi nas!::/",
                             "Predajemo Tebi sve u slavljenju."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus, nema lepšeg imena",
@@ -18277,7 +19469,9 @@ const jsonData = {
                             "O, Isus, dobri Pastir stada svog.",
                             "Ja ću ime Isus slaviti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus, Isus, svet si Ti",
@@ -18293,7 +19487,9 @@ const jsonData = {
                             "Tvoja Reč je kao lampa mojim stopama.",
                             "Isuse, volim Te, ja volim Te!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Isus je Car",
@@ -18312,7 +19508,9 @@ const jsonData = {
                             "REF: ",
                             "NA, NA, NA, ..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Gospode, molim Te sad",
@@ -18334,7 +19532,9 @@ const jsonData = {
                             "i u domu Tvome ",
                             "budem zauvek.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Gospode naš",
@@ -18361,7 +19561,9 @@ const jsonData = {
                             "Tvoje ime predivno je.",
                             "Tvoje ime slavimo."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Galileja",
@@ -18392,7 +19594,9 @@ const jsonData = {
                             "/: Učinio je čudesa,",
                             "zato Ga slavi zemlja sva. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Božja ljubav",
@@ -18411,7 +19615,9 @@ const jsonData = {
                             "slavim Tebe ja svom dušom svojom, ",
                             "jer Ti si moj Kralj, Ti si moj Kralj! "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Bog svemoguć stupa",
@@ -18434,7 +19640,9 @@ const jsonData = {
                             "Mi Ga pratimo u Njegovim stopama.",
                             "Njegovu slavu naša videće zemlja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Biću miran",
@@ -18448,7 +19656,9 @@ const jsonData = {
                             "Biću miran da Ti se klanjam ",
                             "i obožavam, blagosloveni, Emanuel, Isus."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Baraj ke najdeš",
@@ -18483,7 +19693,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hvalu daj",
@@ -18504,7 +19716,9 @@ const jsonData = {
                             "to sve učini za nas On, naš Bog.:/",
                             "Hvalu daj!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hosana, hosana, hosana",
@@ -18525,7 +19739,9 @@ const jsonData = {
                             "Budi slavljen, o Bože naš. ",
                             "Slava Kralju kraljeva!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Želim da slavim Te",
@@ -18550,7 +19766,9 @@ const jsonData = {
                             "Pevat želim ja, ",
                             "dižem svoje ruke Tebi, Gospode."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Živi Gospodu",
@@ -18583,7 +19801,9 @@ const jsonData = {
                             "služi Gospodu, sad sve je novo, gle,",
                             "rodjen Duhom Božjim - novi čovek si!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja, hosijana",
@@ -18606,7 +19826,9 @@ const jsonData = {
                         [
                             "On će doći! (12x)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Hriste, život dajem sad Tebi",
@@ -18642,7 +19864,9 @@ const jsonData = {
                             "zbog mene život dao da bi ",
                             "sa Ocem me izmirio."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Od ranog jutra",
@@ -18661,7 +19885,9 @@ const jsonData = {
                             "Njemu pripada sva slava i čast, ",
                             "blagoslovljen On od sada do večnosti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "O, kako divno je",
@@ -18680,7 +19906,9 @@ const jsonData = {
                             "Bog dade Sina svog.",
                             "O, kako divna je ta Božja ljubav!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Oslobodi me!",
@@ -18695,7 +19923,9 @@ const jsonData = {
                             "Oslobodi me svega što vezuje! ",
                             "Oslobodi me! To želim ja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Slavimo sad Tebe",
@@ -18712,7 +19942,9 @@ const jsonData = {
                             "Primi ovu ljubav naših srca žar,",
                             "zajedno sad pevajmo, ja ljubim Te!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Slavićemo Jagnje Božje",
@@ -18734,7 +19966,9 @@ const jsonData = {
                             "samo ćemo reći da Te volimo, Bože,",
                             "samo ćemo reći da Te slavimo, Hriste."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Silni Bog",
@@ -18751,7 +19985,9 @@ const jsonData = {
                             "U slavi Njeg'voj mi ćemo prebivati,",
                             "večno Ga slaviti, haleluja, On je naš Bog!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Stavi ruku u ruku",
@@ -18777,7 +20013,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nebeski Oče, mi slavimo",
@@ -18792,7 +20030,9 @@ const jsonData = {
                             "Primi ljubav i hvalu, divljenje, slavu.",
                             "Nebeski Oče, mi slavimo Te!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nebesku slavu napusti",
@@ -18825,7 +20065,9 @@ const jsonData = {
                         [
                             "Ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Neka zauvek traje",
@@ -18842,7 +20084,9 @@ const jsonData = {
                             "Ja ću pevat' Bogu svom sve dok sam živ.",
                             "Ja ću slavit' Tvorca svog dok je života mog."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Nebeski Oče, mi Te volimo",
@@ -18864,7 +20108,9 @@ const jsonData = {
                             "Slavljen nek je Bog svemogući",
                             "jer veČno vlada On!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Niko kao Ti",
@@ -18878,7 +20124,9 @@ const jsonData = {
                             "i hoću celu večnost tražiti,",
                             "ja znam - niko kao Ti!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Proboden si Ti",
@@ -18903,7 +20151,9 @@ const jsonData = {
                             "zauvek si tu, u srcu mom.",
                             "moj život je zauvek Tvoj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pevaj pesmu novu",
@@ -18922,7 +20172,9 @@ const jsonData = {
                         [
                             "/:Haleluja, slavi Boga.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pevaću Gospodu mom",
@@ -18942,7 +20194,9 @@ const jsonData = {
                             "slavi Gospoda.::/",
                             "Proslavljaj , dušo moja, slavi "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Približi me, Hriste",
@@ -18957,7 +20211,9 @@ const jsonData = {
                             "Približi me, Hriste, bliže sebi, Gospode, ",
                             "moja želja je da slavim i slušam Te."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pokreni nas, Bože",
@@ -18978,7 +20234,9 @@ const jsonData = {
                             "/:Udruženi sada mi hvalimo Tebe:",
                             "\"Nek slava je imenu Tvom!\":/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Čisto srce",
@@ -18997,7 +20255,9 @@ const jsonData = {
                             "Radost spasenja u srce stavi mi ",
                             "i obnovi Duh Sveti u meni."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Bože, Ti si moj Bog",
@@ -19015,7 +20275,9 @@ const jsonData = {
                             "Korak po korak me vodiš",
                             "i slaviću Te zauvek."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Naš Bog",
@@ -19029,7 +20291,9 @@ const jsonData = {
                             "On vlada nad svima u ljubavi.",
                             "Silni naš Bog, tako divan Bog!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ti si u slavljenju",
@@ -19052,7 +20316,9 @@ const jsonData = {
                             "ja ću sada pred Tobom igrati ",
                             "i Tebe ljubiti."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Više nego žrtve",
@@ -19067,7 +20333,9 @@ const jsonData = {
                             "imaj srce ponizno i poslušno;",
                             "više nego žrtve i slavljenje."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Velik je Bog",
@@ -19083,7 +20351,9 @@ const jsonData = {
                             "grad je slavan to Boga našega ",
                             "i Cara velikoga."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Voljno dolazimo",
@@ -19098,7 +20368,9 @@ const jsonData = {
                             "da Te slavimo i svi služimo.",
                             "Voljno dolazimo Tebi, o Bože naš."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Uzvisi Ga",
@@ -19119,7 +20391,9 @@ const jsonData = {
                             "/:Jer Ti umro si za :/",
                             "Jer Ti ljubiš me, Ti ljubiš me, jer Ti ljubiš me."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "U svetu greha",
@@ -19148,7 +20422,9 @@ const jsonData = {
                             "Kuca On stalno, čeka i moli,",
                             "jer On i mene iz ovog sveta izbavit’ želi."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Halelu, halelu, haleluja",
@@ -19165,7 +20441,9 @@ const jsonData = {
                             "Slavi Boga, haleluja! Slavi Boga, haleluja!",
                             "Slavi Boga, haleluja! Slavi Boga!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja, svaki dan",
@@ -19180,7 +20458,9 @@ const jsonData = {
                             "Kad problemi naidju, digni glavu i reci:",
                             "Haleluja, svaki dan!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kada ustajem u jutro",
@@ -19204,7 +20484,9 @@ const jsonData = {
                             "kada mislim ja na Isusa.::/",
                             "O haleluja, o haleluja, o haleluja."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "K’o slomljena grana",
@@ -19228,7 +20510,9 @@ const jsonData = {
                             "/:Mesija je On!:/ Haleluja",
                             "/:Mesija je On!:/ "
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Ja imam nešto",
@@ -19249,7 +20533,9 @@ const jsonData = {
                             "Ja imam nešto što svet ne daje",
                             "i od mene uzet’ ne može. NE!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Kad si sretan",
@@ -19278,7 +20564,9 @@ const jsonData = {
                         [
                             "Kad si sretan ti ponovi ovo sve..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Otvori nam oči",
@@ -19293,7 +20581,9 @@ const jsonData = {
                             "Otvori nam uši za božanske reči.",
                             "Otvori nam oči, Isuse, za Tebe."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Pored reke Babilona",
@@ -19314,7 +20604,9 @@ const jsonData = {
                             "no kako mi u tudjoj zemlji",
                             "da pevamo Bogu?"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Stvoritelju neba",
@@ -19345,7 +20637,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "Želim Tebe, Bože",
@@ -19360,7 +20654,9 @@ const jsonData = {
                             "da vidim ljubav Tvoju kroz sav život moj,",
                             "da učim slušati Tvoj glas, o Gospode."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 },
                 {
                     "name": "On vydal seba za mňa",
@@ -19377,7 +20673,9 @@ const jsonData = {
                             "Nežijem už ja, ale žije vo mne On,",
                             "nežijem už ja, ale žije vo mne Ježiš."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "duhovne-pesme",
+                    "tags": []
                 }
             ]
         },
@@ -19405,7 +20703,9 @@ const jsonData = {
                         [
                             "Haleluja, dnes Pána chváľ!  (4x)"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ľúbime Teba, drahý Otče",
@@ -19426,7 +20726,9 @@ const jsonData = {
                             "Požehnaný Pán Boh náš slávny,",
                             "čo večnú vládu má!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Nebeskú slávu opustil",
@@ -19458,7 +20760,9 @@ const jsonData = {
                             "To mi hovorí, že mám ľúbiť",
                             "každého priateľa."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Modli sa",
@@ -19491,7 +20795,9 @@ const jsonData = {
                             "/: čakaj Ho každý večer,",
                             "čakať Ho neprestaň!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Domov večný",
@@ -19524,7 +20830,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Dokázal som mnohokrát",
@@ -19554,7 +20862,9 @@ const jsonData = {
                             "ja som Tvoju cestu spásy ",
                             "trochu divne pochopil."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Božia láska",
@@ -19586,7 +20896,9 @@ const jsonData = {
                             "Poď do náruče Božej. Večnú lásku nájdeš ",
                             "v nej, len poď!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Boh je láska",
@@ -19599,7 +20911,9 @@ const jsonData = {
                             "Boh je láska a zákon lásky dal i nám:",
                             "Miluj blížnych tak ako seba - vraví Ježiš Pán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Bože, Otče",
@@ -19627,7 +20941,9 @@ const jsonData = {
                             "budem spievaŤ chvály,",
                             "kým život mám! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Náš Pán",
@@ -19642,7 +20958,9 @@ const jsonData = {
                             "On má všetku vládu a moc,",
                             "náš Pán, On je kráľov Kráľ!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Neboj sa, vždy len ver",
@@ -19660,7 +20978,9 @@ const jsonData = {
                         [
                             "/: Zober si Ho za priateľa teraz, už i hneď. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Náš Boh vládne",
@@ -19679,7 +20999,9 @@ const jsonData = {
                             "Celý vesmír k trónu zavolá:",
                             "/:\"Ježiš Kristus - On je pánov Pán!\":/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "To ja, ó, Pane môj,",
@@ -19700,7 +21022,9 @@ const jsonData = {
                             "ani môj kňaz, ani vládca, ale som to ja,",
                             "stojím tu v modlidbách."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Toto je deň",
@@ -19727,7 +21051,9 @@ const jsonData = {
                             "radujme sa, zaznej pieseň chvál.",
                             "Dnes je ten deň, ktorý dal nám Pán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ty si ten najvyšší Pán",
@@ -19745,7 +21071,9 @@ const jsonData = {
                             "vďačnú pieseň chvál,",
                             "Teba velebím, môj Pán!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Tebe spievam žalmy",
@@ -19759,7 +21087,9 @@ const jsonData = {
                             "spievam žalmy chvál, môj Pán,",
                             "lebo predivné a sväté meno máš! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ty si môj Pastier",
@@ -19785,7 +21115,9 @@ const jsonData = {
                             "no dnes viem, že si to najlepšie, čo mám.",
                             "\t"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Halelu, halelu, haleluja",
@@ -19812,7 +21144,9 @@ const jsonData = {
                             "/::Pán blízko je, haleluja.::/",
                             "Pán blízko je."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ďakujem za krásne rána",
@@ -19837,7 +21171,9 @@ const jsonData = {
                             "Ďakujem za krásne rána, za prežité dni.",
                             "Ďakujem za život, ktorý si nám dal."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Haleluja šabalabalabambam",
@@ -19863,7 +21199,9 @@ const jsonData = {
                             "/::On žije v nebi a príde zas!::/",
                             "Amen, amen."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Hosana",
@@ -19888,7 +21226,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chcem vojsť do Pánových bran",
@@ -19910,7 +21250,9 @@ const jsonData = {
                             "Chcem tešiť sa, ",
                             "môj Pán mi šťastie dal!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chvály žalm",
@@ -19935,7 +21277,9 @@ const jsonData = {
                             "Ježiš je Kráľ! Stále Ho chváľ!",
                             "Kráľov je Kráľ!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ja mám niečo",
@@ -19956,7 +21300,9 @@ const jsonData = {
                             "Ja mám niečo, čo svet nemôže dať,",
                             "ani mi to nemôže vziať."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Je dokonáno",
@@ -19976,7 +21322,9 @@ const jsonData = {
                             "v tomto národe!",
                             "/: Haleluja, :/ Ježíš je náš Pán!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježišu, si môj Kráľ",
@@ -20005,7 +21353,9 @@ const jsonData = {
                             "veľký, nekonečný, Alfa i Omega, ",
                             "Alfa i Omega. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš, najdrahšie meno",
@@ -20020,7 +21370,9 @@ const jsonData = {
                             "Emanuel, Boh je s nami,",
                             "Spasiteľ slávny, živý Pán."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš, Ty máš meno",
@@ -20047,7 +21399,9 @@ const jsonData = {
                             "Ó, Ježiš, dvíham svoj hlas a vyznávam,",
                             "že svoj život v Tvojich rukách mám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď Duch Boží ma naplní",
@@ -20081,7 +21435,9 @@ const jsonData = {
                             "ako Dávid jasať chcem. :/",
                             "/: /: Ako Dávid:/ 3x jasať chcem.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Keď mám pred očami",
@@ -20108,7 +21464,9 @@ const jsonData = {
                             "Chválu Ti vzdám, chválu Ti vzdám,",
                             "môj PriateĽ a Pán, všeko v Tebe mám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Krič, haleluja",
@@ -20124,7 +21482,9 @@ const jsonData = {
                         [
                             "Spievaj… tlieskaj… skáč… hraj… modli sa..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Kto je Pánom džungle?",
@@ -20140,7 +21500,9 @@ const jsonData = {
                             "Poviem vám to: J-E-Ž-I-Š je Pánom mojím,",
                             "On je Pánom vesmíru, džungle i vody."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Môj Boh, Tebe spievam",
@@ -20157,7 +21519,9 @@ const jsonData = {
                             "šťastný som len v Tvojom objatí.",
                             "/: Kto je ako Ty? :/ Môj Boh predivný!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "My dvíhame ruky",
@@ -20181,7 +21545,9 @@ const jsonData = {
                             "ma plní úžasom, v pokore sa skláňam ",
                             "pred Tebou."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "On je Pán",
@@ -20197,7 +21563,9 @@ const jsonData = {
                             "Pred Ním skloní sa každé koleno,",
                             "veď Ježiš - On je Pán!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "On je silný Boh Izraelov",
@@ -20219,7 +21587,9 @@ const jsonData = {
                             "s radosťou tancovať,",
                             "nemí budú spievať."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ó, vyvýšený Pán",
@@ -20234,7 +21604,9 @@ const jsonData = {
                             "/: Hosana, požehnaný Pán,",
                             "skala spasenia môjho i tvojho. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "On sám",
@@ -20259,7 +21631,9 @@ const jsonData = {
                         [
                             "Coda: On sám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Oslavujte Hospodina (I)",
@@ -20274,7 +21648,9 @@ const jsonData = {
                             "pozdvihujte ruky svoje,",
                             "oslavujte Hospodina. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče,ctíme Teba",
@@ -20295,7 +21671,9 @@ const jsonData = {
                             "Duchu, ctíme Teba, dávame Ti seba,",
                             "Ty si láska z neba."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otvor mi oči",
@@ -20310,7 +21688,9 @@ const jsonData = {
                             "Otvor aj sluch môj, i pozornosť zbystri,",
                             "nech srdce mi plní a vedie ma Duch Tvoj."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Otče, Ťa chválim",
@@ -20345,7 +21725,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Oslavujte Hospodina",
@@ -20375,7 +21757,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "On je náš Spasiteľ",
@@ -20398,7 +21782,9 @@ const jsonData = {
                             "/: On je náš Spasiteľ,",
                             "slávny a mocný náš Kráľ! :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pane, som tak veľmi rád",
@@ -20420,7 +21806,9 @@ const jsonData = {
                             "z hrobu Otec si Ťa vzal,",
                             "tak Ti spievam pieseň chvál."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pokloňme sa teraz",
@@ -20439,7 +21827,9 @@ const jsonData = {
                             "stádom, čo On sám vodí,",
                             "rukou sám Boh nás vodí."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán Ježiš láska je",
@@ -20469,7 +21859,9 @@ const jsonData = {
                             "nás všetkých miluje, ::/",
                             "miluje - je - je, miluje."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Pán prichádza",
@@ -20496,7 +21888,9 @@ const jsonData = {
                             "Si hotový, haleluja?",
                             "Haleluja, haleluja!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Požehnané meno má",
@@ -20527,7 +21921,9 @@ const jsonData = {
                             "/::Ježiš - toto meno má Pán,::/",
                             "Najvyšší."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Rozhodol som sa",
@@ -20556,7 +21952,9 @@ const jsonData = {
                             "poď za Ježišom,::/",
                             "už nikdy späť, už nikdy späť."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Spoj nás v jedno",
@@ -20580,7 +21978,9 @@ const jsonData = {
                         [
                             "Spoj nás v jedno..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Smieme kráčať",
@@ -20601,7 +22001,9 @@ const jsonData = {
                             "Božiu lásku, ó, ",
                             "Božiu lásku smieme prežívať. :/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Viem, príde prebudenie",
@@ -20628,7 +22030,9 @@ const jsonData = {
                             "Prichádza prebudenie, ",
                             "príde aj k nám!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Veď ma z dolných nádvorí",
@@ -20654,7 +22058,9 @@ const jsonData = {
                             "veĎ ma tam, tu stojím, ",
                             "veĎ ma sám."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Zvíťazíme určite",
@@ -20678,7 +22084,9 @@ const jsonData = {
                         [
                             "Všetci ľudia spoločne..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chceme spievať pieseň novú",
@@ -20699,7 +22107,9 @@ const jsonData = {
                             "/:Haleluja:/ Svoje srdce som Mu dal.",
                             "/:Haleluja:/ Jemu spievam pieseň chvál!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chcem oslavovať",
@@ -20717,7 +22127,9 @@ const jsonData = {
                         [
                             "/: Haleluja, haleluja, haleluja, haleluja.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Chvíle najvzácnejšie",
@@ -20751,7 +22163,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Skoro príde deň",
@@ -20778,7 +22192,9 @@ const jsonData = {
                             "Haleluja, haleluja, ",
                             "keď sa zjaví slávy Kráľ."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Stvor mi srdce čisté",
@@ -20795,7 +22211,9 @@ const jsonData = {
                             "Radosť zo spasenia dnes Ty navráť mi",
                             "a obnov vo mne Ducha priameho!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Som voľný, haleluja",
@@ -20820,7 +22238,9 @@ const jsonData = {
                             "On príde v slave pre nás, (3x)",
                             "v Ježišovi slobodu mám!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Živý je Pán",
@@ -20852,7 +22272,9 @@ const jsonData = {
                         [
                             "ref:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vesmírom znie",
@@ -20881,7 +22303,9 @@ const jsonData = {
                         [
                             "REF:"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Vyznaj",
@@ -20896,7 +22320,9 @@ const jsonData = {
                             "/:Silný Boh, pravdivý a neprávosti",
                             "v Ňom niet, dobrý a priamy je On.:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Ježiš je víťaz",
@@ -20925,7 +22351,9 @@ const jsonData = {
                             "/:Ježiš je víťaz, ó, haleluja,",
                             "haleluja! Pána chváľ!:/"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 },
                 {
                     "name": "Je veľký náš Boh",
@@ -20942,7 +22370,9 @@ const jsonData = {
                             "Je veľký náš Boh, je silný a mocný,",
                             "nič nie je, čo neučinil."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "piesne",
+                    "tags": []
                 }
             ]
         },
@@ -20967,7 +22397,9 @@ const jsonData = {
                             "With wisdom power and love,",
                             "Our God is an owesome God!"
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": []
                 },
                 {
                     "name": "Lord, I lift Your name",
@@ -20991,7 +22423,9 @@ const jsonData = {
                             "From the grave to the sky,",
                             "Lord, I lift Your name on high."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": []
                 },
                 {
                     "name": "Blessed be the name",
@@ -21001,7 +22435,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Blessed be the name of the Lord :/",
+                            "/:/:: Blessed be the name of the Lord::/",
                             "most high. :/"
                         ],
                         [
@@ -21014,7 +22448,9 @@ const jsonData = {
                         [
                             "Holy is the name of the Lord..."
                         ]
-                    ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": []
                 }
             ]
         }
