@@ -4,13 +4,14 @@ export class Song {
         public number: number = 0,
         public lang: string = '',
         public url: string = '',
+        public id: number = 0,
         public songBookUrl: string = '',
         public tags: string[] = [],
         public author: string = '',
         public verses: string[][] = [],
     ) { }
 
-    getID(): string {
+    getFullURL(): string {
         return this.songBookUrl + '/' + this.url;
     }
     
@@ -21,6 +22,7 @@ export class Song {
             json.number,
             json.lang,
             json.url,
+            json.id,
             json.songBookUrl,
             json.tags,
             json.author,

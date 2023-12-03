@@ -37,6 +37,24 @@ export class Library {
         return '';
     }
 
+    public getSongBySongId(songId: number): Song | undefined {
+        // songIds in range 1000-9999
+        // max 10 songbooks, max 1000 songs per songbook
+        const songBookOrd = Math.floor(songId / 1000) - 1;
+        return this.songBooks[songBookOrd].getSongById(songId);
+    }
+
+    public findSongByNumber(songNumber: number): Song[] {
+        console.log('findSongByNumber', songNumber);
+        return this.songBooks.reduce((songs: Song[], songBook: SongBook) => {
+            const song = songBook.getSongByNumber(songNumber);
+            if (song) {
+                songs.push(song);
+            }
+            return songs;
+        }, []);
+    }
+
     public getAllSongs(): Song[] {
         return this.songBooks.reduce((songs: Song[], songBook: SongBook) => {
             return songs.concat(songBook.songs);

@@ -19,6 +19,10 @@ export class SongBook {
         return this.songs.find(song => song.url === songUrl);
     }
 
+    public getSongById(songId: number): Song | undefined {
+        return this.songs.find(song => song.id === songId);
+    }
+
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     static fromJson(json: any): SongBook {
         return new SongBook(

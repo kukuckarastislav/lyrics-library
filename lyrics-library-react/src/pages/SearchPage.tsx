@@ -1,5 +1,5 @@
 import style from './SearchPage.module.scss';
-import library from '../libraryData';
+import SearchUtils from '../utils/searchUtils';
 import { useEffect, useState } from 'react';
 import { Song } from '../models/Song';
 import SongCard from '../components/SongCard';
@@ -48,13 +48,8 @@ export default function SearchPage() {
   const handleInputSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchValue = event.target.value;
     console.log(searchValue);
-    if (searchValue.length >= 2) {
-      const _matchedSongs = library.searchSongs(searchValue);
-      console.log(_matchedSongs);
-      setMatchedSongs(_matchedSongs);
-    } else {
-      setMatchedSongs([]);
-    }
+    const _matchedSongs = SearchUtils.searchSongs(searchValue);
+    setMatchedSongs(_matchedSongs);
   }
 
 
@@ -65,9 +60,11 @@ export default function SearchPage() {
         <div className='flex items-center gap-2'>
           <input ref={inputRef} type="text" placeholder="Search songs ..." className='searchInput' onChange={handleInputSearchChange}/>
         </div>
-        <Typography variant="body1" className='mb-4'>
-          {matchedSongs.length} result
-        </Typography>
+        {matchedSongs.length > 0 && 
+          <Typography variant="body1" className='mb-4'>
+            {matchedSongs.length} result
+          </Typography>
+        }
       </div>
         
       
