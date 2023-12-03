@@ -62,7 +62,7 @@ export default function SearchPage() {
         </div>
         {matchedSongs.length > 0 && 
           <Typography variant="body1" className='mb-4'>
-            {matchedSongs.length} result
+            {Math.min(matchedSongs.length, maxNumOfSongDispley)} result
           </Typography>
         }
       </div>

@@ -77,8 +77,8 @@ export class Library {
         return text;
     }
 
-    public searchSongs(search: string): Song[] {
-        let searchLower = search.toLowerCase();
+    public searchSongsByName(search: string): Song[] {
+        let searchLower = search.toLowerCase().trim();
         return this.getAllSongs().filter(song => {
             let songName = song.name.toLowerCase();
             songName = Library.replaceChars(songName);

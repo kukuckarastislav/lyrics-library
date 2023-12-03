@@ -31,8 +31,9 @@ export default class SearchUtils {
             return library.findSongByNumber(songNumber);
         }
 
-        searchParam = this.replaceChars(searchParam.toLowerCase());
-        const tokens = searchParam.trim().split(' ');
+        const searchParamEdited = this.replaceChars(searchParam.toLowerCase());
+        const tokens = searchParamEdited.trim().split(' ');
+
         //filter tokens which have less than 3 characters
         for (let i = 0; i < tokens.length; i++) {
             if (tokens[i].length < 3) {
@@ -71,11 +72,15 @@ export default class SearchUtils {
             return b[1] - a[1];
         });
 
-        const matchingSongs = [];
+        const songsByNameOfSong = library.searchSongsByName(searchParam);
+        console.log('number of songsByNameOfSong', songsByNameOfSong.length);
+        const matchingSongs = songsByNameOfSong;
         for (const matchingSongId of matchingSongsIds) {
             const song = library.getSongBySongId(matchingSongId[0]);
             if (song !== undefined) {
-                matchingSongs.push(song);
+                if (!songsByNameOfSong.includes(song)) {
+                    matchingSongs.push(song);
+                }
             }
         }
 
