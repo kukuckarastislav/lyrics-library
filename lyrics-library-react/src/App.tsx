@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BottomNavigation from './components/BottomNavigation';
 import SongPage from './pages/SongPage';
 import SongBookPage from './pages/SongBookPage';
+import BackToSongButton from './components/BackToSongButton';
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
         </Routes>
         <div className='mt-[98px]'>
           <BottomNavigation />
+        </div>
+        <div>
+          <BackToSongButton />
         </div>
       </BrowserRouter>
     </div>

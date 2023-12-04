@@ -13,6 +13,8 @@ import { Popover, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
 
+import userSettings from '../models/UserSettings';
+
 export default function SongPage() {
 
   const { songBookUrl, songUrl } = useParams();
@@ -20,7 +22,7 @@ export default function SongPage() {
   const song: Song | undefined = songBook?.getSongByUrl(songUrl!);
 
   const [, setHeaderHeight] = useState(0);
-  const [verseFontSize, setVerseFontSize] = useState(14);
+  const [verseFontSize, setVerseFontSize] = useState(26);
   const [verseTextAlign, setVerseTextAlign] = useState('center');
 
 
@@ -45,6 +47,7 @@ export default function SongPage() {
 
 
   useEffect(() => {
+    userSettings.activeSongId = song?.id || 0;
     // Calculate the height of the header
     const headerElement = document.getElementById('songPage_header');
     const newHeaderHeight = headerElement ? headerElement.offsetHeight : 0;

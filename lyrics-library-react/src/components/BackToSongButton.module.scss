@@ -1,0 +1,39 @@
+.BackToSongButtonCss{
+    position: fixed;
+    bottom: 7rem;
+    right: 1rem;
+
+    :global{
+
+
+        .backToSongBtn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+            background-color: var(--text-ui-active-color);
+            color: var(--button-ui-text-color);
+            font-size: 1.2rem;
+            border-radius: 1000px;
+            user-select: none;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+
+            .labelPart{
+                padding: 0.8rem 0 0.8rem 1rem;
+                border-radius: 1000px;
+            }   
+            .closeBtnPart{
+                border-radius: 1000px;
+                padding: 0.8rem;
+            }
+
+            &:active{
+                transform: scale(0.98);
+                transition: transform 80ms ease;
+            }
+        }
+    }
+    
+}
