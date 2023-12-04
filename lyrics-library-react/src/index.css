@@ -40,6 +40,7 @@ a, button{
 .iconButtonll{
   color: var(--button-ui-color);
   -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 
 .iconButtonll:hover{
