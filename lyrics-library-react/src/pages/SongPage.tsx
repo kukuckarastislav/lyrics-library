@@ -24,7 +24,8 @@ export default function SongPage() {
   const [, setHeaderHeight] = useState(0);
   const [verseFontSize, setVerseFontSize] = useState(26);
   const [verseTextAlign, setVerseTextAlign] = useState('center');
-
+  const [repeatRefInVerses, setRepeatRefInVerses] = useState<boolean>(false);
+  const [verses, setVerses] = useState<string[][]>(song?.verses || []);
 
   /* popper */
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
@@ -43,6 +44,36 @@ export default function SongPage() {
 
   const handleCallbackTextAlignChange = (textAlign: string) => {
     setVerseTextAlign(textAlign);
+  }
+
+  const getVersesWithRepeatedRefrens = () => {
+    let refrenSlide: string[] | undefined = undefined;
+    const newVerses: string[][] = [];
+    for (let i = 0; i < song!.verses!.length; i++) {
+      const slide = song?.verses[i];
+      if (slide!.length > 0) {
+        if (slide![0].toLowerCase().startsWith('ref')) {
+          if (refrenSlide === undefined) {
+            refrenSlide = slide!;
+          }
+          newVerses.push(refrenSlide);
+        } else {
+          newVerses.push(slide!);
+        }
+      }
+    }
+    
+    return newVerses;
+  }
+
+  const handleCallbackRepeatRefInVersesChange = (newRepeatRefInVerses: boolean) => {
+    setRepeatRefInVerses(newRepeatRefInVerses);
+    if (newRepeatRefInVerses) {
+      const newVerses: string[][] = getVersesWithRepeatedRefrens();
+      setVerses(newVerses);
+    } else {
+      setVerses(song?.verses || []);
+    }
   }
 
 
@@ -109,8 +140,11 @@ export default function SongPage() {
                 onClose={handleCloseMoreOption}
               >
                 <SongPageMoreOption
+                  songId={song.id}
                   currentFontSize={verseFontSize}
                   currentTextAlign={verseTextAlign}
+                  currentRepeatRefInVerses={repeatRefInVerses}
+                  callbackRepeatRefInVersesChange={handleCallbackRepeatRefInVersesChange}
                   callbackFontSizeChange={handleCallbackFontSizeChange}
                   callbackTextAlignChange={handleCallbackTextAlignChange} />
               </Popover>
@@ -128,7 +162,7 @@ export default function SongPage() {
             
           
         <div id="songPage_verses_container" className='versesContainer'>
-          {song.verses.map((slide, indexSlide) => (
+          {verses.map((slide, indexSlide) => (
             <div key={indexSlide} className='slideContainer'>
               {slide.map((line, indexLine) => (
                 <Typography sx={{fontSize: verseFontSize, textAlign: verseTextAlign}} variant="body2" key={indexSlide+"_"+indexLine} className='textLine'>

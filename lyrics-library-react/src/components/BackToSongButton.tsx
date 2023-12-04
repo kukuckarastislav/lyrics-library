@@ -10,17 +10,13 @@ import { Song } from '../models/Song';
 
 export default function BackToSongButton() {
 
-  console.log('creation of BackToSongButton');
-
   const location = useLocation();
   const navigate = useNavigate();
 
   const [btnVisible, setBtnVisible] = useState(false);
 
   useEffect(() => {
-    console.log('loc', location.pathname);
     const parts = location.pathname.split('/');
-    console.log('parts', parts);
     
     if(parts.length === 5 && parts[1] === 'songbook' && parts[3] === 'song') {
       setBtnVisible(false);

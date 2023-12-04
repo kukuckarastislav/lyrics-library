@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import style from './SongPageMoreOption.module.scss';
-import { ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { Divider, Switch, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
@@ -11,14 +11,18 @@ import RemoveRoundedIcon from '@mui/icons-material/RemoveRounded';
 interface SongPageMoreOptionProps {
   callbackFontSizeChange: (fontSize: number) => void;
   callbackTextAlignChange: (textAlign: string) => void;
+  currentRepeatRefInVerses: boolean;
+  callbackRepeatRefInVersesChange: (repeatRefInVerses: boolean) => void;
   currentFontSize: number;
   currentTextAlign: string;
+  songId: number;
 }
 
 export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
 
   const [verseFontSize, setVerseFontSize] = useState(props.currentFontSize);
   const [verseTextAlign, setVerseTextAlign] = useState(props.currentTextAlign);
+  const [repeatRefInVerses, setRepeatRefInVerses] = useState<boolean>(props.currentRepeatRefInVerses);
 
   const handleAlignment = (
     _: React.MouseEvent<HTMLElement>,
@@ -48,6 +52,12 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
     }
     setVerseFontSize(value);
   }
+
+  const handleRepeatRefInVerses = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setRepeatRefInVerses(e.target.checked);
+    props.callbackRepeatRefInVersesChange(e.target.checked);
+  }
+
   
   return (
     <div className={style.SongPageMoreOptionCss}>
@@ -79,6 +89,16 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
           </ToggleButton>
         </ToggleButtonGroup>
       </div>
+
+      <div className='mt-4'>
+        <Typography id="discrete-slider" gutterBottom>
+          Repeat First Ref
+        </Typography>
+        <Switch checked={repeatRefInVerses} onChange={handleRepeatRefInVerses} />
+      </div>
+
+      <Divider className='mt-4' />
+      <div>Song ID: {props.songId}</div>
     </div>
   );
 }
