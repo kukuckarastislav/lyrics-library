@@ -9,18 +9,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --text-ui-color: #191212;
+  --text-ui-color: #3E3C46;
   --text-ui-hover-color: rgb(185, 29, 86);
   --text-ui-active-color: rgb(214, 30, 98);
 
-  --button-ui-color: rgb(58, 58, 58);
+  --button-ui-color-lightgray: rgb(100, 100, 100);
+  --button-ui-color: #3a3a3a;
   --button-ui-hover-color: rgb(185, 29, 86);
   --button-ui-active-color: rgb(214, 30, 98);
   --button-ui-text-color: rgb(255,255,255);
 
-  --bg-ui-color: white;
-  --color-primary: #747bff;
-  --color-secondary: #ff7477;
+  --button-bookmark-ui-color: rgb(247, 203, 6);
+  --bg-ui-color-card: white;
+
+  --bg-ui-color: #FAFAFE;
+
+  --bg-ui-color-light: white;
+  --bg-ui-color-dark: rgb(7, 7, 7);
+  --text-ui-color-light: #191212;
+  --text-ui-color-dark: rgb(248, 248, 248);
+
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 
 }
 
@@ -51,6 +60,16 @@ a, button{
   transform: scale(0.90);
   transition: transform 80ms ease;
   color: var(--button-ui-active-color);
+}
+
+.ebtn{
+  @apply bg-white
+   rounded-lg 
+   shadow-md 
+   p-4 mb-2 
+   hover:shadow-lg
+    hover:bg-gray-50 
+    text-center;
 }
 
 /*

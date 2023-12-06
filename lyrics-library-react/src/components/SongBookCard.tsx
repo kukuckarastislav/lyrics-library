@@ -21,7 +21,7 @@ export default function SongBookCard(props: SongBookCardProps) {
             {songBook.languges.map((language) => (
               <Chip key={songBook.url+language} label={language} variant="outlined"
                 size='small'
-                sx={{ fontSize: '1rem' }} />
+                sx={{ fontSize: '1rem', color: 'var(--text-ui-color)' }} />
             ))}
           </div>
         </div>

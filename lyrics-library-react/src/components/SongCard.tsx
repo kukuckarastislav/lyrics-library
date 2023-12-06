@@ -41,7 +41,7 @@ export default function SongCard(props: SongCardProps) {
             <div className='flex gap-1 mt-2'>
               <Chip label={song.lang} variant="outlined"
                   size='small'
-                  sx={{ fontSize: '1rem' }} />
+                  sx={{ fontSize: '1rem', color: 'var(--text-ui-color)' }} />
             </div>
           </div>
         </Link>
@@ -49,12 +49,12 @@ export default function SongCard(props: SongCardProps) {
           <div>
             {//Math.random() > 0.7 &&
               <BookmarkRoundedIcon
-              sx={{ fontSize: 26, color: 'var(--button-ui-active-color)' }} />
+              sx={{ fontSize: 26, color: 'var(--button-bookmark-ui-color)' }} />
             }
           </div>
           <div className='w-full' >
-            {!previewText && <VisibilityRoundedIcon onClick={() => (setPreviewText(true))} sx={{ color: 'gray', fontSize: 26 }} className="iconButtonll" />}
-            {previewText && <VisibilityOffRoundedIcon onClick={() => (setPreviewText(false))} sx={{ color: 'gray', fontSize: 26}} className="iconButtonll" />}
+            {!previewText && <VisibilityRoundedIcon onClick={() => (setPreviewText(true))} sx={{ color: 'var(--button-ui-color)', fontSize: 26 }} className="iconButtonll" />}
+            {previewText && <VisibilityOffRoundedIcon onClick={() => (setPreviewText(false))} sx={{ color: 'var(--button-ui-color)', fontSize: 26}} className="iconButtonll" />}
           </div>
         </div>
       </div>

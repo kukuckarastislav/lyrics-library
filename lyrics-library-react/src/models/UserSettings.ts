@@ -3,6 +3,15 @@ export class UserSettings {
     constructor(
         public name: string = '',
         public activeSongId: number = 0,
+        
+        public uiMode: string = 'light', // dark, light
+        public uiColor: string = 'red', // red, blue, green, yellow
+
+        public uiLanguage: string = 'eng', // eng, sk, srb
+
+        public songHistory: number[] = [],
+        public songFavorites: number[] = [],
+
        
     ) { }
     
@@ -12,6 +21,11 @@ export class UserSettings {
         return new UserSettings(
             json.name,
             json.activeSongId,
+            json.uiMode,
+            json.uiColor,
+            json.uiLanguage,
+            json.songHistory,
+            json.songFavorites,
         );
     }
 }
