@@ -42,6 +42,11 @@ a, button{
   -webkit-tap-highlight-color: transparent;
 }
 
+.pointerTransparent{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .cardStyle{
   @apply bg-white rounded-lg shadow-md p-4 mb-2 hover:shadow-lg hover:bg-gray-50;
 }

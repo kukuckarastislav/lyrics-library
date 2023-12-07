@@ -4,12 +4,14 @@ import style from './SongCard.module.scss';
 import { Chip, Typography } from '@mui/material';
 
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
+import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
 
 import VisibilityRoundedIcon from '@mui/icons-material/VisibilityRounded';
 import VisibilityOffRoundedIcon from '@mui/icons-material/VisibilityOffRounded';
 
 import library from '../libraryData';
 import { useState } from 'react';
+import userSettings from '../models/UserSettings';
 
 interface SongCardProps {
   song: Song;
@@ -22,6 +24,17 @@ export default function SongCard(props: SongCardProps) {
   const songBookUrl = props.songBookUrl;
 
   const [previewText, setPreviewText] = useState(false);
+  const [isSongFavorite, setIsSongFavorite] = useState(userSettings.IsSongInFavorites(song.id));
+
+  const handleAddToFavorite = () => {
+    userSettings.addSongToFavorites(song.id);
+    setIsSongFavorite(true); 
+  }
+
+  const handleRemoveFromFavorite = () => {
+    userSettings.removeSongFromFavorites(song.id);
+    setIsSongFavorite(false);
+  }
 
   return (
     
@@ -47,9 +60,14 @@ export default function SongCard(props: SongCardProps) {
         </Link>
         <div className='flex flex-col justify-between ml-4'>
           <div>
-            {//Math.random() > 0.7 &&
+            {isSongFavorite ? 
               <BookmarkRoundedIcon
-              sx={{ fontSize: 26, color: 'var(--button-bookmark-ui-color)' }} />
+                className='pointerTransparent'
+                sx={{ fontSize: 26, color: 'var(--button-bookmark-ui-color)' }}
+                onClick={handleRemoveFromFavorite} />
+              :
+              <BookmarkBorderRoundedIcon className='pointerTransparent'
+                sx={{ fontSize: 26, color: 'var(--button-ui-color)' }} onClick={handleAddToFavorite} />
             }
           </div>
           <div className='w-full' >

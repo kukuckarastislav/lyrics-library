@@ -11,7 +11,11 @@ import SongPage from './pages/SongPage';
 import SongBookPage from './pages/SongBookPage';
 import BackToSongButton from './components/BackToSongButton';
 
+import ThemeUtils from './utils/themeUtils';
+
 function App() {
+
+  new ThemeUtils().init();
 
   return (
     <div className={style.AppCss}>

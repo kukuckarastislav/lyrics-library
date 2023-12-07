@@ -8,7 +8,10 @@ import { useEffect, useState } from 'react';
 
 import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
+
 import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
+import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
+
 import { Popover, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
@@ -26,6 +29,8 @@ export default function SongPage() {
   const [verseTextAlign, setVerseTextAlign] = useState('center');
   const [repeatRefInVerses, setRepeatRefInVerses] = useState<boolean>(false);
   const [verses, setVerses] = useState<string[][]>(song?.verses || []);
+
+  const [isSongFavorite, setIsSongFavorite] = useState(userSettings.IsSongInFavorites(song!.id));
 
   /* popper */
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
@@ -77,8 +82,20 @@ export default function SongPage() {
   }
 
 
+  const handleAddToFavorite = () => {
+    userSettings.addSongToFavorites(song!.id);
+    setIsSongFavorite(true); 
+  }
+
+  const handleRemoveFromFavorite = () => {
+    userSettings.removeSongFromFavorites(song!.id);
+    setIsSongFavorite(false);
+  }
+
+
   useEffect(() => {
     userSettings.activeSongId = song?.id || 0;
+    userSettings.addSongToHistory(song!.id);
     // Calculate the height of the header
     const headerElement = document.getElementById('songPage_header');
     const newHeaderHeight = headerElement ? headerElement.offsetHeight : 0;
@@ -119,9 +136,17 @@ export default function SongPage() {
               <Typography variant="h5">{songBook?.name}</Typography>
             </div>
             <div className='flex gap-4'>
-              <button>
-                <BookmarkBorderRoundedIcon className="iconButtonll" />
-              </button>
+              <div>
+                {isSongFavorite ? 
+                  <BookmarkRoundedIcon
+                    className='pointerTransparent'
+                    sx={{ fontSize: 26, color: 'var(--button-bookmark-ui-color)' }}
+                    onClick={handleRemoveFromFavorite} />
+                  :
+                  <BookmarkBorderRoundedIcon className='pointerTransparent'
+                    sx={{ fontSize: 26, color: 'var(--button-ui-color)' }} onClick={handleAddToFavorite} />
+                }
+              </div>
               <button onClick={handleClickMoreOptions}>
                 <MoreVertRoundedIcon className="iconButtonll" />
               </button>
