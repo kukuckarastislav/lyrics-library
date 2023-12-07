@@ -12,6 +12,7 @@ import SongBookPage from './pages/SongBookPage';
 import BackToSongButton from './components/BackToSongButton';
 
 import ThemeUtils from './utils/themeUtils';
+import SettingsPage from './pages/SettingsPage';
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
 
           <Route id='5' path="/songbook/:songBookUrl" element={<SongBookPage />} />
           <Route id='6' path="/songbook/:songBookUrl/song/:songUrl" element={<SongPage />} />
+
+          <Route id='7' path="/settings" element={<SettingsPage />} />
         </Routes>
         <div className='mt-[98px]'>
           <BottomNavigation />

@@ -1,0 +1,50 @@
+.SettingsPageCss {
+
+    :global{
+
+        .settingsContainer {
+            @apply mx-4; //md:mx-16 lg:mx-32 xl:mx-64 2xl:mx-96;   
+            margin-top: 108px;
+
+            .themeBtn{
+                width: 42px;
+                height: 42px;
+                border-radius: 20%;
+            }
+
+            .themeBtn_light {
+                background-color: var(--bg-light);
+                border: 1px solid var(--bg-dark);
+            }
+
+            .themeBtn_dark {
+                background-color: var(--bg-dark);
+                border: 1px solid var(--bg-light);
+            }
+
+
+            .colorBtn {
+                width: 36px;
+                height: 36px;
+                border-radius: 100%;
+                background-color: red;
+                border: 1px solid var(--text-ui-color);
+            }
+        }
+
+        .topHeader{
+            @apply pt-4 pb-6 px-4;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            background: var(--bg-ui-color);
+            background: linear-gradient(180deg, var(--bg-ui-color) 80%, rgba(0,0,0,0) 100%);
+
+            .libraryLabel {
+                
+                color: var(--text-ui-active-color);
+            }
+        }
+        
+    }
+}
