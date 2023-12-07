@@ -25,8 +25,8 @@ export default function SongPage() {
   const song: Song | undefined = songBook?.getSongByUrl(songUrl!);
 
   const [, setHeaderHeight] = useState(0);
-  const [verseFontSize, setVerseFontSize] = useState(26);
-  const [verseTextAlign, setVerseTextAlign] = useState('center');
+  const [verseFontSize, setVerseFontSize] = useState(userSettings.fontSize);
+  const [verseTextAlign, setVerseTextAlign] = useState(userSettings.textAlign);
   const [repeatRefInVerses, setRepeatRefInVerses] = useState<boolean>(false);
   const [verses, setVerses] = useState<string[][]>(song?.verses || []);
 

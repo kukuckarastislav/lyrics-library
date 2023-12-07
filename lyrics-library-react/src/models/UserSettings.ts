@@ -17,11 +17,29 @@ export class UserSettings {
 
         public uiLanguage: string = 'eng', // eng, sk, srb
 
+        public fontSize: number = 22,
+        public textAlign: string = 'center', // left, center
+
         public songHistory: SongHistory[] = [],
         public songFavorites: number[] = [],
 
        
     ) { }
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    static fromJson(json: any): UserSettings {
+        return new UserSettings(
+            json.name,
+            json.activeSongId,
+            json.uiMode,
+            json.uiColor,
+            json.uiLanguage,
+            json.fontSize,
+            json.textAlign,
+            json.songHistory,
+            json.songFavorites,
+        );
+    }
 
     public IsSongInFavorites(songId: number): boolean {
         return this.songFavorites.includes(songId);
@@ -73,6 +91,19 @@ export class UserSettings {
         this.saveToLocalStorage();
     }
 
+    public setFontSize(size: number): void {
+        this.fontSize = size;
+        this.saveToLocalStorage();
+    }
+
+    public setTextAlign(align: string): void {
+        this.textAlign = align;
+        this.saveToLocalStorage();
+    }
+
+
+    //
+
     private static readonly LOCAL_STORAGE_KEY = 'userSettings';
     private saveToLocalStorage(): void {
         // save to local storage
@@ -86,19 +117,6 @@ export class UserSettings {
             return new UserSettings();
         }
         return UserSettings.fromJson(JSON.parse(json));
-    }
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    static fromJson(json: any): UserSettings {
-        return new UserSettings(
-            json.name,
-            json.activeSongId,
-            json.uiMode,
-            json.uiColor,
-            json.uiLanguage,
-            json.songHistory,
-            json.songFavorites,
-        );
     }
 }
 
