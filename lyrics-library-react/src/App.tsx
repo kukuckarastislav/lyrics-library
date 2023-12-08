@@ -13,6 +13,7 @@ import BackToSongButton from './components/BackToSongButton';
 
 import ThemeUtils from './utils/themeUtils';
 import SettingsPage from './pages/SettingsPage';
+import HistoryPage from './pages/HistoryPage';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
 
           <Route id='7' path="/settings" element={<SettingsPage />} />
           <Route id='8' path="/favorite" element={<SongBookPage />} />
+          <Route id='9' path="/history" element={<HistoryPage />} />
         </Routes>
         <div className='mt-[98px]'>
           <BottomNavigation />
