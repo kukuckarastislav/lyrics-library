@@ -1,5 +1,5 @@
 import style from './SearchPage.module.scss';
-import SearchUtils from '../utils/searchUtils';
+import searchUtils from '../utils/SearchUtils';
 import { useEffect, useState } from 'react';
 import { Song } from '../models/Song';
 import SongCard from '../components/SongCard';
@@ -48,7 +48,7 @@ export default function SearchPage() {
   const handleInputSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchValue = event.target.value;
     console.log(searchValue);
-    const _matchedSongs = SearchUtils.searchSongs(searchValue);
+    const _matchedSongs = searchUtils.searchSongs(searchValue);
     setMatchedSongs(_matchedSongs);
   }
 

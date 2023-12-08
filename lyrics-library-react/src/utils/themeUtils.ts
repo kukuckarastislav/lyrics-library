@@ -9,7 +9,7 @@ export default class ThemeUtils {
         this.setUiColor(userSettings.uiColor);
     }
 
-    root = document.querySelector(':root');
+    root: HTMLElement | null = document.querySelector(':root');
     rootStyle = getComputedStyle(this.root!);
 
     colors = {

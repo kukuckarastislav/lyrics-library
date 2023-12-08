@@ -1,9 +1,11 @@
 import library from "../libraryData";
 import invertedIndex from "../InvertedIndex";
 
-export default class SearchUtils {
+class SearchUtils {
 
-    static replaceChars(text) {
+    constructor() { }
+
+    replaceChars(text: string) {
         const list_of_chars = [
             ['č', 'c'], ['ć', 'c'], ['đ', 'd'], ['š', 's'], ['ž', 'z'], ['á', 'a'],
             
@@ -19,7 +21,7 @@ export default class SearchUtils {
         return text;
     }
 
-    static searchSongs(searchParam) {
+    searchSongs(searchParam: string) {
         // if searchParam is empty return empty array
         if (!searchParam) {
             return [];
@@ -46,8 +48,9 @@ export default class SearchUtils {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const matchingSongsIds = [];
 
-        for(const token of tokens) {
-            const songIds = invertedIndex[token];
+        for (const token of tokens) {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const songIds = (invertedIndex as any)[token];
             console.log('songIds', songIds);
             if (songIds !== undefined) { 
                 for (const songId of songIds) {
@@ -88,3 +91,6 @@ export default class SearchUtils {
     }
 
 }
+
+const searchUtils = new SearchUtils();
+export default searchUtils;
