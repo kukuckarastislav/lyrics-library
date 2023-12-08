@@ -84,6 +84,31 @@ export default function SettingsPage() {
 
       <div className='settingsContainer'>
 
+        <Typography variant="h6">Font size</Typography>
+        <div className='flex gap-4 items-center'>
+          <RemoveRoundedIcon sx={{ fontSize: 36 }} className='iconButtonll cursor-pointer' onClick={handleDecreaseFontSize} />
+          <input style={{backgroundColor: 'var(--bg-ui-color)'}} className='w-16' type="number" step="1" value={verseFontSize} onChange={handleInputFontSize} />
+          <AddRoundedIcon sx={{fontSize: 36}} className='iconButtonll cursor-pointer' onClick={handleIncreaseFontSize} />
+        </div>
+        
+        <br />
+        <Typography variant="h6">Text Align ({verseTextAlign})</Typography>
+        <ToggleButtonGroup
+          value={verseTextAlign}
+          exclusive
+          onChange={handleAlignment}
+          aria-label="text alignment"
+        >
+          <ToggleButton className='toggleBtnTextAlign' value="left" aria-label="left aligned">
+            <FormatAlignLeftIcon />
+          </ToggleButton>
+          <ToggleButton className='toggleBtnTextAlign' value="center" aria-label="centered">
+            <FormatAlignCenterIcon />
+          </ToggleButton>
+        </ToggleButtonGroup>
+
+        <br /> <br />
+        
         <Typography variant="h6">Theme</Typography>
         <div className='flex gap-4'>
           <div className="themeBtn themeBtn_light iconButtonll" onClick={setLight}></div>
@@ -111,30 +136,9 @@ export default function SettingsPage() {
             onClick={() => handleChangeUiColor('yellow')}></div>
         </div>
 
-        <br /> <br /> 
+         
 
-        <Typography variant="h6">Font size</Typography>
-        <div className='flex gap-4 items-center'>
-          <RemoveRoundedIcon sx={{ fontSize: 36 }} className='iconButtonll cursor-pointer' onClick={handleDecreaseFontSize} />
-          <input style={{backgroundColor: 'var(--bg-ui-color)'}} className='w-16' type="number" step="1" value={verseFontSize} onChange={handleInputFontSize} />
-          <AddRoundedIcon sx={{fontSize: 36}} className='iconButtonll cursor-pointer' onClick={handleIncreaseFontSize} />
-        </div>
         
-        <br />
-        <Typography variant="h6">Text Align ({verseTextAlign})</Typography>
-        <ToggleButtonGroup
-          value={verseTextAlign}
-          exclusive
-          onChange={handleAlignment}
-          aria-label="text alignment"
-        >
-          <ToggleButton className='toggleBtnTextAlign' value="left" aria-label="left aligned">
-            <FormatAlignLeftIcon />
-          </ToggleButton>
-          <ToggleButton className='toggleBtnTextAlign' value="center" aria-label="centered">
-            <FormatAlignCenterIcon />
-          </ToggleButton>
-        </ToggleButtonGroup>
         
 
       </div>
