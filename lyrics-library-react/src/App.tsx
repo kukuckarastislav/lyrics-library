@@ -31,6 +31,7 @@ function App() {
           <Route id='6' path="/songbook/:songBookUrl/song/:songUrl" element={<SongPage />} />
 
           <Route id='7' path="/settings" element={<SettingsPage />} />
+          <Route id='8' path="/favorite" element={<SongBookPage />} />
         </Routes>
         <div className='mt-[98px]'>
           <BottomNavigation />

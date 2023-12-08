@@ -7,10 +7,19 @@ import { useEffect, useState } from 'react';
 import SongCard from '../components/SongCard';
 
 import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
+import userSettings from '../models/UserSettings';
 
 export default function SongBookPage() {
   const { songBookUrl } = useParams();
-  const songBook: SongBook | undefined = library.getSongBookByUrl(songBookUrl!);
+  let songBook: SongBook | undefined;
+  if (songBookUrl) {
+    songBook = library.getSongBookByUrl(songBookUrl);
+  } else {
+    songBook = new SongBook('Favorites');    
+    songBook.songs = library.getAllSongsByIds(userSettings.songFavorites);
+    songBook.numberOfSongs = songBook.songs.length;
+  }
+
   const [, setHeaderHeight] = useState(0);
 
   const [visibleIndex, setVisibleIndex] = useState(1);
@@ -81,7 +90,7 @@ export default function SongBookPage() {
         <div>
           <div className='topHeader' id="songBookPage_header">
             <div className='flex items-center gap-2'>
-              <Link to="/library" className="iconButtonll">
+              <Link to={songBook.name === 'Favorites' ? "/me" : "/library"} className="iconButtonll">
                 <ArrowBackRoundedIcon sx={{ fontSize: 36 }} />
               </Link>
               <Typography variant="h4" className='libraryLabel'>{songBook.name}</Typography>
@@ -94,7 +103,10 @@ export default function SongBookPage() {
           
           <div id="songBookPage_songs_container" className='songContainer'>
             {songBook.songs.slice(0, visibleIndex*numberOfSongs).map((song) => (
-              <SongCard key={songBook.url + song.url} song={song} songBookUrl={songBook.url} />
+              <SongCard key={song.songBookUrl + song.url}
+                showSoongBookName={songBook!.name == 'Favorites'}
+                song={song}
+                songBookUrl={song.songBookUrl} />
             ))}
           </div>
               

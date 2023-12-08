@@ -44,6 +44,17 @@ export class Library {
         return this.songBooks[songBookOrd].getSongById(songId);
     }
 
+    public getAllSongsByIds(songIds: number[]): Song[] {
+        const songs: Song[] = [];
+        for(const songId of songIds) {
+            const song = this.getSongBySongId(songId);
+            if (song) {
+                songs.push(song);
+            }
+        }
+        return songs;
+    }
+
     public findSongByNumber(songNumber: number): Song[] {
         console.log('findSongByNumber', songNumber);
         return this.songBooks.reduce((songs: Song[], songBook: SongBook) => {
