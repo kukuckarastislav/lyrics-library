@@ -1,10 +1,17 @@
+import { Typography } from '@mui/material';
 import style from './HomePage.module.scss';
 //import InstallPWA from '../components/InstallPWA';
 
 export default function HomePage() {
   return (
     <div className={style.HomePageCss}>
-      <div>HomePage</div>
+
+      <div className='mt-20'>
+        <Typography variant="h4"
+          sx={{ color: 'var(--text-ui-active-color)', margin: '2rem' }}>
+          Web aplikacija Lyrics Library je u test fazi, nije jos uvek u potpunosti gotova, i moze da sadrzi greske. Molimo vas da ne delite link do ove aplikacije sa drugima dok ne bude zvanicno objavljena.
+        </Typography>
+      </div>
 
       {
         /*
