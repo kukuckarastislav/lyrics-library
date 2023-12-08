@@ -9,7 +9,7 @@ export class SongHistory {
 
 export class UserSettings {
     constructor(
-        public name: string = '',
+        public name: string = '[Your name]',
         public activeSongId: number = 0,
         
         public uiMode: string = 'light', // dark, light
@@ -99,6 +99,15 @@ export class UserSettings {
     public setTextAlign(align: string): void {
         this.textAlign = align;
         this.saveToLocalStorage();
+    }
+
+    public setUserName(name: string): void {
+        this.name = name;
+        this.saveToLocalStorage();
+    }
+
+    public getNumberOfHistoryDays(): number {
+        return this.songHistory.length;
     }
 
 

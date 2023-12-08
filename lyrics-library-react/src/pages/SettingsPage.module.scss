@@ -41,6 +41,18 @@
                 color: var(--text-ui-color);
                 border-color: var(--text-ui-color);
             }
+
+            .userNameInput{
+                @apply h-12 px-4 rounded-lg;
+                border: 2px solid rgb(240,240,240);
+                font-size: 1.2rem;
+                color: var(--text-ui-active-color);
+                outline: none;
+                &:focus{
+                    border: 2px solid var(--text-ui-active-color);
+                }
+                background-color: var(--bg-ui-color-card);
+            }
         }
 
         .topHeader{

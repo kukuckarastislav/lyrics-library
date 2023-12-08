@@ -74,6 +74,15 @@ export default function SettingsPage() {
     userSettings.setTextAlign(newAlignment);
   };
 
+  ///
+  const [userName, setUserName] = React.useState(userSettings.name);
+
+  const handleUserNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setUserName(value);
+    userSettings.setUserName(value);
+  }
+
 
   return (
     <div className={style.SettingsPageCss}>
@@ -84,6 +93,10 @@ export default function SettingsPage() {
 
       <div className='settingsContainer'>
 
+        <Typography variant="h6">Your Name</Typography>
+        <input className='userNameInput' type="text" value={userName} onChange={handleUserNameChange} />
+
+        <br /> <br />
         <Typography variant="h6">Font size</Typography>
         <div className='flex gap-4 items-center'>
           <RemoveRoundedIcon sx={{ fontSize: 36 }} className='iconButtonll cursor-pointer' onClick={handleDecreaseFontSize} />
