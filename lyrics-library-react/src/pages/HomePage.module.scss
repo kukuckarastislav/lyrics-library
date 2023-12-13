@@ -4,7 +4,7 @@
         .homeContainer {
             margin-left: 1rem;
             margin-right: 1rem;
-            margin-top: 108px;
+            margin-top: 86px;
         }
 
         .topHeader{
@@ -27,6 +27,21 @@
                 lg:grid-cols-3 lg:gap-4
                 2xl:grid-cols-4 2xl:gap-6;
             margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .bibleVerseContainer{
+            @apply text-white rounded-2xl 
+                p-4
+                md:p-6
+                lg:p-10
+                xl:p-14
+                2xl:p-16
+            ;
+            /*
+            background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+                */
+
             margin-bottom: 2rem;
         }
 

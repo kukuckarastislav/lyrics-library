@@ -4,8 +4,21 @@ import style from './HomePage.module.scss';
 import homeData from '../models/HomeData';
 import library from '../libraryData';
 import SongCard from '../components/SongCard';
+import React from 'react';
+import GradientUtils from '../utils/GradientUtils';
 
 export default function HomePage() {
+
+  const bibleVerse = homeData.getBibleVerseForToday();
+  const bibleVerseContainerRef = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    if (bibleVerseContainerRef.current) {
+      bibleVerseContainerRef.current.style.backgroundImage
+        = GradientUtils.getGradientForToday('');
+    }
+  }, []);
+
   return (
     <div className={style.HomePageCss}>
 
@@ -14,26 +27,43 @@ export default function HomePage() {
       </div>
       
       <div className='homeContainer'>
+        <div ref={bibleVerseContainerRef} className='bibleVerseContainer'>
+          <Typography variant="h6"
+            sx={{ color: 'white', textAlign: 'center', fontSize: {
+              lg: '2rem',
+              md: '1.8rem',
+              sm: '1.5rem',
+              xs: '1.2rem'
+            } }}>
+            {bibleVerse.text}
+          </Typography>
+          <Typography variant="subtitle1"
+            sx={{
+              color: 'white', textAlign: 'center',
+              }}>
+            {bibleVerse.bibleLocation}
+          </Typography>
+        </div>
 
-        <div>BIBLE VERSE</div>
-
-        {
-          homeData.songCollections.map((collection) => (
-            <div key={collection.title}>
-              <Typography variant="h5" sx={{color: 'var(--text-ui-active-color)'}} className='libraryLabel'>{collection.title}</Typography>
-              <div className='songContainer'>
-                {
-                  collection.songs.map((song) => (
-                    <SongCard 
-                      key={song} 
-                      song={library.getSongBySongId(song)!}
-                    />
-                  ))
-                }
+        <div>
+          {
+            homeData.songCollections.map((collection) => (
+              <div key={collection.title}>
+                <Typography variant="h5" sx={{color: 'var(--text-ui-active-color)'}} className='libraryLabel'>{collection.title}</Typography>
+                <div className='songContainer'>
+                  {
+                    collection.songs.map((song) => (
+                      <SongCard 
+                        key={song} 
+                        song={library.getSongBySongId(song)!}
+                      />
+                    ))
+                  }
+                </div>
               </div>
-            </div>
-          ))
-        }
+            ))
+          }
+        </div>
 
       </div>
           
