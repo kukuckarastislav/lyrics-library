@@ -15,6 +15,8 @@ import ThemeUtils from './utils/themeUtils';
 import SettingsPage from './pages/SettingsPage';
 import HistoryPage from './pages/HistoryPage';
 
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
 
   new ThemeUtils().init();
@@ -41,6 +43,9 @@ function App() {
         <div>
           <BackToSongButton />
         </div>
+
+        <Analytics />
+
       </HashRouter>
     </div>
   )
