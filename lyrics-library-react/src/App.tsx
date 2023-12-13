@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import LibraryPage from './pages/LibraryPage';
 import SearchPage from './pages/SearchPage';
 import MePage from './pages/MePage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter , Route, Routes } from 'react-router-dom';
 import BottomNavigation from './components/BottomNavigation';
 import SongPage from './pages/SongPage';
 import SongBookPage from './pages/SongBookPage';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className={style.AppCss}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route id='1' path="/" element={<HomePage />} />
           <Route id='2' path="/library" element={<LibraryPage />} />
@@ -41,7 +41,7 @@ function App() {
         <div>
           <BackToSongButton />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
