@@ -15,13 +15,17 @@ import userSettings from '../models/UserSettings';
 
 interface SongCardProps {
   song: Song;
-  songBookUrl: string;
+  songBookUrl?: string;
   showSoongBookName?: boolean;
 }
 
 export default function SongCard(props: SongCardProps) {
   const song = props.song;
-  const songBookUrl = props.songBookUrl;
+  let songBookUrl = props.songBookUrl;
+
+  if (!songBookUrl) {
+    songBookUrl = song.songBookUrl;
+  }
 
   const [previewText, setPreviewText] = useState(false);
   const [isSongFavorite, setIsSongFavorite] = useState(userSettings.IsSongInFavorites(song.id));

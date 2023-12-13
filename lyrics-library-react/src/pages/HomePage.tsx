@@ -1,29 +1,41 @@
 import { Typography } from '@mui/material';
 import style from './HomePage.module.scss';
-//import InstallPWA from '../components/InstallPWA';
+
+import homeData from '../models/HomeData';
+import library from '../libraryData';
+import SongCard from '../components/SongCard';
 
 export default function HomePage() {
   return (
     <div className={style.HomePageCss}>
 
-      <div className='mt-20'>
-        <Typography variant="h4"
-          sx={{ color: 'var(--text-ui-active-color)', margin: '2rem' }}>
-          Web aplikacija Lyrics Library je u test fazi, nije jos uvek u potpunosti gotova, i moze da sadrzi greske. Molimo vas da ne delite link do ove aplikacije sa drugima dok ne bude zvanicno objavljena.
-        </Typography>
+      <div className='topHeader'>
+        <Typography variant="h4" className='libraryLabel'>Home</Typography>
       </div>
-
-      {
-        /*
-          <div className='p-8'>
-            <InstallPWA />
-          </div>
-        */
-      }
       
-      {/*[...Array(100).keys()].map(i => (
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officia dicta, quibusdam pariatur laudantium, fuga dolores quasi quod accusantium, cum repudiandae deserunt. Sequi commodi illum eligendi aliquid odio delectus debitis. {i}</div>
-      ))*/}
+      <div className='homeContainer'>
+
+        <div>BIBLE VERSE</div>
+
+        {
+          homeData.songCollections.map((collection) => (
+            <div key={collection.title}>
+              <Typography variant="h5" sx={{color: 'var(--text-ui-active-color)'}} className='libraryLabel'>{collection.title}</Typography>
+              <div className='songContainer'>
+                {
+                  collection.songs.map((song) => (
+                    <SongCard 
+                      key={song} 
+                      song={library.getSongBySongId(song)!}
+                    />
+                  ))
+                }
+              </div>
+            </div>
+          ))
+        }
+
+      </div>
           
     </div>
   )

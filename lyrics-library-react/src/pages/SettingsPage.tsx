@@ -3,6 +3,8 @@ import ThemeUtils from '../utils/themeUtils';
 import style from './SettingsPage.module.scss';
 import React from 'react';
 
+import InstallPWA from '../components/InstallPWA';
+
 import userSettings from '../models/UserSettings';
 
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
@@ -148,6 +150,12 @@ export default function SettingsPage() {
             style={{backgroundColor: getColor().yellow.active}}
             onClick={() => handleChangeUiColor('yellow')}></div>
         </div>
+        <br /> <br />
+
+        
+        <Typography variant="h6" className='pb-2'>Make this app available offline</Typography>
+        <InstallPWA />
+        
 
          
 
