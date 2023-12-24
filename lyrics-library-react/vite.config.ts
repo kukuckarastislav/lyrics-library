@@ -17,7 +17,7 @@ export default defineConfig({
       },
       manifest: {
         name: 'Lyrics Library',
-        short_name: 'App',
+        short_name: 'Lyrics Library',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
