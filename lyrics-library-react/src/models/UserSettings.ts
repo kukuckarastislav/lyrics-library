@@ -9,7 +9,7 @@ export class SongHistory {
 
 export class UserSettings {
     constructor(
-        public name: string = '[Your name]',
+        public name: string = '',
         public activeSongId: number = 0,
         
         public uiMode: string = 'light', // dark, light
@@ -23,6 +23,7 @@ export class UserSettings {
         public songHistory: SongHistory[] = [],
         public songFavorites: number[] = [],
 
+        public bibleVerseLanguage: string = 'srb', // eng, sk, srb
        
     ) { }
 
@@ -38,6 +39,7 @@ export class UserSettings {
             json.textAlign,
             json.songHistory,
             json.songFavorites,
+            json.bibleVerseLanguage,
         );
     }
 
@@ -108,6 +110,14 @@ export class UserSettings {
 
     public getNumberOfHistoryDays(): number {
         return this.songHistory.length;
+    }
+
+    public setBibleVerseLanguage(lang: string): void {
+        if (lang != 'srb' && lang != 'sk' && lang != 'eng') 
+            lang = 'srb';
+        
+        this.bibleVerseLanguage = lang;
+        this.saveToLocalStorage();
     }
 
 

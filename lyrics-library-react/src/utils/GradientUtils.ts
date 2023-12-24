@@ -20,7 +20,7 @@ export default class GradientUtils {
 
         //removed directions that don't look good 'to top', 'to bottom' 'to left' 'to right'
         const directions = [
-            'to right top', 'to right bottom', 'to left bottom', 'to left top', 'circle'
+            'to right top', 'to right bottom', 'to left bottom', 'to left top'
         ];
         const randomDirection = directions[Math.floor(Math.random() * directions.length)];
 

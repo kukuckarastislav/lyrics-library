@@ -1,3 +1,5 @@
+import userSettings from "./UserSettings";
+
 export class SongCollection {
     constructor(
         public title: string = '',
@@ -19,7 +21,7 @@ export class HomeData {
             new SongCollection('Christmas songs', [1037, 2003]),
             new SongCollection('The most popular songs', [1022, 4001, 3028, 3050, 3063]),
         ],
-        public bibleVerses: BibleVerse[] = [
+        public bibleVersesEng: BibleVerse[] = [
             new BibleVerse('Psalm 95:1-2', 'Come, let us sing for joy to the Lord; let us shout aloud to the Rock of our salvation. Let us come before him with thanksgiving and extol him with music and song.'),
             new BibleVerse('Psalm 100:2', 'Worship the Lord with gladness; come before him with joyful songs.'),
             new BibleVerse('Colossians 3:16', 'Let the message of Christ dwell among you richly as you teach and admonish one another with all wisdom through psalms, hymns, and songs from the Spirit, singing to God with gratitude in your hearts.'),
@@ -38,16 +40,65 @@ export class HomeData {
             new BibleVerse('Psalm 96:2', 'Sing to the Lord, praise his name; proclaim his salvation day after day.'),
             new BibleVerse('Psalm 95:1', 'Come, let us sing for joy to the Lord; let us shout aloud to the Rock of our salvation.'),
         ],
+        public bibleVersesSrb: BibleVerse[] = [
+            new BibleVerse('Psalam 95:1-2', 'Dođite da kličemo GOSPODU, da radosno vičemo Steni našeg spasenja! Izađimo pred njega s pesmom zahvalnicom, radosno mu psalme izvikujmo.'),
+            new BibleVerse('Psalam 100:2', 'Služite GOSPODU s radošću, dolazite pred njega kličući!'),
+            new BibleVerse('Колошанима 3:16', 'Neka Hristova reč u vama bogato prebiva dok sa svom mudrošću poučavate i opominjete jedan drugoga i dok sa zahvalnošću u svom srcu pevate psalme, hvalospeve i duhovne pesme Bogu.'),
+            new BibleVerse('Efescima 5:19', 'Jedan drugom govorite u psalmima, hvalospevima i duhovnim pesmama. Pevajte i pojte Gospodu u svom srcu'),
+            new BibleVerse('Psalam 104:33', 'Dok sam živ, GOSPODU ću pevati, psalme mu pevati sve dok me bude.'),
+            new BibleVerse('Psalam 105:2', 'Pevajte mu, psalme mu pevajte, govorite o svim njegovim delima čudesnim.'),
+            new BibleVerse('Psalam 33:2-3', 'Zahvaljujte GOSPODU lirom, svirajte mu na liri od deset žica. Pevajte mu novu pesmu, umilno svirajte i kličite od radosti.'),
+            new BibleVerse('Psalam 71:22-23', 'Harfom ću ti zahvaljivati za tvoju istinu, Bože moj, u liru ti svirati, Sveče Izraelov. Klicaće moje usne dok ti sviram i moja duša, koju si izbavio.'),
+            new BibleVerse('Jakovljeva 5:13', 'Ako se neko od vas zlopati, neka se moli. Ako je neko radostan, neka peva hvalospeve.'),
+            new BibleVerse('Psalam 149:3', 'Neka mu hvale Ime igrajući, neka mu sviraju u daire i liru.'),
+            new BibleVerse('Psalam 30:4', 'Pevajte psalme GOSPODU, verni njegovi, njegovom svetom Imenu zahvaljujte.'),
+            new BibleVerse('Psalam 96:1-2', 'Pevajte GOSPODU novu pesmu! Pevaj GOSPODU, sva zemljo! Pevajte GOSPODU, Ime mu blagosiljajte! Iz dana u dan njegovo spasenje objavljujte!'),
+            new BibleVerse('Psalam 47:6', 'Pevajte psalme GOSPODU, pevajte! Pevajte psalme Caru našem, pevajte!'),
+            new BibleVerse('Psalam 40:3', 'U usta mi stavi novu pesmu, hvalospev Bogu našem. Mnogi će to videti i uplašiti se i u GOSPODA se uzdati.'),
+            new BibleVerse('Psalam 30:12', 'da ti moja duša peva psalme i da ne zamukne.'),
+            new BibleVerse('Psalam 96:2', 'Pevajte GOSPODU, Ime mu blagosiljajte! Iz dana u dan njegovo spasenje objavljujte!'),
+            new BibleVerse('Psalam 95:1', 'Dođite da kličemo GOSPODU, da radosno vičemo Steni našeg spasenja!'),
+        ],
+        public bibleVersesSk: BibleVerse[] = [
+            new BibleVerse('Žalmy 95:1-2', 'Poďte, plesajme pred Hospodinom, zvučne oslavujme Skalu našej spásy! Predstúpme vďačne pred jeho tvár, zvučne ho velebme žalmami!'),
+            new BibleVerse('Žalmy 100:2', 'Radostne slúžte Hospodinovi, prichádzajte pred neho s jasotom!'),
+            new BibleVerse('Kološanom 3:16', 'Kristovo slovo nech vo vás prebýva bohato: vo všetkej múdrosti sa navzájom učte a napomínajte a vďačne spievajte vo svojich srdciach Bohu žalmy, hymny, duchovné piesne.'),
+            new BibleVerse('Efežanom 5:19', 'Hovorte spoločne žalmy, hymny a duchovné piesne, v srdci spievajte a oslavujte Pána,'),
+            new BibleVerse('Žalmy 104:33', 'Spievať chcem Hospodinovi, kým žijem, ospevovať chcem svojho Boha, kým tu budem.'),
+            new BibleVerse('Žalmy 105:2', 'Spievajte mu, hrajte mu! Rozprávajte o všetkých jeho divoch!'),
+            new BibleVerse('Žalmy 33:2-3', 'Oslavujte Hospodina citarou, hrajte mu na desaťstrunovej harfe! Spievajte mu novú pieseň, krásne a hlasno rozozvučte struny!'),
+            new BibleVerse('Žalmy 71:22-23', 'Aj ja ti budem ďakovať hrou na harfe za tvoju vernosť, môj Bože. Ospevovať ťa budem pri citare, Svätý Izraela! Nech plesajú moje pery, keď ťa budem oslavovať, i moja duša, ktorú si vykúpil.'),
+            new BibleVerse('Jakub 5:13', 'Trpí niekto medzi vami? Nech sa modlí! Raduje sa niekto? Nech spieva žalmy!'),
+            new BibleVerse('Žalmy 149:3', 'Nech tancom chvália jeho meno, nech mu spievajú pri zvuku bubna a citary.'),
+            new BibleVerse('Žalmy 30:4', 'Hospodin, vyviedol si ma z podsvetia. Zachoval si ma pri živote, aby som nezostúpil do hrobu.'),
+            new BibleVerse('Žalmy 96:1-2', 'Spievajte Hospodinovi novú pieseň, spievaj Hospodinovi, celá zem! Spievajte Hospodinovi, zvelebujte jeho meno, deň čo deň ohlasujte jeho spásu!'),
+            new BibleVerse('Žalmy 47:6', 'Boh vystúpil hore za jasotu, Hospodin za zvuku trúby.'),
+            new BibleVerse('Žalmy 40:3', 'Vytiahol ma z jamy hrôzy, z bahna a blata. Nohy mi postavil na skalu a spevňuje moje kroky.'),
+            new BibleVerse('Žalmy 30:12', 'Môj nárek si zmenil na tanec. Vyzliekol si mi smútočný šat a odel si ma radosťou'),
+            new BibleVerse('Žalmy 96:2', 'Spievajte Hospodinovi, zvelebujte jeho meno, deň čo deň ohlasujte jeho spásu!'),
+            new BibleVerse('Žalmy 95:1', 'Poďte, plesajme pred Hospodinom, zvučne oslavujme Skalu našej spásy!'),
+        ],
     ) { }
 
+    private getBibleVersesForLang(lang: string): BibleVerse[] {
+        if (lang === 'srb')
+            return this.bibleVersesSrb;
+        else if (lang === 'sk')
+            return this.bibleVersesSk;
+        else
+            return this.bibleVersesEng;
+    }
+
     public getRandomBibleVerse(): BibleVerse {
-        return this.bibleVerses[Math.floor(Math.random() * this.bibleVerses.length)];
+        const bibleVerses = this.getBibleVersesForLang(userSettings.bibleVerseLanguage);
+        return bibleVerses[Math.floor(Math.random() * bibleVerses.length)];
     }
 
     public getBibleVerseForToday(): BibleVerse {
+        const bibleVerses = this.getBibleVersesForLang(userSettings.bibleVerseLanguage);
         const date = new Date();
         const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 86400000);
-        return this.bibleVerses[dayOfYear % this.bibleVerses.length];
+        return bibleVerses[dayOfYear % bibleVerses.length];
     }
 }
 

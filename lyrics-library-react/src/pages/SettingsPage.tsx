@@ -1,7 +1,7 @@
-import { ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import ThemeUtils from '../utils/themeUtils';
 import style from './SettingsPage.module.scss';
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 import InstallPWA from '../components/InstallPWA';
 
@@ -85,6 +85,16 @@ export default function SettingsPage() {
     userSettings.setUserName(value);
   }
 
+  ///
+  const [bibleVerseLang, setBibleVerseLang] = React.useState(userSettings.bibleVerseLanguage);
+  
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const handleChangeBibleVerseLang = (event: SelectChangeEvent<string>, child: ReactNode) => {
+    const lang = event.target.value as string;
+    setBibleVerseLang(lang);
+    userSettings.setBibleVerseLanguage(lang);
+  };
+
 
   return (
     <div className={style.SettingsPageCss}>
@@ -150,13 +160,40 @@ export default function SettingsPage() {
             style={{backgroundColor: getColor().yellow.active}}
             onClick={() => handleChangeUiColor('yellow')}></div>
         </div>
-        <br /> <br />
+        <br /> 
 
-        
+
+        <Typography variant="h6" className='mb-2'>Bible verse language</Typography>
+        <div className='mb-2'></div>
+        <FormControl>
+          <InputLabel id="demo-simple-select-label"
+            sx={{color: 'var(--text-ui-color)'}}
+          >Lang</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+            value={bibleVerseLang}
+            label="Lang"
+            onChange={handleChangeBibleVerseLang}
+            sx={{
+              color: 'var(--text-ui-color)',
+              "& .MuiSelect-icon": { color: 'var(--text-ui-color)' },
+              "&:before": { borderColor: 'red' },
+              "&:after": { borderColor: 'red' },
+              ":active": {color: 'var(--text-ui-color)' }
+            }}
+          >
+            <MenuItem value={'eng'}>English</MenuItem>
+            <MenuItem value={'srb'}>Srpski</MenuItem>
+            <MenuItem value={'sk'}>Slovenský</MenuItem>
+          </Select>
+        </FormControl>
+
+        <br /> <br />
         <Typography variant="h6" className='pb-2'>Make this app available offline</Typography>
         <InstallPWA />
         <br />
-        <Typography variant="body2" className='py-2'>version: 1.1.1</Typography>
+        <Typography variant="body2" className='py-2'>version: 1.1.2</Typography>
         
 
          

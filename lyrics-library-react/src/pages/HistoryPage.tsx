@@ -14,6 +14,8 @@ export default function HistoryPage() {
   const [history,] = useState(userSettings.songHistory);
   const [showHistoryDate, setShowHistoryDate] = useState<string>('');
 
+  console.log('history', history);
+
   const showOrHideHistoryForDay = (date: string) => {
     if (showHistoryDate === date) {
       setShowHistoryDate('');
@@ -43,7 +45,7 @@ export default function HistoryPage() {
       <div id="mePage_container" className='contentContainer'>
 
         {
-          history.reverse().map((songHistory: SongHistory) => {
+          history.map((songHistory: SongHistory) => {
             return (
               <div key={songHistory.date}>
                 <div className='llCard pointerTransparent select-none'

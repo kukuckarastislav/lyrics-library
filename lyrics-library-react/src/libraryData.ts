@@ -4,7 +4,7 @@ const jsonData = {
     "numberOfSongBooks": 4,
     "songBooks": [
         {
-            "name": "Duchovne Piesne",
+            "name": "Duchovné Piesne",
             "url": "duchovne-piesne",
             "numberOfSongs": 484,
             "languges": [

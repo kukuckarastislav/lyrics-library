@@ -9,7 +9,7 @@ import GradientUtils from '../utils/GradientUtils';
 
 export default function HomePage() {
 
-  const bibleVerse = homeData.getBibleVerseForToday();
+  const [bibleVerse, setBibleVerse] = React.useState(homeData.getBibleVerseForToday());
   const bibleVerseContainerRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
@@ -19,6 +19,16 @@ export default function HomePage() {
     }
   }, []);
 
+  const showRandomBibleVerse = () => {
+    console.log('showRandomBibleVerse');
+    const randomVerse = homeData.getRandomBibleVerse();
+    setBibleVerse(randomVerse);
+    if (bibleVerseContainerRef.current) {
+      bibleVerseContainerRef.current.style.backgroundImage
+        = GradientUtils.getRandomGradient();
+    }
+  }
+
   return (
     <div className={style.HomePageCss}>
 
@@ -27,7 +37,8 @@ export default function HomePage() {
       </div>
       
       <div className='homeContainer'>
-        <div ref={bibleVerseContainerRef} className='bibleVerseContainer'>
+        <div ref={bibleVerseContainerRef} className='bibleVerseContainer'
+          onClick={showRandomBibleVerse}>
           <Typography variant="h6"
             sx={{ color: 'white', textAlign: 'center', fontSize: {
               lg: '2rem',
