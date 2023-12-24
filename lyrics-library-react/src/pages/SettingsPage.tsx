@@ -1,7 +1,7 @@
 import { FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import ThemeUtils from '../utils/themeUtils';
 import style from './SettingsPage.module.scss';
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import InstallPWA from '../components/InstallPWA';
 
@@ -89,7 +89,7 @@ export default function SettingsPage() {
   const [bibleVerseLang, setBibleVerseLang] = React.useState(userSettings.bibleVerseLanguage);
   
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleChangeBibleVerseLang = (event: SelectChangeEvent<string>, child: ReactNode) => {
+  const handleChangeBibleVerseLang = (event: SelectChangeEvent<string>) => {
     const lang = event.target.value as string;
     setBibleVerseLang(lang);
     userSettings.setBibleVerseLanguage(lang);
