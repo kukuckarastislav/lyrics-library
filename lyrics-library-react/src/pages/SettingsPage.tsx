@@ -193,7 +193,7 @@ export default function SettingsPage() {
         <Typography variant="h6" className='pb-2'>Make this app available offline</Typography>
         <InstallPWA />
         <br />
-        <Typography variant="body2" className='py-2'>version: 1.1.3</Typography>
+        <Typography variant="body2" className='py-2'>version: 1.2.0</Typography>
         
 
          

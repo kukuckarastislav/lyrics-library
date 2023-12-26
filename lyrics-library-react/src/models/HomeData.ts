@@ -6,8 +6,6 @@ export class SongCollection {
         public title: string = '',
         public songs: number[] = [],
     ) { }
-
-    public getRandomSongs()
 }
 
 export class BibleVerse {
