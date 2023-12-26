@@ -1,3 +1,4 @@
+import RandomUtils from "../utils/RandomUtils";
 import userSettings from "./UserSettings";
 
 export class SongCollection {
@@ -5,6 +6,8 @@ export class SongCollection {
         public title: string = '',
         public songs: number[] = [],
     ) { }
+
+    public getRandomSongs()
 }
 
 export class BibleVerse {
@@ -17,8 +20,59 @@ export class BibleVerse {
 export class HomeData {
     constructor(
         public songCollections: SongCollection[] = [
-            new SongCollection('Recommended songs', [2016, 1003, 1227, 2052, 1058, 2050]),
-            new SongCollection('Christmas songs', [1037, 2003]),
+            new SongCollection('Recommended songs', [
+                2016,
+                1003,
+                1227,
+                1058,
+                2050,
+                1022,
+                4001,
+                3028,
+                3050,
+                3063,
+                1037,
+                2003,
+                2052,
+                3014,
+                5020,
+                5021,
+                6014,
+                6037,
+                6108,
+                6132,
+                6140,
+                6147,
+                6195,
+                6231,
+                6280,
+                6306,
+                6312,
+                1067,
+                1070,
+                1095,
+                1112,
+                1116,
+                1243,
+                1376,
+                1416,
+                5032,
+                5037,
+                5060,
+                5074,
+                5129,
+                5138,
+                5183,
+                5189,
+                5232,
+                5321,
+                5324,
+                5340,
+                5364,
+                5380,
+                5190
+              ]),
+            new SongCollection('Christmas songs', [1037, 5183, 5184, 5190, 5380]),
             new SongCollection('The most popular songs', [1022, 4001, 3028, 3050, 3063]),
         ],
         public bibleVersesEng: BibleVerse[] = [
@@ -99,6 +153,25 @@ export class HomeData {
         const date = new Date();
         const dayOfYear = Math.floor((date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 86400000);
         return bibleVerses[dayOfYear % bibleVerses.length];
+    }
+
+    public getSongCollectionsForHome(): SongCollection[] {
+        //get random 8 songs from list
+        //const recommendedSongsIds = RandomUtils.randomizeElemnts(this.songCollections[0].songs, 8);
+
+        RandomUtils.shuffle(this.songCollections[0].songs)
+
+        const recommendedCollection = new SongCollection(
+            this.songCollections[0].title,
+            this.songCollections[0].songs.slice(0,8)
+        );
+
+        const songCollections: SongCollection[] = [];
+        songCollections.push(recommendedCollection);
+        songCollections.push(this.songCollections[1]);
+        songCollections.push(this.songCollections[2]);
+
+        return songCollections;
     }
 }
 

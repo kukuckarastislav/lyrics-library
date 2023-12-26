@@ -58,7 +58,7 @@ export default function HomePage() {
 
         <div>
           {
-            homeData.songCollections.map((collection) => (
+            homeData.getSongCollectionsForHome().map((collection) => (
               <div key={collection.title}>
                 <Typography variant="h5" sx={{color: 'var(--text-ui-active-color)'}} className='libraryLabel'>{collection.title}</Typography>
                 <div className='songContainer'>
@@ -66,6 +66,7 @@ export default function HomePage() {
                     collection.songs.map((song) => (
                       <SongCard 
                         key={song} 
+                        showSoongBookName
                         song={library.getSongBySongId(song)!}
                       />
                     ))
