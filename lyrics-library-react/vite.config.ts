@@ -13,7 +13,8 @@ export default defineConfig({
       devOptions: { enabled: true },
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       workbox: {
-        globPatterns: ['**/*.{js,css,scss,ts,tsx,jsx,html,ico,png,svg}']
+        globPatterns: ['**/*.{js,css,scss,ts,tsx,jsx,html,ico,png,svg}'],
+        maximumFileSizeToCacheInBytes: 5000000
       },
       manifest: {
         name: 'Lyrics Library',
