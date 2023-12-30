@@ -14,6 +14,17 @@ export class Song {
     getFullURL(): string {
         return this.songBookUrl + '/' + this.url;
     }
+
+    getSongText(): string {
+        let songText = '';
+        this.verses.forEach((verse: string[]) => {
+            verse.forEach((line: string) => {
+                songText += line + '\n';
+            });
+            songText += '\n';
+        });
+        return songText;
+    }
     
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     static fromJson(json: any): Song {

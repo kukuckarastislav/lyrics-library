@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import style from './SongPageMoreOption.module.scss';
-import { Divider, Switch, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { Divider, ListItemIcon, ListItemText, MenuItem, MenuList, Switch, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
+import ShareRoundedIcon from '@mui/icons-material/ShareRounded';
 import RemoveRoundedIcon from '@mui/icons-material/RemoveRounded';
+import { ContentCopy } from '@mui/icons-material';
+import library from '../libraryData';
 
 
 interface SongPageMoreOptionProps {
@@ -58,10 +61,45 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
     props.callbackRepeatRefInVersesChange(e.target.checked);
   }
 
+
+  const handleShare = () => {
+    navigator.share({
+      title: 'Song',
+      text: 'Song',
+      url: window.location.href
+    })
+      .then(() => console.log('Successful share'))
+      .catch((error) => console.log('Error sharing', error));
+  }
+
+  const handleCopySongText = () => {
+    const song = library.getSongBySongId(props.songId)
+    const songText = song?.getSongText();
+    if(songText) {
+      navigator.clipboard.writeText(songText);
+    }
+  }
   
   return (
     <div className={style.SongPageMoreOptionCss}>
-      <div>
+      <div className=''>
+        <MenuList>
+          <MenuItem onClick={handleShare}>
+            <ListItemIcon>
+              <ShareRoundedIcon fontSize="small" />
+            </ListItemIcon>
+            <ListItemText>Share</ListItemText>
+          </MenuItem>
+          <MenuItem onClick={handleCopySongText}>
+            <ListItemIcon>
+              <ContentCopy fontSize="small" />
+            </ListItemIcon>
+            <ListItemText>Copy Text</ListItemText>
+          </MenuItem>
+        </MenuList>
+      </div>
+      <Divider />
+      <div className='mt-2'>
         <Typography id="discrete-slider" gutterBottom>
           Font Size
         </Typography>
@@ -97,7 +135,7 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
         <Switch checked={repeatRefInVerses} onChange={handleRepeatRefInVerses} />
       </div>
 
-      <Divider className='mt-4' />
+      <Divider className='my-4' />
       <div>Song ID: {props.songId}</div>
     </div>
   );
