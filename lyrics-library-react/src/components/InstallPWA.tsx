@@ -39,10 +39,19 @@ const InstallPWA: React.FC = () => {
     }
   };
 
+  const handleReloadApp = () => {
+    window.location.reload();
+  };
+
   return (
-    <Button onClick={handleInstallClick} variant="outlined" >
-      Install App
-    </Button>
+    <div className='flex gap-4'>
+      <Button onClick={handleInstallClick} variant="outlined" >
+        Install App
+      </Button>
+      <Button variant="outlined" color="secondary" onClick={handleReloadApp}>
+        Reload
+      </Button>
+    </div>
   );
 };
 
