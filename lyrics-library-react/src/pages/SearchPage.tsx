@@ -5,6 +5,7 @@ import { Song } from '../models/Song';
 import SongCard from '../components/SongCard';
 import { Typography } from '@mui/material';
 import React from 'react';
+import debounce from 'lodash/debounce';
 
 export default function SearchPage() {
 
@@ -45,11 +46,25 @@ export default function SearchPage() {
     };
   }, []);
 
+  const searchSongs = debounce(
+    async (searchValue: string) => {
+      console.log(searchValue);
+      const _matchedSongs = await searchUtils.searchSongs(searchValue);
+      setMatchedSongs(_matchedSongs);
+    },
+    150 // Adjust the delay (in milliseconds) according to your needs
+  );
+
   const handleInputSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchValue = event.target.value;
     console.log(searchValue);
-    const _matchedSongs = searchUtils.searchSongs(searchValue);
-    setMatchedSongs(_matchedSongs);
+    //if (true) {
+    searchSongs(searchValue);
+    //} else {
+    //  const _matchedSongs = searchUtils.searchSongs(searchValue);
+    //  setMatchedSongs(_matchedSongs);  
+    //}
+    
   }
 
 

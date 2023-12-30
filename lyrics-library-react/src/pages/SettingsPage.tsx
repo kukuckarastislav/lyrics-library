@@ -1,4 +1,4 @@
-import { FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { Divider, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import ThemeUtils from '../utils/themeUtils';
 import style from './SettingsPage.module.scss';
 import React from 'react';
@@ -190,10 +190,11 @@ export default function SettingsPage() {
         </FormControl>
 
         <br /> <br />
+        <Divider />
+        <div className="mb-4"></div>
         <Typography variant="h6" className='pb-2'>Make this app available offline</Typography>
         <InstallPWA />
-        <br />
-        <Typography variant="body2" className='py-2'>version: 1.2.1</Typography>
+        <Typography variant="body2" className='py-2'>App Version: 1.2.2</Typography>
         
 
          
