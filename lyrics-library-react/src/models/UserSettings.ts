@@ -24,6 +24,10 @@ export class UserSettings {
         public songFavorites: number[] = [],
 
         public bibleVerseLanguage: string = 'srb', // eng, sk, srb
+
+        public showSerbianSongs: boolean = true,
+        public showSlovakSongs: boolean = true,
+        public showEnglishSongs: boolean = true,
        
     ) { }
 
@@ -40,6 +44,9 @@ export class UserSettings {
             json.songHistory,
             json.songFavorites,
             json.bibleVerseLanguage,
+            json.showSerbianSongs,
+            json.showSlovakSongs,
+            json.showEnglishSongs,
         );
     }
 
@@ -117,6 +124,22 @@ export class UserSettings {
             lang = 'srb';
         
         this.bibleVerseLanguage = lang;
+        this.saveToLocalStorage();
+    }
+
+    public isSongLangVisible(lang: string): boolean {
+        if (lang == 'srb') return this.showSerbianSongs;
+        else if (lang == 'sk') return this.showSlovakSongs;
+        else if (lang == 'eng') return this.showEnglishSongs;
+        return false;
+    }
+
+    public toggleSongLangVisibility(lang: string, flag: boolean): void {
+        
+        if (lang == 'srb') this.showSerbianSongs = flag;
+        else if (lang == 'sk') this.showSlovakSongs = flag;
+        else if (lang == 'eng') this.showEnglishSongs = flag;
+        
         this.saveToLocalStorage();
     }
 

@@ -1,4 +1,4 @@
-import { Divider, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { Checkbox, Divider, FormControl, FormControlLabel, FormGroup, InputLabel, MenuItem, Select, SelectChangeEvent, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import ThemeUtils from '../utils/themeUtils';
 import style from './SettingsPage.module.scss';
 import React from 'react';
@@ -95,6 +95,26 @@ export default function SettingsPage() {
     userSettings.setBibleVerseLanguage(lang);
   };
 
+  /// 
+  const [showSerbianSongs, setShowSerbianSongs] = React.useState(userSettings.showSerbianSongs);
+  const [showSlovakSongs, setShowSlovakSongs] = React.useState(userSettings.showSlovakSongs);
+  const [showEnglishSongs, setShowEnglishSongs] = React.useState(userSettings.showEnglishSongs);
+
+  const handleChangeSerbian = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setShowSerbianSongs(event.target.checked);
+    userSettings.toggleSongLangVisibility('srb', event.target.checked);
+  };
+
+  const handleChangeSlovak = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setShowSlovakSongs(event.target.checked);
+    userSettings.toggleSongLangVisibility('sk', event.target.checked);
+  };
+
+  const handleChangeEnglish = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setShowEnglishSongs(event.target.checked);
+    userSettings.toggleSongLangVisibility('eng', event.target.checked);
+  };
+
 
   return (
     <div className={style.SettingsPageCss}>
@@ -162,7 +182,28 @@ export default function SettingsPage() {
         </div>
         <br /> 
 
+        <Typography variant="h6" className='mb-2'>Show songs by language:</Typography>
+        <div>
+        <FormGroup>
+            <FormControlLabel
+              control={<Checkbox
+                checked={showEnglishSongs}
+                onChange={handleChangeEnglish} />}
+              label="Show English songs" />
+            <FormControlLabel
+              control={<Checkbox
+                checked={showSerbianSongs}
+                onChange={handleChangeSerbian}/>}
+              label="Show Serbian songs" />
+            <FormControlLabel
+              control={<Checkbox
+                checked={showSlovakSongs}
+                onChange={handleChangeSlovak}/>}
+              label="Show Slovak songs" />
+        </FormGroup>
+        </div>
 
+        <br /> 
         <Typography variant="h6" className='mb-2'>Bible verse language</Typography>
         <div className='mb-2'></div>
         <FormControl>
