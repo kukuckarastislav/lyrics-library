@@ -4,7 +4,7 @@ const jsonData = {
     "numberOfSongBooks": 7,
     "songBooks": [
         {
-            "name": "Duchovné Piesne",
+            "name": "Duchovne Piesne",
             "url": "duchovne-piesne",
             "numberOfSongs": 484,
             "languges": [
@@ -23094,29 +23094,11 @@ const jsonData = {
         {
             "name": "Worship Songs",
             "url": "worship",
-            "numberOfSongs": 3,
+            "numberOfSongs": 36,
             "languges": [
                 "eng"
             ],
             "songs": [
-                {
-                    "name": "Our God",
-                    "number": 0,
-                    "lang": "eng",
-                    "url": "our-god",
-                    "author": "",
-                    "verses": [
-                        [
-                            "Our God in an awesome God,",
-                            "He reigns from heaven above",
-                            "With wisdom power and love,",
-                            "Our God is an owesome God!"
-                        ]
-                    ],
-                    "songBookUrl": "worship",
-                    "tags": [],
-                    "id": 4001
-                },
                 {
                     "name": "Lord, I lift Your name",
                     "number": 0,
@@ -23142,7 +23124,7 @@ const jsonData = {
                     ],
                     "songBookUrl": "worship",
                     "tags": [],
-                    "id": 4002
+                    "id": 4001
                 },
                 {
                     "name": "Blessed be the name",
@@ -23168,7 +23150,1402 @@ const jsonData = {
                     ],
                     "songBookUrl": "worship",
                     "tags": [],
+                    "id": 4002
+                },
+                {
+                    "name": "ABIDE WITH ME",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "abide-with-me",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Abide with me; fast falls the eventide;",
+                            "The darkness deepens;",
+                            "Lord with me abide.",
+                            "When other helpers fail and comforts flee,",
+                            "Help of the helpless,",
+                            "O abide with me."
+                        ],
+                        [
+                            "Swift to its close ebbs out life’s little day;",
+                            "Earth’s joys grow dim;",
+                            "its glories pass away;",
+                            "Change and decay in all around I see;",
+                            "O Thou who changest not,",
+                            "abide with me."
+                        ],
+                        [
+                            "I fear no foe, with Thee at hand to bless;",
+                            "Ills have no weight, and tears no bitterness.",
+                            "Where is death’s sting?",
+                            "Where, grave, thy victory?",
+                            "I triumph still,",
+                            "if Thou abide with me."
+                        ],
+                        [
+                            "Hold Thou Thy cross before my closing eyes;",
+                            "Shine through the gloom and point me to the skies.",
+                            "Heaven’s morning breaks,",
+                            "and earth’s vain shadows flee;",
+                            "In life, in death,",
+                            "O Lord, abide with me. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
                     "id": 4003
+                },
+                {
+                    "name": "AMAZING GRACE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "amazing-grace",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Amazing grace! How sweet the sound",
+                            "That saved a wretch like me!",
+                            "I once was lost, but now am found;",
+                            "Was blind, but now I see."
+                        ],
+                        [
+                            "’T was grace that taught my heart to fear,",
+                            "And grace my fears relieved;",
+                            "How precious did that grace appear",
+                            "The hour I first believed."
+                        ],
+                        [
+                            "Through many dangers, toils and snares,",
+                            "I have already come;",
+                            "’T is grace hath brought me safe thus far,",
+                            "And grace will lead me home."
+                        ],
+                        [
+                            "When we’ve been there ten thousand years,",
+                            "Bright shining as the sun,",
+                            "We’ve no less days to sing God’s praise",
+                            "Than when we’d first begun. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4004
+                },
+                {
+                    "name": "ANGELS WE HAVE HEARD ON HIGH",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "angels-we-have-heard-on-high",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Angels we have heard on high",
+                            "Sweetly singing o’er the plains,",
+                            "And the mountains in reply",
+                            "Echoing their joyous strains."
+                        ],
+                        [
+                            "Gloria, in excelsis Deo!",
+                            "Gloria, in excelsis Deo!"
+                        ],
+                        [
+                            "Shepherds, why this jubilee?",
+                            "Why your joyous strains prolong?",
+                            "What the gladsome tidings be",
+                            "Which inspire your heavenly song?"
+                        ],
+                        [
+                            "Gloria, in excelsis Deo!",
+                            "Gloria, in excelsis Deo! "
+                        ],
+                        [
+                            "Come to Bethlehem and see",
+                            "Christ Whose birth the angels sing;",
+                            "Come, adore on bended knee,",
+                            "Christ the Lord, the newborn King."
+                        ],
+                        [
+                            "Gloria, in excelsis Deo!",
+                            "Gloria, in excelsis Deo! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4005
+                },
+                {
+                    "name": "AWESOME GOD",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "awesome-god",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Our God is an awesome God,",
+                            "He reigns from heaven above;",
+                            "With wisdom, pow’r and love",
+                            "Our God is an awesome God"
+                        ],
+                        [
+                            "Our God is an awesome God,",
+                            "He reigns from heaven above;",
+                            "With wisdom, pow’r and love",
+                            "Our God is an awesome God",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4006
+                },
+                {
+                    "name": "BECAUSE HE LIVES",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "because-he-lives",
+                    "author": "",
+                    "verses": [
+                        [
+                            "God sent His Son They called him Jesus,",
+                            "He came to love, heal and forgive;",
+                            "He lived and died to buy my pardon",
+                            "An empty grave is there to prove my Savior lives;"
+                        ],
+                        [
+                            "Because He lives I can face tomorrow,",
+                            "Because He lives all fear is gone,",
+                            "Because I know, I know who holds the future,",
+                            "And life is worth the living, just because He lives."
+                        ],
+                        [
+                            "How sweet to hold our newborn baby,",
+                            "And feel the pride and joy He gives,",
+                            "But greater still the calm assurance,",
+                            "This child can face uncertain days Because He lives."
+                        ],
+                        [
+                            "Because He lives I can face tomorrow,",
+                            "Because He lives all fear is gone,",
+                            "Because I know, I know who holds the future,",
+                            "And life is worth the living, just because He lives. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4007
+                },
+                {
+                    "name": "BEFORE THE THRONE OF GOD ABOVE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "before-the-throne-of-god-above",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Before the throne of God above",
+                            "I have a strong, a perfect plea:",
+                            "A great High Priest, whose name is Love,",
+                            "Wwho ever lives and pleads for me."
+                        ],
+                        [
+                            "My name is graven on his hands,",
+                            "my name is written on his heart;",
+                            "I know that while in heaven he stands",
+                            "no tongue can bid me thence depart",
+                            "no tongue can bid me thence depart."
+                        ],
+                        [
+                            "When Satan tempts me to despair,",
+                            "And tells me of the guilt within,",
+                            "Upward I look, and see him there",
+                            "Who made an end of all my sin."
+                        ],
+                        [
+                            "Because the sinless Savior died,",
+                            "my sinful soul is counted free;",
+                            "for God, the Just, is satisfied",
+                            "to look on Him and pardon me",
+                            "to look on Him and pardon me",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4008
+                },
+                {
+                    "name": "Be Thou My Vision",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "be-thou-my-vision",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Be Thou my Vision, O Lord of my heart;",
+                            "Naught be all else to me, save that Thou art",
+                            "Thou my best Thought, by day or by night,",
+                            "Waking or sleeping, Thy presence my light."
+                        ],
+                        [
+                            "Be Thou my Wisdom, and Thou my true Word;",
+                            "I ever with Thee and Thou with me, Lord;",
+                            "Thou my great Father, I Thy true son;",
+                            "Thou in me dwelling, and I with Thee one."
+                        ],
+                        [
+                            "Riches I heed not, nor man’s empty praise,",
+                            "Thou mine Inheritance, now and always:",
+                            "Thou and Thou only, first in my heart,",
+                            "High King of Heaven, my Treasure Thou art."
+                        ],
+                        [
+                            "High King of Heaven, my victory won,",
+                            "May I reach Heaven’s joys, O bright Heaven’s Sun!",
+                            "Heart of my own heart, whatever befall,",
+                            "Still be my Vision, O Ruler of all. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4009
+                },
+                {
+                    "name": "BLESSED ASSURANCE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "blessed-assurance",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Blessed assurance, Jesus is mine!",
+                            "O what a foretaste of glory divine!",
+                            "Heir of salvation, purchase of God,",
+                            "Born of His Spirit, washed in His blood."
+                        ],
+                        [
+                            "This is my story, this is my song,",
+                            "Praising my Savior, all the day long;",
+                            "This is my story, this is my song,",
+                            "Praising my Savior, all the day long."
+                        ],
+                        [
+                            "Perfect submission, perfect delight,",
+                            "Visions of rapture now burst on my sight;",
+                            "Angels descending bring from above",
+                            "Echoes of mercy, whispers of love."
+                        ],
+                        [
+                            "This is my story, this is my song,",
+                            "Praising my Savior, all the day long;",
+                            "This is my story, this is my song,",
+                            "Praising my Savior, all the day long. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4010
+                },
+                {
+                    "name": "BLESSED BE THE LORD GOD ALMIGHTY",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "blessed-be-the-lord-god-almighty",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Blessed be the Lord God Almighty",
+                            "Who was and is and is to come;",
+                            "Blessed be the Lord God Almighty,",
+                            "Who reigns forevermore!"
+                        ],
+                        [
+                            "Blessed be the Lord God Almighty",
+                            "Who was and is and is to come;",
+                            "Blessed be the Lord God Almighty,",
+                            "Who reigns forevermore!"
+                        ],
+                        [
+                            "Father in heaven, how we love You;",
+                            "We lift Your name in all the earth.",
+                            "May Your kingdom be established in our praises,",
+                            "As Your people declare Your mighty works."
+                        ],
+                        [
+                            "Blessed be the Lord God Almighty",
+                            "Who was and is and is to come;",
+                            "Blessed be the Lord God Almighty,",
+                            "Who reigns forevermore!"
+                        ],
+                        [
+                            "Blessed be the Lord God Almighty",
+                            "Who was and is and is to come;",
+                            "Blessed be the Lord God Almighty,",
+                            "Who reigns forevermore! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4011
+                },
+                {
+                    "name": "BREATHE ON ME BREATH OF GOD",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "breathe-on-me-breath-of-god",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Breathe on me, breath of God,",
+                            "Fill me with life anew,",
+                            "That I may love what Thou dost love,",
+                            "And do what Thou wouldst do."
+                        ],
+                        [
+                            "Breathe on me, breath of God,",
+                            "Until my heart is pure,",
+                            "Until with Thee I will one will,",
+                            "To do and to endure."
+                        ],
+                        [
+                            "Breathe on me, breath of God,",
+                            "Blend all my soul with Thine,",
+                            "Until this earthly part of me",
+                            "Glows with Thy fire divine."
+                        ],
+                        [
+                            "Breathe on me, breath of God,",
+                            "So shall I never die,",
+                            "But live with Thee the perfect life",
+                            "Of Thine eternity.",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4012
+                },
+                {
+                    "name": "BY FAITH",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "by-faith",
+                    "author": "",
+                    "verses": [
+                        [
+                            "By faith we see the hand of God",
+                            "In the light of creation's grand design",
+                            "In the lives of those who prove His Faithfulness",
+                            "Who walk by faith and not by sight."
+                        ],
+                        [
+                            "We will stand as children of the promise",
+                            "We will fix our eyes on Him, our soul's reward",
+                            "Till the race is finished and the Work is done",
+                            "We'll walk by faith and not by sight."
+                        ],
+                        [
+                            "By faith the prophets saw a day",
+                            "When the longed-for Messiah would appear",
+                            "With the power to break the chains of sin and death",
+                            "And rise triumphant from the grave."
+                        ],
+                        [
+                            "We will stand as children of the promise",
+                            "We will fix our eyes on Him, our soul's reward",
+                            "Till the race is finished and the Work is done",
+                            "We'll walk by faith and not by sight."
+                        ],
+                        [
+                            "By faith the church was called to go",
+                            "In the power of the spirit to the lost",
+                            "To deliver captives and to preach good news",
+                            "In every corner of the earth.",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4013
+                },
+                {
+                    "name": "CHRIST AROSE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "christ-arose",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Low in the grave He lay, Jesus my Savior,",
+                            "Waiting the coming day, Jesus my Lord!"
+                        ],
+                        [
+                            "Up from the grave He arose,",
+                            "With a mighty triumph o'er His foes,",
+                            "He arose a Victor from the dark domain,",
+                            "And He lives forever, with His saints to reign.",
+                            "He arose! He arose!",
+                            "Hallelujah! Christ arose!"
+                        ],
+                        [
+                            "Vainly they watch His bed, Jesus my Savior;",
+                            "Vainly they seal the dead, Jesus my Lord!"
+                        ],
+                        [
+                            "Up from the grave He arose,",
+                            "With a mighty triumph o'er His foes,",
+                            "He arose a Victor from the dark domain,",
+                            "And He lives forever, with His saints to reign.",
+                            "He arose! He arose!",
+                            "Hallelujah! Christ arose! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4014
+                },
+                {
+                    "name": "CHRIST THE LORD IS RISEN TODAY",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "christ-the-lord-is-risen-today",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Christ, the Lord, is risen today, Alleluia!",
+                            "Sons of men and angels say, Alleluia!",
+                            "Raise your joys and triumphs high, Alleluia!",
+                            "Sing, ye heavens, and earth reply, Alleluia!"
+                        ],
+                        [
+                            "Love's redeeming work is done, Alleluia!",
+                            "Fought the fight, the battle won, Alleluia!",
+                            "Lo! The Sun's eclipse is over, Alleluia!",
+                            "Lo! He sets in blood no more, Alleluia!"
+                        ],
+                        [
+                            "Lives again our glorious King, Alleluia!",
+                            "Where, O death, is now thy sting? Alleluia!",
+                            "Once He died our souls to save, Alleluia!",
+                            "Where thy victory, O grave? Alleluia!"
+                        ],
+                        [
+                            "Soar we now where Christ hath led, Alleluia!",
+                            "Following our exalted Head, Alleluia!",
+                            "Made like Him, like Him we rise, Alleluia!",
+                            "Ours the cross, the grave, the skies, Alleluia! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4015
+                },
+                {
+                    "name": "COME THOU FOUNT",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "come-thou-fount",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Come, Thou Fount of every blessing,",
+                            "Tune my heart to sing Thy grace;",
+                            "Streams of mercy, never ceasing,",
+                            "Call for songs of loudest praise.",
+                            "Teach me some melodious sonnet,",
+                            "Sung by flaming tongues above.",
+                            "Praise the mount! I’m fixed upon it,",
+                            "Mount of Thy redeeming love."
+                        ],
+                        [
+                            "Here I raise my Ebenezer;",
+                            "Here by Thy great help I’ve come;",
+                            "And I hope, by Thy good pleasure,",
+                            "Safely to arrive at home.",
+                            "Jesus sought me when a stranger,",
+                            "Wandering from the fold of God;",
+                            "He, to rescue me from danger,",
+                            "Interposed His precious blood."
+                        ],
+                        [
+                            "O to grace how great a debtor",
+                            "Daily I’m constrained to be!",
+                            "Let Thy goodness, like a fetter,",
+                            "Bind my wandering heart to Thee.",
+                            "Prone to wander, Lord, I feel it,",
+                            "Prone to leave the God I love;",
+                            "Here’s my heart, O take and seal it,",
+                            "Seal it for Thy courts above. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4016
+                },
+                {
+                    "name": "COUNT YOUR BLESSINGS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "count-your-blessings",
+                    "author": "",
+                    "verses": [
+                        [
+                            "When upon life’s billows you are tempest tossed,",
+                            "When you are discouraged, thinking all is lost,",
+                            "Count your many blessings, name them one by one,",
+                            "And it will surprise you what the Lord hath done."
+                        ],
+                        [
+                            "Count your blessings, name them one by one,",
+                            "Count your blessings, see what God hath done!",
+                            "Count your blessings, name them one by one,",
+                            "And it will surprise you what the Lord hath done."
+                        ],
+                        [
+                            "Are you ever burdened with a load of care?",
+                            "Does the cross seem heavy you are called to bear?",
+                            "Count your many blessings, every doubt will fly,",
+                            "And you will keep singing as the days go by."
+                        ],
+                        [
+                            "Count your blessings, name them one by one,",
+                            "Count your blessings, see what God hath done!",
+                            "Count your blessings, name them one by one,",
+                            "And it will surprise you what the Lord hath done. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4017
+                },
+                {
+                    "name": "GREAT IS THY FAITHFULNESS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "great-is-thy-faithfulness",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Great is Thy faithfulness, O God my Father;",
+                            "There is no shadow of turning with Thee;",
+                            "Thou changest not, Thy compassions, they fail not;",
+                            "As Thou hast been, Thou forever will be."
+                        ],
+                        [
+                            "Great is Thy faithfulness!",
+                            "Great is Thy faithfulness!",
+                            "Morning by morning new mercies I see.",
+                            "All I have needed Thy hand hath provided;",
+                            "Great is Thy faithfulness, Lord, unto me!"
+                        ],
+                        [
+                            "Summer and winter and springtime and harvest,",
+                            "Sun, moon and stars in their courses above",
+                            "Join with all nature in manifold witness",
+                            "To Thy great faithfulness, mercy and love!"
+                        ],
+                        [
+                            "Great is Thy faithfulness!",
+                            "Great is Thy faithfulness!",
+                            "Morning by morning new mercies I see.",
+                            "All I have needed Thy hand hath provided;",
+                            "Great is Thy faithfulness, Lord, unto me! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4018
+                },
+                {
+                    "name": "HE LIVES",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "he-lives",
+                    "author": "",
+                    "verses": [
+                        [
+                            "I serve a risen Saviour; He's in the world today",
+                            "I know that He is living, whatever men may say",
+                            "I see His hand of mercy, I hear His voice of cheer",
+                            "And just the time I need Him He's always near."
+                        ],
+                        [
+                            "He lives! He lives! Christ Jesus lives today!",
+                            "He walks with me and talks with me along life's narrow way.",
+                            "He lives! He lives! Salvation to impart!",
+                            "You ask me how I know He lives? He lives within my heart."
+                        ],
+                        [
+                            "In all the world around me I see His loving care",
+                            "And though my heart grows weary I never will despair",
+                            "I know that He is leading, thro' all the stormy blast",
+                            "The day of His appearing will come at last."
+                        ],
+                        [
+                            "He lives! He lives! Christ Jesus lives today!",
+                            "He walks with me and talks with me along life's narrow way.",
+                            "He lives! He lives! Salvation to impart!",
+                            "You ask me how I know He lives? He lives within my heart. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4019
+                },
+                {
+                    "name": "HOLY HOLY HOLY",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "holy-holy-holy",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Holy, holy, holy! Lord God Almighty!",
+                            "Early in the morning our song shall rise to Thee;",
+                            "Holy, holy, holy, merciful and mighty!",
+                            "God in three Persons, blessed Trinity!"
+                        ],
+                        [
+                            "Holy, holy, holy! All the saints adore Thee,",
+                            "Casting down their golden crowns around the glassy sea;",
+                            "Cherubim and seraphim falling down before Thee,",
+                            "Who was, and is, and evermore shall be."
+                        ],
+                        [
+                            "Holy, holy, holy! though the darkness hide Thee,",
+                            "Though the eye of sinful man Thy glory may not see;",
+                            "Only Thou art holy; there is none beside Thee,",
+                            "Perfect in power, in love, and purity."
+                        ],
+                        [
+                            "Holy, holy, holy! Lord God Almighty!",
+                            "All Thy works shall praise Thy Name, in earth, and sky, and sea;",
+                            "Holy, holy, holy; merciful and mighty!",
+                            "God in three Persons, blessed Trinity!",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4020
+                },
+                {
+                    "name": "HOW GREAT THOU ART",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "how-great-thou-art",
+                    "author": "",
+                    "verses": [
+                        [
+                            "O Lord my God! when I in awesome wonder",
+                            "Consider all the worlds Thy hands have made,",
+                            "I see the stars, I hear the rolling thunder,",
+                            "Thy power throughout the universe displayed:"
+                        ],
+                        [
+                            "Then sings my soul, my Savior God, to Thee:",
+                            "How great Thou art, how great Thou art!",
+                            "Then sings my soul! my Savior God, to Thee:",
+                            "How great Thou art, how great Thou art!",
+                            "When through the woods and forest glades I wander",
+                            "And hear the birds sing sweetly in the trees;",
+                            "When I look down from lofty mountain grandeur",
+                            "And hear the brook and feel the gentle breeze:"
+                        ],
+                        [
+                            "Then sings my soul, my Savior God, to Thee:",
+                            "How great Thou art, how great Thou art!",
+                            "Then sings my soul! my Savior God, to Thee:",
+                            "How great Thou art, how great Thou art! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4021
+                },
+                {
+                    "name": "IN CHRIST ALONE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "in-christ-alone",
+                    "author": "",
+                    "verses": [
+                        [
+                            "In Christ alone my hope is found,",
+                            "He is my light, my strength, my song;",
+                            "this Cornerstone, this solid Ground,",
+                            "firm through the fiercest drought and storm.",
+                            "What heights of love, what depths of peace,",
+                            "when fears are stilled, when strivings cease!",
+                            "My Comforter, my All in All,",
+                            "here in the love of Christ I stand."
+                        ],
+                        [
+                            "In Christ alone! who took on flesh",
+                            "Fulness of God in helpless babe!",
+                            "This gift of love and righteousness",
+                            "Scorned by the ones he came to save:",
+                            "Till on that cross as Jesus died,",
+                            "The wrath of God was satisfied -",
+                            "For every sin on Him was laid;",
+                            "Here in the death of Christ I live. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4022
+                },
+                {
+                    "name": "I WORSHIP YOU ALMIGHTY GOD",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "i-worship-you-almighty-god",
+                    "author": "",
+                    "verses": [
+                        [
+                            "I worship You, Almighty God; there is none like You.",
+                            "I worship You, O Prince of Peace; that is what I want to do.",
+                            "I give You praise for You are my righteousness.",
+                            "I worship You, Almighty God; there is none like You."
+                        ],
+                        [
+                            "I worship You, Almighty God; there is none like You.",
+                            "I worship You, O Prince of Peace; that is what I want to do.",
+                            "I give You praise for You are my righteousness.",
+                            "I worship You, Almighty God; there is none like You."
+                        ],
+                        [
+                            "I worship You, Almighty God; there is none like You.",
+                            "I worship You, O Prince of Peace; that is what I want to do.",
+                            "I give You praise for You are my righteousness.",
+                            "I worship You, Almighty God; there is none like You.",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4023
+                },
+                {
+                    "name": "JESUS PAID IT ALL",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "jesus-paid-it-all",
+                    "author": "",
+                    "verses": [
+                        [
+                            "I hear the Savior say,",
+                            "“Thy strength indeed is small;",
+                            "Child of weakness, watch and pray,",
+                            "Find in Me thine all in all.”"
+                        ],
+                        [
+                            "Jesus paid it all,",
+                            "All to Him I owe;",
+                            "Sin had left a crimson stain,",
+                            "He washed it white as snow."
+                        ],
+                        [
+                            "For nothing good have I",
+                            "Whereby Thy grace to claim,",
+                            "I’ll wash my garments white",
+                            "In the blood of Calv’ry’s Lamb."
+                        ],
+                        [
+                            "Jesus paid it all,",
+                            "All to Him I owe;",
+                            "Sin had left a crimson stain,",
+                            "He washed it white as snow."
+                        ],
+                        [
+                            "Lord, now indeed I find",
+                            "Thy power and Thine alone,",
+                            "Can change the leper’s spots",
+                            "And melt the heart of stone. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4024
+                },
+                {
+                    "name": "JOY TO THE WORLD",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "joy-to-the-world",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Joy to the world, the Lord is come!",
+                            "Let earth receive her King;",
+                            "Let every heart prepare Him room,",
+                            "And Heaven and nature sing,",
+                            "And Heaven and nature sing,",
+                            "And Heaven, and Heaven, and nature sing."
+                        ],
+                        [
+                            "Joy to the earth, the Savior reigns!",
+                            "Let men their songs employ;",
+                            "While fields and floods, rocks, hills and plains",
+                            "Repeat the sounding joy,",
+                            "Repeat the sounding joy,",
+                            "Repeat, repeat, the sounding joy."
+                        ],
+                        [
+                            "No more let sins and sorrows grow,",
+                            "Nor thorns infest the ground;",
+                            "He comes to make His blessings flow",
+                            "Far as the curse is found,",
+                            "Far as the curse is found,",
+                            "Far as, far as, the curse is found."
+                        ],
+                        [
+                            "He rules the world with truth and grace,",
+                            "And makes the nations prove",
+                            "The glories of His righteousness,",
+                            "And wonders of His love,",
+                            "And wonders of His love,",
+                            "And wonders, wonders, of His love. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4025
+                },
+                {
+                    "name": "KING OF KINGS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "king-of-kings",
+                    "author": "",
+                    "verses": [
+                        [
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah!"
+                        ],
+                        [
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah!"
+                        ],
+                        [
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "King of kings and Lord of lords, Glory, hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah!",
+                            "Jesus, prince of Peace, Glory, Hallelujah! ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4026
+                },
+                {
+                    "name": "LIKE A RIVER GLORIOUS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "like-a-river-glorious",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Like a river glorious, is God’s perfect peace,",
+                            "Over all victorious, in its bright increase;",
+                            "Perfect, yet it floweth, fuller every day,",
+                            "Perfect, yet it groweth, deeper all the way.",
+                            "Stayed upon Jehovah, hearts are fully blest",
+                            "Finding, as He promised, perfect peace and rest."
+                        ],
+                        [
+                            "Hidden in the hollow of His blessed hand,",
+                            "Never foe can follow, never traitor stand;",
+                            "Not a surge of worry, not a shade of care,",
+                            "Not a blast of hurry touch the spirit there.",
+                            "Stayed upon Jehovah, hearts are fully blest",
+                            "Finding, as He promised, perfect peace and rest."
+                        ],
+                        [
+                            "Every joy or trial falleth from above,",
+                            "Traced upon our dial by the Sun of Love;",
+                            "We may trust Him fully all for us to do.",
+                            "They who trust Him wholly find Him wholly true.",
+                            "Stayed upon Jehovah, hearts are fully blest",
+                            "Finding, as He promised, perfect peace and rest. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4027
+                },
+                {
+                    "name": "NEARER MY GOD TO THEE",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "nearer-my-god-to-thee",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Nearer, my God, to Thee, nearer to Thee",
+                            "E'en though it be a cross that raiseth me",
+                            "Still all my song shall be, nearer, my God, to Thee",
+                            "Nearer, my God to Thee,",
+                            "Nearer to Thee."
+                        ],
+                        [
+                            "Though like the wanderer, the sun gone down",
+                            "Darkness be over me, my rest a stone",
+                            "Yet in my dreams I'd be nearer, my God, to Thee",
+                            "Nearer my God to Thee,",
+                            "Nearer to Thee."
+                        ],
+                        [
+                            "There let the way appear, steps unto Heav'n",
+                            "All that Thou sendest me, in mercy given",
+                            "Angels to beckon me nearer, my God, to Thee",
+                            "Nearer my God to Thee,",
+                            "Nearer to Thee.",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4028
+                },
+                {
+                    "name": "OLD RUGGED CROSS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "old-rugged-cross",
+                    "author": "",
+                    "verses": [
+                        [
+                            "On a hill far away stood an old rugged cross,",
+                            "The emblem of suffering and shame;",
+                            "And I love that old cross where the dearest and best",
+                            "For a world of lost sinners was slain."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "O that old rugged cross, so despised by the world,",
+                            "Has a wondrous attraction for me;",
+                            "For the dear Lamb of God left His glory above",
+                            "To bear it to dark Calvary."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "In that old rugged cross, stained with blood so divine,",
+                            "A wondrous beauty I see,",
+                            "For ’twas on that old cross Jesus suffered and died,",
+                            "To pardon and sanctify me."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "To the old rugged cross I will ever be true;",
+                            "Its shame and reproach gladly bear;",
+                            "Then He’ll call me some day to my home far away,",
+                            "Where His glory forever I’ll share."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4029
+                },
+                {
+                    "name": "ROCK OF AGES",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "rock-of-ages",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Rock of Ages, cleft for me,",
+                            "Let me hide myself in Thee;",
+                            "Let the water and the blood,",
+                            "From Thy wounded side which flowed,",
+                            "Be of sin the double cure;",
+                            "Save from wrath and make me pure."
+                        ],
+                        [
+                            "Not the labor of my hands",
+                            "Can fulfill Thy law’s demands;",
+                            "Could my zeal no respite know,",
+                            "Could my tears forever flow,",
+                            "All for sin could not atone;",
+                            "Thou must save, and Thou alone."
+                        ],
+                        [
+                            "Nothing in my hand I bring,",
+                            "Simply to the cross I cling;",
+                            "Naked, come to Thee for dress;",
+                            "Helpless look to Thee for grace;",
+                            "Foul, I to the fountain fly;",
+                            "Wash me, Savior, or I die."
+                        ],
+                        [
+                            "While I draw this fleeting breath,",
+                            "When mine eyes shall close in death,",
+                            "When I soar to worlds unknown,",
+                            "See Thee on Thy judgment throne,",
+                            "Rock of Ages, cleft for me,",
+                            "Let me hide myself in Thee. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4030
+                },
+                {
+                    "name": "SILENT NIGHT",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "silent-night",
+                    "author": "",
+                    "verses": [
+                        [
+                            "Silent night, holy night,",
+                            "All is calm, all is bright",
+                            "Round yon virgin mother and Child.",
+                            "Holy Infant, so tender and mild,",
+                            "Sleep in heavenly peace,",
+                            "Sleep in heavenly peace."
+                        ],
+                        [
+                            "Silent night, holy night,",
+                            "Shepherds quake at the sight;",
+                            "Glories stream from heaven afar,",
+                            "Heavenly hosts sing Alleluia!",
+                            "Christ the Savior is born,",
+                            "Christ the Savior is born!"
+                        ],
+                        [
+                            "Silent night, holy night,",
+                            "Son of God, love’s pure light;",
+                            "Radiant beams from Thy holy face",
+                            "With the dawn of redeeming grace,",
+                            "Jesus, Lord, at Thy birth,",
+                            "Jesus, Lord, at Thy birth."
+                        ],
+                        [
+                            "Silent night, holy night",
+                            "Wondrous star, lend thy light;",
+                            "With the angels let us sing,",
+                            "Alleluia to our King;",
+                            "Christ the Savior is born,",
+                            "Christ the Savior is born",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4031
+                },
+                {
+                    "name": "SWEET BY AND BY",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "sweet-by-and-by",
+                    "author": "",
+                    "verses": [
+                        [
+                            "There’s a land that is fairer than day,",
+                            "And by faith we can see it afar;",
+                            "For the Father waits over the way",
+                            "To prepare us a dwelling place there."
+                        ],
+                        [
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore;",
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore."
+                        ],
+                        [
+                            "We shall sing on that beautiful shore",
+                            "The melodious songs of the blessed;",
+                            "And our spirits shall sorrow no more,",
+                            "Not a sigh for the blessing of rest."
+                        ],
+                        [
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore;",
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore."
+                        ],
+                        [
+                            "To our bountiful Father above,",
+                            "We will offer our tribute of praise",
+                            "For the glorious gift of His love",
+                            "And the blessings that hallow our days. "
+                        ],
+                        [
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore;",
+                            "In the sweet by and by,",
+                            "We shall meet on that beautiful shore. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4032
+                },
+                {
+                    "name": "THE OLD RUGGED CROSS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "the-old-rugged-cross",
+                    "author": "",
+                    "verses": [
+                        [
+                            "On a hill far away stood an old rugged cross,",
+                            "The emblem of suffering and shame;",
+                            "And I love that old cross where the dearest and best",
+                            "For a world of lost sinners was slain."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "O that old rugged cross, so despised by the world,",
+                            "Has a wondrous attraction for me;",
+                            "For the dear Lamb of God left His glory above",
+                            "To bear it to dark Calvary."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "In that old rugged cross, stained with blood so divine,",
+                            "A wondrous beauty I see,",
+                            "For ’twas on that old cross Jesus suffered and died,",
+                            "To pardon and sanctify me. "
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown."
+                        ],
+                        [
+                            "To the old rugged cross I will ever be true;",
+                            "Its shame and reproach gladly bear;",
+                            "Then He’ll call me some day to my home far away,",
+                            "Where His glory forever I’ll share."
+                        ],
+                        [
+                            "So I’ll cherish the old rugged cross,",
+                            "Till my trophies at last I lay down;",
+                            "I will cling to the old rugged cross,",
+                            "And exchange it some day for a crown. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4033
+                },
+                {
+                    "name": "VICTORY IN JESUS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "victory-in-jesus",
+                    "author": "",
+                    "verses": [
+                        [
+                            "I heard an old, old story,",
+                            "How a Savior came from glory,",
+                            "How He gave His life on Calvary",
+                            "To save a wretch like me;",
+                            "I heard about His groaning,",
+                            "Of His precious blood's atoning,",
+                            "Then I repented of my sins",
+                            "And won the victory."
+                        ],
+                        [
+                            "O victory in Jesus,",
+                            "My Savior, forever.",
+                            "He sought me and bought me",
+                            "With His redeeming blood;",
+                            "He loved me ere I knew Him",
+                            "And all my love is due Him,",
+                            "He plunged me to victory,",
+                            "Beneath the cleansing flood."
+                        ],
+                        [
+                            "I heard about His healing,",
+                            "Of His cleansing pow'r revealing.",
+                            "How He made the lame to walk again",
+                            "And caused the blind to see;",
+                            "And then I cried, \"Dear Jesus,",
+                            "Come and heal my broken spirit,\"",
+                            "And somehow Jesus came and bro't",
+                            "To me the victory. "
+                        ],
+                        [
+                            "O victory in Jesus,",
+                            "My Savior, forever.",
+                            "He sought me and bought me",
+                            "With His redeeming blood;",
+                            "He loved me ere I knew Him",
+                            "And all my love is due Him,",
+                            "He plunged me to victory,",
+                            "Beneath the cleansing flood."
+                        ],
+                        [
+                            "I heard about His healing,",
+                            "Of His cleansing pow'r revealing.",
+                            "How He made the lame to walk again",
+                            "And caused the blind to see;",
+                            "And then I cried, \"Dear Jesus,",
+                            "Come and heal my broken spirit,\"",
+                            "And somehow Jesus came and bro't",
+                            "To me the victory."
+                        ],
+                        [
+                            "O victory in Jesus,",
+                            "My Savior, forever.",
+                            "He sought me and bought me",
+                            "With His redeeming blood;",
+                            "He loved me ere I knew Him",
+                            "And all my love is due Him,",
+                            "He plunged me to victory,",
+                            "Beneath the cleansing flood."
+                        ],
+                        [
+                            "I heard about a mansion",
+                            "He has built for me in glory.",
+                            "And I heard about the streets of gold",
+                            "Beyond the crystal sea;",
+                            "About the angels singing,",
+                            "And the old redemption story,",
+                            "And some sweet day I'll sing up there",
+                            "The song of victory."
+                        ],
+                        [
+                            "O victory in Jesus,",
+                            "My Savior, forever.",
+                            "He sought me and bought me",
+                            "With His redeeming blood;",
+                            "He loved me ere I knew Him",
+                            "And all my love is due Him,",
+                            "He plunged me to victory,",
+                            "Beneath the cleansing flood. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4034
+                },
+                {
+                    "name": "WHAT A FRIEND",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "what-a-friend",
+                    "author": "",
+                    "verses": [
+                        [
+                            "What a Friend we have in Jesus, all our sins and griefs to bear!",
+                            "What a privilege to carry everything to God in prayer!",
+                            "O what peace we often forfeit, O what needless pain we bear,",
+                            "All because we do not carry everything to God in prayer."
+                        ],
+                        [
+                            "Have we trials and temptations? Is there trouble anywhere?",
+                            "We should never be discouraged; take it to the Lord in prayer.",
+                            "Can we find a friend so faithful who will all our sorrows share?",
+                            "Jesus knows our every weakness; take it to the Lord in prayer."
+                        ],
+                        [
+                            "Are we weak and heavy laden, cumbered with a load of care?",
+                            "Precious Savior, still our refuge, take it to the Lord in prayer.",
+                            "Do your friends despise, forsake you? Take it to the Lord in prayer!",
+                            "In His arms He’ll take and shield you; you will find a solace there. ",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4035
+                },
+                {
+                    "name": "WHAT A FRIEND WE HAVE IN JESUS",
+                    "number": 0,
+                    "lang": "eng",
+                    "url": "what-a-friend-we-have-in-jesus",
+                    "author": "",
+                    "verses": [
+                        [
+                            "What a Friend we have in Jesus, all our sins and griefs to bear!",
+                            "What a privilege to carry everything to God in prayer!",
+                            "O what peace we often forfeit, O what needless pain we bear,",
+                            "All because we do not carry everything to God in prayer."
+                        ],
+                        [
+                            "Have we trials and temptations? Is there trouble anywhere?",
+                            "We should never be discouraged; take it to the Lord in prayer.",
+                            "Can we find a friend so faithful who will all our sorrows share?",
+                            "Jesus knows our every weakness; take it to the Lord in prayer."
+                        ],
+                        [
+                            "Are we weak and heavy laden, cumbered with a load of care?",
+                            "Precious Savior, still our refuge, take it to the Lord in prayer.",
+                            "Do your friends despise, forsake you? Take it to the Lord in prayer!",
+                            "In His arms He’ll take and shield you; you will find a solace there.",
+                            "-- o --"
+                        ]
+                    ],
+                    "songBookUrl": "worship",
+                    "tags": [],
+                    "id": 4036
                 }
             ]
         },
@@ -38538,8 +39915,8 @@ const jsonData = {
                             "A ten, kto smäd má, nech príde tiež, vodu života zadarmo dostane."
                         ],
                         [
-                            "Haleluja, dnes Pána chváľ",
-                            "!  (4x)"
+                            "Haleluja, dnes Pána chváľ!",
+                            "  (4x)"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -38556,18 +39933,23 @@ const jsonData = {
                         [
                             "REF:",
                             "/:A LA LA LA LA LA ALELUJA,",
-                            "A LA LA LA LA LA LELUJA.:/ Pruži svoju ruku bratu( sestri",
-                            ") do sebe, pruži svoju rukui pevajmo. Pruži svoju ruku bratu( sestri",
-                            ") do sebe, pruži svoju rukui svi- pevajmo!"
+                            "A LA LA LA LA LA LELUJA.:/ ",
+                            "Pruži svoju ruku bratu( sestri) do sebe, ",
+                            "pruži svoju ruku i pevajmo. ",
+                            "Pruži svoju ruku bratu( sestri) do sebe, ",
+                            "pruži svoju rukui svi- pevajmo!"
                         ],
                         [
                             "REF:",
                             "/:A LA LA LA LA LA ALELUJA,",
-                            "A LA LA LA LA LA LELUJA.:/ Pljesni svoju ruku ... Digni svoju ruku ..."
+                            "A LA LA LA LA LA LELUJA.:/ ",
+                            "Pljesni svoju ruku ... Digni svoju ruku ..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
-                    "tags": [],
+                    "tags": [
+                        "kids"
+                    ],
                     "id": 6002
                 },
                 {
@@ -38578,8 +39960,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Abba, Oče, vodi",
-                            "me, Ti i samo Ti, svoju volju ispuni uvek na meni. Srce moje ispuni, nemoj me ostaviti.",
+                            "Abba, Oče, vodi me, ",
+                            "Ti i samo Ti, svoju volju ispuni uvek na meni. Srce moje ispuni, nemoj me ostaviti.",
                             "Abba, Oče, vodi me,Ti i samo Ti."
                         ]
                     ],
@@ -38615,28 +39997,27 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ah, seć am se kak’č esto putau detinstvu svom sam ravnodušno mislio na majkui na dom. Al’ posle kad je umrla sadč esto pomišljam,o, Bože, reci joj",
-                            ": \" Doćiću tam.\""
+                            "Ah, sećam se kak često putau detinstvu svom sam ravnodušno mislio na majku i na dom. Al’ posle kad je umrla sadč esto pomišljam,o, Bože, reci joj:",
+                            "\" Doćiću tam.\""
                         ],
                         [
-                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu naduu srcu imam, daću ja doći tamu krasni Božji hram;č ekaj me majko, jać",
-                            "u doći tam."
+                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu nadu u srcu imam, da ću ja doći tam u krasni Božji hram čekaj me majko, ja ću",
+                            "doći tam."
                         ],
                         [
-                            "I kao izgubljeni sin sam od nje otiš’o, majka je plakala al’ za to nisam mario.U svetu sam sam lutao bez cilja, utehe, al’ oseć ao sam sve molitve."
+                            "I kao izgubljeni sin sam od nje otišo, majka je plakala al’ za to nisam mario. U svetu sam sam lutao bez cilja, utehe, al’ osećao sam sve molitve."
                         ],
                         [
-                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu naduu srcu imam, daću ja doći tamu krasni Božji hram;č ekaj me majko, jać",
-                            "u doći tam."
+                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu nadu u srcu imam, da ću ja doći tam u krasni Božji hram čekaj me majko, ja ću",
+                            "doći tam."
                         ],
                         [
-                            "Kad stiže",
-                            "vest da ne oklevam, već da žurimk njoj, to joj je zadnja želja tu",
-                            ", u kući zemaljskoj. Na samrti me molila da Bogu se predam; o, Bože, reci joj da Te poznam!"
+                            "Kad stiže vest da ne oklevam, već da žurim k njoj, to joj je zadnja želja tu, ",
+                            "u kući zemaljskoj. Na samrti me molila da Bogu se predam; o, Bože, reci joj da Te poznam!"
                         ],
                         [
-                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu naduu srcu imam, daću ja doći tamu krasni Božji hram;č ekaj me majko, jać",
-                            "u doći tam."
+                            "ref: O, majko zahvalan sam tvojim molitvam, da ovu nadu u srcu imam, da ću ja doći tam u krasni Božji hram čekaj me majko, ja ću",
+                            "doći tam."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -38702,21 +40083,19 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ak mášv srdci smútok, na kríž pozri dnes. Bolesti svoje zložiť tam smieš. Pán ti bude šťastím, pevným hradom tiež, dušu ti Boží pokoj ožiari sťa lúč."
+                            "Ak máš v srdci smútok, na kríž pozri dnes. Bolesti svoje zložiť tam smieš. Pán ti bude šťastím, pevným hradom tiež, dušu ti Boží pokoj ožiari sťa lúč."
                         ],
                         [
                             "REF:",
-                            "S JEŽIŠOM KRÁSNE",
-                            "SA KRÁČA,",
-                            "ON JE",
-                            "PRAMEŇ ŽIVÝCH VÔD.",
+                            "S JEŽIŠOM KRÁSNE SA KRÁČA,",
+                            "ON JE PRAMEŇ ŽIVÝCH VÔD.",
                             "/: NIETO UŽ SĹZ ANI",
                             "NESTIHNE ŽIAĽ,",
                             "KEĎ PÁN JEŽIŠ",
                             "ZA RUKU VZAL. :/"
                         ],
                         [
-                            "Tiež somv hriechu blúdil, utrápený šiel,",
+                            "Tiež som v hriechu blúdil, utrápený šiel,",
                             "ale mi svitnul nádherný deň.V Ježišových ranách mám už radosť, mier, žiari mi Boží pokoj ako jarný lúč."
                         ],
                         [
@@ -38731,8 +40110,7 @@ const jsonData = {
                             "ZA RUKU VZAL. :/"
                         ],
                         [
-                            "Spolu poďme",
-                            ", brat môj, do rúk polož dlaň, slniečko dušu vyliečiz rán. Neuškodí zhubca, ochráni nás Pán,na cestu Boží pokoj sveti ako lúč."
+                            "Spolu poďme, brat môj, do rúk polož dlaň, slniečko dušu vylieči z rán. Neuškodí zhubca, ochráni nás Pán,na cestu Boží pokoj sveti ako lúč."
                         ],
                         [
                             "REF:",
@@ -38806,14 +40184,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "On je iz več ne slave, želeo doći tu,i na Golgoti, tužnom brdu, za mene umreti."
+                            "On je iz večne slave, želeo doći tu, i na Golgoti, tužnom brdu, za mene umreti."
                         ],
                         [
                             "Ref: Ako Bog nije živ, okean je suv, žuti mesec je siv, svaki slavuj je gluv Ako Bog nije živ, taj svemir je sam, svaka ljubav je laž, ako Bog nije živ."
                         ],
                         [
-                            "Č akiuč asu smrti, zloč incu kraj sebe, dao je ljubav svoju,i poveo ga",
-                            "u raj."
+                            "Čak i u času smrti, zločincu kraj sebe, dao je ljubav svoju, i poveo ga u raj."
                         ],
                         [
                             "Ref: Ako Bog nije živ, okean je suv, žuti mesec je siv, svaki slavuj je gluv Ako Bog nije živ, taj svemir je sam, svaka ljubav je laž, ako Bog nije živ."
@@ -38831,13 +40208,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ako jasn",
-                            "ý lúč, ty svietiš v tmách,",
+                            "Ako jasný lúč, ty svietiš v tmách,",
                             "viac sa nestratím, už nemám strach.",
                             "Keď príde deň, že niečo ťažké mám,",
-                            "uniesť celkom",
-                            "sám tú",
-                            "váhu nezvládam."
+                            "uniesť celkom sám tú váhu nezvládam."
                         ],
                         [
                             "Kým nezistím, že v tvojich",
@@ -38896,8 +40270,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ako si već umoran od svegai sve više vrtiš",
-                            "se u krug, pokupi sve razrušene snovei predaj ih sve pred Isusa."
+                            "Ako si već umoran od svega i sve više vrtiš",
+                            "se u krug, pokupi sve razrušene snove i predaj ih sve pred Isusa."
                         ],
                         [
                             "REF:",
@@ -38906,8 +40280,7 @@ const jsonData = {
                             "TUŽAN SAN, PRAZAN DAN",
                             "I SRUŠEN SVET.",
                             "PREDAJ SVE, PREDAJ SVE, PREDAJ SVE ISUSU",
-                            "I TUGUĆ",
-                            "E PRETVORITI U SMEH."
+                            "I TUGU ĆE PRETVORITI U SMEH."
                         ],
                         [
                             "Znaj da neće uvek biti bez kišea ni sunce neće uvek sjati. Ali pesma",
@@ -38920,8 +40293,7 @@ const jsonData = {
                             "TUŽAN SAN, PRAZAN DAN",
                             "I SRUŠEN SVET.",
                             "PREDAJ SVE, PREDAJ SVE, PREDAJ SVE ISUSU",
-                            "I TUGUĆ",
-                            "E PRETVORITI U SMEH."
+                            "I TUGU  ĆE PRETVORITI U SMEH."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -38936,14 +40308,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ako želiš borit’ se za Gospoda, tad",
+                            "Ako želiš borit se za Gospoda, tad",
                             "u borbi ustraj.",
                             "Ako želiš da je tvoja pobeda, tad u borbi ustraj.",
-                            "Možda opasnosti mnoge snać’ć",
-                            "e te.",
-                            "Neustrašiv zlu se moraš opret’ se.",
-                            "A kukavice nikad neć",
-                            "e borit’ se,",
+                            "Možda opasnosti mnoge snać će te.",
+                            "Neustrašiv zlu se moraš opret se.",
+                            "A kukavice nikad neće borit se,",
                             "al’ ti u borbi ustraj."
                         ],
                         [
@@ -38956,11 +40326,10 @@ const jsonData = {
                         ],
                         [
                             "Gospod treba samo hrabre u službi, stog u borbi ustraj.",
-                            "Ako želiš krunu, moraš nosit’ krst, stog u borbi ustraj.",
-                            "Život za Gospoda treba veran bit’,",
-                            "borba protiv greha i dobrač init’.",
-                            "A nagradu za službu neć",
-                            "eš promašit’,",
+                            "Ako želiš krunu, moraš nosit krst, stog u borbi ustraj.",
+                            "Život za Gospoda treba veran bit,",
+                            "borba protiv greha i dobrač init.",
+                            "A nagradu za službu nećeš promašit,",
                             "al’ ti u borbi ustraj."
                         ],
                         [
@@ -39064,8 +40433,7 @@ const jsonData = {
                         [
                             "Anđeli tvoji Te slave,",
                             "želim s njima sad podić’ svoj glas.",
-                            "Svoje biće ja",
-                            "predajem Tebi,",
+                            "Svoje biće ja predajem Tebi,",
                             "jer sam Tvoj(a) zauvek."
                         ],
                         [
@@ -39090,21 +40458,17 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Bez Boha blúdil som ja svetom",
-                            "sám a sám, bez plnej radosti nepokojný. Však raz na výzvu Božiu vrátil som sa hneď z cesty tej širokej, ku krížu späť."
+                            "Bez Boha blúdil som ja svetom sám a sám, bez plnej radosti nepokojný. ",
+                            "Však raz na výzvu Božiu vrátil som sa hneď z cesty tej širokej, ku krížu späť."
                         ],
                         [
                             "To bude najkrásnejší, najkrásnejší deň, keď zazneje ten jeho hlas.",
                             "To bude najkrásnejší, najkrásnejší deň, keď stretneme sa tvárou v tvár."
                         ],
                         [
-                            "Ja nechcem nikdy ostať bez Boha",
-                            "a sám,",
-                            "bez Jeho pomoci žiť iba",
-                            "v tmách.",
-                            "On však mi zažiaril",
-                            "a žiariť bude vždy",
-                            "na ceste",
+                            "Ja nechcem nikdy ostať bez Boha a sám,",
+                            "bez Jeho pomoci žiť iba v tmách.",
+                            "On však mi zažiaril a žiariť bude vždy na ceste",
                             "životom i v nebesiach."
                         ],
                         [
@@ -39126,8 +40490,8 @@ const jsonData = {
                         [
                             "Blagoslovi Ga, dušo moja, proslavljaj Gospoda",
                             "Kao nikada do sada, ime Mu proslavljaj",
-                            "Zora sviće i dan se budi, vreme",
-                            "je da zapevaš",
+                            "Zora sviće i dan se budi,",
+                            "vreme je da zapevaš",
                             "Šta god dan donese, i šta god život nudi",
                             "Nek pesma čuje se do svitanja."
                         ],
@@ -39205,7 +40569,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Blagosiljajte, Jahvu sluge Jahvine, što stojiteu domu Jahvinu. Dižite ruke prema svetištu,i Jahvu blagosiljajte."
+                            "Blagosiljajte, Jahvu sluge Jahvine, što stojiteu domu Jahvinu. Dižite ruke prema svetištu, i Jahvu blagosiljajte."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39287,37 +40651,27 @@ const jsonData = {
                     "verses": [
                         [
                             "Bog posla svog Sina Isusa,",
-                            "iz ljubavi siđ",
-                            "e međ",
-                            "u nas.",
+                            "iz ljubavi siđ e međ u nas.",
                             "Život dade za naše spasenje.",
-                            "Prazan grob svedoč",
-                            "i nam,",
+                            "Prazan grob svedoč i nam,",
                             "da On živi sad."
                         ],
                         [
                             "REF:",
-                            "MOJ ISUS ŽIVI I JAĆ",
-                            "U ŽIVETI.",
+                            "MOJ ISUS ŽIVI I JAĆ U ŽIVETI.",
                             "MOJ ISUS ŽIVI - ŽIVIM U NJEMU.",
                             "UVEREN SAM DA ME ON VODI.",
                             "ISUS ME LJUBI - DIVNO, ŽIVET' JE SA NJIM."
                         ],
                         [
-                            "Danć",
-                            "e doć",
-                            "i, na ciljć",
-                            "u stić i, ugledać",
-                            "u nebeski sjaj.Uč",
-                            "asu tom rećić",
-                            "u svom Spasu:",
-                            "\"Hvala Ti za sve što uč",
-                            "ini za mene\"."
+                            "Dan će doći, na cilj ću stić i, ",
+                            "ugledaću nebeski sjaj. ",
+                            "U času tom reći ću svom Spasu:",
+                            "\"Hvala Ti za sve što učini za mene\"."
                         ],
                         [
                             "REF:",
-                            "MOJ ISUS ŽIVI I JAĆ",
-                            "U ŽIVETI.",
+                            "MOJ ISUS ŽIVI I JAĆ U ŽIVETI.",
                             "MOJ ISUS ŽIVI - ŽIVIM U NJEMU.",
                             "UVEREN SAM DA ME ON VODI.",
                             "ISUS ME LJUBI - DIVNO, ŽIVET' JE SA NJIM."
@@ -39335,8 +40689,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Bog svemoguć stupa napred sad, Njegova vojska uvek je snažna. Njegovu slavu naša videće zemlja, pevaj pesmu, pesmu pobede, slavi Gospoda",
-                            ", On je pobedioi nema oružja koje pobediće nas."
+                            "Bog svemoguć stupa napred sad, Njegova vojska uvek je snažna. Njegovu slavu naša videće zemlja, pevaj pesmu, pesmu pobede, slavi Gospoda, On je pobedio i nema oružja koje pobediće nas."
                         ],
                         [
                             "Ref: Jer kapetan vojske je Isus. Mi Ga pratimou Njegovim stopama. Njegovu slavu naša videće zemlja."
@@ -39354,7 +40707,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Boga slaviću, pevat' Gospodu novu pesmu Bogu svome .:/ /: Slavim Te, Bože moj, za Tvoju slavnu pobedu .:/"
+                            "/: Boga slaviću, pevat' Gospodu novu pesmu Bogu svome .:/ ",
+                            "/: Slavim Te, Bože moj, za Tvoju slavnu pobedu .:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39394,36 +40748,35 @@ const jsonData = {
                             "Boh nás pozýva, vstúpte bez bázne,",
                             "vstúpte pred lásky trón, náruč otvára,",
                             "hriešnych zvoláva, život podáva On.",
-                            "Boh nás prijíma, dáva bez zásluh milosť odpúšť ania",
-                            ", na hriech zabúda,",
-                            "srdce obmýva, vstúpte bez váhania."
+                            "Boh nás prijíma, dáva bez zásluh milosť odpúšťania, ",
+                            "na hriech zabúda, srdce obmýva, vstúpte bez váhania."
                         ],
                         [
-                            "REF: STÁROČ IA",
+                            "REF: STÁROČIA",
                             "ZNEJE SVETOM LÁSKAVÝ HLAS:",
-                            "SPASENIE JE DOKONANÉ- PRÍĎTE",
-                            ", KÝM JEČ AS.HĽ AĎTE,ČO",
-                            "Z LÁSKY PRE VÁS OBETOVAL JEŽIŠ",
-                            ", BOŽÍ SYN, ON SA PRE",
+                            "SPASENIE JE DOKONANÉ- PRÍĎTE, ",
+                            "KÝM JE ČAS HĽAĎTE, ČO",
+                            "Z LÁSKY PRE VÁS OBETOVAL JEŽIŠ, ",
+                            "BOŽÍ SYN, ON SA PRE",
                             "VÁŠ HRIECH BOŽÍM",
                             "BARÁNKOM STAL."
                         ],
                         [
                             "Vieš, že na súde zaznie otázka:",
                             "Patríš k vykúpeným? V hriechu neblúdiš,",
-                            "vojdeš do slávy, budeš prebývať",
-                            "s Ním? Dobre poč úvaj,čo",
-                            "sa ozýva z Jeho",
-                            "prevzácnych slov, nesmieš pohr dať zvesť ou",
-                            "o láske, krvou Baránkovou."
+                            "vojdeš do slávy, ",
+                            "budeš prebývať s Ním? Dobre počúvaj, ",
+                            "čo sa ozýva z Jeho prevzácnych slov, ",
+                            "nesmieš pohrdať zvesťou o láske, ",
+                            "krvou Baránkovou."
                         ],
                         [
-                            "REF: STÁROČ IA",
+                            "REF: STÁROČIA",
                             "ZNEJE SVETOM LÁSKAVÝ HLAS:",
-                            "SPASENIE JE DOKONANÉ- PRÍĎTE",
-                            ", KÝM JEČ AS.HĽ AĎTE,ČO",
-                            "Z LÁSKY PRE VÁS OBETOVAL JEŽIŠ",
-                            ", BOŽÍ SYN, ON SA PRE",
+                            "SPASENIE JE DOKONANÉ- PRÍĎTE, ",
+                            "KÝM JE ČAS HĽAĎTE, ČO",
+                            "Z LÁSKY PRE VÁS OBETOVAL JEŽIŠ, ",
+                            "BOŽÍ SYN, ON SA PRE",
                             "VÁŠ HRIECH BOŽÍM",
                             "BARÁNKOM STAL."
                         ]
@@ -39440,13 +40793,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Boh tak miloval svet, že svojho synanám dal."
+                            "Boh tak miloval svet, že svojho syna nám dal."
                         ],
                         [
-                            "Nekonečná, milosť tak vzácna,ma spasila, keď niesol si môj hriech. Bezhraničná predivná láska Ťa viedla na kríž, aby ja som mohol /la žiť."
+                            "Nekonečná, milosť tak vzácna, ",
+                            "ma spasila, keď niesol si môj hriech. ",
+                            "Bezhraničná predivná láska Ťa viedla na kríž, ",
+                            "aby ja som mohol/la žiť."
                         ],
                         [
-                            "Predivná lá ska."
+                            "Predivná láska."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39462,8 +40818,8 @@ const jsonData = {
                     "verses": [
                         [
                             "Bože, Ty si svoju cirkev",
-                            "na skale založil, založil. Ty ’s",
-                            "ju do dnes neustále varoval",
+                            "na skale založil, založil. ",
+                            "Ty’s ju do dnes neustále varoval",
                             "a množil, a množil."
                         ],
                         [
@@ -39487,8 +40843,8 @@ const jsonData = {
                         [
                             "Tebe, ktorý si z milosti,",
                             "ju pevne založil, založil,",
-                            "chválu vzdávam z úprimnosti, bos’",
-                            "ju v srdce vložil, ju vložil."
+                            "chválu vzdávam z úprimnosti, ",
+                            "bos’ju v srdce vložil, ju vložil."
                         ],
                         [
                             "Tvoja keď nás pravica chráni,",
@@ -39517,9 +40873,10 @@ const jsonData = {
                             "BOŽE, HVALA TI ZA SVE."
                         ],
                         [
-                            "Kao vetra sveži dah,uđ",
-                            "e On u život moj, oslobodi me sveg zlai život da mi nov,",
-                            "On mi novu pesmu da, sada uvek pevam je: Bože, hvala Ti za sve. REF:"
+                            "Kao vetra sveži dah, ",
+                            "uđe on u život moj, oslobodi me sveg zlai život da mi nov,",
+                            "On mi novu pesmu da, sada uvek pevam je: ",
+                            "Bože, hvala Ti za sve. REF:"
                         ],
                         [
                             "REF:",
@@ -39531,7 +40888,8 @@ const jsonData = {
                         ],
                         [
                             "On me vodi svaki dan putem pravim, uzanim zato se ne plašim ja niu smrtnoj dolini.",
-                            "On mi novu pesmu da, sada uvek pevam je: Bože, hvala Ti za sve. REF:"
+                            "On mi novu pesmu da, sada uvek pevam je: ",
+                            "Bože, hvala Ti za sve. REF:"
                         ],
                         [
                             "REF:",
@@ -39554,13 +40912,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Bože moj, dajem Ti život svoj. Neka bude od sad samo Tvoj. Više ne želim živeti grešnim životom,u grehu živeti je strašno. Primi me, Bože moj, kod Tebe je divno. Primi me, želim bit’ samo Tvoj."
+                            "Bože moj, dajem Ti život svoj. Neka bude od sad samo Tvoj. Više ne želim živeti grešnim životom, u grehu živeti je strašno. Primi me, Bože moj, kod Tebe je divno. Primi me, želim bit’ samo Tvoj."
                         ],
                         [
-                            "Posveti me sada, Bože moj. Uzmi moje srce, život moj. Više ne želim živeti samo za sebe, nego živet’ samo za Tebe. Oprosti mi moj greh,oč isti me od sveg, da budem samo Tvoj zauvek."
+                            "Posveti me sada, Bože moj. Uzmi moje srce, život moj. Više ne želim živeti samo za sebe, nego živet’ samo za Tebe. Oprosti mi moj greh, očisti me od sveg, da budem samo Tvoj zauvek."
                         ],
                         [
-                            "Č ini sa mnom, Hriste, šta želiš. Došao si da me iskupiš. Prolio si svoju krv na Golgotskom krstu, dao si život svoj za mene. Ja ne mogu svoj dug nikad otplatiti, zato sad život svoj dajem Ti."
+                            "Čini sa mnom, Hriste, šta želiš. Došao si da me iskupiš. Prolio si svoju krv na Golgotskom krstu, dao si život svoj za mene. Ja ne mogu svoj dug nikad otplatiti, zato sad život svoj dajem Ti."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39601,19 +40959,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Bože, Otč",
-                            "e, teraz vidím, aký som bol slepý, Ty však si náš Otec lásky plný,",
+                            "Bože, Otče, teraz vidím, aký som bol slepý, Ty však si náš Otec lásky plný,",
                             "milostivý Pán.",
                             "(No) teraz som Tvoj syn prijatý, patrím medzi Tvoje deti, samotu viac nepoznám, už Boha Otca za Vodcu mám."
                         ],
                         [
                             "REF:",
-                            "/:BUDEM SPIEVAŤ",
-                            " CHVÁLY,",
-                            "BUDEM SPIEVAŤ",
-                            " CHVÁLY,",
-                            "BUDEM SPIEVAŤ CHVÁLY,KÍ",
-                            "M ŽIVOT MAM.:/"
+                            "/:BUDEM SPIEVAŤ CHVÁLY,",
+                            "BUDEM SPIEVAŤ CHVÁLY,",
+                            "BUDEM SPIEVAŤ CHVÁLY,",
+                            "KÍM ŽIVOT MAM.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39628,9 +40983,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Bože, si povedal",
-                            ", so mnou že cítiš, že bolesti dneškai budúcnosť vidíš. Presiaklý vzdorom som odmietnúť chcel Ťa, však prišiel si pomôcť",
-                            "mi, ó, láska veľká,keď prosil som, lkal."
+                            "Bože, si povedal, ",
+                            "so mnou že cítiš, že bolesti dneškai budúcnosť vidíš. Presiaklý vzdorom som odmietnúť chcel Ťa, však prišiel si pomôcťmi, ó, láska veľká, keď prosil som, lkal."
                         ],
                         [
                             "REF:",
@@ -39641,7 +40995,7 @@ const jsonData = {
                             "ŽE UŽ DÁVNO SOM PREVZAL TVOJE SLZY A HRIECH.\""
                         ],
                         [
-                            "Veľká je milosťa dobrota Tvoja, dnes verím, že úmysly Tvoje vždy stoja. Bol sia budeš môj záchranca večný! Som na veky voľnýa koľkých hriech väzní, len ja, práve ja ..."
+                            "Veľká je milosťa dobrota Tvoja, dnes verím, že úmysly Tvoje vždy stoja. Bol si a budeš môj záchranca večný! Som na veky voľný a koľkých hriech väzní, len ja, práve ja ..."
                         ],
                         [
                             "REF:",
@@ -39652,8 +41006,7 @@ const jsonData = {
                             "ŽE UŽ DÁVNO SOM PREVZAL TVOJE SLZY A HRIECH.\""
                         ],
                         [
-                            "Ježišu drahý",
-                            ", Ti oddávam seba, veďs Tebou len dôjdem až po bránu neba. Milosťou, pravdou ma napájaš hojne, nuž každý deň zaspievam nadšene, skromne, svoj oslavný žalm."
+                            "Ježišu drahý, Ti oddávam seba, veď s Tebou len dôjdem až po bránu neba. Milosťou, pravdou ma napájaš hojne, nuž každý deň zaspievam nadšene, skromne, svoj oslavný žalm."
                         ],
                         [
                             "REF:",
@@ -39699,13 +41052,12 @@ const jsonData = {
                             "Bože, želimo reći Ti hvala. Želimo reći Ti hvala. Želimo reći Ti hvala. Hvala Ti, Bože, za sve!"
                         ],
                         [
-                            "/:: Slavimo Tebe",
-                            ", o Bože .::/ Velik si",
-                            ", o Bože naš."
+                            "/:: Slavimo Tebe, o Bože .::/ ",
+                            "Velik si, o Bože naš."
                         ],
                         [
-                            "/:: Ljubimo Tebe",
-                            ", o Bože ,::/ jer Ti si nas ljubio pre."
+                            "/:: Ljubimo Tebe, o Bože ,::/ ",
+                            "jer Ti si nas ljubio pre."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39744,9 +41096,9 @@ const jsonData = {
                             "VŠADE SVIETI A HREJE JEJ lúč. :/"
                         ],
                         [
-                            "Poď do náruče Božej. Več nú",
-                            "lásku nájdešv",
-                            "nej, len poď!"
+                            "Poď do náruče Božej. ",
+                            "Večnú lásku nájdeš v nej, ",
+                            "len poď!"
                         ],
                         [
                             "REF:",
@@ -39768,7 +41120,8 @@ const jsonData = {
                         [
                             "REF:",
                             "/:BOŽJA LJUBAV JE KAO SUNCE.",
-                            "ONA SVUDA I SVAKOME SJA.:/ Ništa neće uništit' Božju ljubav ona več na je!"
+                            "ONA SVUDA I SVAKOME SJA.:/ ",
+                            "Ništa neće uništit' Božju ljubav ona več na je!"
                         ],
                         [
                             "REF:",
@@ -39781,7 +41134,7 @@ const jsonData = {
                             "ONA SVUDA I SVAKOME SJA.:/"
                         ],
                         [
-                            "Ona menjai tebe, ako želiš sada, ovajč as! REF:",
+                            "Ona menja i tebe, ako želiš sada, ovaj čas! REF:",
                             "/:BOŽJA LJUBAV JE KAO SUNCE.",
                             "ONA SVUDA I SVAKOME SJA.:/"
                         ]
@@ -39801,8 +41154,7 @@ const jsonData = {
                             "/: Božja ljubav, Božja snaga, više Tebeu životu mom../"
                         ],
                         [
-                            "Slavim Tebe ja svim srcem svojim, slavim Tebe ja svom snagom svojom, slavim Tebe ja svom dušom svojom, jer Ti si moj Kralj",
-                            ", Ti si moj Kralj."
+                            "Slavim Tebe ja svim srcem svojim, slavim Tebe ja svom snagom svojom, slavim Tebe ja svom dušom svojom, jer Ti si moj Kralj, Ti si moj Kralj."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39826,8 +41178,8 @@ const jsonData = {
                             "BUĎTE PEVNÍ, NEPOHNUTEĽNÍ,",
                             "BUĎTE SILNÍ, NEBOJTE SA.",
                             "ROBIŤ DOBRE NEPRESTÁVAJTE",
-                            "V ČAS",
-                            "I NEVČAS, NEUSTÁVAJTE!"
+                            "V ČAS I NEVČAS, ",
+                            "NEUSTÁVAJTE!"
                         ],
                         [
                             "Mnohokrát zdá sa, práca je márna,",
@@ -39845,8 +41197,8 @@ const jsonData = {
                             "BUĎTE PEVNÍ, NEPOHNUTEĽNÍ,",
                             "BUĎTE SILNÍ, NEBOJTE SA.",
                             "ROBIŤ DOBRE NEPRESTÁVAJTE",
-                            "V ČAS",
-                            "I NEVČAS, NEUSTÁVAJTE!"
+                            "V ČAS I NEVČAS, ",
+                            "NEUSTÁVAJTE!"
                         ],
                         [
                             "Vediac, že práca už nie je márna,",
@@ -39864,8 +41216,8 @@ const jsonData = {
                             "BUĎTE PEVNÍ, NEPOHNUTEĽNÍ,",
                             "BUĎTE SILNÍ, NEBOJTE SA.",
                             "ROBIŤ DOBRE NEPRESTÁVAJTE",
-                            "V ČAS",
-                            "I NEVČAS, NEUSTÁVAJTE!"
+                            "V ČAS I NEVČAS, ",
+                            "NEUSTÁVAJTE!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -39901,68 +41253,53 @@ const jsonData = {
                     "verses": [
                         [
                             "Tvoja milost me uvek izbavljala,",
-                            "i kad izneverim Te,u",
-                            "njoj stojim uvek. Ti",
-                            "si večan, sve",
-                            "nestaje al´ ti si tu,",
+                            "i kad izneverim Te, u njoj stojim uvek.",
+                            "Ti si večan, sve nestaje al´ ti si tu,",
                             "Tvoja slava je beskrajna jer",
                             "ti si Bog."
                         ],
                         [
-                            "Svaki",
-                            "moj dan predajem Ti.",
+                            "Svaki moj dan predajem Ti.",
                             "Sve misli moje vodi Ti.",
                             "Nek pravda i čast u meni žive",
-                            "jer celim bićem volim Te."
+                            "jer celim bićem ",
+                            "volim Te."
                         ],
                         [
                             "Tvoja volja je za me najbolja.",
-                            "Samo tebi, Bože, ja",
-                            "hvalu dajem. Ti",
-                            "si večan, sve",
-                            "nestaje al´ ti si tu,",
-                            "Tvoja slava je beskrajna jer ti si Bog."
+                            "Samo tebi, Bože, ja hvalu dajem. ",
+                            "Ti si večan, sve nestaje al´ ti si tu,",
+                            "Tvoja slava je beskrajna jer ",
+                            "ti si Bog."
                         ],
                         [
-                            "Svaki",
-                            "moj dan predajem Ti",
+                            "Svaki moj dan predajem Ti",
                             "Sve misli moje vodi Ti.",
                             "Nek pravda i čast u meni žive",
                             "jer celim bićem volim Te."
                         ],
                         [
-                            "Ti",
-                            "si večan, sve",
-                            "nestaje al´ ti si tu,",
-                            "Tvoja slava je beskrajna jer",
-                            "ti si Bog.",
-                            "Želja srca moga je",
-                            "da dam Ti čast.",
-                            "Celim srcem, dušom",
-                            "svom volim Te!"
+                            "Ti si večan, sve nestaje al´ ti si tu,",
+                            "Tvoja slava je beskrajna jer ti si Bog.",
+                            "Želja srca moga je da dam Ti čast.",
+                            "Celim srcem, dušom svom volim Te!"
                         ],
                         [
-                            "Svaki",
-                            "moj dan predajem Ti.",
-                            "Sve misli moje vodi Ti. Nek",
-                            "pravda i čast u meni žive",
+                            "Svaki moj dan predajem Ti.",
+                            "Sve misli moje vodi Ti. ",
+                            "Nek pravda i čast u meni žive",
                             "jer celim bićem volim Te."
                         ],
                         [
-                            "Ti",
-                            "si večan, sve",
-                            "nestaje al´ ti si tu,",
-                            "Tvoja slava je beskrajna jer",
-                            "ti si Bog.",
-                            "Želja srca moga je",
-                            "da dam Ti čast.",
-                            "Celim srcem, dušom",
-                            "svom volim Te!"
+                            "Ti si večan, ",
+                            "sve nestaje al´ ti si tu,",
+                            "Tvoja slava je beskrajna jer ti si Bog.",
+                            "Želja srca moga je da dam Ti čast.",
+                            "Celim srcem, dušom svom volim Te!"
                         ],
                         [
-                            "Ti",
-                            "si večan, sve",
-                            "nestaje al´ ti si tu,",
+                            "Ti si večan, ",
+                            "sve nestaje al´ ti si tu,",
                             "Tvoja slava je beskrajna jer ti si Bog.",
                             "Želja srca moga je da dam Ti čast.",
                             "Celim srcem, dušom svom volim Te!",
@@ -39988,7 +41325,7 @@ const jsonData = {
                             "chcem Mu spievať novú pieseň."
                         ],
                         [
-                            "Chcem Ho chváliť, chcem",
+                            "Chcem Ho chváliť, chcem ",
                             "Mu spievať novú pieseň.",
                             "Chcem Ho chváliť, chcem",
                             "Mu spievať novú pieseň.",
@@ -40008,8 +41345,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Chcem ti vyrozprávať, čím je pre mňa Ježiš, od tej chvíle, keď sa Kráľom mojim stal. Celkom uvoľnil môj zotročený život, čo svet nemôže dať",
-                            ", On mi hojne dal."
+                            "Chcem ti vyrozprávať, čím je pre mňa Ježiš, od tej chvíle, keď sa Kráľom mojim stal. Celkom uvoľnil môj zotročený život, čo svet nemôže dať, On mi hojne dal."
                         ],
                         [
                             "REF:",
@@ -40048,17 +41384,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Chcem vojsť do",
-                            "Pánových brán,",
-                            "srdce chcem",
-                            "mať plné chvál,",
-                            "vstúpiť do Pánových",
-                            "siení s oslavou."
+                            "Chcem vojsť do Pánových brán,",
+                            "srdce chcem mať plné chvál,",
+                            "vstúpiť do Pánových siení s oslavou."
                         ],
                         [
                             "Toto je deň, ktorý Pán",
-                            "pre mňa daroval,",
-                            "som šťastný,",
+                            "pre mňa daroval, som šťastný,",
                             "On mi šťastie daroval."
                         ],
                         [
@@ -40080,21 +41412,24 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Chvíle najvzácnejšie prežívam na kolenách .:/ REF:",
+                            "/: Chvíle najvzácnejšie prežívam na kolenách.:/",
+                            "REF:",
                             "KEĎ SI KĽAKNEM K MODLITBÁM,",
                             "DUCH PLNÍ VNÚTRA CHRÁM.",
                             "CHVÍLE NAJVZÁCNEJŠIE",
                             "PREŽÍVAM NA KOLENÁCH."
                         ],
                         [
-                            "/: Silu opustiť hriech prijal som na kolenách .:/ REF:",
+                            "/: Silu opustiť hriech prijal som na kolenách.:/",
+                            "REF:",
                             "KEĎ SI KĽAKNEM K MODLITBÁM,",
                             "DUCH PLNÍ VNÚTRA CHRÁM.",
                             "CHVÍLE NAJVZÁCNEJŠIE",
                             "PREŽÍVAM NA KOLENÁCH."
                         ],
                         [
-                            "/: Pán ma Svätým Duchom naplnil na kolenách .:/ REF:",
+                            "/: Pán ma Svätým Duchom naplnil na kolenách.:/",
+                            "REF:",
                             "KEĎ SI KĽAKNEM K MODLITBÁM,",
                             "DUCH PLNÍ VNÚTRA CHRÁM.",
                             "CHVÍLE NAJVZÁCNEJŠIE",
@@ -40113,7 +41448,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Dajemo Ti hvalui svu slavu. Podižemo ruke Tebi, Tvome divnom imenu .:/ Ref: /: Jer Ti si Bog, silnač udač iniš Ti. Niko nije kao Ti, niko nije kao Ti!:/"
+                            "/: Dajemo Ti hvalui svu slavu. Podižemo ruke Tebi, Tvome divnom imenu.:/ ",
+                            "Ref: /: Jer Ti si Bog, silnač udač iniš Ti. Niko nije kao Ti, niko nije kao Ti!:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40183,8 +41519,7 @@ const jsonData = {
                             "Dal’ si već očišćen, Kroz Isusovu krv odriješen? A haljine dal’ su bijele kao snijeg, Dal’ si čist kroz krv Isusovu?"
                         ],
                         [
-                            "3. Kada ženik dođe, da li spreman si? Dal’ si čist kroz krv Isusovu? Dal",
-                            "’ ćeš stat’ pred Jagnjetom obučen, čist, Dal’ si čist kroz krv Isusovu?"
+                            "3. Kada ženik dođe, da li spreman si? Dal’ si čist kroz krv Isusovu? Dal’ ćeš stat’ pred Jagnjetom obučen, čist, Dal’ si čist kroz krv Isusovu?"
                         ],
                         [
                             "REF:",
@@ -40192,9 +41527,9 @@ const jsonData = {
                         ],
                         [
                             "4. Zato baci daleko greh od sebe, Budi",
-                            "čist kroz krv Isusovu? Gle",
-                            ", studenac za te teče sveta krv; Budi",
-                            "čist kroz krv Isusovu!"
+                            "čist kroz krv Isusovu? Gle, ",
+                            "studenac za te teče sveta krv; ",
+                            "Budi čist kroz krv Isusovu!"
                         ],
                         [
                             "REF:",
@@ -40228,18 +41563,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Dao sam svoj život Isusu. (3x) Podignut‘ć",
-                            "e me u svoj dom.",
-                            "Po uskom putu sledim Ga. (3x) Podignut‘ć",
-                            "e me u svoj dom."
+                            "Dao sam svoj život Isusu. (3x)",
+                            "Podignut‘će me u svoj dom.",
+                            "Po uskom putu sledim Ga. (3x)",
+                            "Podignut‘će me u svoj dom."
                         ],
                         [
-                            "Tamoć",
-                            "u nać",
-                            "i potpun mir. (3x) Podignut‘ć",
-                            "e me u svoj dom. Sadč",
-                            "ekam Njegov dolazak. (3x) Podignut‘ć",
-                            "e me u svoj dom."
+                            "Tamo ću naći potpun mir. (3x)",
+                            "Podignut‘će me u svoj dom.",
+                            "Sad čekam Njegov dolazak. (3x)",
+                            "Podignut‘će me u svoj dom."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40256,8 +41589,7 @@ const jsonData = {
                         [
                             "Deca smo nebeskog Oca",
                             "i pobedili smo s Njim,",
-                            "jer već",
-                            "i je Isus u nama",
+                            "jer veći je Isus u nama",
                             "od sotone u svetu.",
                             "/: Slavim Isusa, slavim,",
                             "jer On se bori za me.",
@@ -40374,8 +41706,7 @@ const jsonData = {
                             "Haleluja Kralju mom, Haleluja, pevaću zauvek!"
                         ],
                         [
-                            "Ti sve dao sida dotakneš me rukom ljubavi. Opet dolazim, dajem svoj život celi da hvali",
-                            "Te. O, Isuse ja znam da voliš me."
+                            "Ti sve dao sida dotakneš me rukom ljubavi. Opet dolazim, dajem svoj život celi da hvali Te. O, Isuse ja znam da voliš me."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40390,8 +41721,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Predivna je ljubav ta, nepromenljiva,",
-                            "s krsta milost me preplavljuje, nevidjena još dosad. Ljudi ne znaju kako divan, predivan si Ti!"
+                            "Predivna je ljubav ta, nepromenljiva, s krsta milost me preplavljuje, nevidjena još dosad. Ljudi ne znaju kako divan, predivan si Ti!"
                         ],
                         [
                             "REF.:",
@@ -40441,8 +41771,7 @@ const jsonData = {
                             "Živa reka to si ti."
                         ],
                         [
-                            "Oče na nebu",
-                            ", mi te slavimo. Duše Sveti uči nas dau tebi hodamo. Spasitelju Isuse, mi te uzdižemo, uzdižemo!"
+                            "Oče na nebu, mi te slavimo. Duše Sveti uči nas dau tebi hodamo. Spasitelju Isuse, mi te uzdižemo, uzdižemo!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40464,24 +41793,24 @@ const jsonData = {
                         ],
                         [
                             "REF:",
-                            "To mi je pesma i slavopoj,                                                     Isusa slavim sav život moj.",
-                            "To mi je pesma i slavopoj,                                          dete sam Božje, Isus je moj!"
+                            "To mi je pesma i slavopoj, Isusa slavim sav život moj.",
+                            "To mi je pesma i slavopoj, dete sam Božje, Isus je moj!"
                         ],
                         [
                             "2. Predanost slatku, slast nebesku, oseća duša u svom Gospodu. Božanski mir mi ispunja grud, zakon mi Njegov radost je svud."
                         ],
                         [
                             "REF:",
-                            "To mi je pesma i slavopoj,                                                     Isusa slavim sav život moj.",
-                            "To mi je pesma i slavopoj,                                          dete sam Božje, Isus je moj!"
+                            "To mi je pesma i slavopoj, Isusa slavim sav život moj.",
+                            "To mi je pesma i slavopoj, dete sam Božje, Isus je moj!"
                         ],
                         [
                             "3. Blaženi pokoj, počinak blag osećam sledeć’ mog Isusa trag. Samo kod Njega ostat ću ja, jedin’ je Isus radost moja."
                         ],
                         [
                             "REF:",
-                            "To mi je pesma i slavopoj,                                                     Isusa slavim sav život moj.",
-                            "To mi je pesma i slavopoj,                                          dete sam Božje, Isus je moj!"
+                            "To mi je pesma i slavopoj, Isusa slavim sav život moj.",
+                            "To mi je pesma i slavopoj, dete sam Božje, Isus je moj!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40497,54 +41826,37 @@ const jsonData = {
                     "verses": [
                         [
                             "Dnes Tvoja Cirkev stoluje, ó, Pane Ježišu,",
-                            "a zvestuje, že záchranu má v",
-                            "Tebe najvyššiu. Na",
-                            "smrť si vydal Seba",
-                            "raz, ňou",
-                            "s Bohom večne zmieril",
-                            "nás. Ty",
-                            "dokonal si",
-                            "spasenie, spev",
-                            "za to vďačný nech Ti znie,",
+                            "a zvestuje, že záchranu má v Tebe najvyššiu.",
+                            "Na smrť si vydal Seba raz,",
+                            "ňou s Bohom večne zmieril nás.",
+                            "Ty dokonal si spasenie,",
+                            "spev za to vďačný nech Ti znie,",
                             "ó, Pane náš, ó, Spasiteľu náš!"
                         ],
                         [
-                            "Chlieb, ktorý dnes tu lámeme, náš Pane, svedčí",
-                            "nám, že",
-                            "telo svoje obeťou si za náš hriech dal",
-                            "sám. Ty",
-                            "za nás podstúpil si boj,",
+                            "Chlieb, ktorý dnes tu lámeme, náš Pane, ",
+                            "svedčí nám, že telo svoje obeťou si za náš hriech dal sám.",
+                            "Ty za nás podstúpil si boj,",
                             "ó, vďaka, Pane, za kríž",
-                            "Tvoj, i",
-                            "za moc vzácnu Tvojich",
-                            "rán, čo",
-                            "liekom, bohatstvom je nám,",
+                            "Tvoj, iza moc vzácnu Tvojich rán,",
+                            "čo liekom, bohatstvom je nám,",
                             "i radosťou a mannou nebeskou!"
                         ],
                         [
-                            "A kalich, Pane, zvestuje nám Tvojej krvi",
-                            "moc, čo",
-                            "z lásky k svetu tiekla raz, by zmizla hriechu",
-                            "noc. V",
-                            "nej s Bohom zmierenia je",
-                            "zdroj, tak",
-                            "svedčí o tom sám Duch",
-                            "Tvoj. V",
-                            "tej krvi máme",
-                            "spasenie, ňou",
-                            "Božie deti večne sme,ó",
-                            ", Otče náš, ó, Bože, Otče náš."
+                            "A kalich, Pane, zvestuje nám Tvojej krvi moc,",
+                            "čo z lásky k svetu tiekla raz, by zmizla hriechu noc.",
+                            "V nej s Bohom zmierenia je zdroj,",
+                            "tak svedčí o tom sám Duch Tvoj.",
+                            "V tej krvi máme spasenie,",
+                            "ňou Božie deti večne sme,",
+                            "ó, Otče náš, ó, Bože, Otče náš."
                         ],
                         [
                             "Ku Tebe zrieme v nádeji, že k Sebe vezmeš",
-                            "nás. Pre",
-                            "svoju Cirkev skoro príď, jej počuj prosieb",
-                            "hlas! Deň",
-                            "čo deň Tebe v ústrety",
-                            "hor vhliadneme, ó,",
-                            "Presvätý. Tak",
-                            "príď a v svojej",
-                            "radosti si",
+                            "nás. Pre svoju Cirkev skoro príď, jej počuj prosieb",
+                            "hlas! Deň čo deň Tebe v ústrety",
+                            "hor vhliadneme, ó, Presvätý. Tak",
+                            "príď a v svojej radosti si",
                             "svoju Cirkev uhosti!",
                             "Ó, skoro príď, náš Kráľu, skoro príď!"
                         ]
@@ -40561,11 +41873,11 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Do tmy na svet",
-                            "prišlo k nám svetlo sveta. Otvor môj zrak, nech vidím krásu lásky, v ktorej srdce Ti spieva, ved láska a moc Ti patrí."
+                            "Do tmy na svet prišlo k nám svetlo sveta. Otvor môj zrak, nech vidím krásu lásky, v ktorej srdce Ti spieva, ved láska a moc Ti patrí."
                         ],
                         [
-                            "Prišli sme Ta vzývať,                       prišli sme sa skláňať,",
+                            "Prišli sme Ta vzývať,",
+                            "prišli sme sa skláňať,",
                             "Prišli sme Ti vyznať: Si náš Boh!",
                             "Si dokonalá láska, dokonale svätý,",
                             "dokonale nádherný ku mám."
@@ -40574,9 +41886,7 @@ const jsonData = {
                             "Kraľ všetkých dní a tiež najvyšší vládca, slávnejší nad nebesá,ponížil sa, prišiel na zem, čo stvoril, vzdal sa slávy z lásky k nám!"
                         ],
                         [
-                            "/:",
-                            "Ja nem",
-                            "ám dosť slov opísať cenu ktorú Ta môj hriech stál. :/"
+                            "/: Ja nem ám dosť slov opísať cenu ktorú Ta môj hriech stál.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40655,7 +41965,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Dobih mir kao reka, dobih mir kao reka, dobih mir kao rekau duši .:/ Dobih radost kao izvor ... Dobih ljubav kao more..."
+                            "/: Dobih mir kao reka, dobih mir kao reka, dobih mir kao rekau duši.:/",
+                            "Dobih radost kao izvor ... Dobih ljubav kao more..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40700,13 +42011,11 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Dok",
-                            "ázal som mnohokrát, že mám seba veľmi rád,že",
-                            "si volim cesty kratšiea",
-                            "to také",
-                            "akurát. Pokojne",
-                            "do cieĺa prísť, zlatov strednov cestov",
-                            "isť platné",
+                            "Dokázal som mnohokrát,",
+                            "že mám seba veľmi rád, ",
+                            "že si volim cesty kratšiea to také akurát.",
+                            "Pokojne do cieĺa prísť,",
+                            "zlatov strednov cestov isť platné ",
                             "držať svoj si priemer bez búrok sa zaobisť."
                         ],
                         [
@@ -40732,8 +42041,8 @@ const jsonData = {
                             "Dolazim i klanjam se",
                             "kod nogu našeg Hrista,",
                             "veličam krst, pun ljubavi",
-                            "kod nogu našeg Hrista,",
-                            "i pevam: Sveti, Sveti, Sveti 3x",
+                            "kod nogu našeg Hrista, i pevam: ",
+                            "Sveti, Sveti, Sveti 3x",
                             "je naš Bog."
                         ]
                     ],
@@ -40749,7 +42058,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "U Tebi se odmaram Oče sveti, moja duša čezne za Tobom.",
+                            "U Tebi se odmaram Oče sveti, ",
+                            "moja duša čezne za Tobom.",
                             "Ti moje srce ispunjavaš Duhom svetim,",
                             "Zauvek ću prebivati u domu Tvom."
                         ],
@@ -40766,10 +42076,11 @@ const jsonData = {
                             "Svaki dan ja divim se lepoti Tvojoj. 2x"
                         ],
                         [
-                            "Glas svoj sad podižem, ka",
-                            "Tebi, o Bože moj,",
+                            "Glas svoj sad podižem, ",
+                            "ka Tebi, o Bože moj,",
                             "Tvoj duh je blago duši mojoj.",
-                            "Više nikog ne trebam, samo Tebe o Bože moj,",
+                            "Više nikog ne trebam, ",
+                            "samo Tebe o Bože moj,",
                             "Tvoj duh je blago moje. 2x"
                         ]
                     ],
@@ -40825,9 +42136,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Dođ ite da se poklonimo, pokleknimo pred našim Bogomi Stvoriteljem .:/. /: Jer",
-                            "On je naš",
-                            "Bog a mi smo Njegovi ljudii ovce paše Njegove .:/"
+                            "/: Dođ ite da se poklonimo, pokleknimo pred našim Bogomi Stvoriteljem.:/",
+                            "/: Jer On je naš Bog a mi smo Njegovi ljudii ovce paše Njegove .:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40842,8 +42152,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Drage su stope onog koji donosi dobru nam vest, da dobru vest. Navešta miri govorio radosti. Naš vladar",
-                            "Bog, sad vlada Bog!"
+                            "Drage su stope onog koji donosi dobru nam vest, da dobru vest. Navešta miri govorio radosti. Naš vladar Bog, sad vlada Bog!"
                         ],
                         [
                             "REF:",
@@ -40869,8 +42178,7 @@ const jsonData = {
                             "Znam Božji si poklon menii zvezdau noći. Kadč ujem Tvoje ime osmeh se vrati. Samo dve reči nežne- volim te!"
                         ],
                         [
-                            "Pruži mi ruku",
-                            ", o neka ljubav veže nas. Bogće nam biti Temelji Car.O neka život bude lep za nas, jer ljubav veže nas."
+                            "Pruži mi ruku, o neka ljubav veže nas. Bogće nam biti Temelji Car. O neka život bude lep za nas, jer ljubav veže nas."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40890,16 +42198,13 @@ const jsonData = {
                             "JONA ADONAJ,",
                             "DAN ZA DANOM TI SI ISTI,",
                             "PO SNAZI IMENA TVOG. EL ŠADAJ, EL ŠADAJ, ER KAM KANA ADONAJ,",
-                            "MI SLAVIĆ",
-                            "EMO TE, EL ŠADAJ."
+                            "MI SLAVIĆEMO TE, EL ŠADAJ."
                         ],
                         [
-                            "Ljubavlju si spasio izraelske sinove, svojom silnom rukom si pretvorio moreu suvu zemlju. Svojom silom oslobodio si rođ enu decu. Izgnanoj si bio moć",
-                            "an Bog."
+                            "Ljubavlju si spasio izraelske sinove, svojom silnom rukom si pretvorio moreu suvu zemlju. Svojom silom oslobodio si rođ enu decu. Izgnanoj si bio moćan Bog."
                         ],
                         [
-                            "Ti si davno rekao daće Isus doć i, ali ljudi nisu to mogli verovati. Tvoja reč ima plan, ipak ljudi ne vide da si Ti silan",
-                            "Bog, El Šadaj."
+                            "Ti si davno rekao daće Isus doć i, ali ljudi nisu to mogli verovati. Tvoja reč ima plan, ipak ljudi ne vide da si Ti silan Bog, El Šadaj."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40914,17 +42219,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "El Šaddai,",
-                            "El Šaddai, El eliona Adonal, Ty",
-                            "si vždycky ten istý, včera dnes i naveky, El",
-                            "Šaddai, El Šaddai El",
-                            "eliona Adonal, vyvyšovať chcemeŤ a,",
-                            "El Šaddai."
+                            "El Šaddai, El Šaddai, El eliona Adonal,",
+                            "Ty si vždycky ten istý, včera dnes i naveky,",
+                            "El Šaddai, El Šaddai El eliona Adonal,",
+                            "vyvyšovať chcemeŤ a, El Šaddai."
                         ],
                         [
-                            "Barankom si zachránil Izáka, by ešte žil. Mocou Tvojích svätých rúk zmenils morev",
-                            "zemskú súš. Videl si bôľ mužov žien, ľudu",
-                            ", ktorý z rabstva šiel, stal si sa mu Záchrancom predivným."
+                            "Barankom si zachránil Izáka, by ešte žil. Mocou Tvojích svätých rúk zmenils morev zemskú súš. Videl si bôľ mužov žien, ľudu, ktorý z rabstva šiel, stal si sa mu Záchrancom predivným."
                         ],
                         [
                             "Rokmi si to vyjasnil, že si v Kristu všetko skryl. Svojho Syna si nám dal, by si dielo dokonal. Dokonalý bol to plán, uver teraz tým slovám, Baránkom je Boží Syn, by všetkých zachránil."
@@ -40945,38 +42246,30 @@ const jsonData = {
                             "REF:",
                             "GALILEJA, GALILEJA,",
                             "PESMA JE TA NAJMILIJA,",
-                            "/: I NEĆ",
-                            "E PROĆ",
-                            "I U SVETU ZNAJ,",
-                            "DOKLE GOD TRAJE SUNCA SJAJ. :/"
+                            "/: I NEĆE PROĆI U SVETU ZNAJ,",
+                            "DOKLE GOD TRAJE SUNCA SJAJ.:/"
                         ],
                         [
                             "Na jezeru omiljenom govorio je rodu svom.",
-                            "/: Tad skupljeni na obali, mnoga suč uda gledali",
-                            ". :/"
+                            "/: Tad skupljeni na obali, mnoga suč uda gledali.:/"
                         ],
                         [
                             "REF:",
                             "GALILEJA, GALILEJA,",
                             "PESMA JE TA NAJMILIJA,",
-                            "/: I NEĆ",
-                            "E PROĆ",
-                            "I U SVETU ZNAJ,",
-                            "DOKLE GOD TRAJE SUNCA SJAJ. :/"
+                            "/: I NEĆE PROĆI U SVETU ZNAJ,",
+                            "DOKLE GOD TRAJE SUNCA SJAJ.:/"
                         ],
                         [
-                            "Tu leč io je bolesnei tešio je žalosne.",
-                            "/: Uč inio ječ udesa, zato Ga slavi zemlja sva",
-                            ". :/"
+                            "Tu lečio je bolesne i tešio je žalosne.",
+                            "/: Uč inio ječ udesa, zato Ga slavi zemlja sva.:/"
                         ],
                         [
                             "REF:",
                             "GALILEJA, GALILEJA,",
                             "PESMA JE TA NAJMILIJA,",
-                            "/: I NEĆ",
-                            "E PROĆ",
-                            "I U SVETU ZNAJ,",
-                            "DOKLE GOD TRAJE SUNCA SJAJ. :/"
+                            "/: I NEĆE PROĆI U SVETU ZNAJ,",
+                            "DOKLE GOD TRAJE SUNCA SJAJ.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -40991,40 +42284,35 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Galilejskí rybári si siete oprali, veď celú noc lovili",
-                            ", a ryby nemali. Keď sa Ježiš vybrals ními, mali mnoho rýb, ukázal im svoju slávua povolal ich:"
+                            "Galilejskí rybári si siete oprali, veď celú noc lovili, a ryby nemali. Keď sa Ježiš vybrals ními, mali mnoho rýb, ukázal im svoju slávua povolal ich:"
                         ],
                         [
-                            "REF: POĎ",
-                            "TE ZA MNOU - JEŽIŠ HOVORÍ -UČ",
-                            "INÍM VÁS RYBÁRMIĽ UDÍ. POĎ",
-                            "TE ZA MNOU, SIETE NECHAJTE, POĎ",
-                            "TE ZA MNOU, ŠŤ",
-                            "ASTNÍ BUDETE."
+                            "REF: ",
+                            "POĎTE ZA MNOU - JEŽIŠ HOVORÍ ",
+                            "-UČINÍM VÁS RYBÁRMIĽ UDÍ. ",
+                            "POĎTE ZA MNOU, SIETE NECHAJTE,",
+                            "POĎTE ZA MNOU, ŠŤASTNÍ BUDETE."
                         ],
                         [
-                            "Tento svet je veľ ké more",
-                            "v oč iach Pánových,",
-                            "a vň om jesto ešte mnoho nechytených rýb. Práve preto Pán nám všetkými dnes hovorí:\"Poď te za mnou,uč iním vás rybármiľ udí .\""
+                            "Tento svet je veľké more v očiach Pánových, a vňom jesto ešte mnoho nechytených rýb. Práve preto Pán nám všetkými dnes hovorí:",
+                            "\"Poď te za mnou, učiním vás rybármi ľudí.\""
                         ],
                         [
-                            "REF: POĎ",
-                            "TE ZA MNOU - JEŽIŠ HOVORÍ -UČ",
-                            "INÍM VÁS RYBÁRMIĽ UDÍ. POĎ",
-                            "TE ZA MNOU, SIETE NECHAJTE, POĎ",
-                            "TE ZA MNOU, ŠŤ",
-                            "ASTNÍ BUDETE."
+                            "REF: ",
+                            "POĎTE ZA MNOU - JEŽIŠ HOVORÍ ",
+                            "-UČINÍM VÁS RYBÁRMIĽ UDÍ. ",
+                            "POĎTE ZA MNOU, SIETE NECHAJTE,",
+                            "POĎTE ZA MNOU, ŠŤASTNÍ BUDETE."
                         ],
                         [
-                            "Opusť aj ty svoje siete, za Pánom dnes poď. Opusť všetkoa poďs nami na Pánovu loď. Pripoj sak tým, ktorí loviaľ udí stratených, povedz im, že Ježiš zomrel práve pre hriešnych."
+                            "Opusť aj ty svoje siete, za Pánom dnes poď. Opusť všetkoa poď s nami na Pánovu loď. Pripoj sa k tým, ktorí lovia ľudí stratených, povedz im, že Ježiš zomrel práve pre hriešnych."
                         ],
                         [
-                            "REF: POĎ",
-                            "TE ZA MNOU - JEŽIŠ HOVORÍ -UČ",
-                            "INÍM VÁS RYBÁRMIĽ UDÍ. POĎ",
-                            "TE ZA MNOU, SIETE NECHAJTE, POĎ",
-                            "TE ZA MNOU, ŠŤ",
-                            "ASTNÍ BUDETE."
+                            "REF: ",
+                            "POĎTE ZA MNOU - JEŽIŠ HOVORÍ ",
+                            "-UČINÍM VÁS RYBÁRMIĽ UDÍ. ",
+                            "POĎTE ZA MNOU, SIETE NECHAJTE,",
+                            "POĎTE ZA MNOU, ŠŤASTNÍ BUDETE."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41039,9 +42327,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/:Gle kako dobro i prijatno je",
-                            "kad brać",
-                            "a žive zajedno.:/",
+                            "/:Gle kako dobro i prijatno je kad braća žive zajedno.:/",
                             "/:Zajedno, da žive zajedno la, la, la la, la.:/"
                         ]
                     ],
@@ -41057,28 +42343,22 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Gle, dan se već",
-                            "bliži svom kraju",
-                            "i tamna noć",
-                            "spušta se,",
-                            "a ptič",
-                            "ice nežno pevaju",
-                            "/::svoje več",
-                            "ernje pesme.::/"
+                            "Gle, dan se već bliži svom kraju",
+                            "i tamna noć spušta se,",
+                            "a ptičice nežno pevaju",
+                            "/::svoje večernje pesme.::/"
                         ],
                         [
-                            "A cveć",
-                            "e, to mora dać uti,",
+                            "A cveće, to mora da ćuti,",
                             "jer ono glasa nema.",
-                            "Al' ipak več",
-                            "ernjoj molitvi",
+                            "Al' ipak večernjoj molitvi",
                             "/::glavu si k zemlji sklanja.::/"
                         ],
                         [
                             "Sve tako u molitvi mira",
                             "svog Stvoritelja slavi,",
-                            "a to i moje srce dira, /::o,č oveč",
-                            "e, mol' se i ti.::/"
+                            "a to i moje srce dira,",
+                            "/::o, čoveče, mol' se i ti.::/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41095,8 +42375,7 @@ const jsonData = {
                         [
                             "Gledao sam makove u zelenom polju,",
                             "baš sa tvojih usana uzeli su boju.",
-                            "Kao tvoje oč",
-                            "i su planinski brzaci,",
+                            "Kao tvoje oči su planinski brzaci,",
                             "toplinu tvog osmeha kradu sunca zraci."
                         ],
                         [
@@ -41107,18 +42386,16 @@ const jsonData = {
                         ],
                         [
                             "Ref:",
-                            "SAMO ZA TEBE (SAMO ZA MENE), STVORENA SAM JA (DIVNO SAZDANA),",
+                            "SAMO ZA TEBE (SAMO ZA MENE),",
+                            "STVORENA SAM JA (DIVNO SAZDANA),",
                             "TEBI VODILA (MENI DOVELA)",
-                            "ME RUKA BOŽIJA. TEBI VODILA",
-                            "ME RUKA BOŽIJA."
+                            "ME RUKA BOŽIJA.",
+                            "TEBI VODILA ME RUKA BOŽIJA."
                         ],
                         [
-                            "Tamo gde se dotič",
-                            "u več",
-                            "eri i zore,",
+                            "Tamo gde se dotiču večeri i zore,",
                             "tamo gde i ljubav je dublja nego more.",
-                            "Krila sreć",
-                            "e nose nas, stazama lepota",
+                            "Krila sreće nose nas, stazama lepota",
                             "tu na pragu našega novoga života."
                         ],
                         [
@@ -41146,63 +42423,47 @@ const jsonData = {
                             "Golgota, Golgota, Golgota.",
                             "Tu pod krížom zostávam rád,",
                             "vplyv sveta sem nepreniká.",
-                            "Strach, bolesť",
-                            " i žiaľ sa",
+                            "Strach, bolesť i žiaľ sa",
                             "neznámym stal, keď",
                             "v slzách na kríž pozerám."
                         ],
                         [
                             "REF:",
-                            "KLINCE NEDRŽALI NA KRÍŽI Ť",
-                            "A, VIEM, ANIĽ",
-                            "UDSKÁ ZLOBA, MÔJŤ",
-                            "A DRŽAL HRIECH.",
-                            "KLINCE NEDRŽALI NA",
-                            "KRÍŽI Ť",
-                            "A, VIEM,",
-                            "IBA Z VEĽ KEJ",
-                            "LÁSKY KU MNE SI TAM ŠIEL."
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA,",
+                            "VIEM, ANI ĽUDSKÁ ZLOBA,",
+                            "MÔJ ŤA DRŽAL HRIECH.",
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA, VIEM,",
+                            "IBA Z VEĽKEJ LÁSKY KU MNE SI TAM ŠIEL."
                         ],
                         [
                             "Golgota, Golgota, Golgota.",
-                            "Si spomínam na slávny deň, keď",
-                            "pod krížom padnúť",
-                            " som smel. Keď",
-                            "Boží mi Syn sň",
-                            "al bremeno vín,",
+                            "Si spomínam na slávny deň,",
+                            "keď pod krížom padnúť som smel.",
+                            "Keď Boží mi Syn sňal bremeno vín,",
                             "v jas premenil strašlivý tieň."
                         ],
                         [
                             "REF:",
-                            "KLINCE NEDRŽALI NA KRÍŽI Ť",
-                            "A, VIEM, ANIĽ",
-                            "UDSKÁ ZLOBA, MÔJŤ",
-                            "A DRŽAL HRIECH.",
-                            "KLINCE NEDRŽALI NA",
-                            "KRÍŽI Ť",
-                            "A, VIEM,",
-                            "IBA Z VEĽ KEJ",
-                            "LÁSKY KU MNE SI TAM ŠIEL."
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA,",
+                            "VIEM, ANI ĽUDSKÁ ZLOBA,",
+                            "MÔJ ŤA DRŽAL HRIECH.",
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA, VIEM,",
+                            "IBA Z VEĽKEJ LÁSKY KU MNE SI TAM ŠIEL."
                         ],
                         [
                             "Golgota, Golgota, Golgota.",
-                            "Ja na Teba hľ",
-                            "adím, môj Pán,",
+                            "Ja na Teba hľadím, môj Pán,",
                             "jak plný si bolesti, rán.",
                             "Tá milosti moc! Už minula noc,",
                             "dnes od hriechov slobodu mám."
                         ],
                         [
                             "REF:",
-                            "KLINCE NEDRŽALI NA KRÍŽI Ť",
-                            "A, VIEM, ANIĽ",
-                            "UDSKÁ ZLOBA, MÔJŤ",
-                            "A DRŽAL HRIECH.",
-                            "KLINCE NEDRŽALI NA",
-                            "KRÍŽI Ť",
-                            "A, VIEM,",
-                            "IBA Z VEĽ KEJ",
-                            "LÁSKY KU MNE SI TAM ŠIEL.",
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA,",
+                            "VIEM, ANI ĽUDSKÁ ZLOBA,",
+                            "MÔJ ŤA DRŽAL HRIECH.",
+                            "KLINCE NEDRŽALI NA KRÍŽI ŤA, VIEM,",
+                            "IBA Z VEĽKEJ LÁSKY KU MNE SI TAM ŠIEL.",
                             "Golgota, Golgota, Golgota."
                         ]
                     ],
@@ -41211,17 +42472,17 @@ const jsonData = {
                     "id": 6075
                 },
                 {
-                    "name": "Gospod Isus je sve,(Gospod Isus je",
+                    "name": "Gospod Isus je sve",
                     "number": 76,
                     "lang": "srb",
-                    "url": "gospod-isus-je-svegospod-isus-je",
+                    "url": "gospod-isus-je-sve",
                     "author": "",
                     "verses": [
                         [
-                            "Gospod Isus je sve,(Gospod Isus je sve) sve za mene (sve za mene)i ja znam od odgovara na molitve"
+                            "Gospod Isus je sve,(Gospod Isus je sve) sve za mene (sve za mene) i ja znam od odgovara na molitve"
                         ],
                         [
-                            "Samnom uvek je,(samnom uvek je)sa njim imam sve,(sa njim imam sve) Isus Hristos je sve,sve sve sve sve sve za mene"
+                            "Samnom uvek je,(samnom uvek je) sa njim imam sve,(sa njim imam sve) Isus Hristos je sve, sve sve sve sve sve za mene"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41300,10 +42561,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Gospode naš, kako divno",
-                            "Ti je ime, kao divno",
-                            "Ti je ime na zemlji svoj! Slavom puniš nebo do zvezde najdalje, kako divno",
-                            "Ti je ime na zemlji svoj!"
+                            "Gospode naš, kako divno Ti je ime,",
+                            "kao divno Ti je ime na zemlji svoj!",
+                            "Slavom puniš nebo do zvezde najdalje,",
+                            "kako divno Ti je ime na zemlji svoj!"
                         ],
                         [
                             "Kada pomislim na neboi na zvezda sjaj, ja se pitam štau meni vidiš Ti?!",
@@ -41343,11 +42604,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Gospode, molim",
-                            "Te sad, samo to ja tražim: da živimu domu Tvom dane života mog."
+                            "Gospode, molim Te sad, samo to ja tražim: da živimu domu Tvom dane života mog."
                         ],
                         [
-                            "Ref: /: Da lepotu Tvoju gledam svaki daniu domu Tvome budem zauvek .:/"
+                            "Ref: /: Da lepotu Tvoju gledam svaki daniu domu Tvome budem zauvek.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41366,8 +42626,7 @@ const jsonData = {
                             "Isus Hrist pomaže, sledimo Ga mi. Budimo svi verni! Napred k´ pobedi!"
                         ],
                         [
-                            "REF .:Hajd",
-                            "´, Hristovi borci, u taj sveti boj, zastavom",
+                            "REF .:Hajd´, Hristovi borci, u taj sveti boj, zastavom",
                             "u ruci, složno borbi toj!"
                         ],
                         [
@@ -41375,8 +42634,7 @@ const jsonData = {
                             "Ko´ svedoci verni žurno borbi toj. Napred samo složno u taj sveti boj!"
                         ],
                         [
-                            "REF .:Hajd",
-                            "´, Hristovi borci, u taj sveti boj, zastavom",
+                            "REF .:Hajd´, Hristovi borci, u taj sveti boj, zastavom",
                             "u ruci, složno borbi toj!"
                         ],
                         [
@@ -41384,18 +42642,15 @@ const jsonData = {
                             "Glava On je nama, a mi udi svi, jedna nam je nada – jedan nam je cilj."
                         ],
                         [
-                            "REF .:Hajd",
-                            "´, Hristovi borci, u taj sveti boj, zastavom",
+                            "REF .:Hajd´, Hristovi borci, u taj sveti boj, zastavom",
                             "u ruci, složno borbi toj!"
                         ],
                         [
-                            "Zapevajmo sada pesmu radosti! Mač",
-                            "duhovni nosm´o složno na rad mi.",
+                            "Zapevajmo sada pesmu radosti! Mač duhovni nosm´o složno na rad mi.",
                             "Dati našem Spasu, slavu, hvalu, čast, život, telo, dušu radost je za nas!"
                         ],
                         [
-                            "REF .:Hajd",
-                            "´, Hristovi borci, u taj sveti boj, zastavom",
+                            "REF .:Hajd´, Hristovi borci, u taj sveti boj, zastavom",
                             "u ruci, složno borbi toj!"
                         ]
                     ],
@@ -41411,7 +42666,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Halelu, halelu, halelu, haleluja! Slavi Boga !:/ Slavi Boga, haleluja! Slavi Boga, haleluja! Slavi Boga, haleluja! Slavi Boga!"
+                            "/: Halelu, halelu, halelu, haleluja! Slavi Boga!:/ ",
+                            "Slavi Boga, haleluja! Slavi Boga, haleluja! Slavi Boga, haleluja! Slavi Boga!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41458,13 +42714,11 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Haleluja, haleluja, silno vlada naš svemoć",
-                            "ni Bog. Haleluja, haleluja, sveti, sveti."
+                            "Haleluja, haleluja, silno vlada naš svemoćni Bog. Haleluja, haleluja, sveti, sveti."
                         ],
                         [
-                            "Svet si Gospode,",
-                            "silni dostojan si ti 2x Bož",
-                            "e sveti, sveti.A men"
+                            "Svet si Gospode, silni dostojan si ti 2x",
+                            "Bože sveti, sveti. Amen"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41479,8 +42733,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Haleluja, haleluja, haleluja, haleluja. Haleluja, haleluja, haleluja, haleluja. Haleluja, haleluja, haleluja, haleluja.. Hosijana .... Maranata .... Onć",
-                            "e doći ..."
+                            "Haleluja, haleluja, haleluja, haleluja. Haleluja, haleluja, haleluja, haleluja. Haleluja, haleluja, haleluja, haleluja.. Hosijana .... Maranata .... Onće doći ..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41495,9 +42748,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Haleluja, Isus dolazi",
-                            ", (3x)",
-                            "amen, amen. On je umroi uskrsnuo .... On je Spasitelji Gospod moj .... Onće skoro doći ponovo ..."
+                            "Haleluja, Isus dolazi, (3x) amen, amen.",
+                            "On je umroi uskrsnuo .... ",
+                            "On je Spasitelji Gospod moj .... ",
+                            "Onće skoro doći ponovo ..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41514,29 +42768,24 @@ const jsonData = {
                         [
                             "REF:",
                             "/:HALELUJA, NAŠ BOG JE ŽIV!:/",
-                            "DANAS I U VEČ",
-                            "NOSTI, AMEN!"
+                            "DANAS I U VEČNOSTI, AMEN!"
                         ],
                         [
-                            "Nas hrišć ana na zemlji je samo malen broj,",
-                            "no Bog se za nas bori",
-                            "i Duh nam daje svoj."
-                        ],
-                        [
-                            "REF:",
-                            "/:HALELUJA, NAŠ BOG JE ŽIV!:/",
-                            "DANAS I U VEČ",
-                            "NOSTI, AMEN!"
-                        ],
-                        [
-                            "Kod Njega nam je zaklon kad obuzme nas jad. On bogat jeu dobromi mir svoj dat'ć",
-                            "e tad’!"
+                            "Nas hrišćana na zemlji je samo malen broj,",
+                            "no Bog se za nas bori i Duh nam daje svoj."
                         ],
                         [
                             "REF:",
                             "/:HALELUJA, NAŠ BOG JE ŽIV!:/",
-                            "DANAS I U VEČ",
-                            "NOSTI, AMEN!"
+                            "DANAS I U VEČNOSTI, AMEN!"
+                        ],
+                        [
+                            "Kod Njega nam je zaklon kad obuzme nas jad. On bogat jeu dobromi mir svoj dat'će tad’!"
+                        ],
+                        [
+                            "REF:",
+                            "/:HALELUJA, NAŠ BOG JE ŽIV!:/",
+                            "DANAS I U VEČNOSTI, AMEN!"
                         ],
                         [
                             "Mi verujemo Bogu, On divno spasi nas. On posla Sina svoga, stog pevaju sav glas:"
@@ -41544,8 +42793,7 @@ const jsonData = {
                         [
                             "REF:",
                             "/:HALELUJA, NAŠ BOG JE ŽIV!:/",
-                            "DANAS I U VEČ",
-                            "NOSTI, AMEN!"
+                            "DANAS I U VEČNOSTI, AMEN!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41578,14 +42826,13 @@ const jsonData = {
                             "Hevejnu šalom Alejhem. (3x)",
                             "Hevejnu šalom, šalom, šalom Alejhem.",
                             "Donosimo vam Božji mir. (3x)",
-                            "Donosimo vam mir, mir, več",
-                            "ni Božji mir."
+                            "donosimo vam mir, mir, večni Božji mir."
                         ],
                         [
                             "To mir je što svet ne pozna. (3x)",
                             "To mir je što svet ovaj nikad ne pozna.",
                             "Samo u Hristu traži mir. (3x)",
-                            "Samo u Hristu traži veèni Božji mir."
+                            "Samo u Hristu traži večni Božji mir."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41607,7 +42854,7 @@ const jsonData = {
                             "večný život mám."
                         ],
                         [
-                            "Ďakujem za náruč, za dotyk Tvojich vzácnych rúk,Ty si môj hriech očistil, prijal si ma,ďakujem že máš ma rád."
+                            "Ďakujem za náruč, za dotyk Tvojich vzácnych rúk, Ty si môj hriech očistil, prijal si ma, ďakujem že máš ma rád."
                         ],
                         [
                             "HODEN JE NÁŠ PÁN,",
@@ -41637,12 +42884,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Hosana, hosana, hosana na visini .:/ Boga slavimo mi, radosno srcem svim. Budi slavljen",
-                            ", o Bože naš. Hosana na visini!"
+                            "/: Hosana, hosana, hosana na visini.:/ ",
+                            "Boga slavimo mi, radosno srcem svim. Budi slavljen, o Bože naš. Hosana na visini!"
                         ],
                         [
-                            "/: Slava, slava, slava Kralju kraljeva .:/ Boga slavimo mi radosno srcem svim. Budi slavljen",
-                            ", o Bože naš. Slava Kralju kraljeva!"
+                            "/: Slava, slava, slava Kralju kraljeva.:/ ",
+                            "Boga slavimo mi radosno srcem svim. Budi slavljen, o Bože naš. Slava Kralju kraljeva!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41705,10 +42952,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Hospodin nedá ti viac, viac než dokážeš zniesť, preto že rád ťa má. V čase skušok",
-                            "a bied, k nemu obráť svoj zrak On ruku",
-                            "ti podá. Zo smutku pozdvihne ťa a vráti usmev na tvár, slzy z očí zotrie. Duchom svojím občerství, istotu do srdca dá,",
-                            "že nad tebou vždy bdie."
+                            "Hospodin nedá ti viac, viac než dokážeš zniesť, preto že rád ťa má.",
+                            "V čase skušok a bied, k nemu obráť svoj zrak On ruku ti podá.",
+                            "Zo smutku pozdvihne ťa a vráti usmev na tvár, slzy z očí zotrie.",
+                            "Duchom svojím občerství, istotu do srdca dá, že nad tebou vždy bdie."
                         ],
                         [
                             "A preto chváľ, pána chváľ.",
@@ -41722,7 +42969,8 @@ const jsonData = {
                         [
                             "Boh mocnejší je než ten, čo iba do času",
                             "vo svete vládu má, rosieva nenávisť,",
-                            "hnev, chce zničiť lásku a v hriechu ťa navádza. Poddaj sa pod Božiu moc",
+                            "hnev, chce zničiť lásku a v hriechu ťa navádza.",
+                            "Poddaj sa pod Božiu moc",
                             "každý boj na kolenách ty budeš",
                             "vyhrávať, uvidíš veci veľké, milosť",
                             "a požehnanie budύ",
@@ -41768,7 +43016,7 @@ const jsonData = {
                             "Pýtaš sa, kto je ním?",
                             "Ježiš, Boží Syn,",
                             "Ten zachránil svet, iného",
-                            "Boha niet,",
+                            "Boha niet, ",
                             "On napokon zvíťazí!"
                         ],
                         [
@@ -41801,16 +43049,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Hriste, ovom pesmom",
-                            "mi Te slavimo .:/ Radost nek",
-                            "' u nama vlada zauvek. Hriste, ovom pesmom slavimo Te."
+                            "/: Hriste, ovom pesmom mi Te slavimo.:/",
+                            "Radost nek' u nama vlada zauvek. Hriste, ovom pesmom slavimo Te."
                         ],
                         [
-                            "/: Hriste",
-                            ", mi u slozi živet’ želimo .:/ Razna lica, razne rase, jedno svi. Hriste, da smo složnii jedno svi."
+                            "/: Hriste, mi u slozi živet’ želimo.:/",
+                            "Razna lica, razne rase, jedno svi. Hriste, da smo složnii jedno svi."
                         ],
                         [
-                            "/: Hriste, daj da žiivimou ljubavi .:/ Primer kako voleti si dao Ti. Hriste, život ljubavi podari nam."
+                            "/: Hriste, daj da žiivimou ljubavi.:/",
+                            "Primer kako voleti si dao Ti. Hriste, život ljubavi podari nam."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41825,14 +43073,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Hriste",
-                            ", Ti si predivan .:/ Ti si onaj kojeg ljubimi kom' želim život celi svoj da dam. Hriste",
-                            ", Ti si predivan."
+                            "/: Hriste, Ti si predivan.:/",
+                            "Ti si onaj kojeg ljubimi kom' želim život celi svoj da dam. Hriste, Ti si predivan."
                         ],
                         [
-                            "/: Hriste",
-                            ", Ti si predivan .:/ Svakim danom sve je jača Tvoja živa Reču menii ja znam da, Hriste",
-                            ", Ti si predivan."
+                            "/: Hriste, Ti si predivan.:/",
+                            "Svakim danom sve je jača Tvoja živa Reču meni i ja znam da, Hriste, Ti si predivan."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41847,27 +43093,25 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji .:/"
+                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji.:/"
                         ],
                         [
-                            "Ti daješ snagu biću mom, Ti daješ radost srcu žalosnom;i kada odlaze svi",
-                            ", Ti ostaješ prijatelj moj. Ref:"
+                            "Ti daješ snagu biću mom, Ti daješ radost srcu žalosnom; i kada odlaze svi, Ti ostaješ prijatelj moj."
                         ],
                         [
-                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji .:/"
+                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji.:/"
                         ],
                         [
-                            "Ti daješ ljubav biću mom, Ti daješ mir srcu nemirnom;i kada odlaze svi",
-                            ", Ti ostaješ prijatelj moj. Ref:"
+                            "Ti daješ ljubav biću mom, Ti daješ mir srcu nemirnom; i kada odlaze svi, Ti ostaješ prijatelj moj."
                         ],
                         [
-                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji .:/"
+                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji.:/"
                         ],
                         [
                             "Zbog mene si nebo ostavio, zbog mene si sluga postao; zbog mene život dao da bi sa Ocem me izmirio. Ref:"
                         ],
                         [
-                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji .:/"
+                            "Ref: /: Hriste, život dajem sad Tebi jer prijatelj si najbolji.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41920,12 +43164,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Hvala za svako novo jutro, hvala za svaki novi dan,hvala da svoje brige mogu Tebi da predam.",
-                            "Hvala za moje prijatelje, hvala, Bože, za svakoga,hvala da mogu praštat´ svim neprijateljima."
+                            "Hvala za svako novo jutro, hvala za svaki novi dan, hvala da svoje brige mogu Tebi da predam.",
+                            "Hvala za moje prijatelje, hvala, Bože, za svakoga, hvala da mogu praštat´ svim neprijateljima."
                         ],
                         [
                             "Hvala za tatu i mamu, hvala za topli dom; hvala za Sveto Pismo što priča o Isusu mom.",
-                            "Hvala za nedeljnu školu, za one što uče me;hvala što mogu se molit´, hvala Ti, Bože, za sve!"
+                            "Hvala za nedeljnu školu, za one što uče me; hvala što mogu se molit´, hvala Ti, Bože, za sve!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -41940,7 +43184,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Hvalu daj srca iskrenog, hvalu daj Onom koj' je svet, hvalu daj jer On je dao Isusa, Sina svog .:/"
+                            "/: Hvalu daj srca iskrenog, hvalu daj Onom koj' je svet, hvalu daj jer On je dao Isusa, Sina svog.:/"
                         ],
                         [
                             "/: Zbog tog slabi jaki postaju, siromasi bogati; to sveuč ini za nas On, naš Bog.:/ Hvalu daj!"
@@ -41958,7 +43202,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "I u ovom tihom časuT ebe slavim, Bože moj,",
+                            "I u ovom tihom času Tebe slavim, Bože moj,",
                             "i pevam: „svet je Gospod Bog“.",
                             "U tišini srca mog Tebe slavim, Kralju moj, i pevam: „svet je Gospod Bog“."
                         ],
@@ -41994,11 +43238,10 @@ const jsonData = {
                             "RADOST, MIR I ZA MENE."
                         ],
                         [
-                            "Poneka suza iz oč",
-                            "iju mojih,",
+                            "Poneka suza iz očiju mojih,",
                             "nježnim je dodirom obrišem,",
-                            "prolaze dani, godine mnoge, shvać",
-                            "am da živim za Njega."
+                            "prolaze dani, godine mnoge,",
+                            "shvaćam da živim za Njega."
                         ],
                         [
                             "REF:",
@@ -42008,12 +43251,9 @@ const jsonData = {
                             "RADOST, MIR I ZA MENE."
                         ],
                         [
-                            "Zamisli kakavć",
-                            "e biti trenutak, kadć",
-                            "u Ga gledati u lice.",
-                            "Hiljade anđ",
-                            "ela pevać",
-                            "e na nebu:",
+                            "Zamisli kakav će biti trenutak,",
+                            "kad ću Ga gledati u lice.",
+                            "Hiljade anđela pevaće na nebu:",
                             "\"SLAVA SAD BOGU ISUSU\"."
                         ],
                         [
@@ -42036,43 +43276,44 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ima jedna Knjiga gle, stara",
-                            "je i cepa se. Na prošle dane ona podseća me, kad na krilu majč inom kao dete maleno rado slušam priče iz te Biblije."
+                            "Ima jedna Knjiga gle, stara je i cepa se. Na prošle dane ona podseća me, kad na krilu majč inom kao dete maleno rado slušam priče iz te Biblije."
                         ],
                         [
-                            "REF: Blažena Bilblija, srce",
-                            "mi u tebi stalno uživa. Slaða si mi svaki dan,",
-                            "put je tvoj pravi uzan, koji me vodi domu več nome."
+                            "REF: Blažena Bilblija,",
+                            "srce mi u tebi stalno uživa.",
+                            "Slađa si mi svaki dan,",
+                            "put je tvoj pravi uzan,",
+                            "koji me vodi domu večnome."
                         ],
                         [
-                            "Č itala je meni gle",
-                            ", da Hrist Isus ljubi me, da na Golgoti podnese smrt za sve. Dok mi suze brisalai sebi prigrlila, rekla",
-                            "mi je da to bi sve za mene."
+                            "Čitala je meni gle, da Hrist Isus ljubi me, da na Golgoti podnese smrt za sve. Dok mi suze brisalai sebi prigrlila, rekla mi je da to bi sve za mene."
                         ],
                         [
-                            "REF: Blažena Bilblija, srce",
-                            "mi u tebi stalno uživa. Slaða si mi svaki dan,",
-                            "put je tvoj pravi uzan, koji me vodi domu več nome."
+                            "REF: Blažena Bilblija,",
+                            "srce mi u tebi stalno uživa.",
+                            "Slađa si mi svaki dan,",
+                            "put je tvoj pravi uzan,",
+                            "koji me vodi domu večnome."
                         ],
                         [
-                            "Č itala mi iznovao pobožnim ljudima,o životu Josipai Danjela,o hrabrome Davidu",
-                            ", da bi car svom narodu,o sotonii njegovim zamkama."
+                            "Čitala mi iznovao pobožnim ljudima, o životu Josipa i Danjela, o hrabrome Davidu, da bi car svom narodu, o sotoni i njegovim zamkama."
                         ],
                         [
-                            "REF: Blažena Bilblija, srce",
-                            "mi u tebi stalno uživa. Slaða si mi svaki dan,",
-                            "put je tvoj pravi uzan, koji me vodi domu več nome."
+                            "REF: Blažena Bilblija,",
+                            "srce mi u tebi stalno uživa.",
+                            "Slađa si mi svaki dan,",
+                            "put je tvoj pravi uzan,",
+                            "koji me vodi domu večnome."
                         ],
                         [
-                            "Ti su dani prošli gle",
-                            ", al’ još traje seć anje",
-                            "i ta draga knjiga sad moj vođa je. Sveto Pismoč itam ja, jer me majkau či la,",
-                            "o, da bi mi u mom srcu ostala."
+                            "Ti su dani prošli gle, al’ još traje sećanje i ta draga knjiga sad moj vođa je. Sveto Pismo čitam ja, jer me majka učila, o, da bi mi u mom srcu ostala."
                         ],
                         [
-                            "REF: Blažena Bilblija, srce",
-                            "mi u tebi stalno uživa. Slaða si mi svaki dan,",
-                            "put je tvoj pravi uzan, koji me vodi domu več nome."
+                            "REF: Blažena Bilblija,",
+                            "srce mi u tebi stalno uživa.",
+                            "Slađa si mi svaki dan,",
+                            "put je tvoj pravi uzan,",
+                            "koji me vodi domu večnome."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42087,13 +43328,11 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ima reka koja tečeu",
+                            "Ima reka koja teče u",
                             "tišini duše mi",
-                            "Svoje delo čarobno dovršavaa",
+                            "Svoje delo čarobno dovršava a",
                             "na izvoru joj",
-                            "Živa voda krepi",
-                            ", čisti",
-                            "sve To",
+                            "Živa voda krepi, čisti sve To",
                             "je Isus on poziva da",
                             "ga srce osluhne."
                         ],
@@ -42119,8 +43358,7 @@ const jsonData = {
                             "za žeđ nema potrebe",
                             "Iznemogli k izvoru tom priđite",
                             "Od dobrote milosne",
-                            "i naša",
-                            "čaša puni se",
+                            "i naša čaša puni se",
                             "Kada poziv Žive vode",
                             "srce nam prepoznaje."
                         ]
@@ -42156,10 +43394,10 @@ const jsonData = {
                         ],
                         [
                             "IMAŠ LI SNAGE ZA JOŠ JEDAN KORAK",
-                            "KORAK ODSTUPANJA?I",
-                            "MAŠ LI SNAGE DA OKRENEŠ POGLED",
-                            "I UGLEDAŠ ISUSA?M",
-                            "ENI JE TAKVA ODLUKA SASVIM",
+                            "KORAK ODSTUPANJA?",
+                            "IMAŠ LI SNAGE DA OKRENEŠ POGLED",
+                            "I UGLEDAŠ ISUSA?",
+                            "MENI JE TAKVA ODLUKA SASVIM",
                             "ŽIVOT PROMENILA,",
                             "NE ČEKAJ VIŠE MOŽDA VEĆ SUTRA",
                             "NE BUDE VREMENA!"
@@ -42177,9 +43415,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ime je predivno, ime je predivno, ime je predivno, Isus moj Bog. Kralj svega sveta, Vladar života, ime je predivno, Isus moj Bog.. Brižljiv je pastir, vodi nas uvek, svemoć ni",
-                            "Bog je On.. Pokloni",
-                            "Mu se, volii poštuj, ime je predivno, Isus moj Bog."
+                            "Ime je predivno, ime je predivno, ime je predivno, Isus moj Bog. ",
+                            "Kralj svega sveta, Vladar života, ime je predivno, Isus moj Bog.. ",
+                            "Brižljiv je pastir, vodi nas uvek, svemoć ni Bog je On.. ",
+                            "Pokloni mu se, voli i poštuj, ime je predivno, Isus moj Bog."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42205,8 +43444,8 @@ const jsonData = {
                             "O,IZLIJ SVOJ DUH NA NAS TI!"
                         ],
                         [
-                            "Gospode,tvoj Duh se približava,",
-                            "kao val zemlju preplavljuje. Pravednošću,oproštenjem,",
+                            "Gospode, tvoj Duh se približava,",
+                            "kao val zemlju preplavljuje. Pravednošću, oproštenjem,",
                             "molimo za probuđenje!"
                         ]
                     ],
@@ -42223,8 +43462,8 @@ const jsonData = {
                     "verses": [
                         [
                             "Iskupljen sam krvlju Jagnjeta. (3x)",
-                            "Ispunjen Svetim Duhom sam. Opran",
-                            "je moj greh i sad iskupljen sam."
+                            "Ispunjen Svetim Duhom sam. ",
+                            "Opran je moj greh i sad iskupljen sam."
                         ],
                         [
                             "Bliski sada smo Gospod moj i ja.(3x)",
@@ -42238,12 +43477,11 @@ const jsonData = {
                         ],
                         [
                             "Kakva divna vest: Isus dolazi! (3x)",
-                            "I svako zloć",
-                            "e dokrajč iti.",
+                            "I svako zlo će dokrajč iti.",
                             "Opran je moj greh i sad iskupljen sam."
                         ],
                         [
-                            "Nek se sotona boriž estoko. (3x)",
+                            "Nek se sotona bori žestoko. (3x)",
                             "On je bitku već izgubio.",
                             "Opran je moj greh i sad iskupljen sam."
                         ]
@@ -42260,11 +43498,9 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Isus",
-                            "je Car, mi slavimo Njega, Isus",
-                            "je Car, uzdižimo Ga.:/ Životi našii naše slavljenje neka Ti budu ugodni.",
-                            "Ref: Na, na, na",
-                            ", ..."
+                            "/: Isus je Car, mi slavimo Njega, Isus je Car, uzdižimo Ga.:/",
+                            "Životi našii naše slavljenje neka Ti budu ugodni.",
+                            "Ref: Na, na, na, ..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42279,16 +43515,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Isus je moć",
-                            "an i silan On ima svo bogatstvoi slavu koja je na nebu. Isus je Gospodar, Kralj celog sveta, verujem to, verujem",
-                            "to u srcu svom."
+                            "Isus je moćan i silan On ima svo bogatstvoi slavu koja je na nebu. Isus je Gospodar, Kralj celog sveta, verujem to, verujem to u srcu svom."
                         ],
                         [
                             "REF:",
                             "POBEDU IMAM SAD JA U ISUSU HRISTU,",
                             "POBEDU NAD SVETOM SVIM NJEGOVIM IMENOM,",
-                            "POBEDU NAD NEVOLJOM, BOLEŠĆ",
-                            "U, NEPRAVDOM,",
+                            "POBEDU NAD NEVOLJOM, BOLEŠĆU, NEPRAVDOM,",
                             "POBEDU NAD SOTONOM U ISUSU HRISTU!"
                         ],
                         [
@@ -42298,8 +43531,7 @@ const jsonData = {
                             "REF:",
                             "POBEDU IMAM SAD JA U ISUSU HRISTU,",
                             "POBEDU NAD SVETOM SVIM NJEGOVIM IMENOM,",
-                            "POBEDU NAD NEVOLJOM, BOLEŠĆ",
-                            "U, NEPRAVDOM,",
+                            "POBEDU NAD NEVOLJOM, BOLEŠĆU, NEPRAVDOM,",
                             "POBEDU NAD SOTONOM U ISUSU HRISTU!"
                         ]
                     ],
@@ -42384,8 +43616,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Isus, Isus, svet si Ti, moj Gospode, Isus .:/ Tvoje ime kao med na usnama, Tvoj",
-                            "Duh je kao voda na moju dušu. Tvoja reč je kao lampa mojim stopama. Isuse, volim Te, ja volim Te."
+                            "/: Isus, Isus, svet si Ti, moj Gospode, Isus.:/ ",
+                            "Tvoje ime kao med na usnama, Tvoj duh je kao voda na moju dušu. Tvoja reč je kao lampa mojim stopama. Isuse, volim Te, ja volim Te."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42415,9 +43647,9 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Isuse",
-                            ", o Isuse, pridruži nam",
-                            "se Ti. /:: Oslobodi nas !::/ Predajemo Tebi sveu slavljenju."
+                            "Isuse, o Isuse, pridruži nam se Ti. ",
+                            "/:: Oslobodi nas!::/",
+                            "Predajemo Tebi sveu slavljenju."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42472,25 +43704,24 @@ const jsonData = {
                     "verses": [
                         [
                             "Isuse, rasvetli srca svojih sledbenika Ti,",
-                            "da bi kroz njih Tvoje svetlo",
-                            "moglo svetom zasjati."
+                            "da bi kroz njih Tvoje svetlo moglo svetom zasjati."
                         ],
                         [
-                            "REF .:\tBudi",
-                            "svetlo ti u tami, svetli",
+                            "REF:",
+                            "Budi svetlo ti u tami, svetli",
                             "na čast Bogu svom, da",
                             "bi duša zalutala našla",
                             "pravi put u dom."
                         ],
                         [
-                            "Strašna, mračna je noć greha, burni",
-                            "vali propasti.",
+                            "Strašna, mračna je noć greha,",
+                            "burni vali propasti.",
                             "Mnogi čekajuć spasenje gleda",
                             "k tornju svetlosti."
                         ],
                         [
-                            "REF .:\tBudi",
-                            "svetlo ti u tami, svetli",
+                            "REF:",
+                            "Budi svetlo ti u tami, svetli",
                             "na čast Bogu svom, da",
                             "bi duša zalutala našla",
                             "pravi put u dom."
@@ -42502,8 +43733,8 @@ const jsonData = {
                             "vas našle pravi put."
                         ],
                         [
-                            "REF .:\tBudi",
-                            "svetlo ti u tami, svetli",
+                            "REF:",
+                            "Budi svetlo ti u tami, svetli",
                             "na čast Bogu svom, da",
                             "bi duša zalutala našla",
                             "pravi put u dom."
@@ -42521,10 +43752,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Isuse, Ti si vredniji od svega,i",
-                            "od srebra i od zlata!",
-                            "Isuse, Ti si snaga mog života, dobri",
-                            "Pastir srca mog. :/"
+                            "/: Isuse, Ti si vredniji od svega,",
+                            "i od srebra i od zlata!",
+                            "Isuse, Ti si snaga mog života,",
+                            "dobri pastir srca mog.:/"
                         ],
                         [
                             "Ti si moje blago, za Tobom čeznem ja.",
@@ -42545,9 +43776,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Isuse",
-                            ", u Tvojim rukama svoj odmor nalazim. Seć",
-                            "am se svog grešnog života, bez cilja sam lutao ja. Alič uo sam glas od Njegai pravi put sada ja znam."
+                            "Isuse, u Tvojim rukama svoj odmor nalazim. Sećam se svog grešnog života, bez cilja sam lutao ja. Alič uo sam glas od Njegai pravi put sada ja znam."
                         ],
                         [
                             "REF:",
@@ -42556,8 +43785,7 @@ const jsonData = {
                             "ISUSE, U TVOJIM RUKAMA SVOJ ODMOR NALAZIM."
                         ],
                         [
-                            "Željnoč ekam taj divan dan",
-                            "tam u novom Jerusalemu. Gospoda mog videću tamo, dobro došao kazaće On."
+                            "Željnoč ekam taj divan dan tam u novom Jerusalemu. Gospoda mog videću tamo, dobro došao kazaće On."
                         ],
                         [
                             "REF:",
@@ -42578,8 +43806,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Isuse, volim Te, volim Te svakim danom sve više. Isuse, volim Te, Tvoj nežan dodir obnavlja mi srce.I niječ udno da druga ljubav",
-                            "me ne zadovoljava. Isuse, volim Te, osvojio si me."
+                            "Isuse, volim Te, volim Te svakim danom sve više. Isuse, volim Te, Tvoj nežan dodir obnavlja mi srce.I nije čudno da druga ljubav me ne zadovoljava. Isuse, volim Te, osvojio si me."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42594,8 +43821,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Isuse, volim Te. Više od sveg drugog volim Te,i sve što",
-                            "je u meni želi pevati. Isuse, volim Te."
+                            "Isuse, volim Te. Više od sveg drugog volim Te, i sve što je u meni želi pevati. Isuse, volim Te."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42616,8 +43842,8 @@ const jsonData = {
                         ],
                         [
                             "REF: Vodi mene, mene",
-                            "bliže Isuse Tvome krstu,Golgoti.",
-                            "Vodi mene,mene bliže,",
+                            "bliže Isuse Tvome krstu, Golgoti.",
+                            "Vodi mene, mene bliže,",
                             "Isuse, divnom vrelu milosti."
                         ],
                         [
@@ -42628,8 +43854,8 @@ const jsonData = {
                         ],
                         [
                             "REF: Vodi mene, mene",
-                            "bliže Isuse Tvome krstu,Golgoti.",
-                            "Vodi mene,mene bliže,",
+                            "bliže Isuse Tvome krstu, Golgoti.",
+                            "Vodi mene, mene bliže,",
                             "Isuse, divnom vrelu milosti."
                         ],
                         [
@@ -42640,7 +43866,7 @@ const jsonData = {
                         ],
                         [
                             "REF: Vodi mene, mene",
-                            "bliže Isuse Tvome krstu,Golgoti.",
+                            "bliže Isuse Tvome krstu, Golgoti.",
                             "Vodi mene,mene bliže,",
                             "Isuse, divnom vrelu milosti."
                         ],
@@ -42652,8 +43878,8 @@ const jsonData = {
                         ],
                         [
                             "REF: Vodi mene, mene",
-                            "bliže Isuse Tvome krstu,Golgoti.",
-                            "Vodi mene,mene bliže,",
+                            "bliže Isuse Tvome krstu, Golgoti.",
+                            "Vodi mene, mene bliže,",
                             "Isuse, divnom vrelu milosti."
                         ]
                     ],
@@ -42670,20 +43896,17 @@ const jsonData = {
                     "verses": [
                         [
                             "Samo sam čovek, kako sam slab,",
-                            "pomozi mi Ti, da",
-                            "pronađem put iz sveta zla. Pruži",
-                            "mi ruku, snage mi daj,budi",
-                            "moj puti",
-                            "život moj, iz",
-                            "dana u dan."
+                            "pomozi mi Ti, da pronađem put iz sveta zla.",
+                            "Pruži mi ruku, snage mi daj,",
+                            "budi moj puti život moj, iz dana u dan."
                         ],
                         [
                             "REF:",
                             "Iz dana u dan, moj Bože, kroz",
                             "život vodi me Ti, sve",
                             "prolazno je, Ti nikad ne,",
-                            "moj Isuse. Iz",
-                            "dana u dan, moj Bože,",
+                            "moj Isuse.",
+                            "Iz dana u dan, moj Bože,",
                             "Tvoj Duh nek’ vodi me svud’.",
                             "Ti poznaješ me i vodi me,",
                             "iz dana u dan."
@@ -42700,8 +43923,8 @@ const jsonData = {
                             "Iz dana u dan, moj Bože, kroz",
                             "život vodi me Ti, sve",
                             "prolazno je, Ti nikad ne,",
-                            "moj Isuse. Iz",
-                            "dana u dan, moj Bože,",
+                            "moj Isuse.",
+                            "Iz dana u dan, moj Bože,",
                             "Tvoj Duh nek’ vodi me svud’.",
                             "Ti poznaješ me i vodi me,",
                             "iz dana u dan."
@@ -42725,7 +43948,7 @@ const jsonData = {
                             "Najlepsi si Gospode uzivam dok slavim Te najlepsi si Isuse zelim da slavim Te"
                         ],
                         [
-                            "Radujem se,(radujem se) reke zive vode teku kroz mene,ime moje je u Knjizi Zivota Haleluja,Haleluja"
+                            "Radujem se, (radujem se) reke zive vode teku kroz mene, ime moje je u Knjizi Zivota Haleluja,Haleluja"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42805,24 +44028,22 @@ const jsonData = {
                             "Izidji, svet taj ostavi i zemaljski svoj dom.",
                             "Na Hrista pogled upravi, pohrli Spasu svom.",
                             "REF.:\tOj, dušo, danas udji još kroz",
-                            "uska vrata ti. Tad",
-                            "´ ćeš za životi",
-                            "za vek ti izbavljen biti."
+                            "uska vrata ti. Tad´ ćeš za život ",
+                            "i za vek ti izbavljen biti."
                         ],
                         [
                             "Izidji, pusti grad grešni jer",
                             "to je Sodoma.",
                             "I pogled svoj ne obrni k´o žena Lotova!",
                             "REF.:\tOj, dušo, danas udji još",
-                            "kroz uska vrata ti.",
+                            "kroz uska vrata ti. ",
                             "Tad´ ćeš za život",
                             "i za vek ti izbavljen biti."
                         ],
                         [
                             "Napusti ovaj burni svet, dok",
-                            "te ne",
-                            "sništi sveg.I",
-                            "znaj da imaš zaklon sad, što",
+                            "te nesništi sveg. ",
+                            "I znaj da imaš zaklon sad, što",
                             "pripremi ti Bog!",
                             "REF.:\tOj, dušo, danas udji još",
                             "kroz uska vrata ti.",
@@ -42884,7 +44105,7 @@ const jsonData = {
                         ],
                         [
                             "Svom dušom tražim, svim bićem čeznem Da",
-                            "Njemu služim i slavim Gao,",
+                            "Njemu služim i slavim Ga o,",
                             "život svoj sav na živu žrtvu",
                             "Za Hrista Spasa sad dajem ja."
                         ],
@@ -42908,18 +44129,15 @@ const jsonData = {
                     "verses": [
                         [
                             "/::Ja ne znam zašto si došao ti,",
-                            "a ja dođ",
-                            "oh slavit Boga.::/",
+                            "a ja dođoh slavit Boga.::/",
                             "Halelu, halelu, haleluja."
                         ],
                         [
-                            "Ja želim da prič",
-                            "am tebi o Njem',",
+                            "Ja želim da pričam tebi o Njem',",
                             "o Njeg'voj ljubavi,",
                             "ja želim da pevam tebi o Njem',",
-                            "o svem' što mi uč ini,",
-                            "ja želim da prič",
-                            "am tebi o Njem',",
+                            "o svem' što mi učini,",
+                            "ja želim da pričam tebi o Njem',",
                             "o tom' da me izbavi.",
                             "Halelu, halelu, haleluja."
                         ]
@@ -42936,8 +44154,8 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ja ne znam zašto mi je Gospod tol’ko milostiv,",
-                            "i zašto me je spasio, kad bijah tol’ko kriv."
+                            "Ja ne znam zašto mi je Gospod tolko milostiv,",
+                            "i zašto me je spasio, kad bijah tolko kriv."
                         ],
                         [
                             "REF.: Al‘ ja znam u koga verujem, nište me neće od Njeg‘ oteti.",
@@ -42952,8 +44170,8 @@ const jsonData = {
                             "i Hristov lik u srcu mom zauvek objavi."
                         ],
                         [
-                            "Ja ne znam kad će Gospod doć‘ , dan niti čas ne znam,",
-                            "da l‘ će me kroz smrt pozvati il‘ doći po me sam."
+                            "Ja ne znam kad će Gospod doć‘, dan niti čas ne znam,",
+                            "dal‘ će me kroz smrt pozvati il‘ doći po me sam."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -42968,8 +44186,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ja putnik sam, lutam po svetu koj",
-                            "' pun je bola, žalosti.",
+                            "Ja putnik sam, lutam po svetu koj' pun je bola, žalosti.",
                             "Al' u toj zemlji kojoj idem, straha nema, opasnosti."
                         ],
                         [
@@ -42993,8 +44210,7 @@ const jsonData = {
                         ],
                         [
                             "Môj Boh a Pán, v srdci pieseň mám, a túžim s Tebou, len s Tebou žiť.",
-                            "Môj Boh a Pán, v srdci pieseň mám, v srdci svojom, ja pieseň mám,",
-                            "pieseň chvál."
+                            "Môj Boh a Pán, v srdci pieseň mám, v srdci svojom, ja pieseň mám, pieseň chvál."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43015,8 +44231,8 @@ const jsonData = {
                             "korak moj vodi Ti, samo Ti."
                         ],
                         [
-                            "REF .:Bliže",
-                            "Tebi, Spase moj, želim",
+                            "REF:",
+                            "Bliže tebi, Spase moj, želim",
                             "biti samo Tvoj. Svaki",
                             "dan i korak svak nek",
                             "je Tvoj, Spase moj, samo Tvoj!"
@@ -43028,8 +44244,8 @@ const jsonData = {
                             "Samo Ti, Spase moj, samo Ti!"
                         ],
                         [
-                            "REF .:Bliže",
-                            "Tebi, Spase moj, želim",
+                            "REF:",
+                            "Bliže Tebi, Spase moj, želim",
                             "biti samo Tvoj. Svaki",
                             "dan i korak svak nek",
                             "je Tvoj, Spase moj, samo Tvoj!"
@@ -43041,8 +44257,8 @@ const jsonData = {
                             "vodi me u svoj dom, Ocu svom."
                         ],
                         [
-                            "REF .:Bliže",
-                            "Tebi, Spase moj, želim",
+                            "REF:",
+                            "Bliže Tebi, Spase moj, želim",
                             "biti samo Tvoj. Svaki",
                             "dan i korak svak nek",
                             "je Tvoj, Spase moj, samo Tvoj!"
@@ -43060,12 +44276,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ja striebraa zlata nemám, mne bohatstvom Ježiš je sám, je vzácnejší nad drahokam,s Ním zvíťazím",
-                            ", v Ňom nádej mám. Nemám žiadne bohatstvo, mám všakv nebi dedičstvo. Mne bohatstvom Ježiš je sám,s Ním vojdem do nebeských brán."
+                            "Ja striebraa zlata nemám, mne bohatstvom Ježiš je sám, je vzácnejší nad drahokam, s Ním zvíťazím, v Ňom nádej mám. Nemám žiadne bohatstvo, mám všakv nebi dedičstvo. Mne bohatstvom Ježiš je sám, s Ním vojdem do nebeských brán."
                         ],
                         [
-                            "Keďi ty chceš ten poklad mať",
-                            "a v nebesiach raz kraľovať, poďk Pánua vyznaj Mu hriech, On odpustí, príjme ťa, veď. Pán Ježiš ťa miluje, domov večný daruje, ty boháčom staneš sa hneď, keď Ježišav srdce príjmeš."
+                            "Keďi ty chceš ten poklad mať a v nebesiach raz kraľovať, poďk Pánua vyznaj Mu hriech, On odpustí, príjme ťa, veď. Pán Ježiš ťa miluje, domov večný daruje, ty boháčom staneš sa hneď, keď Ježišav srdce príjmeš."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43206,14 +44420,19 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Jać",
-                            "u ostavit' brige, /::tamo na obali.::/ Jać",
-                            "u ostavit' brige, /:tamo na obali.:/.",
-                            "REF:  I BIć",
-                            "U KOD SVOG ISUSA. (6X).- Neć",
-                            "u nosit' oružje, tamo na obali... REF:- Jać",
-                            "u govorit' s Hristom, tamo na obali... Ref:- Jać",
-                            "u pevat' svom Bogu, tamo na obali..."
+                            "Jaću ostavit' brige, ",
+                            "/::tamo na obali.::/ ",
+                            "Jaću ostavit' brige, ",
+                            "/:tamo na obali.:/"
+                        ],
+                        [
+                            "REF:",
+                            "I BIćU KOD SVOG ISUSA. (6X)."
+                        ],
+                        [
+                            "- Neću nosit' oružje, tamo na obali... REF:",
+                            "- Jaću govorit' s Hristom, tamo na obali... Ref:",
+                            "- Jaću pevat' svom Bogu, tamo na obali..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43231,7 +44450,7 @@ const jsonData = {
                             "Jagnje sveto, Isus Božji Sin, uzdignut ’, voljan umreti. Da grešnik ja, mogu da znam, da krv Njeg'va za mene važi. Jošč isti, još leči."
                         ],
                         [
-                            "Ref: Ja slavim Te, Isuse jagnje. Da, ja slavim Te, Spasei Gospode. Ja slavim Te, dostojno jagnje,iuč ast Tebi ja sada klanjam se."
+                            "Ref: Ja slavim Te, Isuse jagnje. Da, ja slavim Te, Spase i Gospode. Ja slavim Te, dostojno jagnje, i u čast Tebi ja sada klanjam se."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43250,7 +44469,8 @@ const jsonData = {
                             "dobar je štit, oružje.",
                             "Brani nas kad sotonski",
                             "rod na nas se udružuje.",
-                            "Mi slabi borci smo za protivnika tog, jer On knez sveta je,",
+                            "Mi slabi borci smo za protivnika tog,",
+                            "jer On knez sveta je,",
                             "i silna mu je moć.",
                             "Bog će nam doć´ u pomoć!"
                         ],
@@ -43261,7 +44481,8 @@ const jsonData = {
                             "od Boga nam poslani.",
                             "O, ko je to, da´l znaš?",
                             "To Isus Hrist je naš.",
-                            "On nam je Spasitelj, silni izbavitelj. Pobeda je Njegova!"
+                            "On nam je Spasitelj, silni izbavitelj. ",
+                            "Pobeda je Njegova!"
                         ],
                         [
                             "I da je svet pun djavola što",
@@ -43270,7 +44491,8 @@ const jsonData = {
                             "Isus ga pobedi.",
                             "Knez tame besni sa,",
                             "al´ nemojmo drhtat.",
-                            "Pretrpet možemo sve napasti i zlo, jer Božja Reč ga slomi."
+                            "Pretrpet možemo sve napasti i zlo, ",
+                            "jer Božja Reč ga slomi."
                         ],
                         [
                             "Reč Božja čvrsto stoji vek,",
@@ -43333,12 +44555,11 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Keď ustatá je tvár a sám",
-                            "sa nepoznám,",
+                            "Keď ustatá je tvár a sám sa nepoznám,",
                             "keď myseľ spúta tiaž a radosť",
                             "neviem nájsť, občerstvý",
-                            "ma dotyk tvojich rúk, pomoc mi prichádza. Vykročím",
-                            "v ústrety náruče kde silu nachádzam."
+                            "ma dotyk tvojich rúk, pomoc mi prichádza. ",
+                            "Vykročím v ústrety náruče kde silu nachádzam."
                         ],
                         [
                             "KAŽDÝ KTO HĽADÁ TVOJU TVÁR",
@@ -43355,12 +44576,8 @@ const jsonData = {
                         [
                             "Keď srdce plní žiaľ a bolesť mojich rán,",
                             "keď zahmlený je svet a sily isť už niet",
-                            "poteší ma tvoja láska,",
-                            "k tebe",
-                            "sa utiekam.",
-                            "Povedieš ma cestou",
-                            "istoty a",
-                            "cestou života."
+                            "poteší ma tvoja láska, k tebe sa utiekam.",
+                            "Povedieš ma cestou istoty a cestou života."
                         ],
                         [
                             "KAŽDÝ KTO HĽADÁ TVOJU TVÁR",
@@ -43387,10 +44604,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Je meno, ktore mám tak rád",
-                            "Čo o ňom stále spievam",
-                            "Ono mi zvuči na perách",
-                            "Aj keď sa modlievam."
+                            "Je meno, ktore mám tak rád Čo o ňom stále spievam Ono mi zvuči na perách Aj keď sa modlievam."
                         ],
                         [
                             "REF:",
@@ -43398,10 +44612,7 @@ const jsonData = {
                             "Ľúbim Ježiša, veď za mňa život dal."
                         ],
                         [
-                            "To meno láskou znie stále",
-                            "A rozpráva o láske",
-                            "O krvi ktora očisti",
-                            "a hriechu pozbaví."
+                            "To meno láskou znie stále A rozpráva o láske O krvi ktora očisti a hriechu pozbaví."
                         ],
                         [
                             "REF:",
@@ -43409,10 +44620,8 @@ const jsonData = {
                             "Ľúbim Ježiša, veď za mňa život dal."
                         ],
                         [
-                            "V tom mene nový život mám,",
-                            "To meno pokoj dáva.",
-                            "Do slávy večnej ponahľam",
-                            "Môj pán ma tam čaká."
+                            "V tom mene nový život mám, To meno pokoj dáva.",
+                            "Do slávy večnej ponahľam Môj pán ma tam čaká."
                         ],
                         [
                             "REF:",
@@ -43440,9 +44649,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Jedina nada si",
-                            "Ti, o Bože, jedina nada si Ti. Od ranoga jutra do kasno",
-                            "u noć jedina nada si Ti. Jedina radost si Ti... Jedini mir si Ti... Sve što ja trebam si Ti... Sve što ja želim si Ti..."
+                            "Jedina nada si Ti, o Bože, jedina nada si Ti. Od ranoga jutra do kasno u noć jedina nada si Ti. "
+                        ],
+                        [
+                            "Jedina radost si Ti... ",
+                            "Jedini mir si Ti... ",
+                            "Sve što ja trebam si Ti... ",
+                            "Sve što ja želim si Ti..."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43457,18 +44670,15 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Jediné",
-                            "miesto, kde pokoj nájdem,",
+                            "Jediné miesto, kde pokoj nájdem,",
                             "Tam, kde sa cítim v bezpečí,",
                             "Je pri tebe Ježiš, tam všetko nájdem,",
                             "Ty ma vždy o tom presvedčíš."
                         ],
                         [
-                            "Už sa nemusím báť neistých dní, Keď",
-                            "ty vo mne prebývaš,",
-                            "Teraz pevne smiem stáť,",
-                            "Mojou istotou si,",
-                            "Ježiš, všetko máš."
+                            "Už sa nemusím báť neistých dní, ",
+                            "Keď ty vo mne prebývaš, Teraz pevne smiem stáť,",
+                            "Mojou istotou si, Ježiš, všetko máš."
                         ],
                         [
                             "Imanuel, Imanuel, viem, že ty sám",
@@ -43490,13 +44700,20 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Jedno veče Isus reče: /: Jedan od vas izdat' će",
-                            "me. :/ Učenici tužnog lica, zabrinuto svak' Ga pita: REF:",
+                            "Jedno veče Isus reče: ",
+                            "/: Jedan od vas izdat' će me.:/ ",
+                            "Učenici tužnog lica, zabrinuto svak' Ga pita: "
+                        ],
+                        [
+                            "REF:",
                             "/: O, RECI MI ISUSE MOJ,",
                             "DA LI SAM JA IZDAJNIK TVOJ. :/"
                         ],
                         [
-                            "Da lii ti misliš na to, da sotona još sije zlo, da l´ sii ti zaplakao, da l´ si Isusa upitao: REF:",
+                            "Da li i ti misliš na to, da sotona još sije zlo, da l´ si i ti zaplakao, da l´ si Isusa upitao: "
+                        ],
+                        [
+                            "REF:",
                             "/: O, RECI MI ISUSE MOJ,",
                             "DA LI SAM JA IZDAJNIK TVOJ. :/"
                         ]
@@ -43513,17 +44730,14 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Jehovah Jireh- Boh kto",
-                            "rý vidí a dáva",
-                            "a s láskou sa stará o tých čo skladajú v ňom svoju nádej.",
+                            "Jehovah Jireh",
+                            "-Boh ktorý vidí a dáva a s láskou sa stará o tých čo skladajú v ňom svoju nádej.",
                             "Jehovah Nissi",
-                            "-  moj prápor, zástava čo nesiem, veje",
-                            "nado mnou a nesie meno Kráľa, jeho víťaziacu pieseň."
+                            "-moj prápor, zástava čo nesiem, veje nado mnou a nesie meno Kráľa, jeho víťaziacu pieseň."
                         ],
                         [
                             "Jehova Shammah",
-                            "- je so mnou stojí tam,",
-                            "keď kráčam údolím, úzkosťou prechádzam.",
+                            "- je so mnou stojí tam, keď kráčam údolím, úzkosťou prechádzam.",
                             "Úplnou spásou –",
                             "Jehovah Rapha",
                             "- plač duše v radosť zmení, je mojím uzdravením."
@@ -43535,16 +44749,12 @@ const jsonData = {
                             "TY SI TEN, TY SI TEN MôJ VZÁCNY JEŽIŠ."
                         ],
                         [
-                            "K zeleným pastvinám, nestrádam, všetko mám, môj",
-                            "pastier vedie ma –",
-                            "Jehovah Raah.",
+                            "K zeleným pastvinám, nestrádam, všetko mám, môj pastier vedie ma – Jehovah Raah.",
                             "Srdcom mi preteká pokoj jak rieka.",
-                            "Zneje pre teba chválou -",
-                            "Jehovah Shalom."
+                            "Zneje pre teba chválou - Jehovah Shalom."
                         ],
                         [
-                            "si",
-                            "vzácny Ježiš",
+                            "Si vzácny Ježiš",
                             "TY SI TEN..."
                         ],
                         [
@@ -43576,7 +44786,7 @@ const jsonData = {
                             "ZBOG NJEGOVE LJUBAVI."
                         ],
                         [
-                            "Jesi li zamoren bremenom života, kad izmiču nadei sve radosti. Jesi li zamoren bremenom života,i ti misliš, napustili su te svi."
+                            "Jesi li zamoren bremenom života, kad izmiču nadei sve radosti. Jesi li zamoren bremenom života, i ti misliš, napustili su te svi."
                         ],
                         [
                             "REF:",
@@ -43608,15 +44818,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ježiš je môj Spasiteľ, verne ma miluje.",
-                            "On ma spasil od hriechu, dušu mi vykúpil.Opustili nebesia, milovaný domov svoja teraz ma zo zeme do neba uvedie."
+                            "Ježiš je môj Spasiteľ, verne ma miluje. On ma spasil od hriechu, dušu mi vykúpil. Opustili nebesia, milovaný domov svoja teraz ma zo zeme do neba uvedie."
                         ],
                         [
                             "On i teba milujea hľadái volá, na Golgote za hriech tvoj, krv svoju vylieval. Drahocenné lekárstvo duši tvojej vydobil, ujdiz hriechak Ježiši, On čaká na teba."
                         ],
                         [
-                            "Rukav rukes Ježišom",
-                            ", k Otcovi stihneme, šťastnej púti na koniec, chválu Mu zapejme. Zármutku tam nebude, zo spasených neba zbor, Otec, Syna Duch Svätý, budú vždy chválení."
+                            "Ruka v ruke s Ježišom, k Otcovi stihneme, šťastnej púti na koniec, chválu Mu zapejme. Zármutku tam nebude, zo spasených neba zbor, Otec, Syna Duch Svätý, budú vždy chválení."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43632,22 +44840,20 @@ const jsonData = {
                     "verses": [
                         [
                             "Ježiš volá",
-                            "- \" Hľa, skoro prídem",
-                            "!\" 2x Keď príde Pán, uzrie Ho celá zem, prichádza čas, hľa prídem- ameň."
+                            "\" Hľa, skoro prídem!\" 2x",
+                            "Keď príde Pán, uzrie Ho celá zem, prichádza čas, hľa prídem- ameň."
                         ],
                         [
-                            "Maranatha, príď",
-                            ", Pane Ježišu",
-                            "! 2x Čaká Ťa už ľud Boží spasený krvou Tvojouz hriechou očistený."
+                            "Maranatha, príď, Pane Ježišu! 2x",
+                            "Čaká Ťa už ľud Boží spasený krvou Tvojouz hriechou očistený."
                         ],
                         [
-                            "Volá ťa dnes, prečo by´s odkladal? 2x Život nový dnes by ti daroval,",
-                            "aby milosť Božiu si nepremeškal."
+                            "Volá ťa dnes, prečo by´s odkladal? 2x ",
+                            "Život nový dnes by ti daroval, aby milosť Božiu si nepremeškal."
                         ],
                         [
                             "Nemeškaj, už príjmi dnes Ježiša. 2x",
-                            "Uplynie čas, odíde chvíľa,",
-                            "prími Ho dnes do svojho srdca.",
+                            "Uplynie čas, odíde chvíľa, prími Ho dnes do svojho srdca.",
                             "Nemeškaj už!!!"
                         ]
                     ],
@@ -43663,16 +44869,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ježiš",
-                            ", Ty máš meno najkrajšie, Ježiš, poč uješ moje volanie. Ó, Ježiš, zdvihneš ma vždy, keď upadnem,v Tvojej sile verný zostanem."
+                            "Ježiš, Ty máš meno najkrajšie, Ježiš, počuješ moje volanie. Ó, Ježiš, zdvihneš ma vždy, keď upadnem, v Tvojej sile verný zostanem."
                         ],
                         [
-                            "Ježiš, klaniam sa Ti, môj Pane, Ježiš, trpel si veľ mi kvôli mne. Ó, Ježiš, zobral si moje trápenie, Tvoje meno",
-                            "je mi najdrahšie."
+                            "Ježiš, klaniam sa Ti, môj Pane, Ježiš, trpel si veľmi kvôli mne. Ó, Ježiš, zobral si moje trápenie, Tvoje meno je mi najdrahšie."
                         ],
                         [
-                            "Ježiš",
-                            ", Ty si Kráľa prichádzaš, Ježiš,mňa svojou láskou premieň aš. Ó, Ježiš, dvíham svoj hlasa vyznávam, že svoj životv Tvojich rukách mám."
+                            "Ježiš, Ty si Kráľa prichádzaš, Ježiš, mňa svojou láskou premieňaš. Ó, Ježiš, dvíham svoj hlasa vyznávam, že svoj životv Tvojich rukách mám."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43687,23 +44890,19 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ježiš",
-                            ", Ty si ma poznal",
-                            "a dal mi odpustenie, podal si mi rukua už Ti nepoviem",
-                            ": \" nie \"."
+                            "Ježiš, Ty si ma poznal a dal mi odpustenie, podal si mi rukua už Ti nepoviem: \" nie \"."
                         ],
                         [
                             "ref: Ty poznáš moje sadanie, Ty poznáš moje vstávanie, Ty poznáš moje myslenie."
                         ],
                         [
-                            "Obkľúč il si ma milosť oua známosť ou,čo preteká. Chválou si ma naplnil",
-                            "a dal mi Ducha života. ref:"
+                            "Obkľúčil si ma milosť oua známosťou, čo preteká. Chválou si ma naplnil a dal mi Ducha života. ref:"
                         ],
                         [
                             "ref: Ty poznáš moje sadanie, Ty poznáš moje vstávanie, Ty poznáš moje myslenie."
                         ],
                         [
-                            "Preskúmaj si ma, môj Bože,a poznaj moje myšlienky, preskúmaj moje srdce dnesa veď ma cestou več nosti."
+                            "Preskúmaj si ma, môj Bože, a poznaj moje myšlienky, preskúmaj moje srdce dnesa veď ma cestou več nosti."
                         ],
                         [
                             "ref: Ty poznáš moje sadanie, Ty poznáš moje vstávanie, Ty poznáš moje myslenie."
@@ -43750,16 +44949,16 @@ const jsonData = {
                         ],
                         [
                             "REF: Krásny je život s Ježišom,",
-                            "Prečo máš smutnú tvár ?",
+                            "Prečo máš smutnú tvár?",
                             "Plnosť a hojnosť dáva on,",
                             "Rýchlo sa mu odovzdaj."
                         ],
                         [
-                            "Po šťasti tužiš, pokoji, v srdci len pustota Pán na sto percent spokoji,radostnú ti vieru dá."
+                            "Po šťasti tužiš, pokoji, v srdci len pustota Pán na sto percent spokoji, radostnú ti vieru dá."
                         ],
                         [
                             "REF: Krásny je život s Ježišom,",
-                            "Prečo máš smutnú tvár ?",
+                            "Prečo máš smutnú tvár?",
                             "Plnosť a hojnosť dáva on,",
                             "Rýchlo sa mu odovzdaj."
                         ],
@@ -43805,8 +45004,7 @@ const jsonData = {
                             "REF.: Haleluja, haleluja, haleluja, haleluja!"
                         ],
                         [
-                            "Haleluja",
-                            ", ja slávim meno Tvoje,",
+                            "Haleluja, ja slávim meno Tvoje,",
                             "za Tvoju smrť, za slávne vzkriesenie.",
                             "Už smrti moc viacej",
                             "nevládne nad Tebou,",
@@ -43841,7 +45039,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Još ove noći znaj Hrist može doć i,a da li si pripravljen ti? Još ove noći može te pozvatii zato ti spreman budi. To Božija reč upozorava baš sve nas: daće Hrist doć i, dać emoč uti svi Njegov glas."
+                            "Još ove noći znaj Hrist može doći, a da li si pripravljen ti? Još ove noći može te pozvati i zato ti spreman budi. To Božija reč upozorava baš sve nas: daće Hrist doć i, daćemo čuti svi Njegov glas."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43856,15 +45054,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/::Još samo malo i Kralja ugledać",
-                            "emo mi.::/ Ref:",
+                            "/::Još samo malo i Kralja ugledaćemo mi.::/ ",
+                            "Ref:",
                             "HALELUJA, HALELUJA,",
-                            "KRALJA UGLEDAć",
-                            "EMO MI.- /::Plačć",
-                            "e prestati, Kralja ugledać",
-                            "emo mi.::/- /::Smrtć",
-                            "e nestati, Kralja ugledać",
-                            "emo mi.::/"
+                            "KRALJA UGLEDAćEMO MI.",
+                            "-/::Plač će prestati, Kralja ugledaćemo mi.::/",
+                            "-/::Smrt će nestati, Kralja ugledaćemo mi.::/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43914,28 +45109,20 @@ const jsonData = {
                         ],
                         [
                             "REF:",
-                            "ZEMLJU ZNAM GDE SU SVI UVEK SREĆ NI,",
-                            "ŽIVE VEČ",
-                            "NO, SVAKI DAN",
-                            "BEZ ŽALOSTI.",
-                            "KAD ME JEDNOG DANA ON POZOVE TAMO, POĆIĆ",
-                            "U U VEČ",
-                            "NI DOM",
-                            "PUN RADOSTI."
+                            "ZEMLJU ZNAM GDE SU SVI UVEK SREĆNI,",
+                            "ŽIVE VEČNO, SVAKI DAN BEZ ŽALOSTI.",
+                            "KAD ME JEDNOG DANA ON POZOVE TAMO, ",
+                            "POĆI ĆU U VEČNI DOM PUN RADOSTI."
                         ],
                         [
                             "Kad bih znao zemlju za kojom čeznem ja, tamo nema ratova, tamo vlada večni mir; gde su naši dragi uveks nama zajedno, danas bih pošaou zemlju tu."
                         ],
                         [
                             "REF:",
-                            "ZEMLJU ZNAM GDE SU SVI UVEK SREĆ NI,",
-                            "ŽIVE VEČ",
-                            "NO, SVAKI DAN",
-                            "BEZ ŽALOSTI.",
-                            "KAD ME JEDNOG DANA ON POZOVE TAMO, POĆIĆ",
-                            "U U VEČ",
-                            "NI DOM",
-                            "PUN RADOSTI."
+                            "ZEMLJU ZNAM GDE SU SVI UVEK SREĆNI,",
+                            "ŽIVE VEČNO, SVAKI DAN BEZ ŽALOSTI.",
+                            "KAD ME JEDNOG DANA ON POZOVE TAMO, ",
+                            "POĆI ĆU U VEČNI DOM PUN RADOSTI."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43950,22 +45137,17 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kad dođeč",
-                            "as, Božijič as,",
-                            "sve su stvari predivne u Tvojč as.",
-                            "Ti me uč",
-                            "iš svaki dan,",
-                            "da baš sve što kažeš mi -sve se to",
-                            "ispunjava u Tvojč as."
+                            "Kad dođe čas, Božiji čas,",
+                            "sve su stvari predivne u Tvoj čas.",
+                            "Ti me učiš svaki dan,",
+                            "da baš sve što kažeš mi sve se to",
+                            "ispunjava u Tvoj čas."
                         ],
                         [
-                            "Kad dođeč",
-                            "as, Božijič as,",
-                            "sve su stvari predivne u Tvojč as.",
-                            "Život svoj Ti predajem, svaku pesmu, svaku reč",
-                            ". Nek je sve",
-                            "u pravič",
-                            "as, u Tvojč as."
+                            "Kad dođe čas, Božiji čas,",
+                            "sve su stvari predivne u Tvoj čas.",
+                            "Život svoj Ti predajem, svaku pesmu, svaku reč. ",
+                            "Nek je sve u pravičas, u Tvoj čas."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -43980,23 +45162,24 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/: Kad Duh Božji delujeu mome srcu, ja pevam tad' kao David .:/ Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
+                            "/: Kad Duh Božji delujeu mome srcu, ja pevam tad' kao David.:/ ",
+                            "Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
                         ],
                         [
-                            "/: Kad",
-                            "' Duh Božji delujeu mome srcu, ja igram tad' kao David.:/ Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
+                            "/: Kad' Duh Božji delujeu mome srcu, ja igram tad' kao David.:/ ",
+                            "Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
                         ],
                         [
-                            "/: Kad",
-                            "' Duh Božji delujeu mome srcu, ja tapšem tad' kao David .:/ Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
+                            "/: Kad' Duh Božji delujeu mome srcu, ja tapšem tad' kao David.:/ ",
+                            "Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
                         ],
                         [
-                            "/: Kad",
-                            "' Duh Božji delujeu mome srcu, ja molim tad' kao David .:/ Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
+                            "/: Kad' Duh Božji delujeu mome srcu, ja molim tad' kao David.:/ ",
+                            "Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
                         ],
                         [
-                            "/: Kad",
-                            "' Duh Božji delujeu mome srcu, ja klič em tad' slava Gospodu !:/ Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
+                            "/: Kad' Duh Božji delujeu mome srcu, ja klič em tad' slava Gospodu!:/ ",
+                            "Ref: /: Ja pevam, ja pevam, ja pevam tad' kao David.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44011,29 +45194,28 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kad Isusa znaš, osamljen",
-                            "nisi tad, Onč uva teiu noći gle. Pođis Njime sad, Isus pomaže rad ‘, ruka Njegova jeste sigurna."
+                            "Kad Isusa znaš, osamljen nisi tad, On čuvate i u noći gle. Pođis Njime sad, Isus pomaže rad ‘, ruka Njegova jeste sigurna."
                         ],
                         [
-                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda",
-                            ", On je blizu znaj. Kad Isusa znaš, osamljen",
+                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda, ",
+                            "On je blizu znaj. Kad Isusa znaš, osamljen",
                             "nisi tad, ne plaši se, tvoje svetlo je."
                         ],
                         [
                             "Nemoj hodat’ sam kroz ovaj život ti, daj da Isus te rukom vodi svom. Neizvesnost svu što stoji pred tobom predaj potpuno Spasitelju svom."
                         ],
                         [
-                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda",
-                            ", On je blizu znaj. Kad Isusa znaš, osamljen",
+                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda, ",
+                            "On je blizu znaj. Kad Isusa znaš, osamljen",
                             "nisi tad, ne plaši se, tvoje svetlo je."
                         ],
                         [
                             "Mol’ se svaki dan svom Spasu Isusu, Onće uslišat’ tvoju molitvu.",
-                            "Budi Mu predan, verani radostan, teć eš nagradu več nu primiti."
+                            "Budi Mu predan, verani radostan, te ćeš nagradu večnu primiti."
                         ],
                         [
-                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda",
-                            ", On je blizu znaj. Kad Isusa znaš, osamljen",
+                            "Ref: Razmisli sad, govoris njim, prizovi Gospoda, ",
+                            "On je blizu znaj. Kad Isusa znaš, osamljen",
                             "nisi tad, ne plaši se, tvoje svetlo je."
                         ]
                     ],
@@ -44056,8 +45238,8 @@ const jsonData = {
                             "„Dobro mi je u Gospodu mom!“"
                         ],
                         [
-                            "REF.:\tDobro u (dobro u) Gospodu (Gospodu),",
-                            "dobro mi je u Gospodu mom."
+                            "REF.:\t",
+                            "Dobro u (dobro u) Gospodu (Gospodu), dobro mi je u Gospodu mom."
                         ],
                         [
                             "Kad djavo zaseda i plaši me gde,",
@@ -44066,18 +45248,19 @@ const jsonData = {
                             "Ja sam čist, nema u meni zla."
                         ],
                         [
-                            "REF.:\tDobro u (dobro u) Gospodu (Gospodu),",
-                            "dobro mi je u Gospodu mom."
+                            "REF.:\t",
+                            "Dobro u (dobro u) Gospodu (Gospodu), dobro mi je u Gospodu mom."
                         ],
                         [
-                            "Moj greh je oprošten, izbrisan moj dug. Ta vest pruža mir srcu mom.",
+                            "Moj greh je oprošten, izbrisan moj dug. ",
+                            "Ta vest pruža mir srcu mom.",
                             "Na krstu je Hrist za me platio sve.",
                             "„Slavljen Bog!“",
                             "kličem sad dušom svom."
                         ],
                         [
-                            "REF.:\tDobro u (dobro u) Gospodu (Gospodu),",
-                            "dobro mi je u Gospodu mom."
+                            "REF.:\t",
+                            "Dobro u (dobro u) Gospodu (Gospodu), dobro mi je u Gospodu mom."
                         ],
                         [
                             "Sad živim u Hristu, to blažen je čas,",
@@ -44087,8 +45270,8 @@ const jsonData = {
                             "Moja duša je srećna već tu."
                         ],
                         [
-                            "REF.:\tDobro u (dobro u) Gospodu (Gospodu),",
-                            "dobro mi je u Gospodu mom."
+                            "REF.:\t",
+                            "Dobro u (dobro u) Gospodu (Gospodu), dobro mi je u Gospodu mom."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44103,11 +45286,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kad nevolje dođ",
-                            "u, On nije daleko, ja znam da brine za mene.Č esto kada padnem sve izgleda teško, On diže mene rukom Svom;i opet kada stanemč vrsto na noge, ne želim više Njegov lek, ali ljubav Njegova me prati uvek."
+                            "Kad nevolje dođu, On nije daleko, ja znam da brine za mene. Često kada padnem sve izgleda teško, On diže mene rukom Svom; i opet kada stanemč vrsto na noge, ne želim više Njegov lek, ali ljubav Njegova me prati uvek."
                         ],
                         [
-                            "Velika radost je nastala sadai promenau srcu mom. Od onoga dana kad postade Isus iskupitelj života mog.I sada ja želim da podelim radosti sreću koju dobih ja, od Hrista moga Spasa, haleluja."
+                            "Velika radost je nastala sadai promenau srcu mom. Od onoga dana kad postade Isus iskupitelj života mog. I sada ja želim da podelim radosti sreću koju dobih ja, od Hrista moga Spasa, haleluja."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44125,27 +45307,22 @@ const jsonData = {
                             "Kad osamljen boriš sei napuste te svi, jedan je koj' nikada neće zatajiti."
                         ],
                         [
-                            "Ref: Isus",
-                            "se ne menja. Isus",
-                            "se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
+                            "Ref: ",
+                            "Isus se ne menja. Isus se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
                         ],
                         [
-                            "Sivi kad su oblaci il' bura preti zla, jedan zna što trebaš ti",
-                            ". On te ne ostavlja."
+                            "Sivi kad su oblaci il' bura preti zla, jedan zna što trebaš ti. On te ne ostavlja."
                         ],
                         [
-                            "Ref: Isus",
-                            "se ne menja. Isus",
-                            "se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
+                            "Ref: ",
+                            "Isus se ne menja. Isus se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
                         ],
                         [
-                            "Kušnje kada muče te, strah te obuzima. Jedan je koj' ljubi te",
-                            ". On te ne ostavlja."
+                            "Kušnje kada muče te, strah te obuzima. Jedan je koj' ljubi te. On te ne ostavlja."
                         ],
                         [
-                            "Ref: Isus",
-                            "se ne menja. Isus",
-                            "se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
+                            "Ref: ",
+                            "Isus se ne menja. Isus se ne menja. Baci brige na Njega, jer Hrist te ne ostavlja."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44160,29 +45337,31 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kad samč uo poziv Tvoj, Gospode, ne razmišljah ni minutu, javih",
-                            "se, i nešto seč udno zbilou meni, ne znam šta.",
+                            "Kad sam čuo poziv Tvoj, Gospode, ne razmišljah ni minutu, ",
+                            "javih se, i nešto seč udno zbilou meni, ne znam šta.",
                             "Ti mi nudiš Svoju ljubav danima.",
-                            "Ti mi nudiš Svoju ljubav noć ima.I sve je kao reka dubokoi več no,Gospode."
+                            "Ti mi nudiš Svoju ljubav noć ima.",
+                            "I sve je kao reka dubokoi več no,Gospode."
                         ],
                         [
                             "REF:",
                             "/:NEKA SAD ODJEKNE",
-                            "NAŠA REČ",
-                            ", HALELUJA!",
+                            "NAŠA REČ, HALELUJA!",
                             "NEKA ZNAJU SVI DA",
                             "SLAVIM TE, HALELUJA!:/"
                         ],
                         [
-                            "Ti mi nudiš Svoju ljubav danima",
-                            ". Ti mi nudiš Svoju ljubav noć ima.I sve je kao reka dubokoi ve čn o, Gospode. Proboli su Tvoje vene, Gospode,",
-                            "a u njima život več ni za mene.I sve je tako fino, nemoguće divno, Gospode."
+                            "Ti mi nudiš Svoju ljubav danima.",
+                            "Ti mi nudiš Svoju ljubav noć ima.",
+                            "I sve je kao reka dubokoi ve čn o, Gospode. ",
+                            "Proboli su Tvoje vene, Gospode,",
+                            "a u njima život več ni za mene.",
+                            "I sve je tako fino, nemoguće divno, Gospode."
                         ],
                         [
                             "REF:",
                             "/:NEKA SAD ODJEKNE",
-                            "NAŠA REČ",
-                            ", HALELUJA!",
+                            "NAŠA REČ, HALELUJA!",
                             "NEKA ZNAJU SVI DA",
                             "SLAVIM TE, HALELUJA!:/"
                         ]
@@ -44202,13 +45381,16 @@ const jsonData = {
                             "Kad spašeniu nebu tam stanu pred Spasa Isusa,o Bože, želim biti među njima kadaće stati pred Spasa."
                         ],
                         [
-                            "/: Kad pevaju: haleluja ,:/o Bože, želim biti među njima kad pevaju: haleluja."
+                            "/: Kad pevaju: haleluja,:/",
+                            "o Bože, želim biti među njima kad pevaju: haleluja."
                         ],
                         [
-                            "/: Kadaće svi se molit' Njem ',:/o Bože, želim biti među njima kadaće svi se molit' Njem '."
+                            "/: Kadaće svi se molit' Njem',:/",
+                            "o Bože, želim biti među njima kadaće svi se molit' Njem '."
                         ],
                         [
-                            "/: Kad proziva imena sva ,:/o Bože, želim biti među njima kad proziva imena sva."
+                            "/: Kad proziva imena sva,:/",
+                            "o Bože, želim biti među njima kad proziva imena sva."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44229,16 +45411,16 @@ const jsonData = {
                             "Tad vetar brziu krošnju sedne da dirigentai on sač eka znak. Da horom ptica počeće pesma po šupljim deblima sviraće kontrabas."
                         ],
                         [
-                            "Ref: /:Ta divna muzika, života simfonija, nebeskoga kompozitora !:/"
+                            "Ref: /:Ta divna muzika, života simfonija, nebeskoga kompozitora!:/"
                         ],
                         [
-                            "Po cveću zuji roj violina milion osapč elai bumbara,u travič eta cvrč aka malih zveckaće ritam lak ko zvonkač inela."
+                            "Po cveću zuji roj violina milion osa pčela i bumbara, u travi četa cvrčaka malih zveckaće ritam lak ko zvonka činela."
                         ],
                         [
-                            "I tako svakog jutra pesma se rađa. Dižu se zvuci hvale sve do neba.U slavu onog što milost daje, za kompozitora- Gospoda Isusa."
+                            "I tako svakog jutra pesma se rađa. Dižu se zvuci hvale sve do neba. U slavu onog što milost daje, za kompozitora- Gospoda Isusa."
                         ],
                         [
-                            "Ref: /:Ta divna muzika, života simfonija, nebeskoga kompozitora !:/"
+                            "Ref: /:Ta divna muzika, života simfonija, nebeskoga kompozitora!:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44253,33 +45435,25 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kada spusti se noć",
-                            "i ti moliš se,",
-                            "seti se i mene.",
-                            "Trebam pomoć",
-                            "i zato molim te, seti se i mene."
+                            "Kada spusti se noć i ti moliš se, seti se i mene.",
+                            "Trebam pomoć i zato molim te, seti se i mene."
                         ],
                         [
                             "REF:",
                             "MOLI SE, MOLI ZA MENE",
-                            "DA ME BOGČ",
-                            "UVA I VODI.",
+                            "DA ME BOG ČUVA I VODI.",
                             "MOLI SE, MOLI ZA MENE",
-                            "ŠAPNI MOJE IME MOLEĆ I."
+                            "ŠAPNI MOJE IME MOLEĆI."
                         ],
                         [
-                            "Kada spusti se noć",
-                            "i ja molim se,",
-                            "setim se i tebe.",
-                            "Trebaš pomoć",
-                            "i zato molim se, setim se i tebe."
+                            "Kada spusti se noć i ja molim se, setim se i tebe.",
+                            "Trebaš pomoć i zato molim se, setim se i tebe."
                         ],
                         [
                             "MOLIM SE, MOLIM ZA TEBE,",
-                            "DA TE BOGČ",
-                            "UVA I VODI.",
-                            "MOLIM SE, MOLIM ZA TEBE, ŠAPĆ",
-                            "EM TVOJE IME MOLEĆ I."
+                            "DA TE BOG ČUVA I VODI.",
+                            "MOLIM SE, MOLIM ZA TEBE, ",
+                            "ŠAPĆEM TVOJE IME MOLEĆI."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44294,20 +45468,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/:: Kada ustajemu jutro, tada mislim ja na Isusa ::/o haleluja",
-                            ", o haleluja",
-                            ", o haleluja."
+                            "/:: Kada ustajemu jutro, tada mislim ja na Isusa::/",
+                            "o haleluja, o haleluja, o haleluja."
                         ],
                         [
-                            "/::Imam miru srcu svome kada mislim ja na Isusa ::/o haleluja",
-                            ", o haleluja",
-                            ", o haleluja."
+                            "/::Imam miru srcu svome kada mislim ja na Isusa::/",
+                            "o haleluja, o haleluja, o haleluja."
                         ],
                         [
-                            "/:: Sveti",
-                            "Duh me ispunjava, kada mislim ja na Isusa ::/o haleluja",
-                            ", o haleluja",
-                            ", o haleluja."
+                            "/:: Sveti Duh me ispunjava, kada mislim ja na Isusa::/",
+                            "o haleluja, o haleluja, o haleluja."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44356,8 +45526,8 @@ const jsonData = {
                     "verses": [
                         [
                             "Kako je divnoi dobro, kad braća žive složno. Kako je divnoi dobro, kad braća žive složno. Divno, dobro kad braća žive složno, divno, dobro kad braća žive složno.",
-                            "/:Hine ma - tov uma- naim ševet ahim gam- jahad :/",
-                            "/:Hine ma - tov ševet ahim gam- jahad .:/"
+                            "/:Hine ma - tov uma- naim ševet ahim gam- jahad:/",
+                            "/:Hine ma - tov ševet ahim gam- jahad.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44372,26 +45542,22 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kam sa všetci ponáhľame,",
-                            "v rukách šmýka sa nám",
-                            "celý svet, prečo stále hľadáš nádej, na takých miestach, kde jej niet,",
-                            "v takých veciach, kde jej niet,",
-                            "prečo hľadáš ?"
+                            "Kam sa všetci ponáhľame, v rukách šmýka sa nám",
+                            "celý svet, prečo stále hľadáš nádej, ",
+                            "na takých miestach, kde jej niet,",
+                            "v takých veciach, kde jej niet, prečo hľadáš?"
                         ],
                         [
                             "Každý z nás môže prísť k Bohu taký, aký je, ak sa mu dáš,",
-                            "On Ťa zmení,",
-                            "On hriechy odpustí, On dušu očistí,",
-                            "On to rád urobí."
+                            "On Ťa zmení, On hriechy odpustí, On dušu očistí, On to rád urobí."
                         ],
                         [
-                            "Viem, čo spievam,",
-                            "viem, čo hrám,",
+                            "Viem, čo spievam, viem, čo hrám,",
                             "všetko som to skúsil sám,",
                             "dnes sa s Bohom zhováram,",
                             "ako s verným priateľom,",
                             "On je so mnou v dobrom, v zlom,",
-                            "On je blízko ."
+                            "On je blízko."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44416,21 +45582,20 @@ const jsonData = {
                             "Túžim i ja zaletieť v tie kraje,",
                             "túžim bÝvať v novom Kanáne,",
                             "/: kde anJelia vždy na harfách hrajú,",
-                            "koruny i pre nás chystajú. :/"
+                            "koruny i pre nás chystajú.:/"
                         ],
                         [
                             "S túžbou hľadím na ten Kanaán,",
                             "ktorý pre nás vydobyl náš Pán.",
                             "/:Tam, kde šumí rajská tráva na tom brehu",
-                            "života, tam",
-                            "je moja večná otčina.:/ REF:"
+                            "života, tam je moja večná otčina.:/ REF:"
                         ],
                         [
                             "REF:",
                             "Túžim i ja zaletieť v tie kraje,",
                             "túžim bÝvať v novom Kanáne,",
                             "/: kde anJelia vždy na harfách hrajú,",
-                            "koruny i pre nás chystajú. :/"
+                            "koruny i pre nás chystajú.:/"
                         ],
                         [
                             "S nami poď tiež v tie nádherné kraje!",
@@ -44459,22 +45624,22 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kao košuta što za vodom žudi, žudim za Tobom ja. Samo Tič ežnja srca si moga, Tebe slavim ja."
+                            "Kao košuta što za vodom žudi, žudim za Tobom ja. Samo Ti čežnja srca si moga, Tebe slavim ja."
                         ],
                         [
-                            "Ref: Snago mojai zaštito,u Tebi duh moj se odmara. Samo Tič ežnja srca si moga, Tebe slavim ja."
+                            "Ref: Snago moja i zaštito, u Tebi duh moj se odmara. Samo Ti čežnja srca si moga, Tebe slavim ja."
                         ],
                         [
                             "Tvoja ljubavi briga pruža mi više od zlata sveg '. Samo Ti pravu radost daješ, Tebe slavim ja."
                         ],
                         [
-                            "Ref: Snago mojai zaštito,u Tebi duh moj se odmara. Samo Tič ežnja srca si moga, Tebe slavim ja."
+                            "Ref: Snago moja i zaštito, u Tebi duh moj se odmara. Samo Ti čežnja srca si moga, Tebe slavim ja."
                         ],
                         [
-                            "Nudiš mi prijateljstvo iako Kralj si svih kraljeva. Draži si mi od svihi zato Tebe slavim ja."
+                            "Nudiš mi prijateljstvo i ako Kralj si svih kraljeva. Draži si mi od svihi zato Tebe slavim ja."
                         ],
                         [
-                            "Ref: Snago mojai zaštito,u Tebi duh moj se odmara. Samo Tič ežnja srca si moga, Tebe slavim ja."
+                            "Ref: Snago mojai zaštito, u Tebi duh moj se odmara. Samo Ti čežnja srca si moga, Tebe slavim ja."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44490,7 +45655,7 @@ const jsonData = {
                     "verses": [
                         [
                             "Sva svetska carstva i svaki tron,",
-                            "sve što živi, što je ikad živelo,",
+                            "sve što živi, što je i kad živelo,",
                             "sva bogatstva, lepote zemlje sve,",
                             "ništa su naspram Tvoje lepote."
                         ],
@@ -44520,7 +45685,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kao sneg, kao sneg, iako sam grešan, Bože, znam da sam čisti otkupljen. Kroz snagu Tvoje krvi, kroz čudo ljubavi, kroz veruu Tebe ja mogu bit´ kao sneg."
+                            "Kao sneg, kao sneg, i ako sam grešan, Bože, znam da sam čisti otkupljen. Kroz snagu Tvoje krvi, kroz čudo ljubavi, kroz veruu Tebe ja mogu bit´ kao sneg."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44535,15 +45700,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Spolus každým novým ránom, spolus vánkom večerným ticho stúpamk výšinám, chcem miesto najsť kde láska vládne nám. Všetky rými krásných básní, všetky hviezdy vzdialené, všetky rieky, púšťi vietor lásku hlásajú."
+                            "Spolu s každým novým ránom, spolus vánkom večerným ticho stúpamk výšinám, chcem miesto najsť kde láska vládne nám. Všetky rými krásných básní, všetky hviezdy vzdialené, všetky rieky, púšťi vietor lásku hlásajú."
                         ],
                         [
-                            "Každú chvíľu, každý deň, chcem byť svedkom lásky len. Chcem stále šíriť lásku vôkol nás, nech stále krídla mám. Nech každý smiecha plač je vďakou lásky Pánovej. Každú chvíľu, každý deň",
-                            ", s tebou láska túžim ísť."
+                            "Každú chvíľu, každý deň, chcem byť svedkom lásky len. Chcem stále šíriť lásku vôkol nás, nech stále krídla mám. Nech každý smiecha plač je vďakou lásky Pánovej. Každú chvíľu, každý deň, s tebou láska túžim ísť."
                         ],
                         [
-                            "Spolus hĺbkou, spolus výškou, spolus riekou túžim tiesť. Ticho stúpamk výšinám, chcem to miesto nájsť kde mier vždy vládne nám. Všetko dobrej láske svedčí, viem, že príde právek nám. Túto nádej, tú si strážim",
-                            ", s láskou krídla mám."
+                            "Spolu s hĺbkou, spolu s výškou, spolu s riekou túžim tiesť. Ticho stúpam k výšinám, chcem to miesto nájsť kde mier vždy vládne nám. Všetko dobrej láske svedčí, viem, že príde právek nám. Túto nádej, tú si strážim, s láskou krídla mám."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44558,17 +45721,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Každý deň do každej žitia chvíle, novú silu Spasiteľ mi dá. Svoje dieťa povzbudzuje mile, tak",
-                            "ho v smútku tieseň nehlodá. Božia láska žiadnych hraníc nemá, dobrým iba obdarí ma Pán. Srdca bolesťs potešením zmieňa, dobre vediek neba výšinám."
+                            "Každý deň do každej žitia chvíle, novú silu Spasiteľ mi dá. Svoje dieťa povzbudzuje mile, tak ho v smútku tieseň nehlodá. Božia láska žiadnych hraníc nemá, dobrým iba obdarí ma Pán. Srdca bolesť s potešením zmieňa, dobre vedie k neba výšinám."
                         ],
                         [
-                            "Každý deň je Vykupiteľ pri mne, nová milosť ožaruje púť, keď ma na nej bôľu mračno stihne, chcei môže svetlo poskytnúť. Pán Boh sľúbil chrániť svoje dieťa, nad ním bdie, svoj opatruje ľud. Jasne Písma zasľúbenia svietia, živej vody vyteká tu prúd."
+                            "Každý deň je Vykupiteľ pri mne, nová milosť ožaruje púť, keď ma na nej bôľu mračno stihne, chce i môže svetlo poskytnúť. Pán Boh sľúbil chrániť svoje dieťa, nad ním bdie, svoj opatruje ľud. Jasne Písma zasľúbenia svietia, živej vody vyteká tu prúd."
                         ],
                         [
-                            "Pomôž",
-                            ", Pane, v chvíli skúšok dúfať,v Tvojom slove ponorený byť, nedaj chvieť sa",
-                            ", so strachom sa túlať, viery plameň pod nádobu skryť. Túžim prijaťz ruky Tvojej skromne, každúz vopred vyznačených ciest. Deň čo deň Ty bývaj, pracuj vo mne, ráč",
-                            "ma k cieľu nebeskému viesť."
+                            "Pomôž, Pane, v chvíli skúšok dúfať, v Tvojom slove ponorený byť, nedaj chvieť sa, so strachom sa túlať, viery plameň pod nádobu skryť. Túžim prijaťz ruky Tvojej skromne, každúz vopred vyznačených ciest. Deň čo deň Ty bývaj, pracuj vo mne, ráčma k cieľu nebeskému viesť."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44583,59 +45742,42 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Keď",
-                            "ako chlapec vonku som sa hrával,",
-                            "až dokiaľ",
-                            "obzor nezahalil tieň,",
-                            "som pobehujúc po cestič",
-                            "ke známej",
-                            "hlas matkin poč",
-                            "ul, keď",
-                            "sa konč",
-                            "il deň:"
+                            "Keď ako chlapec vonku som sa hrával,",
+                            "až dokiaľ obzor nezahalil tieň,",
+                            "som pobehujúc po cestičke známej hlas matkin počul, ",
+                            "keď sa končil deň:"
                         ],
                         [
-                            "REF: \"POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS",
-                            "A KRAJ JE CELÝ V TME. POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS,",
+                            "REF: ",
+                            "\"POĎ DOMOV, VEČERE JE ČAS",
+                            "A KRAJ JE CELÝ V TME.",
+                            "POĎ DOMOV, VEČERE JE ČAS,",
                             "UŽ VŠETCI DOMA SME!\""
                         ],
                         [
-                            "Však jeden deň",
-                            "som pri posteli kľač al",
+                            "Však jeden deň som pri posteli kľačal",
                             "a matka moja umierala v nej.",
-                            "Hlas nieč",
-                            "í z neba k več",
-                            "eri ju volal,",
+                            "Hlas niečí z neba k večeri ju volal,",
                             "tak odišla do vlasti nebeskej."
                         ],
                         [
-                            "REF: \"POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS",
-                            "A KRAJ JE CELÝ V TME. POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS,",
+                            "REF: ",
+                            "\"POĎ DOMOV, VEČERE JE ČAS",
+                            "A KRAJ JE CELÝ V TME.",
+                            "POĎ DOMOV, VEČERE JE ČAS,",
                             "UŽ VŠETCI DOMA SME!\""
                         ],
                         [
                             "Dnes vo videní matku svoju vídam,",
                             "a hlas mi známy neustále znie.",
-                            "Stôl k več",
-                            "eri je pripravený v nebi",
-                            "a miesto priň",
-                            "om neobsadené."
+                            "Stôl k večeri je pripravený v nebi",
+                            "a miesto pri ňom neobsadené."
                         ],
                         [
-                            "REF: \"POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS",
-                            "A KRAJ JE CELÝ V TME. POĎ",
-                            "DOMOV, VEČ",
-                            "ERE JEČ AS,",
+                            "REF: ",
+                            "\"POĎ DOMOV, VEČERE JE ČAS",
+                            "A KRAJ JE CELÝ V TME.",
+                            "POĎ DOMOV, VEČERE JE ČAS,",
                             "UŽ VŠETCI DOMA SME!\""
                         ]
                     ],
@@ -44657,8 +45799,7 @@ const jsonData = {
                             "Predivný úžasný Pán."
                         ],
                         [
-                            "Jeho život bol",
-                            "svetlom v noci a hmle,",
+                            "Jeho život bol svetlom v noci a hmle,",
                             "Jeho slová sa vpíjali do duší.",
                             "Deti objímal, lásku rozdával,",
                             "Predivný, úžasný Pán."
@@ -44744,9 +45885,9 @@ const jsonData = {
                     "verses": [
                         [
                             "Keď ustatá je tvár a sám sa nepoznám,",
-                            "keď myseľ spúta tiaž a radosť neviem nájsť, občerstvý",
-                            "ma dotyk tvojich rúk, pomoc mi prichádza. Vykročím",
-                            "v ústrety náruče kde silu nachádzam."
+                            "keď myseľ spúta tiaž a radosť neviem nájsť, ",
+                            "občerstvý ma dotyk tvojich rúk, pomoc mi prichádza.",
+                            "Vykročím v ústrety náruče kde silu nachádzam."
                         ],
                         [
                             "KAŽDÝ KTO HĽADÁ TVOJU TVÁR",
@@ -44779,13 +45920,12 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Keď vstávam nad ránom, zobúdzaš ma, modlitbou radostnou skvie sa domov.Tak slnko zažiar i na rodnú hruď,",
-                            "na hory, doliny, na moju púť."
+                            "Keď vstávam nad ránom, zobúdzaš ma, modlitbou radostnou skvie sa domov.Tak slnko zažiar i na rodnú hruď, na hory, doliny, na moju púť."
                         ],
                         [
-                            "REF: /:SOM ŽITIA PÚTNIKOM, NECHODÍM SÁM,",
-                            "PÁN JEŽIŠ VEDIE MA",
-                            "V ŽITIA KANÁN.:/"
+                            "REF: ",
+                            "/:SOM ŽITIA PÚTNIKOM, NECHODÍM SÁM,",
+                            "PÁN JEŽIŠ VEDIE MA V ŽITIA KANÁN.:/"
                         ],
                         [
                             "Mám žitia Sprievodcu, Pán Ježiš sám",
@@ -44794,9 +45934,9 @@ const jsonData = {
                             "sní sa mi krásny sen, vidím Kanán."
                         ],
                         [
-                            "REF: /:SOM ŽITIA PÚTNIKOM, NECHODÍM SÁM,",
-                            "PÁN JEŽIŠ VEDIE MA",
-                            "V ŽITIA KANÁN.:/"
+                            "REF: ",
+                            "/:SOM ŽITIA PÚTNIKOM, NECHODÍM SÁM,",
+                            "PÁN JEŽIŠ VEDIE MA V ŽITIA KANÁN.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44811,21 +45951,16 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ko je taj kralj slave koji ljubav daje mi? Govori mi tiho svojim nežnim rečima. Moja savest, moje sećanje,",
-                            "oproštenje koje trebam. Ko je taj kralj slave, ko sve ovo daje mi?"
+                            "Ko je taj kralj slave koji ljubav daje mi? Govori mi tiho svojim nežnim rečima. Moja savest, moje sećanje, oproštenje koje trebam. Ko je taj kralj slave, ko sve ovo daje mi?"
                         ],
                         [
                             "Nad anđelima vlada blagoslovljeni Princ. Otkrio je nebo, sve tajne njegove. Moja duša čezne da upozna milost svu. Ko je taj Kralj slave, Spasitelj i Božji Sin."
                         ],
                         [
-                            "IME MU JE ISUS,",
-                            "VEČNO VLADA ON.",
-                            "GOSPOD SVEMOĆAN, KRALJ JE SRCA MOG, ISUS! 2x"
+                            "IME MU JE ISUS, VEČNO VLADA ON. GOSPOD SVEMOĆAN, KRALJ JE SRCA MOG, ISUS! 2x"
                         ],
                         [
-                            "Ko je taj Kralj slave, veličanstva, snage pun? Neizmerno mudar, prepun milosti. Gospod zemlje je",
-                            "i neba, nad stvorenjem vlada svim.",
-                            "On je taj Kralj slave, On je sve što treba mi!"
+                            "Ko je taj Kralj slave, veličanstva, snage pun? Neizmerno mudar, prepun milosti. Gospod zemlje je i neba, nad stvorenjem vlada svim. On je taj Kralj slave, On je sve što treba mi!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44843,8 +45978,7 @@ const jsonData = {
                             "Ko mala deca uvek sanjali smo mi",
                             "Da dobijemo dar za rođendan.",
                             "Al nismo znali da je naš najve",
-                            "ći dar",
-                            "odavno rođen u štalici, radi nas."
+                            "ći dar odavno rođen u štalici, radi nas."
                         ],
                         [
                             "Svakoga dana darivat učimo,",
@@ -44872,37 +46006,39 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ko putnik sam bio što luta u noći zla, u svetu toma",
-                            "kad dobri Pastir me nađe, sad sam na putu u večni dom."
+                            "Ko putnik sam bio što luta u noći zla,",
+                            "u svetu toma kad dobri Pastir me nađe, ",
+                            "sad sam na putu u večni dom."
                         ],
                         [
-                            "REF.: Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog. Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog."
+                            "REF.: ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog. ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog."
                         ],
                         [
-                            "On klonuloj duši mir daje i krepi",
-                            "kad umoran sam, On",
-                            "vodi me kraj tihih voda",
+                            "On klonuloj duši mir daje ",
+                            "i krepi kad umoran sam,",
+                            "On vodi me kraj tihih voda ",
                             "i daje mi sve što trebam."
                         ],
                         [
-                            "REF.: Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog. Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog."
+                            "REF.: ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog. ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog."
                         ],
                         [
-                            "Kad poći ću dolinom sene, moj Spasitelj biće sa",
-                            "mnom i",
-                            "sigurnom rukom me vodi tam gore u svoj večni dom."
+                            "Kad poći ću dolinom sene,",
+                            "moj Spasitelj biće sa mnom i",
+                            "sigurnom rukom me vodi tam gore ",
+                            "u svoj večni dom."
                         ],
                         [
-                            "REF .: Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog. Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog. Živeću",
-                            "ja večno u domu Gospoda mog i biti s Njim kod tog stola nebeskog. Da",
-                            ", dobrota i milost će pratiti me svud dane sve, dane života mog, Dane",
-                            "sve, dane života mog."
+                            "REF.: ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog. ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog.",
+                            "Živeću ja večno u domu Gospoda mog i biti s Njim kod tog stola nebeskog. ",
+                            "Da, dobrota i milost će pratiti me svud dane sve, dane života mog, ",
+                            "Dane sve, dane života mog."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -44918,7 +46054,7 @@ const jsonData = {
                     "verses": [
                         [
                             "O, Bože, znaš me i misli sve.",
-                            "I kad odem od Tebe",
+                            "I kad odem od Tebe ",
                             "znam da me voliš!"
                         ],
                         [
@@ -44936,8 +46072,8 @@ const jsonData = {
                         ],
                         [
                             "Brineš o meni i čuvaš me.",
-                            "Tvoja ruka me štiti",
-                            "jer znam da me voliš!"
+                            "Tvoja ruka me štiti jer ",
+                            "znam da me voliš!"
                         ],
                         [
                             "Moj spasitelj, otkupitelj,",
@@ -44963,21 +46099,20 @@ const jsonData = {
                     "verses": [
                         [
                             "Kod Tvog krsta, Isuse, izvor je života;",
-                            "zoveš žedne grešnike gore na Golgotu. REF .:Golgota",
-                            ", Golgota, tu je Isus umro, na",
-                            "krst srama razapet, za",
-                            "sve grešne ljude."
+                            "zoveš žedne grešnike gore na Golgotu. ",
+                            "REF.: Golgota, Golgota, tu je Isus umro, ",
+                            "na krst srama razapet, za sve grešne ljude."
                         ],
                         [
                             "Kod Tvog krsta, Isuse, milost je i ljubav,",
                             "greh si mi oprostio, večni život dao.",
-                            "REF.:Golgota, Golgota, tu je Isus umro,",
+                            "REF.: Golgota, Golgota, tu je Isus umro,",
                             "na krst srama razapet, za sve grešne ljude."
                         ],
                         [
                             "Kod Tvog krsta, Isuse, Duh mi daje snagu",
                             "da Ti služim svaki dan, sve dok se ne vratiš.",
-                            "REF.:Golgota, Golgota, tu je Isus umro,",
+                            "REF.: Golgota, Golgota, tu je Isus umro,",
                             "na krst srama razapet, za sve grešne ljude."
                         ]
                     ],
@@ -44995,7 +46130,7 @@ const jsonData = {
                         [
                             "Tvoja je sila,",
                             "moć i carstvo,",
-                            "Slava zauvek Tvoja će bit'.‚",
+                            "Slava zauvek Tvoja će bit‚",
                             "nebo i zemlja sva",
                             "pred Tobom klanja se."
                         ],
@@ -45014,13 +46149,10 @@ const jsonData = {
                             "Ti si predivan!"
                         ],
                         [
-                            "I sva zemlja će",
-                            "tebe slaviti.",
-                            "Bože večan,",
-                            "tvoje predivno ime svima svetlost će bit´.",
+                            "I sva zemlja će tebe slaviti.",
+                            "Bože večan, tvoje predivno ime svima svetlost će bit´.",
                             "Jer sva slava Tvoja je,",
-                            "Bože večan,",
-                            "slava Tebi zauvek!"
+                            "Bože večan, slava Tebi zauvek!"
                         ],
                         [
                             "Tvoja je sila,",
@@ -45044,17 +46176,13 @@ const jsonData = {
                             "Ti si predivan!"
                         ],
                         [
-                            "I sva zemlja će",
-                            "tebe slaviti.",
-                            "Bože večan,",
-                            "tvoje predivno ime svima svetlost će bit´.",
+                            "I sva zemlja će tebe slaviti.",
+                            "Bože večan, tvoje predivno ime svima svetlost će bit´.",
                             "Jer sva slava Tvoja je,",
-                            "Bože večan,",
-                            "slava Tebi zauvek!"
+                            "Bože večan, slava Tebi zauvek!"
                         ],
                         [
-                            "Kralj",
-                            "kraljeva si,",
+                            "Kralj kraljeva si,",
                             "ceo svemir peva Ti,",
                             "jer si večan Bog.",
                             "Ti si predivan,",
@@ -45068,22 +46196,16 @@ const jsonData = {
                             "Ti si predivan!"
                         ],
                         [
-                            "I sva zemlja će",
-                            "tebe slaviti.",
-                            "Bože večan,",
-                            "tvoje predivno ime svima svetlost će bit´.",
+                            "I sva zemlja ćectebe slaviti.",
+                            "Bože večan, tvoje predivno ime svima svetlost će bit´.",
                             "Jer sva slava Tvoja je,",
-                            "Bože večan,",
-                            "slava Tebi zauvek!"
+                            "Bože večan, slava Tebi zauvek!"
                         ],
                         [
-                            "I sva zemlja će",
-                            "tebe slaviti.",
-                            "Bože večan,",
-                            "tvoje predivno ime svima svetlost će bit´.",
+                            "I sva zemlja će tebe slaviti.",
+                            "Bože večan, tvoje predivno ime svima svetlost će bit´.",
                             "Jer sva slava Tvoja je,",
-                            "Bože večan,",
-                            "slava Tebi zauvek!"
+                            "Bože večan, slava Tebi zauvek!"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -45098,8 +46220,7 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "/:Kralj kraljeva, Gospod",
-                            "nad svima, slava, haleluja.:/",
+                            "/:Kralj kraljeva, Gospod nad svima, slava, haleluja.:/",
                             "/:Isus, Princ mira, slava, haleluja.:/"
                         ]
                     ],
@@ -45161,15 +46282,13 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Kto lásku môže dávať jediný, kto",
-                            "s tebou cíti, odpúšťa viny?"
+                            "Kto lásku môže dávať jediný, kto s tebou cíti, odpúšťa viny?"
                         ],
                         [
                             "Len jediný Ježiš, len jediný On."
                         ],
                         [
-                            "Nevidia iní, nevidia mnohí,",
-                            "srdce žo trápi, srdce žo bolí."
+                            "Nevidia iní, nevidia mnohí, srdce žo trápi, srdce žo bolí."
                         ],
                         [
                             "Nechápu iní, nemajú síl chcieť, nevládzu strážiť, milovať a bdieť."
@@ -45190,22 +46309,22 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "Ku krížu prichádzam, ta srdce prinášam. Baránku, skloň sa biednemu! Nič v ruke nenesiem;",
-                            "len vierou k Tebe zriem, ó, udeľ milosť hriešnemu! Za mňa si",
-                            "umieral, za mňa i život dal na Golgote, smutnej výšine. Zhrešil som, vyznávam; no tú nádeju mám,",
-                            "že kto v Teba verí, nezhynie."
+                            "Ku krížu prichádzam, ta srdce prinášam. Baránku, skloň sa biednemu! ",
+                            "Nič v ruke nenesiem; len vierou k Tebe zriem, ó, udeľ milosť hriešnemu! Za mňa si",
+                            "umieral, za mňa i život dal na Golgote, smutnej výšine. Zhrešil som, ",
+                            "vyznávam; no tú nádeju mám, že kto v Teba verí, nezhynie."
                         ],
                         [
                             "Ja som Ťa nežiadal! Ty sám si ma hľadal v sveta bahne a pustinách.",
-                            "Neznal som, že blúdim, že sám sa odsúdim, že hyniem v hriechu hlbinách. Zastavils´ biedneho, pozdvihols´ skleslého, ó, tak umy, prosím, i hriech môj. Od hlavy až k nohám zdravé miesto nemám,",
-                            "a predsa chcem večne byť už Tvoj!"
+                            "Neznal som, že blúdim, že sám sa odsúdim, že hyniem v hriechu hlbinách. ",
+                            "Zastavils´ biedneho, pozdvihols´ skleslého, ó, tak umy, prosím, i hriech môj. ",
+                            "Od hlavy až k nohám zdravé miesto nemám, a predsa chcem večne byť už Tvoj!"
                         ],
                         [
                             "Bárs Tys´svätý, čistý, predsa som si istý: predo mnou dvere nezavrieš.",
                             "Keď tak si ma ľúbil, že si seba zhubil, v záhubu ma späť nepošleš.",
-                            "Krom viery nič nemám; no, Ty si pravda sám, slovo svoje dané nezrušíš. Volal si: Poď! idem,",
-                            "celé srdce nesiem: ó,",
-                            "Ty mi ho, Pane, očistíš."
+                            "Krom viery nič nemám; no, Ty si pravda sám, slovo svoje dané nezrušíš.",
+                            "Volal si: Poď! idem, celé srdce nesiem: ó, Ty mi ho, Pane, očistíš."
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -45226,14 +46345,13 @@ const jsonData = {
                             "- je to pre krv Baránka.",
                             "Pred Tvoju tvár stále zveš nás,",
                             "Ty vojsť voláš nás.",
-                            "Pred Tvoju tvár pozývaš nás",
-                            "a /:preto tu smieme stáť. :/"
+                            "Pred Tvoju tvár pozývaš nás a ",
+                            "/:preto tu smieme stáť.:/"
                         ],
                         [
                             "REF:",
                             "/: PANE, KEĎ ODKRYJEŠ HRIECH - KTO OBSTOJÍ?!",
-                            "VĎAKA, ŽE KRVOU",
-                            "BARÁNKA SME OČISTENÍ.:/"
+                            "VĎAKA, ŽE KRVOU BARÁNKA SME OČISTENÍ.:/"
                         ]
                     ],
                     "songBookUrl": "mladeznicke-piesne",
@@ -45248,13 +46366,10 @@ const jsonData = {
                     "author": "",
                     "verses": [
                         [
-                            "PREDOMNOU JE KRÍŽ‚",
-                            "A ZA MNOU SVET",
-                            "NEOBRATIM SA",
-                            "UŽ NIKDY SPÄT",
+                            "PREDOMNOU JE KRÍŽ‚ A ZA MNOU SVET",
+                            "NEOBRATIM SA UŽ NIKDY SPÄT",
                             "TO VŠETKO JE LEN O TEBE.",
-                            "ZATRAS NEBESIA,",
-                            "ROZTRHNI OBLOHU",
+                            "ZATRAS NEBESIA, ROZTRHNI OBLOHU",
                             "NECH KAŽDY VIE:",
                             "“JE TO TU O BOHU!“",
                             "TO VŠETKO JE LEN O TEBE."
@@ -45268,8 +46383,7 @@ const jsonData = {
                             "TEBE CHVÁLA ZNIE",
                             "NA TVARI JE TEN, ČO ROZUMIE",
                             "TO VŠETO JE LEN O TEBE.",
-                            "ZOŠLI OHEN SVOJ",
-                            "NA OLTÁR OBETE",
+                            "ZOŠLI OHEN SVOJ NA OLTÁR OBETE",
                             "PLAMEŇ NASÍCH CHVAL DÁ VEDIET VO SVETE",
                             "TO VŠETO JE LEN O TEBE."
                         ],
