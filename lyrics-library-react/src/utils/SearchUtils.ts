@@ -1,5 +1,6 @@
 import library from "../libraryData";
 import invertedIndex from "../InvertedIndex";
+import userSettings from "../models/UserSettings";
 
 class SearchUtils {
 
@@ -77,7 +78,7 @@ class SearchUtils {
 
         const songsByNameOfSong = library.searchSongsByName(searchParam);
         console.log('number of songsByNameOfSong', songsByNameOfSong.length);
-        const matchingSongs = songsByNameOfSong;
+        let matchingSongs = songsByNameOfSong;
         for (const matchingSongId of matchingSongsIds) {
             const song = library.getSongBySongId(matchingSongId[0]);
             if (song !== undefined) {
@@ -86,6 +87,9 @@ class SearchUtils {
                 }
             }
         }
+
+        
+        matchingSongs = matchingSongs.filter(song => userSettings.isSongLangVisible(song.lang));
 
         return matchingSongs;
     }

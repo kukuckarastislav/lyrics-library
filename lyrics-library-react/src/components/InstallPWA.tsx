@@ -1,13 +1,16 @@
 // InstallButton.tsx
 import { Button } from '@mui/material';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 interface BeforeInstallPromptEvent extends Event {
   prompt(): Promise<void>;
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
-const InstallPWA: React.FC = () => {
+interface InstallPWAProps {
+  showButton: boolean;
+}
+export default function InstallPWA(props: InstallPWAProps) {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
 
   useEffect(() => {
@@ -17,6 +20,10 @@ const InstallPWA: React.FC = () => {
     };
 
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+
+    if (props.showButton) {
+      handleInstallClick();
+    }
 
     return () => {
       window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
@@ -44,15 +51,17 @@ const InstallPWA: React.FC = () => {
   };
 
   return (
-    <div className='flex gap-4'>
-      <Button onClick={handleInstallClick} variant="outlined" >
-        Install App
-      </Button>
-      <Button variant="outlined" color="secondary" onClick={handleReloadApp}>
-        Reload
-      </Button>
+    <div id="installButtonPWA">
+      {props.showButton &&
+        <div className='flex gap-4'>
+          <Button onClick={handleInstallClick} variant="outlined" >
+            Install App
+          </Button>
+          <Button variant="outlined" color="secondary" onClick={handleReloadApp}>
+            Reload
+          </Button>
+        </div>
+      }
     </div>
   );
-};
-
-export default InstallPWA;
+}

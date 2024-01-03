@@ -143,6 +143,14 @@ export class UserSettings {
         this.saveToLocalStorage();
     }
 
+    public isSongBookVisible(languages: string[]): boolean {
+        for (const lang of languages) {
+            if (this.isSongLangVisible(lang))
+                return true;
+        }
+        return false;
+    }
+
 
     //
 

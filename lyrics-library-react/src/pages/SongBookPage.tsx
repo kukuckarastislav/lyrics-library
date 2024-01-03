@@ -20,6 +20,11 @@ export default function SongBookPage() {
     songBook.numberOfSongs = songBook.songs.length;
   }
 
+  // filter songs by language which are allowed by user settings
+  songBook!.songs = songBook!.songs.filter((song) => {
+    return userSettings.isSongLangVisible(song.lang);
+  })
+
   const [, setHeaderHeight] = useState(0);
 
   const [visibleIndex, setVisibleIndex] = useState(1);

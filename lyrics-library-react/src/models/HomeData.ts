@@ -1,3 +1,4 @@
+import library from "../libraryData";
 import RandomUtils from "../utils/RandomUtils";
 import userSettings from "./UserSettings";
 
@@ -153,21 +154,29 @@ export class HomeData {
         return bibleVerses[dayOfYear % bibleVerses.length];
     }
 
+    private getSongCollectionByIndex(index: number): SongCollection {
+        const songCollection = this.songCollections[index];
+        const _songCollection = new SongCollection(songCollection.title, songCollection.songs.filter(songId => {
+            const song = library.getSongBySongId(songId);
+            if(song === undefined) return false;
+            return userSettings.isSongLangVisible(
+                library.getSongBySongId(songId)!.lang);
+        }));
+
+        return _songCollection;
+    }
+
+
     public getSongCollectionsForHome(): SongCollection[] {
-        //get random 8 songs from list
-        //const recommendedSongsIds = RandomUtils.randomizeElemnts(this.songCollections[0].songs, 8);
-
-        RandomUtils.shuffle(this.songCollections[0].songs)
-
-        const recommendedCollection = new SongCollection(
-            this.songCollections[0].title,
-            this.songCollections[0].songs.slice(0,8)
-        );
+    
+        const recommendedCollection = this.getSongCollectionByIndex(0);
+        RandomUtils.shuffle(recommendedCollection.songs)
+        recommendedCollection.songs = recommendedCollection.songs.slice(0,8);
 
         const songCollections: SongCollection[] = [];
         songCollections.push(recommendedCollection);
-        songCollections.push(this.songCollections[1]);
-        songCollections.push(this.songCollections[2]);
+        songCollections.push(this.getSongCollectionByIndex(1));
+        songCollections.push(this.getSongCollectionByIndex(2));
 
         return songCollections;
     }

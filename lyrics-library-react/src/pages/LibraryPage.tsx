@@ -4,6 +4,8 @@ import library from '../libraryData.ts';
 import { Typography } from '@mui/material';
 import SongBookCard from '../components/SongBookCard.tsx';
 
+import userSettings from '../models/UserSettings.ts';
+
 export default function LibraryPage() {
 
   return (
@@ -17,9 +19,11 @@ export default function LibraryPage() {
       
 
       <div className='soundBooksContainer'>
-        {library.songBooks.map((songBook) => (
-          <SongBookCard key={songBook.url} songBook={songBook} />
-        ))}
+        {library.songBooks.map((songBook) => {
+          if (userSettings.isSongBookVisible(songBook.languges)){
+            return (<SongBookCard key={songBook.url} songBook={songBook} />)            
+          }
+        })}
       </div>
 
     </section>

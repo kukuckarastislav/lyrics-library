@@ -234,8 +234,8 @@ export default function SettingsPage() {
         <Divider />
         <div className="mb-4"></div>
         <Typography variant="h6" className='pb-2'>Make this app available offline</Typography>
-        <InstallPWA />
-        <Typography variant="body2" className='py-2'>App Version: 1.2.4</Typography>
+        <InstallPWA showButton={true} />
+        <Typography variant="body2" className='py-2'>App Version: 1.2.5</Typography>
         
 
          

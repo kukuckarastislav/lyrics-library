@@ -6,6 +6,7 @@ import library from '../libraryData';
 import SongCard from '../components/SongCard';
 import React from 'react';
 import GradientUtils from '../utils/GradientUtils';
+import InstallPWA from '../components/InstallPWA';
 
 export default function HomePage() {
 
@@ -31,6 +32,8 @@ export default function HomePage() {
 
   return (
     <div className={style.HomePageCss}>
+
+      <InstallPWA showButton={false} />
 
       <div className='topHeader'>
         <Typography variant="h4" className='libraryLabel'>Home</Typography>
