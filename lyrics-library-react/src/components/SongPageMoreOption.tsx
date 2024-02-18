@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import style from './SongPageMoreOption.module.scss';
-import { Divider, ListItemIcon, ListItemText, MenuItem, MenuList, Switch, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
+import { Divider, ListItemIcon, ListItemText, MenuItem, MenuList, ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
@@ -25,7 +25,6 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
 
   const [verseFontSize, setVerseFontSize] = useState(props.currentFontSize);
   const [verseTextAlign, setVerseTextAlign] = useState(props.currentTextAlign);
-  const [repeatRefInVerses, setRepeatRefInVerses] = useState<boolean>(props.currentRepeatRefInVerses);
 
   const handleAlignment = (
     _: React.MouseEvent<HTMLElement>,
@@ -54,11 +53,6 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
       props.callbackFontSizeChange(value);
     }
     setVerseFontSize(value);
-  }
-
-  const handleRepeatRefInVerses = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setRepeatRefInVerses(e.target.checked);
-    props.callbackRepeatRefInVersesChange(e.target.checked);
   }
 
 
@@ -128,13 +122,8 @@ export default function SongPageMoreOption(props: SongPageMoreOptionProps) {
         </ToggleButtonGroup>
       </div>
 
-      <div className='mt-4'>
-        <Typography id="discrete-slider" gutterBottom>
-          Repeat First Ref
-        </Typography>
-        <Switch checked={repeatRefInVerses} onChange={handleRepeatRefInVerses} />
-      </div>
-
+     
+      <div className='mt-2'></div>
       <Divider className='my-4' />
       <div>Song ID: {props.songId}</div>
     </div>
