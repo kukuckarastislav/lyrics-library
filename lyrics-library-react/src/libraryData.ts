@@ -2,7 +2,7 @@ import { Library } from "./models/Library";
 
 //require('./data/library.json');
 const jsonData = {
-    "numberOfSongBooks": 7,
+    "numberOfSongBooks": 8,
     "songBooks": [
         {
             "name": "Duchovné Piesne",
