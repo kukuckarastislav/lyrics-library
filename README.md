@@ -25,12 +25,12 @@ your favorite Christian music. Customize the app's theme and colors to suit your
 React was chosen for Lyrics Library due to its component-based architecture, facilitating modular development and efficient rendering of UI components. Additionally, as a Progressive Web App (PWA), Lyrics Library leverages modern web technologies to offer offline access, push notifications, and seamless updates. While native apps could offer more features, they would be overkill for this use case, requiring more resources for development and maintenance. With a web-based PWA approach, Lyrics Library ensures a consistent and accessible experience across devices and platforms.
 
 ## Presentation 
-![img1](/Screenshots/1.png)
-![img2](/Screenshots/2.png)
-![img3](/Screenshots/3.png)
-![img4](/Screenshots/4.png)
-![img5](/Screenshots/5.png)
-![img6](/Screenshots/6.png)
-![img7](/Screenshots/7.png)
-![img8](/Screenshots/8.png)
-![img9](/Screenshots/9.png)
+![img1](/Screenshots/1.jpg)
+![img2](/Screenshots/2.jpg)
+![img3](/Screenshots/3.jpg)
+![img4](/Screenshots/4.jpg)
+![img5](/Screenshots/5.jpg)
+![img6](/Screenshots/6.jpg)
+![img7](/Screenshots/7.jpg)
+![img8](/Screenshots/8.jpg)
+![img9](/Screenshots/9.jpg)
