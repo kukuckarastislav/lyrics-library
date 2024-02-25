@@ -28,7 +28,7 @@ export default function SongBookPage() {
   const [, setHeaderHeight] = useState(0);
 
   const [visibleIndex, setVisibleIndex] = useState(1);
-  const numberOfSongs = 30;
+  const numberOfSongs = 40;
 
   const isInViewport = (element: HTMLElement) => {
     const rect = element.getBoundingClientRect();
@@ -41,6 +41,7 @@ export default function SongBookPage() {
 }
 
   useEffect(() => {
+    console.log('useEffect');
     // Calculate the height of the header
     const headerElement = document.getElementById('songBookPage_header');
     const newHeaderHeight = headerElement ? headerElement.offsetHeight : 0;
@@ -52,6 +53,7 @@ export default function SongBookPage() {
     const sectionElement = document.getElementById('songBookPage_songs_container');
 
     const handleScroll = () => {
+      console.log('scrolling');
       if(visibleIndex*numberOfSongs > songBook!.numberOfSongs) return;
       //console.log('scrolling');
       //get last child from div sectionElement

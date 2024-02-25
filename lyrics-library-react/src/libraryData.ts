@@ -24852,17 +24852,6 @@ const jsonData = {
                     "songBookUrl": "worship",
                     "tags": [],
                     "id": 4036
-                },
-                {
-                    "name": "",
-                    "number": 0,
-                    "lang": "srb",
-                    "url": "",
-                    "author": "",
-                    "verses": [],
-                    "songBookUrl": "worship",
-                    "tags": [],
-                    "id": 4037
                 }
             ]
         },
