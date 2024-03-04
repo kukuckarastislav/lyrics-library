@@ -22702,7 +22702,7 @@ const jsonData = {
                         ],
                         [
                             "REF:",
-                            "/: :Slávny si môj Boh, :: /",
+                            "/: Slávny si môj Boh, :/",
                             "Ty si môj Pán!"
                         ],
                         [
