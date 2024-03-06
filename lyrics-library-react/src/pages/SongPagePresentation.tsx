@@ -19,6 +19,7 @@ import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
 import CloseIcon from '@mui/icons-material/Close';
 
 import userSettings from '../models/UserSettings';
+import externalTabInstance from '../utils/ExternalTab';
 
 export default function SongPagePresentation() {
 
@@ -150,12 +151,19 @@ export default function SongPagePresentation() {
   }, [currentSlideId]);
 
   const openExternalTab = () => {
-    const externalTab = window.open('#/presentation', '_blank');
-    if (externalTab) {
-      setExternalTab(externalTab);
-      externalTab.onload = () => {
-        externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
+
+    if(externalTab !== null && !externalTab.closed){
+      externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
+    }
+
+    const externalTabIns = externalTabInstance.getExternalTab();
+    
+    if (externalTabIns) {
+      setExternalTab(externalTabIns);
+      externalTabIns.onload = () => {
+        externalTabIns.postMessage([song?.number, song?.name, songBook?.name ], '*');
       };
+      externalTabIns.postMessage([song?.number, song?.name, songBook?.name ], '*');
     } else {
       alert('Please allow popups for this website');
     }
@@ -190,7 +198,7 @@ export default function SongPagePresentation() {
     <div className={style.SongPagePresentationCss}>
       {song != undefined && (<div>
 
-        <div className='topHeader' id="songPage_header">
+        <div className='topHeader' id="songPage_header" style={{zIndex: 10}}>
           <div className='flex items-center justify-between'>
             <div className='flex items-center gap-2'>
               <Link to={`/songbook/${songBook?.url}`} className="iconButtonll">
@@ -276,8 +284,8 @@ export default function SongPagePresentation() {
         */}
 
 
-        <div className='m-4'>
-          <FormControl>
+        <div className='m-4' style={{zIndex: -100}}>
+          <FormControl sx={{zIndex: 0}}>
             <InputLabel id="demo-simple-select-label"
               sx={{color: 'var(--text-ui-color)'}}
             >Grid columns</InputLabel>
