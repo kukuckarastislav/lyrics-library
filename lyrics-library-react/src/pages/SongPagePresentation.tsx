@@ -12,9 +12,11 @@ import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
 
-import { Button, Popover, Typography } from '@mui/material';
+import { Button, FormControl, InputLabel, MenuItem, Popover, Select, SelectChangeEvent, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
+import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
+import CloseIcon from '@mui/icons-material/Close';
 
 import userSettings from '../models/UserSettings';
 
@@ -31,6 +33,11 @@ export default function SongPagePresentation() {
   const [verses, setVerses] = useState<string[][]>(song?.verses || []);
 
   const [isSongFavorite, setIsSongFavorite] = useState(userSettings.IsSongInFavorites(song!.id));
+
+  const [externalTab, setExternalTab] = React.useState<Window | null>(null);
+  const [currentSlideId, setCurrentSlideId] = React.useState(-1);
+
+  const [gridColumns, setGridColumns] = useState(userSettings.presentationModeGridColumns);
 
   /* popper */
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
@@ -104,7 +111,7 @@ export default function SongPagePresentation() {
     setHeaderHeight(newHeaderHeight);
 
     // Update the margin-top of the section
-    const sectionElement = document.getElementById('songPage_verses_container');
+    const sectionElement = document.getElementById('songPage_container');
     if (sectionElement) {
       sectionElement.style.marginTop = newHeaderHeight + 'px';
     }
@@ -115,44 +122,68 @@ export default function SongPagePresentation() {
       sectionElement!.style.marginTop = headerElement!.offsetHeight + 'px';
     };
 
+    const handleKeyPress = (event: KeyboardEvent) => {
+      console.log(event.key);
+      if (externalTab) {
+        if (event.key === 'ArrowRight' || event.key === 'Enter' || event.key === 'ArrowDown') {
+          const nextSlideId = currentSlideId + 1;
+          if (nextSlideId <= verses.length) {
+            showSlide(nextSlideId);
+          }
+        } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp' || event.key === 'Backspace' || event.key === ' ') {
+          const prevSlideId = currentSlideId - 1;
+          if (prevSlideId >= -1) {
+            showSlide(prevSlideId);
+          }
+        }
+      }
+    };
+
     window.addEventListener('resize', handleResize);
+    window.addEventListener('keydown', handleKeyPress);
 
     // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('keydown', handleKeyPress);
     };
-  }, []);
-
-  const [externalTab, setExternalTab] = React.useState<Window | null>(null);
+  }, [currentSlideId]);
 
   const openExternalTab = () => {
     const externalTab = window.open('#/presentation', '_blank');
     if (externalTab) {
       setExternalTab(externalTab);
       externalTab.onload = () => {
-        externalTab.postMessage(song?.verses[0], '*');
-        // every 1 second send the current slide
-        /*
-        let index = 0;
-        setInterval(() => {
-          externalTab.postMessage(verses[index], '*');
-          index++;
-          if (index >= verses.length) {
-            index = 0;
-          }
-        }, 1000);
-        */
+        externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
       };
     } else {
       alert('Please allow popups for this website');
     }
   }
 
-  const showSlide = (slide: string[]) => {
+  const showSlide = (indexSlide: number) => {
+    // scroll main window to selected slide
+
     if (externalTab) {
-      externalTab.postMessage(slide, '*');
+      console.log(indexSlide)
+      if (indexSlide === -1){
+        externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
+        setCurrentSlideId(indexSlide);
+      }else if (indexSlide >= 0 && indexSlide < verses.length){
+        externalTab.postMessage(song?.verses[indexSlide], '*');
+        setCurrentSlideId(indexSlide);
+      }else if (indexSlide === verses.length){
+        externalTab.postMessage([""], '*');
+        setCurrentSlideId(indexSlide);
+      }
     }
   }
+
+  const handleChangeGridColumns = (event: any) => {
+    const value = event.target.value as number;
+    setGridColumns(value);
+    userSettings.setPresentationModeGridColumns(value);
+  };
 
 
   return (
@@ -169,9 +200,16 @@ export default function SongPagePresentation() {
             </div>
             <div className='flex gap-4'>
               <div>
-                <Button variant="contained" color='secondary' size='small' onClick={openExternalTab}>
+                <Button variant="outlined" color='primary' size='small' sx={{textTransform: 'none'}} startIcon={<ConnectedTvIcon/>} onClick={openExternalTab}>
                   Launch
                 </Button>
+              </div>
+              <div>
+                <Link to={`/songbook/${songBook?.url}/song/${song.url}`} className="iconButtonll">
+                  <Button variant="outlined" color='error' size='small' sx={{textTransform: 'none'}} startIcon={<CloseIcon/>}>
+                    Close
+                  </Button>
+                </Link>
               </div>
               <div>
                 {isSongFavorite ? 
@@ -212,20 +250,66 @@ export default function SongPagePresentation() {
               </Popover>
             </div>
           </div>
-
-          <Typography variant="h5" className='songName'>
-            {song.number != 0 && (<span>{song.number}. </span>)}{song.name}
-          </Typography>
+          
+          <div onClick={() => showSlide(-1)}>
+            <Typography variant="h5" className='songName'>
+              {song.number != 0 && (<span>{song.number}. </span>)}{song.name}
+            </Typography>
+          </div>
           {song.author &&
             <Typography variant="body2">{song.author}</Typography>
           }
         
         </div>
+        <div id="songPage_container"></div>
+        
+        
+        {/* 
+        <div className='mx-8 my-4 flex justify-center gap-40'>
+          <div className='currentSlideContainer'>
             
-          
-        <div id="songPage_verses_container" className='versesContainer'>
+          </div>
+          <div className=''>
+            
+          </div>
+        </div>
+        */}
+
+
+        <div className='m-4'>
+          <FormControl>
+            <InputLabel id="demo-simple-select-label"
+              sx={{color: 'var(--text-ui-color)'}}
+            >Grid columns</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={gridColumns}
+              label="Grid columns"
+              onChange={(event: SelectChangeEvent<number>) => handleChangeGridColumns(event)}
+              size='small'
+              sx={{
+                width: '8rem',
+                color: 'var(--text-ui-color)'
+              }}
+            >
+              <MenuItem value={1}>1</MenuItem>
+              <MenuItem value={2}>2 </MenuItem>
+              <MenuItem value={3}>3</MenuItem>
+              <MenuItem value={4}>4</MenuItem>
+              <MenuItem value={5}>5</MenuItem>
+              <MenuItem value={6}>6</MenuItem>
+              
+            </Select>
+          </FormControl>
+        </div>
+        <div className='versesContainer' style={{gridTemplateColumns: `repeat(${gridColumns}, minmax(0, 1fr))`}}>
           {verses.map((slide, indexSlide) => (
-            <div key={indexSlide} className='slideContainer' onClick={() => showSlide(slide)}>
+            <div 
+              key={indexSlide} 
+              className={'slideContainer ' + (indexSlide === currentSlideId ? 'activeSlide' : '')} 
+              onClick={() => showSlide(indexSlide)}
+            >
               {slide.map((line, indexLine) => (
                 <Typography sx={{fontSize: verseFontSize, textAlign: verseTextAlign}} variant="body2" key={indexSlide+"_"+indexLine} className='textLine'>
                   {line}

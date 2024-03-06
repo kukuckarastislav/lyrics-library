@@ -15,12 +15,19 @@
             }
         }
 
+        .currentSlideContainer{
+            @apply bg-slate-50 border border-slate-300 rounded-lg p-4;
+                border-width: 2px;
+        }
+
         .versesContainer{
-            @apply mx-4;
+            @apply m-4 grid grid-cols-4 gap-4;
 
             .slideContainer{
-                @apply mb-4 bg-slate-50 border border-slate-300 rounded-lg p-4
+                @apply bg-slate-50 border border-slate-300 rounded-lg p-4
                 cursor-pointer;
+
+                border-width: 2px;
 
                 background-color: var(--bg-ui-color-card);
                 box-shadow: var(--card-shadow);
@@ -33,6 +40,12 @@
                 &:active{
                     transform: scale(0.98);
                 }
+            }
+
+            .activeSlide{
+                border-color: var(--text-ui-active-color);
+                border-width: 2px;
+                color: var(--text-ui-active-color) !important;
             }
 
             .textLine{

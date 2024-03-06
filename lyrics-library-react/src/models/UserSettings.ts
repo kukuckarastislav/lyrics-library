@@ -28,6 +28,9 @@ export class UserSettings {
         public showSerbianSongs: boolean = true,
         public showSlovakSongs: boolean = true,
         public showEnglishSongs: boolean = true,
+
+        // presentation mode
+        public presentationModeGridColumns: number = 6,
        
     ) { }
 
@@ -47,6 +50,7 @@ export class UserSettings {
             json.showSerbianSongs,
             json.showSlovakSongs,
             json.showEnglishSongs,
+            json.presentationModeGridColumns,
         );
     }
 
@@ -149,6 +153,11 @@ export class UserSettings {
                 return true;
         }
         return false;
+    }
+
+    public setPresentationModeGridColumns(columns: number): void {
+        this.presentationModeGridColumns = columns;
+        this.saveToLocalStorage();
     }
 
 

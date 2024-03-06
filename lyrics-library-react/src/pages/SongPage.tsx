@@ -15,7 +15,7 @@ import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
 import { Button, Popover, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
-
+import SlideshowIcon from '@mui/icons-material/Slideshow';
 import userSettings from '../models/UserSettings';
 
 export default function SongPage() {
@@ -123,6 +123,10 @@ export default function SongPage() {
     };
   }, []);
 
+  const showPresentationButton = () => {
+    return !navigator.userAgent.includes('Mobi');
+  }
+
   return (
     <div className={style.SongPageCss}>
       {song != undefined && (<div>
@@ -136,13 +140,13 @@ export default function SongPage() {
               <Typography variant="h5">{songBook?.name}</Typography>
             </div>
             <div className='flex gap-4'>
-              <div>
+              { showPresentationButton() && <div>
                 <Link to={`/presentation/songbook/${songBook?.url}/song/${song.url}`} className="iconButtonll">
-                  <Button variant="contained" color='primary' size='small'>
-                    Present
+                  <Button sx={{textTransform: 'none'}} variant="outlined" color='primary' size='small' startIcon={<SlideshowIcon />}>
+                    Presentation Mode
                   </Button>
                 </Link>
-              </div>
+              </div>}
               <div>
                 {isSongFavorite ? 
                   <BookmarkRoundedIcon
