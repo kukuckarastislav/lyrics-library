@@ -18,7 +18,8 @@ export default function BackToSongButton() {
   useEffect(() => {
     const parts = location.pathname.split('/');
     
-    if(parts.length === 5 && parts[1] === 'songbook' && parts[3] === 'song') {
+    if((parts.length === 5 && parts[1] === 'songbook' && parts[3] === 'song') ||
+      (parts.length === 6 && parts[1] === 'presentation' && parts[2] === 'songbook' && parts[4] === 'song')) {
       setBtnVisible(false);
     } else {
       if (userSettings.activeSongId !== 0) {

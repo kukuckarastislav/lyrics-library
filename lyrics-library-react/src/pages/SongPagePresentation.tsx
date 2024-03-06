@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import style from './SongPage.module.scss';
+import style from './SongPagePresentation.module.scss';
 
 import library from '../libraryData';
 import { SongBook } from '../models/SongBook';
@@ -18,7 +18,7 @@ import SongPageMoreOption from '../components/SongPageMoreOption';
 
 import userSettings from '../models/UserSettings';
 
-export default function SongPage() {
+export default function SongPagePresentation() {
 
   const { songBookUrl, songUrl } = useParams();
   const songBook: SongBook | undefined = library.getSongBookByUrl(songBookUrl!);
@@ -123,8 +123,40 @@ export default function SongPage() {
     };
   }, []);
 
+  const [externalTab, setExternalTab] = React.useState<Window | null>(null);
+
+  const openExternalTab = () => {
+    const externalTab = window.open('#/presentation', '_blank');
+    if (externalTab) {
+      setExternalTab(externalTab);
+      externalTab.onload = () => {
+        externalTab.postMessage(song?.verses[0], '*');
+        // every 1 second send the current slide
+        /*
+        let index = 0;
+        setInterval(() => {
+          externalTab.postMessage(verses[index], '*');
+          index++;
+          if (index >= verses.length) {
+            index = 0;
+          }
+        }, 1000);
+        */
+      };
+    } else {
+      alert('Please allow popups for this website');
+    }
+  }
+
+  const showSlide = (slide: string[]) => {
+    if (externalTab) {
+      externalTab.postMessage(slide, '*');
+    }
+  }
+
+
   return (
-    <div className={style.SongPageCss}>
+    <div className={style.SongPagePresentationCss}>
       {song != undefined && (<div>
 
         <div className='topHeader' id="songPage_header">
@@ -137,11 +169,9 @@ export default function SongPage() {
             </div>
             <div className='flex gap-4'>
               <div>
-                <Link to={`/presentation/songbook/${songBook?.url}/song/${song.url}`} className="iconButtonll">
-                  <Button variant="contained" color='primary' size='small'>
-                    Present
-                  </Button>
-                </Link>
+                <Button variant="contained" color='secondary' size='small' onClick={openExternalTab}>
+                  Launch
+                </Button>
               </div>
               <div>
                 {isSongFavorite ? 
@@ -195,7 +225,7 @@ export default function SongPage() {
           
         <div id="songPage_verses_container" className='versesContainer'>
           {verses.map((slide, indexSlide) => (
-            <div key={indexSlide} className='slideContainer'>
+            <div key={indexSlide} className='slideContainer' onClick={() => showSlide(slide)}>
               {slide.map((line, indexLine) => (
                 <Typography sx={{fontSize: verseFontSize, textAlign: verseTextAlign}} variant="body2" key={indexSlide+"_"+indexLine} className='textLine'>
                   {line}
