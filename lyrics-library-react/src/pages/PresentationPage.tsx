@@ -4,8 +4,8 @@ import React, { useEffect } from 'react'
 export default function PresentationPage() {
 
   const [slide, setSlide] = React.useState([] as string[]);
-  const [text, setText] = React.useState(''); 
-  const [fontSize, setFontSize] = React.useState(100); // Initial font size
+  const [_text, setText] = React.useState(''); 
+  const [fontSize, _setFontSize] = React.useState(60); // Initial font size
 
   useEffect(() => {
     const handleMessage = (event: any) => {

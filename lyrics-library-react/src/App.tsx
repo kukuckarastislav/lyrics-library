@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import LibraryPage from './pages/LibraryPage';
 import SearchPage from './pages/SearchPage';
 import MePage from './pages/MePage';
-import { HashRouter , Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter , Route, Routes } from 'react-router-dom';
 import BottomNavigation from './components/BottomNavigation';
 import SongPage from './pages/SongPage';
 import SongBookPage from './pages/SongBookPage';
