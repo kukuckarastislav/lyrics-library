@@ -39615,7 +39615,7 @@ const jsonData = {
         {
             "name": "Mladeznicke piesne",
             "url": "mladeznicke-piesne",
-            "numberOfSongs": 358,
+            "numberOfSongs": 366,
             "languges": [
                 "srb",
                 "sk"
@@ -52031,6 +52031,322 @@ const jsonData = {
                             "Modulacija: Nevesta čeka Mladoženju. Crkva smo Tvoja što čeka Te tu.",
                             "Svako srce čeka Cara svog",
                             "Pevamo: Dođi Hriste! Gospode Isuse x2"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ne ja, već Hrist u meni",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "ne-ja-vec-hrist-u-meni",
+                    "number": 359,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6359,
+                    "verses": [
+                        [
+                            "1. Milosni dar, Iskupitelj moj Isus,  Najveći dar koji nebo daje nam",
+                            "Moja radost, pravednost, sloboda, čvrsta ljubav i beskrajni mir."
+                        ],
+                        [
+                            "Ref: Moja nada jedina je Isus jer moj život u njemu skriven je",
+                            "Kako čudesno, pevam: sve je moje to! Al’ ne ja, već Hrist u meni."
+                        ],
+                        [
+                            "2. Noć je mračna al’ izgubljen nisam, jer kraj mene Spasitelj je moj.",
+                            "U slabosti, mogu radosno da služim, Njegova sila je tada dovoljna."
+                        ],
+                        [
+                            "Ref: Moj me Pastir uvek štiti. Kroz doline rukom vodi me",
+                            "Tama je poražena, kličem: pobeda! Al’ ne ja, već Hrist u meni."
+                        ],
+                        [
+                            "3. Ne bojim se, oprošten je greh moj. Siguran, jer je cena plaćena.",
+                            "Isus je postradao za mene. Vaskrsnut, pobedio je grob."
+                        ],
+                        [
+                            "Ref: Greh u meni sada je poražen. Isus sâm je čežnja moja sva.",
+                            "Okovi su slomljeni, pevam: slobodni smo mi! Al’ ne ja, već Hrist u meni."
+                        ],
+                        [
+                            "4. Svakim dahom slediću sad Hrista, Njegova Reč kući vodi me.",
+                            "Svakim danom milost obnavlja me, dok ne stanem u radosti pred Njim."
+                        ],
+                        [
+                            "Ref: Moja nada jedina je Isus. Večna slava Njemu pripada.",
+                            "Kad se trka završi, ja ću još pevati. Al’ ne ja, već Hrist u meni."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Pred tronom Boga Svevišnjeg",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "pred-tronom-boga-svevisnjeg",
+                    "number": 360,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6360,
+                    "verses": [
+                        [
+                            "Pred tronom Boga Svevišnjeg",
+                            "Za mene moli Zastupnik,",
+                            "Sada i u večnosti",
+                            "Jedini Prvosveštenik."
+                        ],
+                        [
+                            "Ime mi je urezano",
+                            "Na dlanu i u srcu tom,",
+                            "Izbrisat' niko neće me",
+                            "Sve dok u nebu stoji On,",
+                            "Sve dok u nebu stoji On."
+                        ],
+                        [
+                            "Satana često kuša me",
+                            "Na moje grehe seća me,",
+                            "K Onom što sav greh ukloni",
+                            "Pogled tad svoj ja podižem."
+                        ],
+                        [
+                            "Smrt Spasitelja bez greha",
+                            "Grešnu mi dušu izbavi",
+                            "Pravedni Bog kad vidi Ga",
+                            "Meni je rad da oprosti,",
+                            "Meni je rad da oprosti."
+                        ],
+                        [
+                            "Vaskrslo Jagnje bez mane",
+                            "Moja je čista pravednost",
+                            "Onaj što jeste - ne menja se",
+                            "Slava mu večna i milost."
+                        ],
+                        [
+                            "Jedno sam s njim i besmrtan",
+                            "Krvlju sam plaćen, dragocen",
+                            "S Hristom je skriven život moj",
+                            "Spasitelj On je i moj Bog,",
+                            "Spasitelj On je i moj Bog."
+                        ]
+                    ]
+                },
+                {
+                    "name": "VEROVAĆU HRISTU",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "verovacu-hristu",
+                    "number": 361,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6361,
+                    "verses": [
+                        [
+                            "1. Kad me mračna sumnja muči verovaću Hristu Spasu.",
+                            "I kada se čini teškim, mir je uvek u njeg’vom glasu."
+                        ],
+                        [
+                            "2. Kada moja snaga klone , verovaću Hristu Spasu",
+                            "Znam da utočište moje, Isus je u svakom času."
+                        ],
+                        [
+                            "REF: Hriste, o, Hriste, daj da više spoznam te.",
+                            "Hriste, o, Hriste, Srce moje nek tvoje je."
+                        ],
+                        [
+                            "3. Istinom me svojom vodi, verovaću Hristu Spasu,",
+                            "staza kojom On ide, vodi k večnom blaženstvu."
+                        ],
+                        [
+                            "4. Svakim danom svog života, verovaću Hristu Spasu.",
+                            "Na mom putu kući k Njemu, On mi pruža pomoć svu."
+                        ],
+                        [
+                            "Na krstu tom, moja nada je sva, oslanjam se na Hrista koji umre za mene.",
+                            "Njegov dar potpun je, on je svršio sve, zato verujem u svemu, Hristu koji brine se."
+                        ]
+                    ]
+                },
+                {
+                    "name": "GOSPOD JE SPASENJE",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "gospod-je-spasenje",
+                    "number": 362,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6362,
+                    "verses": [
+                        [
+                            "1. Milost me je dosegla, izvukla me  iz mora zla,",
+                            "Na čvrstom tlu, ja sam siguran, Gospod je spasenje!"
+                        ],
+                        [
+                            "2.Ne plašim se kad mrak je tu, njegovim svetlom, tražim put",
+                            "Skoro će sunce   izaći, Gospod je spasenje!"
+                        ],
+                        [
+                            "REF: Ko je kao Gospod Bog, Spasitelj veran  je On",
+                            "Moj dug  je rešen, vidim pobede,   Gospod je spasenje!"
+                        ],
+                        [
+                            "3.U Gospodu je nada sva, On obećanja daje nam,",
+                            "Zima je prošla, stiže proleće, Gospod je spasenje!"
+                        ],
+                        [
+                            "4. Kad imam mnoge potrebe, I osećam se slabije,",
+                            "Milost je tu, uvek za mene, Gospod je spasenje!"
+                        ],
+                        [
+                            "5. Kada  život dođe do kraja, On neće me ostaviti tad",
+                            "Vaskrsnuću, on će pozvat’ me, Gospod je spasenje."
+                        ],
+                        [
+                            "B: Nek’ je slava Ocu  našem, Nek’ je slava Isusu.",
+                            "Nek’ je slava Svetom Duhu, Gospod je spasenje! 2x",
+                            "Gospod je spasenje!"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kroz Isusa",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "kroz-isusa",
+                    "number": 363,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6363,
+                    "verses": [
+                        [
+                            "Nada sveta si s neba sišao",
+                            "Za krunu grešnika tron napustio, milost izlio.",
+                            "Sin pravednosti žrtvovan",
+                            "Na krstu razapet cenu platio – da živimo."
+                        ],
+                        [
+                            "Ref: Kroz Isusa su nam gresi oprani, Kroz Isusa smo večno spaseni",
+                            "Ljubav je došla da nam pokaže put.",
+                            "Kroz Isusa slomljeni su slobodni, beznadežni su isceljeni",
+                            "Kroz Isusa – imamo večni mir."
+                        ],
+                        [
+                            "Ti dobar si – večna istina,",
+                            "Uvek blizu si, na Te oslanjam se, na Tebe!"
+                        ],
+                        [
+                            "Ref: Kroz Isusa su nam gresi oprani, Kroz Isusa smo večno spaseni",
+                            "Ljubav je došla da nam pokaže put.",
+                            "Kroz Isusa slomljeni su slobodni, beznadežni su isceljeni",
+                            "Kroz Isusa – imamo večni mir."
+                        ],
+                        [
+                            "Sveti, sveti, dostojan si - haleluja, slobodni smo! Pevamo:",
+                            "Sveti, sveti, dostojan si  - haleluja, slobodni smo!"
+                        ],
+                        [
+                            "Ref: Kroz Isusa su nam gresi oprani, Kroz Isusa smo večno spaseni",
+                            "Ljubav je došla da nam pokaže put.",
+                            "Kroz Isusa slomljeni su slobodni, beznadežni su isceljeni",
+                            "Kroz Isusa – imamo večni mir."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Hvala, Isuse, za Tvoju krv",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "hvala-isuse-za-tvoju-krv",
+                    "number": 364,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6364,
+                    "verses": [
+                        [
+                            "Znam ko sam bio, toga dobro sećam se, izgubljen, jadnik, slep, vreme prolazilo je."
+                        ],
+                        [
+                            "Greh i dubok ponor razdvajao nas je, ali sa udaljene strane Ti gledao si me."
+                        ],
+                        [
+                            "I Ti si kroz ponor ipak napravio put, napustio si tron svoj i izgradio ga tu."
+                        ],
+                        [
+                            "Tu, na tom krstu moj dug platio si Ti, slomio si lance sve, slobodu, nadu dao mi."
+                        ],
+                        [
+                            "Ref: Hvala, Isuse, za Tvoju krv. Hva-la, Isuse, za život nov.",
+                            "Hva-la Ti što si me spasio, izveo iz tame na svetlo predivno."
+                        ],
+                        [
+                            "Znam, umesto mene u grobu bio si, ali posle trećeg dana Ti izašao si živ."
+                        ],
+                        [
+                            "Sad smrt nema vlast, a život nema kraj, jer očišćen sam, znam, ja kroz krv Jagnjeta."
+                        ],
+                        [
+                            "Bridge: Nema ništa jače, nego čudotvorna snaga",
+                            "krvi te Hristove.",
+                            "Sinovi i kćeri, mi smo Ocem otkupljeni",
+                            "kroz krv tu Hristovu. 2x"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Divni milostivi Spase",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "divni-milostivi-spase",
+                    "number": 365,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6365,
+                    "verses": [
+                        [
+                            "1. Divni milostivi Spase, Dragocen,  Iskupitelj i prijatelj",
+                            "Ko bi pomislio da Jagnje može, spasiti duše ljudi",
+                            "O, Ti spašavaš duše ljudi."
+                        ],
+                        [
+                            "2. Savetnik, Utešitelj, Čuvar, Koga čeznemo da prigrlimo.",
+                            "Ti nudiš nadu kada su nam srca,  beznadežno izgubila put,",
+                            "Oh, beznadežno smo izgubili put."
+                        ],
+                        [
+                            "Ref: Ti si onaj koga slavimo,  Ti si onaj kog’ obožavamo.",
+                            "Ti daješ oprost i milost, naša srca su uvek gladna,",
+                            "o, naša srca su uvek gladna."
+                        ],
+                        [
+                            "3.  Svemogući, beskonačni Oče,  koji verno voliš svoje",
+                            "Ovde u našoj slabosti nalaziš nas,",
+                            "Kak’ padamo pred tronom tvojim.",
+                            "Oh, mi padamo pred tronom tvojim."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ty napĺňaš chválov",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "ty-naplnas-chvalov",
+                    "number": 366,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6366,
+                    "verses": [
+                        [
+                            "Ty napĺňaš chválov naše ústa",
+                            "Ty napĺňaš vďakov naše srdcia",
+                            "O, pane naš príď k nám",
+                            "Svoju slávu zjav nám",
+                            "Vo svojej sláve svätý Bože",
+                            "Pridi k nám."
+                        ],
+                        [
+                            "Tvojej slávi prúd prúdi k nám",
+                            "Viac než okraj tvojho rúcha vnímame",
+                            "Ty máš trón na chvalach",
+                            "Veď prebívaš všade tám",
+                            "Kde ťa duchu a v pravde vzývaju."
                         ]
                     ]
                 }
@@ -71246,7 +71562,6 @@ const jsonData = {
         }
     ]
 };
-
 const library: Library = Library.fromJson(jsonData);
 console.log(library);
 
