@@ -1,5 +1,5 @@
 # Lyrics Library🎶
-![Newest Version](https://img.shields.io/badge/Newest_Version-1.2.6-blue.svg)
+![Newest Version](https://img.shields.io/badge/Newest_Version-1.2.7-blue.svg)
 
 
 Welcome to Lyrics Library, a web application built with React and designed as a Progressive Web App (PWA) for accessing Christian songs offline. With a vast collection of over 2000 Christian songs, Lyrics Library aims to serve the needs of churchgoers and worship teams by providing a convenient and accessible platform for accessing lyrics anytime, anywhere.

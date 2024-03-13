@@ -39615,7 +39615,7 @@ const jsonData = {
         {
             "name": "Mladeznicke piesne",
             "url": "mladeznicke-piesne",
-            "numberOfSongs": 324,
+            "numberOfSongs": 358,
             "languges": [
                 "srb",
                 "sk"
@@ -50994,6 +50994,1043 @@ const jsonData = {
                         ],
                         [
                             "Evo me ja Tebi pružam ruke, Ti si Bog i Sin i Vladar vekova Vladar vekova"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ti si sveti",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "ti-si-sveti",
+                    "number": 325,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6325,
+                    "verses": [
+                        [
+                            "Ti si sveti Svemogući Dostojanstven, vredan hvale.",
+                            "Slediću Te, zauvek Bože, voleću Te u svim danima."
+                        ],
+                        [
+                            "Ja ću pevati Kralju, jer slave je dostojan!",
+                            "Tebe volim, tebe slavim, pred tobom ja klanjam se"
+                        ],
+                        [
+                            "Ti si princ mira, I ja živim za tebe."
+                        ],
+                        [
+                            "Ti si Gospod Bog, kralj svih kraljeva,",
+                            "Ti si dostojan našeg slavljenja.",
+                            "Emanuel, Gospod sa nama,Ti si Princ Mira,",
+                            "Tebi sva slava. Ti si živi Bog i naš Spasitelj,",
+                            "zauvek vladaćešu svim vekovima.Ti si Alfa, Omega,",
+                            "početak i kraj,Spasitelj, Mesija, Izbavitelj."
+                        ],
+                        [
+                            "Ti si Princ Mira i ja živim za Tebe."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Všade tam kde sú",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "vsade-tam-kde-su",
+                    "number": 326,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6326,
+                    "verses": [
+                        [
+                            "Všade tam kde sú, ľudia zídeny",
+                            "v mene Ježiš, v láske zjednotený."
+                        ],
+                        [
+                            "Práve tam Boh zasľúbil",
+                            "že bude prítomný."
+                        ],
+                        [
+                            "Dnes viem že, náš Boh je",
+                            "na tomto mieste prítomný!"
+                        ],
+                        [
+                            "Ref: Privítajme Pána v tomto chráme!",
+                            "Nech ho Božia sláva naplní.",
+                            "Svojmu Bohu spievame a hráme",
+                            "pieseň spasených!"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Svuda nevolje su tu",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "svuda-nevolje-su-tu",
+                    "number": 327,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6327,
+                    "verses": [
+                        [
+                            "Svuda nevolje su tu, al' razumet' ne mogu kako Bog me želi vodit u tu divnu zemlju tam."
+                        ],
+                        [
+                            "Ali budno vodi me, zato slediču ga, znam, jer razumećemo bolje jednom tam'."
+                        ],
+                        [
+                            "Jednom tamo jutro svanuće,",
+                            "deca Božija zajedno će bit'.",
+                            "Tada pričaćemo o toj pobedi,",
+                            "jer razumećemo bolje jednom tam'."
+                        ],
+                        [
+                            "Neispunjeni su sni, razočarani smo mi, često lutamo u tami, teškog srca, slomljeni."
+                        ],
+                        [
+                            "Al' u njeg se uzdamo, njeg vu reč mi slušamo, jer razumećemo bolje jednom tam'."
+                        ],
+                        [
+                            "Jednom tamo jutro svanuće,",
+                            "deca Božija zajedno će bit'.",
+                            "Tada pričaćemo o toj pobedi,",
+                            "jer razumećemo bolje jednom tam'."
+                        ],
+                        [
+                            "Kušnje, zamke skrivene zateknu nas nespremne, žalost ispuni nam srce kad nam krivo ide sve."
+                        ],
+                        [
+                            "Zašto snašlo nas je to kad za dobrim težimo, al' razumećemo jednom bolje tam'."
+                        ],
+                        [
+                            "Jednom tamo jutro svanuće,",
+                            "deca Božija zajedno će bit'.",
+                            "Tada pričaćemo o toj pobedi,",
+                            "jer razumećemo bolje jednom tam'."
+                        ]
+                    ]
+                },
+                {
+                    "name": "ORUŽJEM BOŽJIM",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "oruzjem-bozjim",
+                    "number": 328,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6328,
+                    "verses": [
+                        [
+                            "Oružjem Božjim pobeđujemo.",
+                            "Jer Gospod se bori za nas."
+                        ],
+                        [
+                            "Nek kaže jak sam ko bio je slab.",
+                            "Jer Njegov je rat a ne naš!"
+                        ],
+                        [
+                            "Ref:",
+                            "Dajmo hvalu, slavu,",
+                            "silu i čast Gospodu. 2X"
+                        ],
+                        [
+                            "Kad đavo se diže ko ričući lav.",
+                            "Tad Gospod se bori za nas.",
+                            "Krv Jagnjeta Božjeg je dovoljna tad.",
+                            "Jer Njegov je rat, a ne naš."
+                        ],
+                        [
+                            "Ref:",
+                            "Kad đavo u srce nam donese strah.",
+                            "Tad Gospod se bori za nas.",
+                            "Ohrabri se, brate, spasenje je tu.",
+                            "Jer Njegov je rat, a ne naš."
+                        ]
+                    ]
+                },
+                {
+                    "name": "PRIJATELJ BOŽIJI SAM",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "prijatelj-boziji-sam",
+                    "number": 329,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6329,
+                    "verses": [
+                        [
+                            "Ko sam ja da Ti za mene brineš",
+                            "Da me čuješ, kad zovem Te"
+                        ],
+                        [
+                            "Da li stvarno pomišljaš na mene",
+                            "Jer me voliš",
+                            "To je divno, to je divno"
+                        ],
+                        [
+                            "Prijatelj Božiji sam x3",
+                            "On voli me"
+                        ],
+                        [
+                            "Gospod slavni",
+                            "Gospod moćni",
+                            "Prijatelj je moj x3",
+                            "To je divno, to je divn"
+                        ]
+                    ]
+                },
+                {
+                    "name": "MOĆAN JE DA SPASE",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "mocan-je-da-spase",
+                    "number": 330,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6330,
+                    "verses": [
+                        [
+                            "Milost nam svima treba,",
+                            "ljubav što se ne menja",
+                            "Nek milost spusti se"
+                        ],
+                        [
+                            "Oproštaj svima treba,",
+                            "dobrota Spasitelja",
+                            "Nade naroda"
+                        ],
+                        [
+                            "Moj Bog premešta planine",
+                            "On moćan je da spase, moćan je da spase",
+                            "Zauvek, Tvorac je spasenja",
+                            "Isus je vaskrsnuo, On je pobedio grob"
+                        ],
+                        [
+                            "Primi me kakav jesam, sve promašaje moje",
+                            "I sve strahove",
+                            "Život ću dati da te uvek sledim",
+                            "Ja sad se predajem"
+                        ],
+                        [
+                            "Svima svetli, neka vidi svet",
+                            "Pevaj, svi nek slave Kralja Vaskrslog 2x"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Novo sam stvorenje",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "novo-sam-stvorenje",
+                    "number": 331,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6331,
+                    "verses": [
+                        [
+                            "Novo sam stvorenje, novi čovek sam.",
+                            "Sve staro prošlo je, Isus je moj spas."
+                        ],
+                        [
+                            "Više nego pobednik u Hristu sam.",
+                            "Novo sam stvorenje, novi čovek sam."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Pouzdaj se u Gospoda",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "pouzdaj-se-u-gospoda",
+                    "number": 332,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6332,
+                    "verses": [
+                        [
+                            "Pouzdaj se u Gospoda i uživaj u Njemu,",
+                            "budi jak i hrabar, pouzdaj se u Njega x2"
+                        ],
+                        [
+                            "REF: Jer On je Bog koji sve zna o tebi, On je Bog koji ljubi te."
+                        ]
+                    ]
+                },
+                {
+                    "name": "NEK PADA",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "nek-pada",
+                    "number": 333,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6333,
+                    "verses": [
+                        [
+                            "Naš Bog dolazi, da obećanje ispuni",
+                            "I spusti na nas kišu milosti"
+                        ],
+                        [
+                            "Nek pada, nek pada",
+                            "Otvori Nebeske brane"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Vládca",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "vladca",
+                    "number": 334,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6334,
+                    "verses": [
+                        [
+                            "Každý z nás dúfa v súcit a bezhraničnú lásku,",
+                            "Óóó, Pane, zmiluj sa."
+                        ],
+                        [
+                            "Každý z nás túži prijímať milosť odpustenia, a nádej spásy."
+                        ],
+                        [
+                            "REF:",
+                            "Vládca, vrchmi môže hýbať.",
+                            "Môj Boh je najmocnejší, má moc zachrániť nás.",
+                            "Víťaz pôvod večnej spásy.",
+                            "Porazil smrť z hrobu vstal, Ježiš víťazne vstal."
+                        ],
+                        [
+                            "Biedny som, Ty ma prijímaš, všetok môj strach a pády.",
+                            "Óóó, Kriste, zmiluj sa.",
+                            "Za Tebou túžim kráčať,",
+                            "Si moja pevná nádej,",
+                            "Dnes sa Ti dávam."
+                        ],
+                        [
+                            "Zažiar svetlom, nech Ťa svet vidí. spievaj, Tebe sláva Kráľ môj víťazný, Ježiš.(2x)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Viem, že Ježiš živý je",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "viem-ze-jezis-zivy-je",
+                    "number": 335,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6335,
+                    "verses": [
+                        [
+                            "Viem, že Ježiš živý je, čo viac si môžem priat?",
+                            "Nie je nič už na svete, čo viac by mohlo stáť.",
+                            "Cez skúšok čas, Vždy spievať chcem, Už nikdy spät, Byt svätým chcem."
+                        ],
+                        [
+                            "REF: Viac už nič nežiadam. Viac už nič nehľadám.",
+                            "Všetko v Tebe mám môj Ježiš.",
+                            "Všetko v Tebe mám."
+                        ],
+                        [
+                            "Všetko v ňom len mám, Je spásou mojou viem, Z neba nádej prišla k nám, Na našu hriešnu zem."
+                        ],
+                        [
+                            "REF2:",
+                            "/:Rozhodol som sa ísť za Ježišom, Už nikdy späť, už nikdy späť. :/"
+                        ],
+                        [
+                            "/: Na kríž sa dívam a Boha vzývam, Už nikdy späť, už nikdy späť. :/"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Da moj Isus ljubi me",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "da-moj-isus-ljubi-me",
+                    "number": 336,
+                    "lang": "srb",
+                    "tags": [
+                        "kids"
+                    ],
+                    "author": "",
+                    "id": 6336,
+                    "verses": [
+                        [
+                            "Da moj Isus ljubi me, znam iz svoje Biblije, iako sam malen ja, za njeg moje srce zna."
+                        ],
+                        [
+                            "Isus me ljubi, Isus me ljubi,",
+                            "Isus me ljubi. To znam iz Biblije."
+                        ],
+                        [
+                            "Da moj Isus ljubi me, znam iz svoje Biblije, smrt za mene pobedi, vrata neba otvori."
+                        ],
+                        [
+                            "Ref:",
+                            "Da moj Isus ljubi me, znam iz svoje Biblije, uza me je svaki čas, i kad umrem moj je spas."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Šiel kadiaľ' ja chodím (Boh je s nami)",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "siel-kadial'-ja-chodim-(boh-je-s-nami)",
+                    "number": 337,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6337,
+                    "verses": [
+                        [
+                            "1. Šiel kadiaľ ja chodím.",
+                            "Stál tam, kde ja stojím.",
+                            "Cítil, čo ja cítim. Rozumie mi.",
+                            "Krehkosť moju pozná.",
+                            "Žil v tele ako ja.",
+                            "Diabol ho pokúšal. On neprehrá."
+                        ],
+                        [
+                            "Ref: Boh je s nami, tak blízko nás.",
+                            "Boh je s nami. Emanuel. (2x)"
+                        ],
+                        [
+                            "2. Ľudia ho zavrhli, predčasne súdili.",
+                            "Trpel to neprávom. Odpúšťa nám.",
+                            "Trápil sa nado mnou.",
+                            "Zaplatil za hriech môj.",
+                            "Zomrel namiesto mňa a ja smiem žiť."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Požehnaní",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "pozehnani",
+                    "number": 338,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6338,
+                    "verses": [
+                        [
+                            "Požehnaní sú tí, ktorí prebývajú v Tvojom dome.",
+                            "Požehnaní sú tí, ktorí chvália Ťa neustále.",
+                            "Požehnaní sú tí, ktorých sila je len v Tebe.",
+                            "Požehnaní sú tí, ktorých srdce dúfa v Pána."
+                        ],
+                        [
+                            "Od sily k sile pôjdeme,",
+                            "tvárou v tvár až kym Ťa neuzrieme."
+                        ],
+                        [
+                            "REF:",
+                            "Čuj náš hlas, oo Pán Boh všemohúci,",
+                            "požehnaj nás, Teba s chválou hľadajúcich."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Blaženi",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "blazeni",
+                    "number": 339,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6339,
+                    "verses": [
+                        [
+                            "Blaženi su oni koji u tvojom domu prebivaju",
+                            "Blaženi su oni koji slave Te bez prestanka",
+                            "Blaženi su oni kojim snaga je u Tebi",
+                            "Blaženi su oni koji u Tebe se uzdaju"
+                        ],
+                        [
+                            "Ustrajno ćemo ići mi dok Tvoje lice ne ugledamo",
+                            "Čuj naš glas o Bože svemogući: blagoslovi nas dok Te s hvalom tražimo"
+                        ],
+                        [
+                            "Jer Ti si sveti 2x",
+                            "Jer Ti si sveti Bog"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Vďaka Ježiš",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "vdaka-jezis",
+                    "number": 340,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6340,
+                    "verses": [
+                        [
+                            "Vďaka Ježiš, vďaka za dnešný deň,",
+                            "vďaka Ježiš, s Tebou prežiť ho chcem,"
+                        ],
+                        [
+                            "vďaka Ježiš, že mi lásku dávaš,",
+                            "volám Abba, Abba Otče, volám Abba, Abba Otče."
+                        ]
+                    ]
+                },
+                {
+                    "name": "TVOJA KRV SPASAVA NAS",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "tvoja-krv-spasava-nas",
+                    "number": 341,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6341,
+                    "verses": [
+                        [
+                            "Tvoja krv spasava nas.",
+                            "Tvoja krv oslobađa."
+                        ],
+                        [
+                            "Kroz tvoju krv dolazimo,",
+                            "pred tron svetog Oca."
+                        ],
+                        [
+                            "Tvoja ljubav oprašta nam.",
+                            "Tvoja sila podiže nas.",
+                            "Tvoja krv pere svaki moj greh."
+                        ],
+                        [
+                            "Oče naš na nebu, Jagnje Božije.",
+                            "Klanjamo se Tebi, svet si, svet si."
+                        ],
+                        [
+                            "Celo nebo peva pesmu spašenih.",
+                            "Daje slavu Jagnjetu."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ty príď a vládni nám",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "ty-prid-a-vladni-nam",
+                    "number": 342,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6342,
+                    "verses": [
+                        [
+                            "1. Ty príď a vládni nám! Voláme: Buď nás Pán!",
+                            "Svoj trón si postav v nás, buď Kráľom v každý čas.",
+                            "Zapál nám srdcia nádejou, nech svietia jasne každou tmou.",
+                            "Získaj pre svoj zámer dnes aj nás.",
+                            "My sme Tvoj ľud! Zjav svoju moc pri nás."
+                        ],
+                        [
+                            "2. Len kráľovstvo Tvoje pre nás tak vzácne je, že dáme všetko v nás, nech rastie ako kvas.",
+                            "Nech strápení sa tešia dnes a blúdiaci sa vrátia späť.",
+                            "Použi nás, Ježiš, pre svoj plán.",
+                            "My sme Tvoj ľud! Daj živý dážď na zem."
+                        ],
+                        [
+                            "REF. Ježiš, kráľov Kráľ, svoju slávu zjav.",
+                            "Zasviet' pravdou v tmách, diabol nech má strach.",
+                            "Roznieť oheň v nás, nech znie chvály hlas a Tvoje kráľovstvo príde medzi nás. Amen!"
+                        ],
+                        [
+                            "3. Moc kráľovstva Tvojho nech získa každého,",
+                            "veď žiadny útok, zbraň neprekazí Tvoj plán.",
+                            "Už nie sme tu len pre seba, povstáva armáda neba.",
+                            "Láskou, silou, túžbou naplň nás.",
+                            "My sme Tvoj lud! My sme svetlom pre svet.."
+                        ]
+                    ]
+                },
+                {
+                    "name": "On vladaće",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "on-vladace",
+                    "number": 343,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6343,
+                    "verses": [
+                        [
+                            "U hladnoj tamnoj noći Šapat odzvanja.",
+                            "Svetu se otkriva svetlost velika.",
+                            "U štali leži umesto prestola."
+                        ],
+                        [
+                            "REF: On vladaće zauvek, zauvek 2x",
+                            "Dete nam se rodilo slavom obavijeno.",
+                            "On vladaće zauvek, zauvek."
+                        ],
+                        [
+                            "Da sam bio mudrac, na put bih pošao.",
+                            "I da sam bio pastir, sve bih pratio.",
+                            "Ali tu sam, da ti srce predam sad."
+                        ],
+                        [
+                            "REF: On vladaće zauvek, zauvek 2x",
+                            "Dete nam se rodilo slavom obavijeno.",
+                            "On vladaće zauvek, zauvek."
+                        ],
+                        [
+                            "Bridge: Položen u jasle bi, Stvoritelj sveg svemira, Rođen da bi patio, Krist Mesija.",
+                            "Nadu nam je doneo, strahove je odneo, obećani Spasitelj, Krist Mesija."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Tebi dolazim",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "tebi-dolazim",
+                    "number": 344,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6344,
+                    "verses": [
+                        [
+                            "Tebi dolazim Ti promeni me, očisti kišom milosti, koja pada sa neba.",
+                            "Gospode sada znam, sve moje slabosti i svaki greh, zauvek biće slomljeni snagom ljubavi Tvoje!"
+                        ],
+                        [
+                            "REF. Približi me, svojom me ljubavlju obaspi, uzmi me u svoje naručje.",
+                            "Kao orao ja s' Tobom leteću visoko, samo Ti vodi me, svakim danom menjaj me snagom ljubavi Tvoje!"
+                        ],
+                        [
+                            "Tebi dolazim Ti promeni me, očisti kišom milosti, koja pada sa neba.",
+                            "Gospode, sada znam, sve moje slabosti i svaki greh, zauvek biće slomljeni snagom ljubavi Tvoje!"
+                        ],
+                        [
+                            "REF. Približi me, svojom me ljubavlju obaspi, uzmi me u svoje naručje.",
+                            "Kao orao ja s' Tobom leteću visoko, samo Ti vodi me, svakim danom menjaj me snagom ljubavi Tvoje!"
+                        ],
+                        [
+                            "Približi me, svojom me ljubavlju obaspi, uzmi me u svoje naručje.",
+                            "Kao orao ja s' Tobom leteću visoko, samo Ti vodi me, svakim danom menjaj me snagom ljubavi Tvoje!"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Planovi mira",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "planovi-mira",
+                    "number": 345,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6345,
+                    "verses": [
+                        [
+                            "Jer ja znam svoje planove koje s vama nameravam, kaže Bog koji te voli."
+                        ],
+                        [
+                            "Jer ja znam svoje planove koje s vama nameravam, kaže Bog koji te voli."
+                        ],
+                        [
+                            "Planove mira a ne nesreće da vam dade budućnost i nadu, Da vam dade budućnost i nadu"
+                        ],
+                        [
+                            "/: Planove mila a ne nesreće",
+                            "Kaže Bog koji te voli. :/ 3x"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Po tebe túžim",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "po-tebe-tuzim",
+                    "number": 346,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6346,
+                    "verses": [
+                        [
+                            "Po tebe túžim viac, môj Boh a Pán",
+                            "V nádvoriach Boha živého chcem prebývať,",
+                            "Tiahni ma pobežím za tebou rád,",
+                            "Veď sladšia ako víno je tvoja láska 2x"
+                        ],
+                        [
+                            "REF: Zobuď ma ranným slnkom oblej ma lúčami,",
+                            "Nech moja tvár mi žiari od tvojej návštevy",
+                            "Nech oblak Božej slávy môj svet mi naplní",
+                            "Prebuď čo vo mne drieme, obnov čo vo mne spí"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Cena za život moj",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "cena-za-zivot-moj",
+                    "number": 347,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6347,
+                    "verses": [
+                        [
+                            "Cena za život moj krv je Hristova.",
+                            "Sram i greh uze On nada čoveka."
+                        ],
+                        [
+                            "Isusova krv me oprala.",
+                            "S krsta je za mene potekla.",
+                            "Ona život moj je spasila,",
+                            "pobedu je meni donela."
+                        ],
+                        [
+                            "Spasitelj, On je svet, da živim umro je.",
+                            "Jagnje je onaj, koji je oprao moj greh."
+                        ],
+                        [
+                            "Isusova krv me oprala.",
+                            "S krsta je za mene potekla.",
+                            "Ona život moj je spasila,",
+                            "pobedu je meni donela.",
+                            "2x"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Svätá krv môjho Pána preliata",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "svata-krv-mojho-pana-preliata",
+                    "number": 348,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6348,
+                    "verses": [
+                        [
+                            "Svätá krv môjho Pána preliata, sväta krv mna a teba obmýva."
+                        ],
+                        [
+                            "/: Stačí zmy našu pýchu, stačí zmy mnoho hriechu, svätá krv na kríži preliata. :/"
+                        ],
+                        [
+                            "Ked by tvojích hriechov bolo na tisíc, ke by tvojích hriechov bolo ešte viac,"
+                        ],
+                        [
+                            "/: On ta v náručí skryje, Jeho krv všetko zmyje, svätá krv na kríži preliata. :/"
+                        ]
+                    ]
+                },
+                {
+                    "name": "General vojske",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "general-vojske",
+                    "number": 349,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6349,
+                    "verses": [
+                        [
+                            "Gospod svemoguć stupa napred sad,",
+                            "njegova vojska uvek je snažna,",
+                            "njegovu slava naša videt će zemlja."
+                        ],
+                        [
+                            "Pevaj pesmu, pesmu pobede,",
+                            "i slavi Gospoda On je pobedio,",
+                            "i nema oružja koje pobediće će nas."
+                        ],
+                        [
+                            "Ref:",
+                            "Jer general vojske je Isus,",
+                            "mi Ga pratimo u njegovim stopama,",
+                            "njegovu slavu naša videt će",
+                            "zemlja."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Svet je Gospod Bog",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "svet-je-gospod-bog",
+                    "number": 350,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6350,
+                    "verses": [
+                        [
+                            "Pred Tobom stojimo mi",
+                            "Naša snaga je u Tebi.",
+                            "Klanjamo se i slavimo Te,",
+                            "Jer velik predivan Si",
+                            "Pevamo svi"
+                        ],
+                        [
+                            "Svet je Gospod Bog, velik i silan",
+                            "On zemlju ispunja slavom"
+                        ],
+                        [
+                            "Zvuk pesme te odjekuje na slavu tvog imena"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Velik je Bog",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "velik-je-bog",
+                    "number": 351,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6351,
+                    "verses": [
+                        [
+                            "U lepoti Njegovog večnog kraljevstva,",
+                            "radovaće se svi i Boga slaviti.",
+                            "U sjaj zaodeven Bog naš kraljuje,",
+                            "u svojoj sili On moćan vladar je."
+                        ],
+                        [
+                            "REF: Velik je Bog, pevaj s nama,",
+                            "Velik je Bog, i svi će znati, velik je naš Bog."
+                        ],
+                        [
+                            "On vlada pravedno, večno kraljuje.",
+                            "Početak je i kraj, u ruci drži sve.",
+                            "Trojjedini Bog-Otac, Sin i Duh i Jagnje nebesko, naš Otkupitelj!"
+                        ],
+                        [
+                            "REF:",
+                            "Ti si dostojan naše hvale sve.",
+                            "Niko nije ko Ti Isuse!"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Príď",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "prid",
+                    "number": 352,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6352,
+                    "verses": [
+                        [
+                            "Príď', dnes je čas chváliť Pána,",
+                            "príď, teraz mu srdce svoje daj.",
+                            "Príď, dnes je čas pred ním v úcte stáť.",
+                            "Príď, teraz ho chvál' a vzývaj. Tak príď."
+                        ],
+                        [
+                            "REF:",
+                            "V ten deň každý vyzná, že len ty si Pán,",
+                            "každý padne na kolená,",
+                            "odmenu si odnesie ten,",
+                            "ktorý to dnes už vyzná sám."
+                        ]
+                    ]
+                },
+                {
+                    "name": "JERIHONSKE ZIDINE",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "jerihonske-zidine",
+                    "number": 353,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6353,
+                    "verses": [
+                        [
+                            "SLAVIĆU TE DAN I NOĆ IDEM PRED ZIDINE,",
+                            "KAD ČUJU IME HRISTOVO, NEKA PADNU."
+                        ],
+                        [
+                            "JERIHONSKE ZIDINE..."
+                        ],
+                        [
+                            "NEKA PADNU!",
+                            "KAD ČUJU IME HRISTOVO...",
+                            "NEKA PADNU.",
+                            "KAD ČUJU PESMU SLAVLJENJA...",
+                            "NEKA PADNU.",
+                            "KAD ČUJU BOŽIJU POBEDU...",
+                            "NEKA PADNU."
+                        ],
+                        [
+                            "NA ČELU VOJSKE GOSPODNJE STOJI POBEDNIK. A KAD GA VIDE BEDEMI NEKA PADNU."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Len Tebe 1",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "len-tebe-1",
+                    "number": 354,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6354,
+                    "verses": [
+                        [
+                            "Predo mnou je kríž a za mnou svet. Neobrátim sa už nikdy späť.",
+                            "To všetko je len o Tebe.",
+                            "Zatras nebesia, roztrhni oblohu Nech každý z ľudí vie, je to tu o Bohu",
+                            "To všetko je len o Tebe!"
+                        ],
+                        [
+                            "LEN TEBE A NIE NAM PATRÍ SLÁVA 3x",
+                            "LEN TEBE A NIE NÁM!"
+                        ],
+                        [
+                            "Priamo z naších sŕdc Tebe chvála znie. Na tvárištenco rozumnie, to všetko je len o Tebe.",
+                            "Zošli oheň svoj na oltár obete. Plameň naších chvál dá vedieť vo svete, to všetko je len o Tebe."
+                        ],
+                        [
+                            "LEN TEBE A NIE NAM PATRÍ SLÁVA 3x",
+                            "LEN TEBE A NIE NÁM!"
+                        ],
+                        [
+                            "Zem sa chveje, vrchy kričia len o Tebe. Slnko žiari a more hučí, len o Tebe. Vesmír celý sa točí a spieva, len Tebe. A tvoje deti kričia, Kičia, len Tebe!"
+                        ],
+                        [
+                            "LEN TEBE A NIE NAM PATRÍ SLÁVA 3x",
+                            "LEN TEBE A NIE NÁM!"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Žetva",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "zetva",
+                    "number": 355,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6355,
+                    "verses": [
+                        [
+                            "Bože tvoja je milost od svih greha veća",
+                            "I sve nam oprašta,",
+                            "Ti nam obnavljaš snagu,",
+                            "U sili tvog Duha je naša pobeda.",
+                            "Sprema se velika žetva,",
+                            "Već zrelo je klasje, naš srp je Tvoja reč",
+                            "Ti Gospodar si žetve, mi žanjemo za te",
+                            "Čuj naše molitve."
+                        ],
+                        [
+                            "REF:",
+                            "Jer tvoje Kraljevstvo u sili dolazi,",
+                            "Sad je vreme spasenja, sad je vreme za nas",
+                            "Da svima kažemo o tvojoj milosti",
+                            "Po kojoj daruješ život, iz koje dolazi spas.",
+                            "Naše vreme je sada, neka niko ne čeka već vest objavljuje, što",
+                            "Nekad bio je potok, sad je postala reka što sve preplavljuje"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ritam",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "ritam",
+                    "number": 356,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6356,
+                    "verses": [
+                        [
+                            "Po Tebe túžim viac",
+                            "Môj Boh a Pán",
+                            "V nádvoriach Boha živého",
+                            "Chcem prebývať",
+                            "Tiahni ma, pobežím",
+                            "Za Tebou rád",
+                            "Veď sladšia ako víno je",
+                            "Tvoja láska X2"
+                        ],
+                        [
+                            "Zobuď ma ranným slnkom",
+                            "Oblej ma lúčami",
+                            "Nech moja tvár mi žiari",
+                            "Od Tvojej návštevy",
+                            "Nech oblak Božej slávy",
+                            "Môj svet mi naplní",
+                            "Prebud, čo vo mne drieme",
+                            "Obnov, čo vo mne spí"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sláva Kráľovi",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "slava-kralovi",
+                    "number": 357,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 6357,
+                    "verses": [
+                        [
+                            "Požehnaný baránok Boží, svätý, svätý si. Spievam novú pieseň Tomu, ktorý v nebi tróni. (2x)"
+                        ],
+                        [
+                            "REF:",
+                            "Svätý, svätý, svätý je náš Boh všemohúci, Čo bol a je, a ktorý príde.",
+                            "So všetkým tvorstvom spievam sláva Kráľovi, Ty si mi všetkým, ja budem Ťa chváliť."
+                        ],
+                        [
+                            "Rúcho Jeho, čisté biele, vôkol blesky a hrmenie. Požehnanie, česť, sila, sláva a moc patrí len jedinému Kráľovi."
+                        ],
+                        [
+                            "BRIDGE:",
+                            "V úžase a bázni stojím pred slávou Tvojho mena. Ježis, to meno pre mňa je dych a voda živá, také krásne tajomstvo"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Nevesta čeka Mladoženju",
+                    "songBookUrl": "mladeznicke-piesne",
+                    "url": "nevesta-ceka-mladozenju",
+                    "number": 358,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 6358,
+                    "verses": [
+                        [
+                            "1. Sve što je stvoreno, zemlja cela Priprema put, za Gospoda. Uskoro dolazi Hrist!",
+                            "Pozovi grešne, probudi sve, Svaki nek' narod, pokloni se, Uskoro dolazi Hrist!"
+                        ],
+                        [
+                            "Nevesta čeka Mladoženju.",
+                            "Crkva smo Tvoja što čeka Te tu. Svako srce čeka Cara svog",
+                            "Pevamo: Dođi Hriste! Gospode Isuse 2x"
+                        ],
+                        [
+                            "2. Vladaće pravda, sve je novo,",
+                            "Verno mu Ime, istinito",
+                            "Uskoro dolazi Hrist!"
+                        ],
+                        [
+                            "Nevesta čeka Mladoženju.",
+                            "Crkva smo Tvoja što čeka Te tu.",
+                            "Svako srce čeka Cara svog,",
+                            "Pevamo: Dođi Hriste! Gospode Isuse 2x"
+                        ],
+                        [
+                            "Bridge: Čekamo, čekamo Tebe.",
+                            "Gospode, dodi Isuse! Čekamo, čekamo Tebe.",
+                            "Gospode, dođi Isuse!"
+                        ],
+                        [
+                            "Nevesta čeka Mladoženju. Crkva smo Tvoja što čeka Te tu. Svako srce čeka Cara svog Pevamo"
+                        ],
+                        [
+                            "Modulacija: Nevesta čeka Mladoženju. Crkva smo Tvoja što čeka Te tu.",
+                            "Svako srce čeka Cara svog",
+                            "Pevamo: Dođi Hriste! Gospode Isuse x2"
                         ]
                     ]
                 }
