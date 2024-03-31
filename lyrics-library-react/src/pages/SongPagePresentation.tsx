@@ -12,7 +12,7 @@ import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
 
-import { Button, FormControl, InputLabel, MenuItem, Popover, Select, SelectChangeEvent, TextField, Typography } from '@mui/material';
+import { Button, FormControl, InputLabel, MenuItem, Popover, Select, SelectChangeEvent, Slider, TextField, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
 import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
@@ -203,6 +203,10 @@ export default function SongPagePresentation() {
 
   const handleChangePresentationFontSize = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = parseInt(e.target.value);
+    changePresentationFontSize(value);
+  }
+
+  const changePresentationFontSize = (value: number) => {
     if(value > 256) value = 256;
     if(value < 1) value = 1;
     setPresentationFontSize(value);
@@ -216,6 +220,7 @@ export default function SongPagePresentation() {
       externalTab.postMessage(slideData, '*');
     }
   }
+
 
   const EndPresentation = () => {
     showSlide(verses.length);
@@ -315,7 +320,7 @@ export default function SongPagePresentation() {
           </div>
         </div>
         */}
-        <div className='flex flex-row items-center gap-4 m-4'>
+        <div className='flex flex-row gap-4 m-4'>
           <FormControl sx={{zIndex: 0}}>
             <InputLabel id="demo-simple-select-label"
               sx={{color: 'var(--text-ui-color)'}}
@@ -342,8 +347,18 @@ export default function SongPagePresentation() {
             </Select>
           </FormControl>
           
-          
-          <TextField sx={{width: '160px'}} value={presentationFontSize} onChange={handleChangePresentationFontSize} type='number' id="outlined-basic" size='small' label="Presentation Font Size" variant="outlined" />          
+          <div>
+            <TextField sx={{width: '160px'}} value={presentationFontSize} onChange={handleChangePresentationFontSize} type='number' id="outlined-basic" size='small' label="Presentation Font Size" variant="outlined" />
+            <Slider
+              value={presentationFontSize}
+              onChange={(_event: Event, value: number | number[]) => changePresentationFontSize(value as number)}
+              valueLabelDisplay="auto"
+              step={1}
+              min={1}
+              max={256}
+            />
+          </div>
+                 
          
         </div>
         

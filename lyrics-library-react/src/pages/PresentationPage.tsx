@@ -23,17 +23,6 @@ export default function PresentationPage() {
     };
   }, []);
 
-  /*
-  const convertToText = (texts: string[]) => {
-    let text = '';
-    texts.forEach((line) => {
-      text += line + ' ';
-    });
-    return text;
-  }
-  */
-  
-
   return (
     <div id="fixedContainer" className='flex flex-col justify-center items-center m-8'>
       { presentationData.slideNumber === -1 && 
