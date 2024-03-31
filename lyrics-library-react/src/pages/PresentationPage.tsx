@@ -1,17 +1,19 @@
 import { Typography } from '@mui/material';
 import React, { useEffect } from 'react'
+import { PresentationData } from '../models/PresentationData';
+import userSettings from '../models/UserSettings';
 
 export default function PresentationPage() {
 
-  const [slide, setSlide] = React.useState([] as string[]);
-  const [_text, setText] = React.useState(''); 
-  const [fontSize, _setFontSize] = React.useState(60); // Initial font size
+  const [fontSize, setFontSize] = React.useState(userSettings.presentationFontSize); // Initial font size
+  const [presentationData, setPresentationData] = React.useState(new PresentationData());
 
   useEffect(() => {
     const handleMessage = (event: any) => {
       console.log('Received message in external tab:', event.data);
-      setSlide(event.data);
-      setText(convertToText(event.data)); 
+      const newPresentationData = event.data as PresentationData;
+      setPresentationData(newPresentationData);
+      setFontSize(newPresentationData.fontSize);
     };
     
     window.addEventListener('message', handleMessage);
@@ -21,21 +23,35 @@ export default function PresentationPage() {
     };
   }, []);
 
-  const convertToText = (texts: []) => {
+  /*
+  const convertToText = (texts: string[]) => {
     let text = '';
     texts.forEach((line) => {
       text += line + ' ';
     });
     return text;
   }
+  */
   
 
   return (
     <div id="fixedContainer" className='flex flex-col justify-center items-center m-8'>
-      {slide.map((line, index) =>
-        <Typography sx={{fontSize: `${fontSize}px`, textAlign: 'center'}} variant="body2" key={index}>{line}</Typography>
-      )
+      { presentationData.slideNumber === -1 && 
+        <div>
+          <Typography sx={{fontSize: `${fontSize}px`, textAlign: 'center'}} variant="body2">
+            {presentationData.songNumber > 0 ? presentationData.songNumber+'. ' : ''}{presentationData.songName}
+          </Typography>
+          <Typography sx={{fontSize: `${fontSize/1.4}px`, textAlign: 'center'}} variant="body1">{presentationData.songBookName}</Typography>
+        </div> 
       }
+      <div id="versesTextId">
+        { 
+          presentationData.verses && presentationData.verses.map((line, index) =>
+            <Typography sx={{fontSize: `${fontSize}px`, textAlign: 'center'}} variant="body2" key={index}>{line}</Typography>
+          )
+        }
+      </div>
+
     </div>
   );
 }

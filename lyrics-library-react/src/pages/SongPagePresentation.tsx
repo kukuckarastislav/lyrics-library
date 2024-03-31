@@ -12,7 +12,7 @@ import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
 import BookmarkRoundedIcon from '@mui/icons-material/BookmarkRounded';
 
-import { Button, FormControl, InputLabel, MenuItem, Popover, Select, SelectChangeEvent, Typography } from '@mui/material';
+import { Button, FormControl, InputLabel, MenuItem, Popover, Select, SelectChangeEvent, TextField, Typography } from '@mui/material';
 import React from 'react';
 import SongPageMoreOption from '../components/SongPageMoreOption';
 import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
@@ -20,6 +20,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 import userSettings from '../models/UserSettings';
 import externalTabInstance from '../utils/ExternalTab';
+import { PresentationData } from '../models/PresentationData';
 
 export default function SongPagePresentation() {
 
@@ -39,6 +40,7 @@ export default function SongPagePresentation() {
   const [currentSlideId, setCurrentSlideId] = React.useState(-1);
 
   const [gridColumns, setGridColumns] = useState(userSettings.presentationModeGridColumns);
+  const [presentationFontSize, setPresentationFontSize] = React.useState<number>(userSettings.presentationFontSize);
 
   /* popper */
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
@@ -151,9 +153,9 @@ export default function SongPagePresentation() {
   }, [currentSlideId]);
 
   const openExternalTab = () => {
-
+    let slideData = new PresentationData(song?.id, song?.name, song?.number, songBook?.name, presentationFontSize, verses.length, [], -1);
     if(externalTab !== null && !externalTab.closed){
-      externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
+      externalTab.postMessage(slideData, '*');
     }
 
     const externalTabIns = externalTabInstance.getExternalTab();
@@ -161,9 +163,9 @@ export default function SongPagePresentation() {
     if (externalTabIns) {
       setExternalTab(externalTabIns);
       externalTabIns.onload = () => {
-        externalTabIns.postMessage([song?.number, song?.name, songBook?.name ], '*');
+        externalTabIns.postMessage(slideData, '*');
       };
-      externalTabIns.postMessage([song?.number, song?.name, songBook?.name ], '*');
+      externalTabIns.postMessage(slideData, '*');
     } else {
       alert('Please allow popups for this website');
     }
@@ -174,14 +176,19 @@ export default function SongPagePresentation() {
 
     if (externalTab) {
       console.log(indexSlide)
+      let slideData = new PresentationData(song?.id, song?.name, song?.number, songBook?.name, presentationFontSize, verses.length, [], -1);
+      console.log(slideData);
       if (indexSlide === -1){
-        externalTab.postMessage([song?.number, song?.name, songBook?.name ], '*');
+        externalTab.postMessage(slideData, '*');
         setCurrentSlideId(indexSlide);
       }else if (indexSlide >= 0 && indexSlide < verses.length){
-        externalTab.postMessage(song?.verses[indexSlide], '*');
+        slideData.verses = verses[indexSlide];
+        slideData.slideNumber = indexSlide;
+        externalTab.postMessage(slideData, '*');
         setCurrentSlideId(indexSlide);
       }else if (indexSlide === verses.length){
-        externalTab.postMessage([""], '*');
+        slideData.slideNumber = indexSlide;
+        externalTab.postMessage(slideData, '*');
         setCurrentSlideId(indexSlide);
       }
     }
@@ -192,6 +199,27 @@ export default function SongPagePresentation() {
     setGridColumns(value);
     userSettings.setPresentationModeGridColumns(value);
   };
+
+
+  const handleChangePresentationFontSize = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let value = parseInt(e.target.value);
+    if(value > 256) value = 256;
+    if(value < 1) value = 1;
+    setPresentationFontSize(value);
+    userSettings.setPresentationFontSize(value);
+
+    if(externalTab){
+      let slideData = new PresentationData(song?.id, song?.name, song?.number, songBook?.name, value, verses.length, [], currentSlideId);
+      if(currentSlideId >= 0 && currentSlideId < verses.length){
+        slideData.verses = verses[currentSlideId];
+      }
+      externalTab.postMessage(slideData, '*');
+    }
+  }
+
+  const EndPresentation = () => {
+    showSlide(verses.length);
+  }
 
 
   return (
@@ -210,6 +238,11 @@ export default function SongPagePresentation() {
               <div>
                 <Button variant="outlined" color='primary' size='small' sx={{textTransform: 'none'}} startIcon={<ConnectedTvIcon/>} onClick={openExternalTab}>
                   Launch
+                </Button>
+              </div>
+              <div>
+                <Button variant="outlined" color='error' size='small' sx={{textTransform: 'none'}}  startIcon={<ConnectedTvIcon/>} onClick={EndPresentation}>
+                  End
                 </Button>
               </div>
               <div>
@@ -282,9 +315,7 @@ export default function SongPagePresentation() {
           </div>
         </div>
         */}
-
-
-        <div className='m-4' style={{zIndex: -100}}>
+        <div className='flex flex-row items-center gap-4 m-4'>
           <FormControl sx={{zIndex: 0}}>
             <InputLabel id="demo-simple-select-label"
               sx={{color: 'var(--text-ui-color)'}}
@@ -310,7 +341,12 @@ export default function SongPagePresentation() {
               
             </Select>
           </FormControl>
+          
+          
+          <TextField sx={{width: '160px'}} value={presentationFontSize} onChange={handleChangePresentationFontSize} type='number' id="outlined-basic" size='small' label="Presentation Font Size" variant="outlined" />          
+         
         </div>
+        
         <div className='versesContainer' style={{gridTemplateColumns: `repeat(${gridColumns}, minmax(0, 1fr))`}}>
           {verses.map((slide, indexSlide) => (
             <div 

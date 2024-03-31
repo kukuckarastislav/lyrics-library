@@ -31,6 +31,7 @@ export class UserSettings {
 
         // presentation mode
         public presentationModeGridColumns: number = 6,
+        public presentationFontSize: number = 50,
        
     ) { }
 
@@ -51,6 +52,7 @@ export class UserSettings {
             json.showSlovakSongs,
             json.showEnglishSongs,
             json.presentationModeGridColumns,
+            json.presentationFontSize,
         );
     }
 
@@ -157,6 +159,11 @@ export class UserSettings {
 
     public setPresentationModeGridColumns(columns: number): void {
         this.presentationModeGridColumns = columns;
+        this.saveToLocalStorage();
+    }
+
+    public setPresentationFontSize(size: number): void {
+        this.presentationFontSize = size;
         this.saveToLocalStorage();
     }
 
