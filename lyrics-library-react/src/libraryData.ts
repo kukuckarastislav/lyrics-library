@@ -2015,22 +2015,42 @@ const jsonData = {
                         [
                             "1. Keď hriešnici Ho týrali, na kríž pribili, to utrpenie hriechy",
                             "Mu naše zvinili: pot smrteľný a nevinnej krvi kropaje. V Ňom",
-                            "dokonaná spása je. Žije, žije. .."
+                            "dokonaná spása je."
+                        ],
+                        [
+                            "Žije, žije, aj hrob prázdny zostal. Žije, žije, Pán Kristus",
+                            "z mŕtvych vstal! Žije, žije tam v sláve nebeskej, ľud Jeho",
+                            "s Ním žiť bude v nej."
                         ],
                         [
                             "2. Šiel Jozef telo vyžiadať, z kríža sám ho zňal a uložil v hrob",
                             "nový tam v lone tvrdých skál, no cez povoje mraky a kameň",
-                            "s pečaťou jas života sa prebil tmou. Žije, žije. .."
+                            "s pečaťou jas života sa prebil tmou."
+                        ],
+                        [
+                            "Žije, žije, aj hrob prázdny zostal. Žije, žije, Pán Kristus",
+                            "z mŕtvych vstal! Žije, žije tam v sláve nebeskej, ľud Jeho",
+                            "s Ním žiť bude v nej."
                         ],
                         [
                             "3. Šli učeníci ku hrobu ráno za svitu, tam radostne ich privítal",
                             "anjel v dobu tú: Pán isto žije, z mŕtvych vstal, hľaďte tu Ho niet,",
-                            "to rozhlasujte v šíry svet. Žije, žije. .."
+                            "to rozhlasujte v šíry svet."
+                        ],
+                        [
+                            "Žije, žije, aj hrob prázdny zostal. Žije, žije, Pán Kristus",
+                            "z mŕtvych vstal! Žije, žije tam v sláve nebeskej, ľud Jeho",
+                            "s Ním žiť bude v nej."
                         ],
                         [
                             "4. Aj Mária sa v zármutku pýta, kde je Pán. Tu pred ňou zrazu",
                             "Pán Ježiš stojí živý sám a prekvapená radostne volá: Rabúni!",
-                            "Diel máme v Jeho vzkriesení. Žije, žije. .."
+                            "Diel máme v Jeho vzkriesení."
+                        ],
+                        [
+                            "Žije, žije, aj hrob prázdny zostal. Žije, žije, Pán Kristus",
+                            "z mŕtvych vstal! Žije, žije tam v sláve nebeskej, ľud Jeho",
+                            "s Ním žiť bude v nej."
                         ]
                     ]
                 },
@@ -2112,7 +2132,7 @@ const jsonData = {
                             "pozdrav pokoja, v Ňom sa Jeho verným bôle zahoja."
                         ],
                         [
-                            "Potom prišiel Ježiš k učeníkom tam, v strachu zatvoreným,",
+                            "5. Potom prišiel Ježiš k učeníkom tam, v strachu zatvoreným,",
                             "riekol: Pokoj vám! Tu, hľa, moje rany. Ja som, vravím vám. Jak mňa poslal Otec, ja vás posielam."
                         ],
                         [
@@ -2121,7 +2141,7 @@ const jsonData = {
                             "pozdrav pokoja, v Ňom sa Jeho verným bôle zahoja."
                         ],
                         [
-                            "S radosťou ja spievam túto pieseň dnes a mám z toho v srdci radosť, jas a ples.",
+                            "6. S radosťou ja spievam túto pieseň dnes a mám z toho v srdci radosť, jas a ples.",
                             "Halelujah, spievam k pocte Víťaza, Baránka a nášho Zmiercu, Veľkňaza."
                         ],
                         [
@@ -17445,7 +17465,7 @@ const jsonData = {
         {
             "name": "Pesme",
             "url": "pesme",
-            "numberOfSongs": 165,
+            "numberOfSongs": 166,
             "languges": [
                 "srb"
             ],
@@ -21651,13 +21671,47 @@ const jsonData = {
                             "nežijem už ja, ale žije vo mne Ježiš."
                         ]
                     ]
+                },
+                {
+                    "name": "Svaki dan, Bože",
+                    "songBookUrl": "pesme",
+                    "url": "svaki-dan-boze",
+                    "number": 0,
+                    "lang": "srb",
+                    "tags": [],
+                    "author": "",
+                    "id": 2166,
+                    "verses": [
+                        [
+                            "Svaki dan, Bože, krsta Tvog se setim.",
+                            "Ne razumem zašto tako voliš me.",
+                            "Sada spašen sam, sve što jesam, dajem Tebi,",
+                            "jer svaki dan želim za Tebe svetliti."
+                        ],
+                        [
+                            "Svaki dan za Tebe živim ja!",
+                            "Svaki dan ja Tebe sledim svud!",
+                            "Svaki dan hoću da sam kao Ti, Isuse!"
+                        ],
+                        [
+                            "Svaki dan ja ću na Tvojoj Reči stajati,",
+                            "i moliti da Te mogu više još upoznati.",
+                            "Ti vodi me, svaki korak moj Ti usmeri,",
+                            "da svaki dan mogu Tvoje sveto ime slaviti."
+                        ],
+                        [
+                            "Svaki dan za Tebe živim ja!",
+                            "Svaki dan ja Tebe sledim svud!",
+                            "Svaki dan hoću da sam kao Ti, Isuse! x2"
+                        ]
+                    ]
                 }
             ]
         },
         {
             "name": "Piesne",
             "url": "piesne",
-            "numberOfSongs": 66,
+            "numberOfSongs": 69,
             "languges": [
                 "sk"
             ],
@@ -23411,6 +23465,135 @@ const jsonData = {
                             "aj hviezdičky tiež rozsvietil.",
                             "Je veľký náš Boh, je silný a mocný,",
                             "nič nie je, čo neučinil."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Každý deň",
+                    "songBookUrl": "piesne",
+                    "url": "kazdy-den",
+                    "number": 0,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 3067,
+                    "verses": [
+                        [
+                            "Každý deň do každej žitia chvíle",
+                            "novú silu Spasiteľ mi dá.",
+                            "Svoje dieťa povzbudzuje mile,",
+                            "tak ho v smútku tieseň nehlodá."
+                        ],
+                        [
+                            "Božia láska žiadnych hraníc nemá,",
+                            "dobrým iba obdarí ma Pán.",
+                            "Srdca bolesť s potešením zmieňa,",
+                            "dobre vedie k neba výšinám."
+                        ],
+                        [
+                            "Každý deň je Vykupiteľ pri mne,",
+                            "nová milosť ožaruje púť,",
+                            "keď ma na nej bôľu mračno stihne,",
+                            "chce i môže svetlo poskytnúť."
+                        ],
+                        [
+                            "Pán Boh sľúbil chrániť svoje dieťa,",
+                            "nad ním bdie, svoj opatruje ľud.",
+                            "Jasne Písma zasľúbenia svietia,",
+                            "živej vody vyteká tu prúd."
+                        ],
+                        [
+                            "Pomôž, Pane, v chvíli skúšok dúfať,",
+                            "v Tvojom Slove ponorený byť;",
+                            "nedaj chvieť sa, so strachom sa túlať,",
+                            "viery plameň pod nádobu skryť."
+                        ],
+                        [
+                            "Túžim prijať z ruky Tvojej skromne",
+                            "každú z vopred vyznačených ciest.",
+                            "Deň čo deň Ty bývaj, pracuj vo mne,",
+                            "ráč ma k cieľu nebeskému viesť."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kto som ja? Môj Boh",
+                    "songBookUrl": "piesne",
+                    "url": "kto-som-ja-moj-boh",
+                    "number": 0,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 3068,
+                    "verses": [
+                        [
+                            "Keď vyslovíš slovo, stane sa na veky vekov.",
+                            "Nečiníš veci, čo ľutovať by si chcel.",
+                            "Tvoje áno je áno, spoľahnúť môžem sa stále.",
+                            "Tvoje činy sú zázračné, nádherné, to viem."
+                        ],
+                        [
+                            "Ty si Boh, čo nad všetkým vládneš slávne!",
+                            "Ty si Boh! Môj Pán!"
+                        ],
+                        [
+                            "Kto som ja? Môj Boh - že pamätáš na mňa stále!",
+                            "Kto som ja? Môj Boh - že ruky mi dvíhať chceš!",
+                            "Kto som ja? Môj Boh - že každý deň dávaš mi nádej!",
+                            "Nikdy nenájdem slová, jak vďaku Ti vyznať smiem!"
+                        ],
+                        [
+                            "Ďakujem, že pred Tebou môžem tu stáť.",
+                            "Ďakujem, že Otcom ťa smiem nazývať.",
+                            "Ďakujem, že pred Tebou môžem tu stáť.",
+                            "Ďakujem, chcem vyznávať."
+                        ]
+                    ]
+                },
+                {
+                    "name": "Nie vždy je slnko na oblohe",
+                    "songBookUrl": "piesne",
+                    "url": "nie-vzdy-je-slnko-na-oblohe",
+                    "number": 0,
+                    "lang": "sk",
+                    "tags": [],
+                    "author": "",
+                    "id": 3069,
+                    "verses": [
+                        [
+                            "Nie vždy je slnko na oblohe,",
+                            "nie vždy sú kvety rozkvitnuté,",
+                            "nie vždy je pokoj, láska v dome,",
+                            "nie vždy Ťa vidím, cítim, Pane.",
+                            "Nie vždy viem ľúbiť ľudí, Bože,",
+                            "nie vždy viem otvárať im dlane,",
+                            "nie vždy Ti dávam ruky svoje,",
+                            "nie vždy viem dobojovať boje."
+                        ],
+                        [
+                            "REF: /: Ale vždy viem,",
+                            "že Ty si so mnou,",
+                            "ja viem, že Ty ma ľúbiš,",
+                            "to viem, Ty si ten istý",
+                            "včera, zajtra, dnes. :/"
+                        ],
+                        [
+                            "Nie vždy je slnko na oblohe,",
+                            "nie vždy sú kvety rozkvitnuté,",
+                            "nie vždy je pokoj, láska v dome,",
+                            "nie vždy Ťa vidím, cítim, Pane.",
+                            "Nie vždy viem ľúbiť ľudí, Bože,",
+                            "nie vždy viem otvárať im dlane,",
+                            "nie vždy Ti dávam ruky svoje,",
+                            "nie vždy viem dobojovať boje."
+                        ],
+                        [
+                            "REF: Ale vždy viem, že meníš srdce,",
+                            "ja viem, si mojou silou, to viem,",
+                            "ľúbiš ma, Otče, Tebe patriť smiem.",
+                            "Dnes to už viem – Ty si ten Víťaz,",
+                            "ja viem – Golgotský víťaz, to viem,",
+                            "si Ježiš Kristus, Tebe patriť chcem!"
                         ]
                     ]
                 }
@@ -71561,7 +71744,8 @@ const jsonData = {
             ]
         }
     ]
-};
+}
+
 const library: Library = Library.fromJson(jsonData);
 console.log(library);
 
